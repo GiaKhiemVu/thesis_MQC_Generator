@@ -1,0 +1,1402 @@
+[
+    {
+        "input": "Convert this sentence into fill in blank: By next month, they will have completed the bridge.",
+        "expected": "question: By next month, they _ the bridge. ||| answer: will have completed",
+        "predicted": "question: By next month, they _ completed the bridge. ||| answer: will have",
+        "bleu_score": 0.7765,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He's looking forward to taking his vacation.",
+        "expected": "question: He's looking forward to _ his vacation. ||| answer: taking",
+        "predicted": "question: He's looking forward _ taking his vacation. ||| answer: to",
+        "bleu_score": 0.5081,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They completed the project last week.",
+        "expected": "question: They _ the project last week. ||| answer: completed",
+        "predicted": "question: They _ the project last week. ||| answer: completed",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The company has to address several key issues.",
+        "expected": "question: The company has to _ several key issues. ||| answer: address",
+        "predicted": "question: The company has to _ several key issues. ||| answer: address",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She was asked to estimate the number of attendees.",
+        "expected": "question: She was asked to _ the number of attendees. ||| answer: estimate",
+        "predicted": "question: She was asked to _ the number of attendees. ||| answer: estimate",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher praised his dedication to his studies.",
+        "expected": "question: The teacher praised his _ to his studies. ||| answer: dedication",
+        "predicted": "question: The teacher praised his _ to his studies. ||| answer: dedication",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The cake tastes absolutely delicious.",
+        "expected": "question: The cake tastes _ delicious. ||| answer: absolutely",
+        "predicted": "question: The cake tastes _ delicious. ||| answer: absolutely",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: If he had left earlier, he wouldn't be late now.",
+        "expected": "question: If he _ earlier, he wouldn't be late now. ||| answer: had left",
+        "predicted": "question: If he _ earlier, he wouldn't be late now. ||| answer: had left",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I warned him about the dangers of hiking alone.",
+        "expected": "question: I warned him _ the dangers of hiking alone. ||| answer: about",
+        "predicted": "question: I warned him _ the dangers of hiking alone. ||| answer: about",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They left before the movie ended.",
+        "expected": "question: They left before the movie _. ||| answer: ended",
+        "predicted": "question: They _ before the movie ended. ||| answer: left",
+        "bleu_score": 0.1955,
+        "rough_score": 0.8
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He succeeded in solving the problem.",
+        "expected": "question: He succeeded _ solving the problem. ||| answer: in",
+        "predicted": "question: He succeeded _ solving the problem. ||| answer: in",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: It is important to check the documents carefully.",
+        "expected": "question: It is important _ the documents carefully. ||| answer: to check",
+        "predicted": "question: It is important to _ the documents carefully. ||| answer: check",
+        "bleu_score": 0.6636,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I don't mind getting up early tomorrow.",
+        "expected": "question: I don't mind _ early tomorrow. ||| answer: getting up",
+        "predicted": "question: I don't mind _ up early tomorrow. ||| answer: getting up",
+        "bleu_score": 0.7349,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The team failed to win the championship.",
+        "expected": "question: The team failed to _ the championship. ||| answer: win",
+        "predicted": "question: The team failed to _ the championship. ||| answer: win",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The shop decided to lower prices for the summer sale.",
+        "expected": "question: The shop decided to _ prices for the summer sale. ||| answer: lower",
+        "predicted": "question: The shop decided to _ prices for the summer sale. ||| answer: lower",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He asked if anyone had seen his notebook.",
+        "expected": "question: He asked if anyone _ seen his notebook. ||| answer: had",
+        "predicted": "question: He asked if anyone _ his notebook. ||| answer: had seen",
+        "bleu_score": 0.751,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She can't help laughing when she hears a good joke.",
+        "expected": "question: She can't help _ when she hears a good joke. ||| answer: laughing",
+        "predicted": "question: She can't help laughing when she hears a good joke. ||| answer: a",
+        "bleu_score": 0.7139,
+        "rough_score": 0.9231
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They worked together to complete the project faster.",
+        "expected": "question: They worked together to _ the project faster. ||| answer: complete",
+        "predicted": "question: They worked together to _ the project faster. ||| answer: complete",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: If you eat too much sugar, you might feel sick.",
+        "expected": "question: If you eat too much sugar, you _ sick. ||| answer: might feel",
+        "predicted": "question: If you eat too much sugar, you _ sick. ||| answer: might feel",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: My grandmother is very proud of her garden.",
+        "expected": "question: My grandmother is very proud _ her garden. ||| answer: of",
+        "predicted": "question: My grandmother is very _ of her garden. ||| answer: proud",
+        "bleu_score": 0.5707,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They must prepare the stadium before the event starts.",
+        "expected": "question: They must _ the stadium before the event starts. ||| answer: prepare",
+        "predicted": "question: They must _ the stadium before the event starts. ||| answer: prepare",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: You should avoid walking in that area at night.",
+        "expected": "question: You should avoid _ in that area at night. ||| answer: walking",
+        "predicted": "question: You should avoid _ in that area at night. ||| answer: walking",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We take the train to work every day.",
+        "expected": "question: We _ the train to work every day. ||| answer: take",
+        "predicted": "question: We _ the train to work every day. ||| answer: take",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She can speak three languages.",
+        "expected": "question: She _ speak three languages. ||| answer: can",
+        "predicted": "question: She can _ three languages. ||| answer: speak",
+        "bleu_score": 0.3928,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: His arguments lacked logic.",
+        "expected": "question: His arguments lacked _. ||| answer: logic",
+        "predicted": "question: His arguments lacked logic. ||| answer: his",
+        "bleu_score": 0.4111,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The children laughed at the clown.",
+        "expected": "question: The children laughed _ the clown. ||| answer: at",
+        "predicted": "question: The children laughed _ the clown. ||| answer: at",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The purpose of the meeting was to discuss the new marketing strategy and its potential impact.",
+        "expected": "question: The _ of the meeting was to discuss the new marketing strategy and its potential impact. ||| answer: purpose",
+        "predicted": "question: The _ of the meeting was to discuss the new marketing strategy and its potential impact. ||| answer: purpose",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They played a game yesterday.",
+        "expected": "question: They _ a game yesterday. ||| answer: played",
+        "predicted": "question: They _ a game yesterday. ||| answer: played",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She completed the project with great effort.",
+        "expected": "question: She completed the project with great _. ||| answer: effort",
+        "predicted": "question: She completed the project with great _. ||| answer: effort",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The scientist tried to explain the results of the experiment.",
+        "expected": "question: The scientist tried to _ the results of the experiment. ||| answer: explain",
+        "predicted": "question: The scientist tried to _ the results of the experiment. ||| answer: explain",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Given the urgency of the situation, the team worked tirelessly to ensure the project was completed on time and within budget.",
+        "expected": "question: Given the _ of the situation, the team worked tirelessly to ensure the project was completed on time and within budget. ||| answer: urgency",
+        "predicted": "question: Given the _ of the situation, the team worked tirelessly to ensure the project was completed on time and within budget. ||| answer: urgency",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We couldn't understand him because he spoke too fast.",
+        "expected": "question: We couldn't understand him because he spoke too _. ||| answer: fast",
+        "predicted": "question: We couldn't understand him because he spoke too fast. ||| answer: spoke",
+        "bleu_score": 0.7016,
+        "rough_score": 0.8462
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He is capable of making quick decisions.",
+        "expected": "question: He is capable _ making quick decisions. ||| answer: of",
+        "predicted": "question: He is capable _ making quick decisions. ||| answer: of",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The new software is admired for its user-friendly interface and intuitive design.",
+        "expected": "question: The new software is _ for its user-friendly interface and intuitive design. ||| answer: admired",
+        "predicted": "question: The new software is admired for its user-friendly interface and intuitive _. ||| answer: design",
+        "bleu_score": 0.5787,
+        "rough_score": 0.875
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Neither my brother nor my parents are at home.",
+        "expected": "question: Neither my brother nor my parents _ at home. ||| answer: are",
+        "predicted": "question: Neither my brother _ my parents are at home. ||| answer: nor",
+        "bleu_score": 0.4538,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Not only did the team completed the project ahead of schedule, but they also exceeded all expectations.",
+        "expected": "question: Not only _ the team completed the project ahead of schedule, but they also exceeded all expectations. ||| answer: did",
+        "predicted": "question: Not only _ the team completed the project ahead of schedule, but they also exceeded all expectations. ||| answer: did",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The delicate nature of the task required a careful and methodical approach.",
+        "expected": "question: The _ nature of the task required a careful and methodical approach. ||| answer: delicate",
+        "predicted": "question: The _ nature of the task required a careful and methodical approach. ||| answer: delicate",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I'd rather you left now than later.",
+        "expected": "question: I'd rather you _ now than later. ||| answer: left",
+        "predicted": "question: I'd rather you _ now than later. ||| answer: left",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: You had better finish your homework now.",
+        "expected": "question: You had better _ your homework now. ||| answer: finish",
+        "predicted": "question: You had better _ your homework now. ||| answer: finish",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The movie was more entertaining than I expected.",
+        "expected": "question: The movie was more _ than I expected. ||| answer: entertaining",
+        "predicted": "question: The movie was more _ than I expected. ||| answer: entertaining",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I wish you weren't so impatient all the time.",
+        "expected": "question: I wish you _ so impatient all the time. ||| answer: weren't",
+        "predicted": "question: I wish you _ so impatient all the time. ||| answer: weren't",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I'm tired of waiting for the bus.",
+        "expected": "question: I'm tired _ waiting for the bus. ||| answer: of",
+        "predicted": "question: I'm tired _ waiting for the bus. ||| answer: of",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They will finalize the proposal tomorrow after considering all the feedback.",
+        "expected": "question: They will _ the proposal tomorrow after considering all the feedback. ||| answer: finalize",
+        "predicted": "question: They will finalize the proposal tomorrow after considering all the feedback. ||| answer: after",
+        "bleu_score": 0.7377,
+        "rough_score": 0.9286
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She asked me if I was going to the party.",
+        "expected": "question: She asked me if I _ to the party. ||| answer: was going",
+        "predicted": "question: She asked me if I _ to the party. ||| answer: was going",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Should he arrive late again, he'll be dismissed.",
+        "expected": "question: _ he arrive late again, he'll be dismissed. ||| answer: Should",
+        "predicted": "question: _ he arrive late again, he'll be dismissed. ||| answer: Should",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She was overjoyed when she received the news of her promotion.",
+        "expected": "question: She was _ when she received the news of her promotion. ||| answer: overjoyed",
+        "predicted": "question: She was _ when she received the news of her promotion. ||| answer: overjoyed",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Not only was the report finished, but it was also detailed and thorough.",
+        "expected": "question: Not only _ the report finished, but it was also detailed and thorough. ||| answer: was",
+        "predicted": "question: Not only _ the report finished, but it was also detailed and thorough. ||| answer: was",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: It is important to maintain a healthy lifestyle.",
+        "expected": "question: It is important to _ a healthy lifestyle. ||| answer: maintain",
+        "predicted": "question: It is important to _ a healthy lifestyle. ||| answer: maintain",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: You must apologize for being rude.",
+        "expected": "question: You must apologize _ being rude. ||| answer: for",
+        "predicted": "question: You must apologize _ being rude. ||| answer: for",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The novel, which was published in 1950, is still popular today.",
+        "expected": "question: The novel, _ was published in 1950, is still popular today. ||| answer: which",
+        "predicted": "question: The novel, _ was published in 1950, is still popular today. ||| answer: which",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He tried to repair the broken machine.",
+        "expected": "question: He tried to _ the broken machine. ||| answer: repair",
+        "predicted": "question: He tried to _ the broken machine. ||| answer: repair",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The harshness of his remarks made everyone uncomfortable.",
+        "expected": "question: The _ of his remarks made everyone uncomfortable. ||| answer: harshness",
+        "predicted": "question: The _ of his remarks made everyone uncomfortable. ||| answer: harshness",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They acted as though they were the owners.",
+        "expected": "question: They acted as though they _ the owners. ||| answer: were",
+        "predicted": "question: They acted as though they _ the owners. ||| answer: were",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The meeting was canceled due to bad weather.",
+        "expected": "question: The meeting was _ due to bad weather. ||| answer: canceled",
+        "predicted": "question: The meeting was canceled due to bad weather. ||| answer: due",
+        "bleu_score": 0.6493,
+        "rough_score": 0.9167
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She managed to finish the task on time.",
+        "expected": "question: She managed _ the task on time. ||| answer: to finish",
+        "predicted": "question: She managed _ the task on time. ||| answer: to finish",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She always speaks highly about her team.",
+        "expected": "question: She always speaks _ about her team. ||| answer: highly",
+        "predicted": "question: She always speaks _ about her team. ||| answer: highly",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: A: I heard you're moving to a new city. B: Yes, I am moving in the city center next week.",
+        "expected": "question: A: I heard you're moving to a new city. B: Yes, I _ in the city center next week. ||| answer: am moving",
+        "predicted": "question: A: I heard you're moving to a new city. B: Yes, I _ moving in the city center next week. ||| answer: am",
+        "bleu_score": 0.8938,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: There was a long period of silence after the meeting.",
+        "expected": "question: There was a long period of _ after the meeting. ||| answer: silence",
+        "predicted": "question: There was a long period of _ after the meeting. ||| answer: silence",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: A: I haven't seen you around much lately. B: I was traveling for work, but I'm back now.",
+        "expected": "question: A: I haven't seen you around much lately. B: I _ traveling for work, but I'm back now. ||| answer: was",
+        "predicted": "question: A: I haven't seen you around much lately. B: I _ for work, but I'm back now. ||| answer: was traveling",
+        "bleu_score": 0.8827,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He could have been more considerate with his words, as it hurt her feelings.",
+        "expected": "question: He could have been more _ with his words, as it hurt her feelings. ||| answer: considerate",
+        "predicted": "question: He could have been more _ with his words, as it hurt her feelings. ||| answer: considerate",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher will announce the results next week.",
+        "expected": "question: The teacher will _ the results next week. ||| answer: announce",
+        "predicted": "question: The teacher will _ the results next week. ||| answer: announce",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: It is required that each applicant complete the form.",
+        "expected": "question: It is required that each applicant _ the form. ||| answer: complete",
+        "predicted": "question: It is required that each applicant _ the form. ||| answer: complete",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: John was absent from school yesterday.",
+        "expected": "question: John was absent _ school yesterday. ||| answer: from",
+        "predicted": "question: John _ absent from school yesterday. ||| answer: was",
+        "bleu_score": 0.3549,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She showed remarkable courage during the rescue.",
+        "expected": "question: She showed remarkable _ during the rescue. ||| answer: courage",
+        "predicted": "question: She showed remarkable _ during the rescue. ||| answer: courage",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I wish he were more open to feedback.",
+        "expected": "question: I wish he _ more open to feedback. ||| answer: were",
+        "predicted": "question: I wish he _ more open to feedback. ||| answer: were",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Please fasten your seat belts before takeoff.",
+        "expected": "question: Please _ your seat belts before takeoff. ||| answer: fasten",
+        "predicted": "question: Please _ your seat belts before takeoff. ||| answer: fasten",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Her writing is always concise and precise.",
+        "expected": "question: Her writing is always _ and precise. ||| answer: concise",
+        "predicted": "question: Her writing is always _ and precise. ||| answer: concise",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The company's success is largely attributed to innovation.",
+        "expected": "question: The company's success is largely _ to innovation. ||| answer: attributed",
+        "predicted": "question: The company's _ is largely attributed to innovation. ||| answer: success",
+        "bleu_score": 0.3672,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The strategy of the new product launch was carefully planned by the marketing team.",
+        "expected": "question: The _ of the new product launch was carefully planned by the marketing team. ||| answer: strategy",
+        "predicted": "question: The _ of the new product launch was carefully planned by the marketing team. ||| answer: strategy",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He finished his homework before dinner.",
+        "expected": "question: He _ his homework before dinner. ||| answer: finished",
+        "predicted": "question: He _ his homework before dinner. ||| answer: finished",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The company wants to increase its profits by cutting costs.",
+        "expected": "question: The company wants to _ its profits by cutting costs. ||| answer: increase",
+        "predicted": "question: The company wants to _ its profits by cutting costs. ||| answer: increase",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They moved to a new city last year.",
+        "expected": "question: They _ to a new city last year. ||| answer: moved",
+        "predicted": "question: They _ to a new city last year. ||| answer: moved",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I'm looking forward to hearing from you.",
+        "expected": "question: I'm looking forward to _ from you. ||| answer: hearing",
+        "predicted": "question: I'm looking forward _ hearing from you. ||| answer: to",
+        "bleu_score": 0.5081,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The company will implement a new marketing strategy.",
+        "expected": "question: The company will _ a new marketing strategy. ||| answer: implement",
+        "predicted": "question: The company will _ a new marketing strategy. ||| answer: implement",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She is married to a famous actor.",
+        "expected": "question: She is married _ a famous actor. ||| answer: to",
+        "predicted": "question: She is married _ a famous actor. ||| answer: to",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He didn't know the answer during the test.",
+        "expected": "question: He didn't _ the answer during the test. ||| answer: know",
+        "predicted": "question: He didn't know the answer during the test. ||| answer: the",
+        "bleu_score": 0.6493,
+        "rough_score": 0.9091
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The deadline was approaching, so the team worked overtime to ensure everything was finished.",
+        "expected": "question: The deadline was approaching, _ the team worked overtime to ensure everything was finished. ||| answer: so",
+        "predicted": "question: The deadline was approaching, _ the team worked overtime to ensure everything was finished. ||| answer: so",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She suggested that we take the train.",
+        "expected": "question: She suggested that we _ the train. ||| answer: take",
+        "predicted": "question: She suggested that we _ the train. ||| answer: take",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She has been living here since 2010.",
+        "expected": "question: She has been living here _ 2010. ||| answer: since",
+        "predicted": "question: She has been living here _ 2010. ||| answer: since",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher asked the students to review their answers carefully.",
+        "expected": "question: The teacher asked the students to _ their answers carefully. ||| answer: review",
+        "predicted": "question: The teacher asked the students to _ their answers carefully. ||| answer: review",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The purpose of the meeting was to discuss the project's future.",
+        "expected": "question: The _ of the meeting was to discuss the project's future. ||| answer: purpose",
+        "predicted": "question: The _ of the meeting was to discuss the project's future. ||| answer: purpose",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The director wanted to assemble the entire cast before filming.",
+        "expected": "question: The director wanted to _ the entire cast before filming. ||| answer: assemble",
+        "predicted": "question: The director wanted to _ the entire cast before filming. ||| answer: assemble",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: No one can deny the significance of her achievements.",
+        "expected": "question: No one can deny the _ of her achievements. ||| answer: significance",
+        "predicted": "question: No one can deny the _ of her achievements. ||| answer: significance",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I am disappointed by the way they handled the situation; it could have been dealt with more professionally.",
+        "expected": "question: I am _ by the way they handled the situation; it could have been dealt with more professionally. ||| answer: disappointed",
+        "predicted": "question: I am disappointed by the way they handled the situation; it could have been dealt with more professionally. ||| answer: have",
+        "bleu_score": 0.8334,
+        "rough_score": 0.9524
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher was pleased with her students' progress.",
+        "expected": "question: The teacher was pleased with her students' _. ||| answer: progress",
+        "predicted": "question: The teacher was pleased with her students' _. ||| answer: progress",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She made a favorable impression on her boss.",
+        "expected": "question: She made a _ impression on her boss. ||| answer: favorable",
+        "predicted": "question: She made a _ impression on her boss. ||| answer: favorable",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The coach insisted that he train harder.",
+        "expected": "question: The coach insisted that he _ harder. ||| answer: train",
+        "predicted": "question: The coach insisted that he train _. ||| answer: harder",
+        "bleu_score": 0.5348,
+        "rough_score": 0.8182
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The plan was rejected because it was unrealistic.",
+        "expected": "question: The plan was rejected because it was _. ||| answer: unrealistic",
+        "predicted": "question: The plan was rejected because it was _. ||| answer: unrealistic",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We wish the instructions were clearer.",
+        "expected": "question: We wish the instructions _ clearer. ||| answer: were",
+        "predicted": "question: We wish the instructions _ clearer. ||| answer: were",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She asked that he speak quietly.",
+        "expected": "question: She asked that he _ quietly. ||| answer: speak",
+        "predicted": "question: She asked that he _ quietly. ||| answer: speak",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She is fluent in three languages.",
+        "expected": "question: She is fluent _ three languages. ||| answer: in",
+        "predicted": "question: She is fluent _ three languages. ||| answer: in",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He was devastated when he realized that he had missed the deadline for the final submission.",
+        "expected": "question: He was _ when he realized that he had missed the deadline for the final submission. ||| answer: devastated",
+        "predicted": "question: He was _ when he realized that he had missed the deadline for the final submission. ||| answer: devastated",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I wish I had taken that job offer, as the one I accepted doesn't pay as well.",
+        "expected": "question: I _ I had taken that job offer, as the one I accepted doesn't pay as well. ||| answer: wish",
+        "predicted": "question: I wish I _ that job offer, as the one I accepted doesn't pay as well. ||| answer: had taken",
+        "bleu_score": 0.7454,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We need to gather more information before deciding.",
+        "expected": "question: We need to _ more information before deciding. ||| answer: gather",
+        "predicted": "question: We need to _ more information before deciding. ||| answer: gather",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The increase of pollution is a major concern.",
+        "expected": "question: The _ of pollution is a major concern. ||| answer: increase",
+        "predicted": "question: The _ of pollution is a major concern. ||| answer: increase",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher told the students to submit their homework.",
+        "expected": "question: The teacher told the students _ their homework. ||| answer: to submit",
+        "predicted": "question: The teacher told the students to _ their homework. ||| answer: submit",
+        "bleu_score": 0.6989,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The results were better than we predicted.",
+        "expected": "question: The results were _ than we predicted. ||| answer: better",
+        "predicted": "question: The results were better _ we predicted. ||| answer: than",
+        "bleu_score": 0.5081,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: If I had more money, I would buy a bigger house.",
+        "expected": "question: If I _ more money, I would buy a bigger house. ||| answer: had",
+        "predicted": "question: If I _ more money, I would buy a bigger house. ||| answer: had",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She was afraid of missing the bus.",
+        "expected": "question: She was afraid _ missing the bus. ||| answer: of",
+        "predicted": "question: She was afraid _ missing the bus. ||| answer: of",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We congratulated him on his success.",
+        "expected": "question: We congratulated him _ his success. ||| answer: on",
+        "predicted": "question: We congratulated him _ his success. ||| answer: on",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The failure of the event was due to poor planning.",
+        "expected": "question: The _ of the event was due to poor planning. ||| answer: failure",
+        "predicted": "question: The _ of the event was due to poor planning. ||| answer: failure",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We admired her bravery in facing challenges.",
+        "expected": "question: We admired her _ in facing challenges. ||| answer: bravery",
+        "predicted": "question: We admired her _ in facing challenges. ||| answer: bravery",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: You shouldn't give up so easily.",
+        "expected": "question: You shouldn't give _ so easily. ||| answer: up",
+        "predicted": "question: You shouldn't give up so easily. ||| answer: should",
+        "bleu_score": 0.5411,
+        "rough_score": 0.9
+    },
+    {
+        "input": "Convert this sentence into fill in blank: It's no use crying over spilled milk.",
+        "expected": "question: It's no use _ over spilled milk. ||| answer: crying",
+        "predicted": "question: It's no use _ over spilled milk. ||| answer: crying",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She was pleased to see the results of her hard work reflected in the success of the project.",
+        "expected": "question: She was _ to see the results of her hard work reflected in the success of the project. ||| answer: pleased",
+        "predicted": "question: She was pleased to see the _ of her hard work reflected in the success of the project. ||| answer: results",
+        "bleu_score": 0.7145,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She was pleased after receiving positive feedback from her manager about the project she completed.",
+        "expected": "question: She was _ after receiving positive feedback from her manager about the project she completed. ||| answer: pleased",
+        "predicted": "question: She was _ after receiving positive feedback from her manager about the project she completed. ||| answer: pleased",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They moved to the city in search of better opportunities.",
+        "expected": "question: They moved to the city in _ of better opportunities. ||| answer: search",
+        "predicted": "question: They _ to the city in search of better opportunities. ||| answer: moved",
+        "bleu_score": 0.5142,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The museum that exhibits ancient artifacts is closed today.",
+        "expected": "question: The museum _ exhibits ancient artifacts is closed today. ||| answer: that",
+        "predicted": "question: The museum _ exhibits ancient artifacts is closed today. ||| answer: that",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Not wanting to offend anyone, she said both cakes were equally good.",
+        "expected": "question: _ to offend anyone, she said both cakes were equally good. ||| answer: Not wanting",
+        "predicted": "question: Not wanting to _ anyone, she said both cakes were equally good. ||| answer: offend",
+        "bleu_score": 0.673,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Were we have more time, we could finish everything.",
+        "expected": "question: _ we have more time, we could finish everything. ||| answer: Were",
+        "predicted": "question: _ we have more time, we could finish everything. ||| answer: Were",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He has finished his homework already.",
+        "expected": "question: He _ his homework already. ||| answer: has finished",
+        "predicted": "question: He has _ his homework already. ||| answer: finished",
+        "bleu_score": 0.6148,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He is accused of stealing the wallet.",
+        "expected": "question: He is accused _ stealing the wallet. ||| answer: of",
+        "predicted": "question: He is accused _ stealing the wallet. ||| answer: of",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I wish I knew how to fix this computer issue.",
+        "expected": "question: I wish I _ how to fix this computer issue. ||| answer: knew",
+        "predicted": "question: I wish I _ how to fix this computer issue. ||| answer: knew",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: If she were here, she would explain.",
+        "expected": "question: If she _ here, she would explain. ||| answer: were",
+        "predicted": "question: If she _ here, she would explain. ||| answer: were",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: His aggressive behavior caused a lot of tension in the office.",
+        "expected": "question: His _ behavior caused a lot of tension in the office. ||| answer: aggressive",
+        "predicted": "question: His _ behavior caused a lot of tension in the office. ||| answer: aggressive",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He succeeded in finding the missing file.",
+        "expected": "question: He succeeded _ finding the missing file. ||| answer: in",
+        "predicted": "question: He succeeded _ finding the missing file. ||| answer: in",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The museum displays valuable artifacts from ancient times.",
+        "expected": "question: The museum displays _ artifacts from ancient times. ||| answer: valuable",
+        "predicted": "question: The museum displays _ artifacts from ancient times. ||| answer: valuable",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: By the end of the day, I was completely exhausted.",
+        "expected": "question: By the end of the day, I was completely _. ||| answer: exhausted",
+        "predicted": "question: By the end of the day, I was completely _. ||| answer: exhausted",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He bought a new car yesterday.",
+        "expected": "question: He bought _ new car yesterday. ||| answer: a",
+        "predicted": "question: He _ a new car yesterday. ||| answer: bought",
+        "bleu_score": 0.4939,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher requires that each student keep a journal.",
+        "expected": "question: The teacher requires that each student _ a journal. ||| answer: keep",
+        "predicted": "question: The teacher requires that each student _ a journal. ||| answer: keep",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The application must be filled out accurately.",
+        "expected": "question: The application must be filled out _. ||| answer: accurately",
+        "predicted": "question: The application must _ filled out accurately. ||| answer: be",
+        "bleu_score": 0.3265,
+        "rough_score": 0.8182
+    },
+    {
+        "input": "Convert this sentence into fill in blank: His attention to detail impressed the judges.",
+        "expected": "question: His _ to detail impressed the judges. ||| answer: attention",
+        "predicted": "question: His _ to detail impressed the judges. ||| answer: attention",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She arrived early so that she could get a good seat.",
+        "expected": "question: She arrived early so that she could _ a good seat. ||| answer: get",
+        "predicted": "question: She arrived early so that she could _ a good seat. ||| answer: get",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: There is no use asking him again.",
+        "expected": "question: There is no use _ him again. ||| answer: asking",
+        "predicted": "question: There is no use _ him again. ||| answer: asking",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The team worked diligently to complete the project.",
+        "expected": "question: The team worked _ to complete the project. ||| answer: diligently",
+        "predicted": "question: The team worked _ to complete the project. ||| answer: diligently",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The team developed a plan to address the new challenges we're facing.",
+        "expected": "question: The team _ a plan to address the new challenges we're facing. ||| answer: developed",
+        "predicted": "question: The team _ a plan to address the new challenges we're facing. ||| answer: developed",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She completed the task accurately and efficiently.",
+        "expected": "question: She completed the task _ and efficiently. ||| answer: accurately",
+        "predicted": "question: She completed the task _ and efficiently. ||| answer: accurately",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He wishes he had felt more confident during the presentation.",
+        "expected": "question: He wishes he _ more confident during the presentation. ||| answer: had felt",
+        "predicted": "question: He wishes he _ more confident during the presentation. ||| answer: had felt",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The artist whose painting was stolen has not been found.",
+        "expected": "question: The artist _ painting was stolen has not been found. ||| answer: whose",
+        "predicted": "question: The artist _ painting was stolen has not been found. ||| answer: whose",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They have lived here for years.",
+        "expected": "question: They have _ here for years. ||| answer: lived",
+        "predicted": "question: They _ here for years. ||| answer: have lived",
+        "bleu_score": 0.6148,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The content of the presentation was well-received by the audience.",
+        "expected": "question: The _ of the presentation was well-received by the audience. ||| answer: content",
+        "predicted": "question: The _ of the presentation was well-received by the audience. ||| answer: content",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He has an amazing ability to learn languages quickly.",
+        "expected": "question: He has an amazing ability to _ languages quickly. ||| answer: learn",
+        "predicted": "question: He has an _ ability to learn languages quickly. ||| answer: amazing",
+        "bleu_score": 0.4538,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Neither of them is coming today.",
+        "expected": "question: Neither of them _ coming today. ||| answer: is",
+        "predicted": "question: Neither of them _ coming today. ||| answer: is",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The manager insisted on seeing the documents.",
+        "expected": "question: The manager insisted _ seeing the documents. ||| answer: on",
+        "predicted": "question: The manager insisted _ seeing the documents. ||| answer: on",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The company's commitment to innovate has led to rapid growth in the market.",
+        "expected": "question: The company's _ to innovate has led to rapid growth in the market. ||| answer: commitment",
+        "predicted": "question: The company's _ to innovate has led to rapid growth in the market. ||| answer: commitment",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: His dedicated actions showed that he was fully committed to the project.",
+        "expected": "question: His _ actions showed that he was fully committed to the project. ||| answer: dedicated",
+        "predicted": "question: His _ actions showed that he was fully committed to the project. ||| answer: dedicated",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The university will establish a new research center.",
+        "expected": "question: The university will _ a new research center. ||| answer: establish",
+        "predicted": "question: The university will _ a new research center. ||| answer: establish",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: By the time we arrived, the movie had already started.",
+        "expected": "question: By the time we arrived, the movie _ already started. ||| answer: had",
+        "predicted": "question: By the time we arrived, the movie _. ||| answer: had already started",
+        "bleu_score": 0.6298,
+        "rough_score": 0.8462
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They launched the new product line last month.",
+        "expected": "question: They _ the new product line last month. ||| answer: launched",
+        "predicted": "question: They _ the new product line last month. ||| answer: launched",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: If I had known, I would have called you earlier.",
+        "expected": "question: If I had known, I _ you earlier. ||| answer: would have called",
+        "predicted": "question: If I had known, I _ have called you earlier. ||| answer: would",
+        "bleu_score": 0.7448,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The decision was made after careful consideration.",
+        "expected": "question: The decision was made after careful _. ||| answer: consideration",
+        "predicted": "question: The decision was made after careful _. ||| answer: consideration",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She had her house painted last week.",
+        "expected": "question: She had her house _ last week. ||| answer: painted",
+        "predicted": "question: She _ her house painted last week. ||| answer: had",
+        "bleu_score": 0.3433,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They wish they had read the instructions more carefully.",
+        "expected": "question: They wish they _ the instructions more carefully. ||| answer: had read",
+        "predicted": "question: They wish they _ the instructions more carefully. ||| answer: had read",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The students are interested in environmental issues.",
+        "expected": "question: The students are interested _ environmental issues. ||| answer: in",
+        "predicted": "question: The students are interested _ environmental issues. ||| answer: in",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I'm tired of arguing with you.",
+        "expected": "question: I'm tired _ arguing with you. ||| answer: of",
+        "predicted": "question: I'm tired _ arguing with you. ||| answer: of",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He acted as if he knew everything.",
+        "expected": "question: He acted as if he _ everything. ||| answer: knew",
+        "predicted": "question: He acted as if he _ everything. ||| answer: knew",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She won't believe it unless she sees it with her own eyes.",
+        "expected": "question: She won't believe it _ she sees it with her own eyes. ||| answer: unless",
+        "predicted": "question: She won't believe it _ she sees it with her own eyes. ||| answer: unless",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The presentation was both informative and entertaining.",
+        "expected": "question: The presentation was both _ and entertaining. ||| answer: informative",
+        "predicted": "question: The presentation was both informative and _. ||| answer: entertaining",
+        "bleu_score": 0.4297,
+        "rough_score": 0.8182
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They acted as if they owned the house.",
+        "expected": "question: They acted as if they _ the house. ||| answer: owned",
+        "predicted": "question: They acted as if they _ the house. ||| answer: owned",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher whose class I attend is very experienced.",
+        "expected": "question: The teacher _ class I attend is very experienced. ||| answer: whose",
+        "predicted": "question: The teacher _ class I attend is very experienced. ||| answer: whose",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We were tired of waiting.",
+        "expected": "question: We were tired _ waiting. ||| answer: of",
+        "predicted": "question: We were tired _ waiting. ||| answer: of",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The weather is expected to improve tomorrow.",
+        "expected": "question: The weather is expected to _ tomorrow. ||| answer: improve",
+        "predicted": "question: The weather is expected _ tomorrow. ||| answer: to improve",
+        "bleu_score": 0.618,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I wish I hadn't left my keys at home.",
+        "expected": "question: I wish I _ my keys at home. ||| answer: hadn't left",
+        "predicted": "question: I wish I _ my keys at home. ||| answer: hadn't left",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher tried to stimulate the student's interest.",
+        "expected": "question: The teacher tried to _ the student's interest. ||| answer: stimulate",
+        "predicted": "question: The teacher tried to _ the student's interest. ||| answer: stimulate",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Her ability at solving problems was admired by her peers.",
+        "expected": "question: Her _ at solving problems was admired by her peers. ||| answer: ability",
+        "predicted": "question: Her _ at solving problems was admired by her peers. ||| answer: ability",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Her presentation was not only clear but also deeply insightful, which impressed the entire audience.",
+        "expected": "question: Her presentation was not only _ but also deeply insightful, which impressed the entire audience. ||| answer: clear",
+        "predicted": "question: Her presentation was not only clear but also deeply _, which impressed the entire audience. ||| answer: insightful",
+        "bleu_score": 0.6386,
+        "rough_score": 0.8947
+    },
+    {
+        "input": "Convert this sentence into fill in blank: A: Have you seen the latest report? B: Yes, it shows that we need to improve customer retention.",
+        "expected": "question: A: Have you seen the latest report? B: Yes, it _ that we need to improve customer retention. ||| answer: shows",
+        "predicted": "question: A: Have you seen the latest report? B: Yes, it shows that we need to _ customer retention. ||| answer: improve",
+        "bleu_score": 0.7145,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: He's jealous of his colleague's promotion.",
+        "expected": "question: He's jealous _ his colleague's promotion. ||| answer: of",
+        "predicted": "question: He's jealous _ his colleague's promotion. ||| answer: of",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: After the flood, many homes had to be rebuilt.",
+        "expected": "question: After the flood, many homes had to be _. ||| answer: rebuilt",
+        "predicted": "question: After the flood, many homes _ rebuilt. ||| answer: had to be",
+        "bleu_score": 0.5266,
+        "rough_score": 0.8462
+    },
+    {
+        "input": "Convert this sentence into fill in blank: There is no doubt that she will win.",
+        "expected": "question: There is no _ that she will win. ||| answer: doubt",
+        "predicted": "question: There is no doubt that she _ win. ||| answer: will",
+        "bleu_score": 0.3672,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She apologized to her friend for her rude behavior.",
+        "expected": "question: She apologized to her friend _ her rude behavior. ||| answer: for",
+        "predicted": "question: She apologized to her friend _ her rude behavior. ||| answer: for",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The system will automatically backup your data.",
+        "expected": "question: The system will automatically _ your data. ||| answer: backup",
+        "predicted": "question: The system will automatically _ your data. ||| answer: backup",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Please fasten your seat before the plane takes off.",
+        "expected": "question: Please _ your seat before the plane takes off. ||| answer: fasten",
+        "predicted": "question: Please _ your seat before the plane takes off. ||| answer: fasten",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: By this time next year, we will be living in the new house.",
+        "expected": "question: By this time next year, we _ in the new house. ||| answer: will be living",
+        "predicted": "question: By this time next year, we _ living in the new house. ||| answer: will be",
+        "bleu_score": 0.8409,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The outcome of the project exceeded expectations, with the team completing it ahead of schedule and under budget.",
+        "expected": "question: The _ of the project exceeded expectations, with the team completing it ahead of schedule and under budget. ||| answer: outcome",
+        "predicted": "question: The _ of the project exceeded expectations, with the team completing it ahead of schedule and under budget. ||| answer: outcome",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The book has been on the table for two days.",
+        "expected": "question: The book _ on the table for two days. ||| answer: has been",
+        "predicted": "question: The book has been _ the table for two days. ||| answer: on",
+        "bleu_score": 0.5956,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Had you followed the manual, you'd know what to do.",
+        "expected": "question: _ you followed the manual, you'd know what to do. ||| answer: Had",
+        "predicted": "question: _ you followed the manual, you'd know what to do. ||| answer: Had",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The students must follow the library rules.",
+        "expected": "question: The students must _ the library rules. ||| answer: follow",
+        "predicted": "question: The students must _ the library rules. ||| answer: follow",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: If it rains, we will stay home.",
+        "expected": "question: If it rains, we _ stay home. ||| answer: will",
+        "predicted": "question: If it _, we will stay home. ||| answer: rains",
+        "bleu_score": 0.3613,
+        "rough_score": 0.8182
+    },
+    {
+        "input": "Convert this sentence into fill in blank: This book is different from the one you recommended.",
+        "expected": "question: This book is different _ the one you recommended. ||| answer: from",
+        "predicted": "question: This book is different _ the one you recommended. ||| answer: from",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We would have arrived earlier if we had taken a taxi.",
+        "expected": "question: We would have arrived earlier if we _ a taxi. ||| answer: had taken",
+        "predicted": "question: We would have arrived earlier if we _ a taxi. ||| answer: had taken",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The new product is expected to launch next month.",
+        "expected": "question: The new product is expected to _ next month. ||| answer: launch",
+        "predicted": "question: The new product is expected _ next month. ||| answer: to launch",
+        "bleu_score": 0.6989,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Rather than complaining about the problem, he solved it.",
+        "expected": "question: Rather than _ about the problem, he solved it. ||| answer: complaining",
+        "predicted": "question: Rather than complaining _ the problem, he solved it. ||| answer: about",
+        "bleu_score": 0.6176,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: We traveled by plane to New York.",
+        "expected": "question: We traveled _ plane to New York. ||| answer: by",
+        "predicted": "question: We traveled _ plane to New York. ||| answer: by",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She was moved by the kindness of the stranger.",
+        "expected": "question: She was _ by the kindness of the stranger. ||| answer: moved",
+        "predicted": "question: She was moved by the _ of the stranger. ||| answer: kindness",
+        "bleu_score": 0.4538,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They reached an agreement after a long negotiation.",
+        "expected": "question: They reached an agreement after a long _. ||| answer: negotiation",
+        "predicted": "question: They reached an agreement after a long _. ||| answer: negotiation",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher helped him to improve his writing skills.",
+        "expected": "question: The teacher helped him to _ his writing skills. ||| answer: improve",
+        "predicted": "question: The teacher helped him to _ his writing skills. ||| answer: improve",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I have breakfast at 8 AM.",
+        "expected": "question: I _ breakfast at 8 AM. ||| answer: have",
+        "predicted": "question: I _ breakfast at 8 AM. ||| answer: have",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The teacher asked the students to hand in their assignments.",
+        "expected": "question: The teacher asked the students to hand _ their assignments. ||| answer: in",
+        "predicted": "question: The teacher asked the students to _ in their assignments. ||| answer: hand",
+        "bleu_score": 0.6546,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The engineers are working to improve the design.",
+        "expected": "question: The engineers are working to _ the design. ||| answer: improve",
+        "predicted": "question: The engineers are working to _ the design. ||| answer: improve",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: They agreed to meet at noon.",
+        "expected": "question: They agreed _ meet at noon. ||| answer: to",
+        "predicted": "question: They agreed _ meet at noon. ||| answer: to",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She suggested that he drive more carefully.",
+        "expected": "question: She suggested that he _ more carefully. ||| answer: drive",
+        "predicted": "question: She suggested that he _ more carefully. ||| answer: drive",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: His latest novel was a remarkable success.",
+        "expected": "question: His latest novel was a _ success. ||| answer: remarkable",
+        "predicted": "question: His latest novel was a remarkable _. ||| answer: success",
+        "bleu_score": 0.5348,
+        "rough_score": 0.8182
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I wish I had more time to spend with my family.",
+        "expected": "question: I wish I _ more time to spend with my family. ||| answer: had",
+        "predicted": "question: I wish I _ more time to spend with my family. ||| answer: had",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I wish we could have finished the project earlier if we had planned better.",
+        "expected": "question: I _ we could have finished the project earlier if we had planned better. ||| answer: wish",
+        "predicted": "question: I wish we _ finished the project earlier if we had planned better. ||| answer: could have",
+        "bleu_score": 0.6784,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The doctor advised him to quit smoking immediately.",
+        "expected": "question: The doctor advised him to _ smoking immediately. ||| answer: quit",
+        "predicted": "question: The doctor advised him to _ smoking immediately. ||| answer: quit",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She's interested in learning Italian.",
+        "expected": "question: She's interested _ learning Italian. ||| answer: in",
+        "predicted": "question: She's interested _ learning Italian. ||| answer: in",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The bridge was built last year.",
+        "expected": "question: The bridge _ last year. ||| answer: was built",
+        "predicted": "question: The bridge _ built last year. ||| answer: was",
+        "bleu_score": 0.6756,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She's always been afraid of spiders.",
+        "expected": "question: She's always been afraid _ spiders. ||| answer: of",
+        "predicted": "question: She's always been afraid _ spiders. ||| answer: of",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The book was written by a famous author, who is known for his detective novels.",
+        "expected": "question: The book was written _ a famous author, who is known for his detective novels. ||| answer: by",
+        "predicted": "question: The book was written _ a famous author, who is known for his detective novels. ||| answer: by",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: It's important to focus on your goals.",
+        "expected": "question: It's important to focus _ your goals. ||| answer: on",
+        "predicted": "question: It's important to _ on your goals. ||| answer: focus",
+        "bleu_score": 0.5081,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: I wish I had known about the meeting earlier; I could have prepared better.",
+        "expected": "question: I wish I _ about the meeting earlier; I could have prepared better. ||| answer: had known",
+        "predicted": "question: I _ I had known about the meeting earlier; I could have prepared better. ||| answer: wish",
+        "bleu_score": 0.6921,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The baby cried loudly when the toy was taken away.",
+        "expected": "question: The baby cried _ when the toy was taken away. ||| answer: loudly",
+        "predicted": "question: The baby cried loudly when the toy was taken away. ||| answer: cried",
+        "bleu_score": 0.7139,
+        "rough_score": 0.9231
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She suggested that I consult a lawyer.",
+        "expected": "question: She suggested that I _ a lawyer. ||| answer: consult",
+        "predicted": "question: She suggested that I _ a lawyer. ||| answer: consult",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The lecture was very interesting and informative.",
+        "expected": "question: The lecture was very _ and informative. ||| answer: interesting",
+        "predicted": "question: The lecture was very _ and informative. ||| answer: interesting",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: Water boils at 100 degrees Celsius.",
+        "expected": "question: Water _ at 100 degrees Celsius. ||| answer: boils",
+        "predicted": "question: Water _ at 100 degrees Celsius. ||| answer: boils",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: A: How did you manage to meet the deadline? B: It wasn't easy, but I worked on a tight schedule and stayed focused.",
+        "expected": "question: A: How did you manage to meet the deadline? B: It wasn't easy, but I _ on a tight schedule and stayed focused. ||| answer: worked",
+        "predicted": "question: A: How did you manage to meet the deadline? B: It wasn't easy, _ I worked on a tight schedule and stayed focused. ||| answer: but",
+        "bleu_score": 0.812,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The completion of the project was celebrated at the end-of-year gala, with several team members receiving awards for their exceptional work.",
+        "expected": "question: The _ of the project was celebrated at the end-of-year gala, with several team members receiving awards for their exceptional work. ||| answer: completion",
+        "predicted": "question: The _ of the project was celebrated at the end-of-year gala, with several team members receiving awards for their exceptional work. ||| answer: completion",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: The box was too heavy for me to lift.",
+        "expected": "question: The box was _ heavy for me to lift. ||| answer: too",
+        "predicted": "question: The box was too _ for me to lift. ||| answer: heavy",
+        "bleu_score": 0.6176,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Convert this sentence into fill in blank: She has a very logical way of thinking.",
+        "expected": "question: She has a very _ way of thinking. ||| answer: logical",
+        "predicted": "question: She has a very _ way of thinking. ||| answer: logical",
+        "bleu_score": 1.0,
+        "rough_score": 1.0
+    }
+]

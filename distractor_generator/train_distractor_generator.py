@@ -15,7 +15,7 @@ for i, d in enumerate(data[:10]):
     print(f"{i+1}. INPUT: {d['input']}")
     print(f"   OUTPUT: {d['output']}")
 
-subset_size = 2000
+subset_size = 500
 data_subset = data[:subset_size]
 
 # Convert to Hugging Face Dataset

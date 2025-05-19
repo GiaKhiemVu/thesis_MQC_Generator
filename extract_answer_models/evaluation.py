@@ -7,7 +7,7 @@ nltk.download("punkt")  # Needed for tokenization
 
 # BLEU smoothing function
 smoothie = SmoothingFunction().method4
-model_name = "final-model-2000"
+model_name = "final-model-500"
 # Load dataset
 with open("extract_answer_models/dataset/cleaned_data.json", "r", encoding="utf-8") as f:
     dataset = json.load(f)
@@ -68,4 +68,4 @@ for i, example in enumerate(sampled_data, 1):
 with open(f"extract_answer_models/eval_report_{model_name}.json", "w", encoding="utf-8") as f:
     json.dump(report, f, indent=4)
 
-print("✅ Evaluation complete. Results saved to 'eval_report_{model_name}.json'")
+print(f"✅ Evaluation complete. Results saved to 'eval_report_{model_name}.json'")

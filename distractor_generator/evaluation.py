@@ -15,7 +15,7 @@ with open("distractor_generator/dataset/distractor_dataset.json", "r", encoding=
 # Sample 10
 random.seed(42)
 number_of_samples = 200
-model_name = "final-model-2000"
+model_name = "final-model-500"
 sampled_data = random.sample(dataset, number_of_samples)
 
 # Load model

@@ -1,0 +1,3547 @@
+[
+    {
+        "input": "Generate 3 distractors no duplicated for question: By next month, they _ the bridge. with answer: will have completed",
+        "expected": "Distractor: complete, completed, completing",
+        "predicted": "Distractor: finish, complete, completing",
+        "expected_list": [
+            "complete",
+            "completed",
+            "completing"
+        ],
+        "predicted_list": [
+            "finish",
+            "complete",
+            "completing"
+        ],
+        "correct_answer": "will have completed",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He's looking forward to _ his vacation. with answer: taking",
+        "expected": "Distractor: take, took, taken",
+        "predicted": "Distractor: take, bringing, took",
+        "expected_list": [
+            "take",
+            "took",
+            "taken"
+        ],
+        "predicted_list": [
+            "take",
+            "bringing",
+            "took"
+        ],
+        "correct_answer": "taking",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They _ the project last week. with answer: completed",
+        "expected": "Distractor: complete, completing, completes",
+        "predicted": "Distractor: complete, finalizing, finish",
+        "expected_list": [
+            "complete",
+            "completing",
+            "completes"
+        ],
+        "predicted_list": [
+            "complete",
+            "finalizing",
+            "finish"
+        ],
+        "correct_answer": "completed",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The company has to _ several key issues. with answer: address",
+        "expected": "Distractor: access, assess, express",
+        "predicted": "Distractor: to address, addressing, addresses",
+        "expected_list": [
+            "access",
+            "assess",
+            "express"
+        ],
+        "predicted_list": [
+            "to address",
+            "addressing",
+            "addresses"
+        ],
+        "correct_answer": "address",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She was asked to _ the number of attendees. with answer: estimate",
+        "expected": "Distractor: eliminate, animate, dominate",
+        "predicted": "Distractor: consider, considered, forecast",
+        "expected_list": [
+            "eliminate",
+            "animate",
+            "dominate"
+        ],
+        "predicted_list": [
+            "consider",
+            "considered",
+            "forecast"
+        ],
+        "correct_answer": "estimate",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher praised his _ to his studies. with answer: dedication",
+        "expected": "Distractor: dedicate, dedicated, dedicating",
+        "predicted": "Distractor: dedicate, dedicated, dedicates",
+        "expected_list": [
+            "dedicate",
+            "dedicated",
+            "dedicating"
+        ],
+        "predicted_list": [
+            "dedicate",
+            "dedicated",
+            "dedicates"
+        ],
+        "correct_answer": "dedication",
+        "bleu_score": 0.2118,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The cake tastes _ delicious. with answer: absolutely",
+        "expected": "Distractor: absolute, absolutism, absoluteness",
+        "predicted": "Distractor: entirely, on every issue, with",
+        "expected_list": [
+            "absolute",
+            "absolutism",
+            "absoluteness"
+        ],
+        "predicted_list": [
+            "entirely",
+            "on every issue",
+            "with"
+        ],
+        "correct_answer": "absolutely",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: If he _ earlier, he wouldn't be late now. with answer: had left",
+        "expected": "Distractor: left, was leaving, leaves",
+        "predicted": "Distractor: left, leaves, would leave",
+        "expected_list": [
+            "left",
+            "was leaving",
+            "leaves"
+        ],
+        "predicted_list": [
+            "left",
+            "leaves",
+            "would leave"
+        ],
+        "correct_answer": "had left",
+        "bleu_score": 0.0862,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I warned him _ the dangers of hiking alone. with answer: about",
+        "expected": "Distractor: of, to, for",
+        "predicted": "Distractor: for, at, to",
+        "expected_list": [
+            "of",
+            "to",
+            "for"
+        ],
+        "predicted_list": [
+            "for",
+            "at",
+            "to"
+        ],
+        "correct_answer": "about",
+        "bleu_score": 0.0862,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They left before the movie _. with answer: ended",
+        "expected": "Distractor: end, ends, ending",
+        "predicted": "Distractor: is end, has ended, finishes",
+        "expected_list": [
+            "end",
+            "ends",
+            "ending"
+        ],
+        "predicted_list": [
+            "is end",
+            "has ended",
+            "finishes"
+        ],
+        "correct_answer": "ended",
+        "bleu_score": 0,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He succeeded _ solving the problem. with answer: in",
+        "expected": "Distractor: on, at, to",
+        "predicted": "Distractor: at, on, with",
+        "expected_list": [
+            "on",
+            "at",
+            "to"
+        ],
+        "predicted_list": [
+            "at",
+            "on",
+            "with"
+        ],
+        "correct_answer": "in",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: It is important _ the documents carefully. with answer: to check",
+        "expected": "Distractor: checking, check, checks",
+        "predicted": "Distractor: not to evaluate, monitors, monitor",
+        "expected_list": [
+            "checking",
+            "check",
+            "checks"
+        ],
+        "predicted_list": [
+            "not to evaluate",
+            "monitors",
+            "monitor"
+        ],
+        "correct_answer": "to check",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I don't mind _ early tomorrow. with answer: getting up",
+        "expected": "Distractor: get up, get, got up",
+        "predicted": "Distractor: got up, gets up, get up",
+        "expected_list": [
+            "get up",
+            "get",
+            "got up"
+        ],
+        "predicted_list": [
+            "got up",
+            "gets up",
+            "get up"
+        ],
+        "correct_answer": "getting up",
+        "bleu_score": 0.0862,
+        "rough_score": 0.8333
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The team failed to _ the championship. with answer: win",
+        "expected": "Distractor: wan, worn, warn",
+        "predicted": "Distractor: prevail, won, triumph",
+        "expected_list": [
+            "wan",
+            "worn",
+            "warn"
+        ],
+        "predicted_list": [
+            "prevail",
+            "won",
+            "triumph"
+        ],
+        "correct_answer": "win",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The shop decided to _ prices for the summer sale. with answer: lower",
+        "expected": "Distractor: flower, tower, power",
+        "predicted": "Distractor: lowers, lowering <fallback>",
+        "expected_list": [
+            "flower",
+            "tower",
+            "power"
+        ],
+        "predicted_list": [
+            "lowers",
+            "lowering"
+        ],
+        "correct_answer": "lower",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He asked if anyone _ seen his notebook. with answer: had",
+        "expected": "Distractor: has, have, was",
+        "predicted": "Distractor: has, would have <fallback>",
+        "expected_list": [
+            "has",
+            "have",
+            "was"
+        ],
+        "predicted_list": [
+            "has",
+            "would have"
+        ],
+        "correct_answer": "had",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She can't help _ when she hears a good joke. with answer: laughing",
+        "expected": "Distractor: laugh, to laugh, laughed",
+        "predicted": "Distractor: laugh, joke <fallback>",
+        "expected_list": [
+            "laugh",
+            "to laugh",
+            "laughed"
+        ],
+        "predicted_list": [
+            "laugh",
+            "joke"
+        ],
+        "correct_answer": "laughing",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They worked together to _ the project faster. with answer: complete",
+        "expected": "Distractor: compete, complicate, compute",
+        "predicted": "Distractor: finalize, finishes <fallback>",
+        "expected_list": [
+            "compete",
+            "complicate",
+            "compute"
+        ],
+        "predicted_list": [
+            "finalize",
+            "finishes"
+        ],
+        "correct_answer": "complete",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: If you eat too much sugar, you _ sick. with answer: might feel",
+        "expected": "Distractor: felt, would feel, will felt",
+        "predicted": "Distractor: felt, feeling, is",
+        "expected_list": [
+            "felt",
+            "would feel",
+            "will felt"
+        ],
+        "predicted_list": [
+            "felt",
+            "feeling",
+            "is"
+        ],
+        "correct_answer": "might feel",
+        "bleu_score": 0.0725,
+        "rough_score": 0.3333
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: My grandmother is very proud _ her garden. with answer: of",
+        "expected": "Distractor: for, in, at",
+        "predicted": "Distractor: in, at, on",
+        "expected_list": [
+            "for",
+            "in",
+            "at"
+        ],
+        "predicted_list": [
+            "in",
+            "at",
+            "on"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.2118,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They must _ the stadium before the event starts. with answer: prepare",
+        "expected": "Distractor: preserve, prefer, propose",
+        "predicted": "Distractor: pr\u00e9paring, prepared <fallback>",
+        "expected_list": [
+            "preserve",
+            "prefer",
+            "propose"
+        ],
+        "predicted_list": [
+            "pr\u00e9paring",
+            "prepared"
+        ],
+        "correct_answer": "prepare",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: You should avoid _ in that area at night. with answer: walking",
+        "expected": "Distractor: to walk, walk, walked",
+        "predicted": "Distractor: stroll, walk, walks",
+        "expected_list": [
+            "to walk",
+            "walk",
+            "walked"
+        ],
+        "predicted_list": [
+            "stroll",
+            "walk",
+            "walks"
+        ],
+        "correct_answer": "walking",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We _ the train to work every day. with answer: take",
+        "expected": "Distractor: takes, took, taking",
+        "predicted": "Distractor: with, on <fallback>",
+        "expected_list": [
+            "takes",
+            "took",
+            "taking"
+        ],
+        "predicted_list": [
+            "with",
+            "on"
+        ],
+        "correct_answer": "take",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She _ speak three languages. with answer: can",
+        "expected": "Distractor: may, should, will",
+        "predicted": "Distractor: shall, would <fallback>",
+        "expected_list": [
+            "may",
+            "should",
+            "will"
+        ],
+        "predicted_list": [
+            "shall",
+            "would"
+        ],
+        "correct_answer": "can",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: His arguments lacked _. with answer: logic",
+        "expected": "Distractor: logical, logically, logician",
+        "predicted": "Distractor: logician, logicing <fallback>",
+        "expected_list": [
+            "logical",
+            "logically",
+            "logician"
+        ],
+        "predicted_list": [
+            "logician",
+            "logicing"
+        ],
+        "correct_answer": "logic",
+        "bleu_score": 0.041,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The children laughed _ the clown. with answer: at",
+        "expected": "Distractor: to, with, by",
+        "predicted": "Distractor: in, to, of",
+        "expected_list": [
+            "to",
+            "with",
+            "by"
+        ],
+        "predicted_list": [
+            "in",
+            "to",
+            "of"
+        ],
+        "correct_answer": "at",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of the meeting was to discuss the new marketing strategy and its potential impact. with answer: purpose",
+        "expected": "Distractor: purposes, purposing, purposed",
+        "predicted": "Distractor: instigation, purposed, to determination",
+        "expected_list": [
+            "purposes",
+            "purposing",
+            "purposed"
+        ],
+        "predicted_list": [
+            "instigation",
+            "purposed",
+            "to determination"
+        ],
+        "correct_answer": "purpose",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They _ a game yesterday. with answer: played",
+        "expected": "Distractor: play, playing, plays",
+        "predicted": "Distractor: play, playing, plays",
+        "expected_list": [
+            "play",
+            "playing",
+            "plays"
+        ],
+        "predicted_list": [
+            "play",
+            "playing",
+            "plays"
+        ],
+        "correct_answer": "played",
+        "bleu_score": 0.5757,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She completed the project with great _. with answer: effort",
+        "expected": "Distractor: effortless, effortlessly, efforts",
+        "predicted": "Distractor: attempting, untoed, underdog",
+        "expected_list": [
+            "effortless",
+            "effortlessly",
+            "efforts"
+        ],
+        "predicted_list": [
+            "attempting",
+            "untoed",
+            "underdog"
+        ],
+        "correct_answer": "effort",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The scientist tried to _ the results of the experiment. with answer: explain",
+        "expected": "Distractor: expand, explore, expose",
+        "predicted": "Distractor: explicate, explic <fallback>",
+        "expected_list": [
+            "expand",
+            "explore",
+            "expose"
+        ],
+        "predicted_list": [
+            "explicate",
+            "explic"
+        ],
+        "correct_answer": "explain",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Given the _ of the situation, the team worked tirelessly to ensure the project was completed on time and within budget. with answer: urgency",
+        "expected": "Distractor: urgent, urgently, urgencying",
+        "predicted": "Distractor: urgently, urges <fallback>",
+        "expected_list": [
+            "urgent",
+            "urgently",
+            "urgencying"
+        ],
+        "predicted_list": [
+            "urgently",
+            "urges"
+        ],
+        "correct_answer": "urgency",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We couldn't understand him because he spoke too _. with answer: fast",
+        "expected": "Distractor: fastly, faster, fasten",
+        "predicted": "Distractor: fasten, slow <fallback>",
+        "expected_list": [
+            "fastly",
+            "faster",
+            "fasten"
+        ],
+        "predicted_list": [
+            "fasten",
+            "slow"
+        ],
+        "correct_answer": "fast",
+        "bleu_score": 0.041,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He is capable _ making quick decisions. with answer: of",
+        "expected": "Distractor: to, for, with",
+        "predicted": "Distractor: from, in, with",
+        "expected_list": [
+            "to",
+            "for",
+            "with"
+        ],
+        "predicted_list": [
+            "from",
+            "in",
+            "with"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The new software is _ for its user-friendly interface and intuitive design. with answer: admired",
+        "expected": "Distractor: admire, admiring, admiringly",
+        "predicted": "Distractor: admir, admiring, admirers",
+        "expected_list": [
+            "admire",
+            "admiring",
+            "admiringly"
+        ],
+        "predicted_list": [
+            "admir",
+            "admiring",
+            "admirers"
+        ],
+        "correct_answer": "admired",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Neither my brother nor my parents _ at home. with answer: are",
+        "expected": "Distractor: is, was, be",
+        "predicted": "Distractor: am, were, been",
+        "expected_list": [
+            "is",
+            "was",
+            "be"
+        ],
+        "predicted_list": [
+            "am",
+            "were",
+            "been"
+        ],
+        "correct_answer": "are",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Not only _ the team completed the project ahead of schedule, but they also exceeded all expectations. with answer: did",
+        "expected": "Distractor: do, doing, does",
+        "predicted": "Distractor: does, doing <fallback>",
+        "expected_list": [
+            "do",
+            "doing",
+            "does"
+        ],
+        "predicted_list": [
+            "does",
+            "doing"
+        ],
+        "correct_answer": "did",
+        "bleu_score": 0.0487,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ nature of the task required a careful and methodical approach. with answer: delicate",
+        "expected": "Distractor: delicacy, delicately, delicates",
+        "predicted": "Distractor: delicateness, delicately, fine",
+        "expected_list": [
+            "delicacy",
+            "delicately",
+            "delicates"
+        ],
+        "predicted_list": [
+            "delicateness",
+            "delicately",
+            "fine"
+        ],
+        "correct_answer": "delicate",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I'd rather you _ now than later. with answer: left",
+        "expected": "Distractor: leave, had left, leaving",
+        "predicted": "Distractor: leaving, is leaving, will leave",
+        "expected_list": [
+            "leave",
+            "had left",
+            "leaving"
+        ],
+        "predicted_list": [
+            "leaving",
+            "is leaving",
+            "will leave"
+        ],
+        "correct_answer": "left",
+        "bleu_score": 0.0725,
+        "rough_score": 0.2
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: You had better _ your homework now. with answer: finish",
+        "expected": "Distractor: finished, finishing, to finish",
+        "predicted": "Distractor: finishing, finishes <fallback>",
+        "expected_list": [
+            "finished",
+            "finishing",
+            "to finish"
+        ],
+        "predicted_list": [
+            "finishing",
+            "finishes"
+        ],
+        "correct_answer": "finish",
+        "bleu_score": 0.041,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The movie was more _ than I expected. with answer: entertaining",
+        "expected": "Distractor: entertain, entertainment, entertained",
+        "predicted": "Distractor: entertain, entertains, entertainment",
+        "expected_list": [
+            "entertain",
+            "entertainment",
+            "entertained"
+        ],
+        "predicted_list": [
+            "entertain",
+            "entertains",
+            "entertainment"
+        ],
+        "correct_answer": "entertaining",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I wish you _ so impatient all the time. with answer: weren't",
+        "expected": "Distractor: aren't, wasn't, won't be",
+        "predicted": "Distractor: was, wasn't, weren\u2019",
+        "expected_list": [
+            "aren't",
+            "wasn't",
+            "won't be"
+        ],
+        "predicted_list": [
+            "was",
+            "wasn't",
+            "weren\u2019"
+        ],
+        "correct_answer": "weren't",
+        "bleu_score": 0.0725,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I'm tired _ waiting for the bus. with answer: of",
+        "expected": "Distractor: with, at, on",
+        "predicted": "Distractor: in, to, on",
+        "expected_list": [
+            "with",
+            "at",
+            "on"
+        ],
+        "predicted_list": [
+            "in",
+            "to",
+            "on"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They will _ the proposal tomorrow after considering all the feedback. with answer: finalize",
+        "expected": "Distractor: finalized, finalizing, finalizes",
+        "predicted": "Distractor: finalizing, finalise <fallback>",
+        "expected_list": [
+            "finalized",
+            "finalizing",
+            "finalizes"
+        ],
+        "predicted_list": [
+            "finalizing",
+            "finalise"
+        ],
+        "correct_answer": "finalize",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She asked me if I _ to the party. with answer: was going",
+        "expected": "Distractor: am going, go, gone",
+        "predicted": "Distractor: goes, going, went",
+        "expected_list": [
+            "am going",
+            "go",
+            "gone"
+        ],
+        "predicted_list": [
+            "goes",
+            "going",
+            "went"
+        ],
+        "correct_answer": "was going",
+        "bleu_score": 0,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: _ he arrive late again, he'll be dismissed. with answer: Should",
+        "expected": "Distractor: Had, If, Was",
+        "predicted": "Distractor: Shouldness, Toten <fallback>",
+        "expected_list": [
+            "Had",
+            "If",
+            "Was"
+        ],
+        "predicted_list": [
+            "Shouldness",
+            "Toten"
+        ],
+        "correct_answer": "Should",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She was _ when she received the news of her promotion. with answer: overjoyed",
+        "expected": "Distractor: sad, disappointed, indifferent",
+        "predicted": "Distractor: jumped, superjointed, irritating",
+        "expected_list": [
+            "sad",
+            "disappointed",
+            "indifferent"
+        ],
+        "predicted_list": [
+            "jumped",
+            "superjointed",
+            "irritating"
+        ],
+        "correct_answer": "overjoyed",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Not only _ the report finished, but it was also detailed and thorough. with answer: was",
+        "expected": "Distractor: is, were, be",
+        "predicted": "Distractor: are, be <fallback>",
+        "expected_list": [
+            "is",
+            "were",
+            "be"
+        ],
+        "predicted_list": [
+            "are",
+            "be"
+        ],
+        "correct_answer": "was",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: It is important to _ a healthy lifestyle. with answer: maintain",
+        "expected": "Distractor: contain, entertain, sustain",
+        "predicted": "Distractor: protect, preserve <fallback>",
+        "expected_list": [
+            "contain",
+            "entertain",
+            "sustain"
+        ],
+        "predicted_list": [
+            "protect",
+            "preserve"
+        ],
+        "correct_answer": "maintain",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: You must apologize _ being rude. with answer: for",
+        "expected": "Distractor: at, on, in",
+        "predicted": "Distractor: to, in, by",
+        "expected_list": [
+            "at",
+            "on",
+            "in"
+        ],
+        "predicted_list": [
+            "to",
+            "in",
+            "by"
+        ],
+        "correct_answer": "for",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The novel, _ was published in 1950, is still popular today. with answer: which",
+        "expected": "Distractor: that, who, where",
+        "predicted": "Distractor: who, whom, where",
+        "expected_list": [
+            "that",
+            "who",
+            "where"
+        ],
+        "predicted_list": [
+            "who",
+            "whom",
+            "where"
+        ],
+        "correct_answer": "which",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He tried to _ the broken machine. with answer: repair",
+        "expected": "Distractor: replay, repaint, rebuild",
+        "predicted": "Distractor: try, reverse, reconstruct",
+        "expected_list": [
+            "replay",
+            "repaint",
+            "rebuild"
+        ],
+        "predicted_list": [
+            "try",
+            "reverse",
+            "reconstruct"
+        ],
+        "correct_answer": "repair",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of his remarks made everyone uncomfortable. with answer: harshness",
+        "expected": "Distractor: softness, gentleness, politeness",
+        "predicted": "Distractor: cruelness, harsher, severely",
+        "expected_list": [
+            "softness",
+            "gentleness",
+            "politeness"
+        ],
+        "predicted_list": [
+            "cruelness",
+            "harsher",
+            "severely"
+        ],
+        "correct_answer": "harshness",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They acted as though they _ the owners. with answer: were",
+        "expected": "Distractor: are, was, been",
+        "predicted": "Distractor: was, being <fallback>",
+        "expected_list": [
+            "are",
+            "was",
+            "been"
+        ],
+        "predicted_list": [
+            "was",
+            "being"
+        ],
+        "correct_answer": "were",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The meeting was _ due to bad weather. with answer: canceled",
+        "expected": "Distractor: counseled, channeled, candled",
+        "predicted": "Distractor: cancel, cancelling, canceling",
+        "expected_list": [
+            "counseled",
+            "channeled",
+            "candled"
+        ],
+        "predicted_list": [
+            "cancel",
+            "cancelling",
+            "canceling"
+        ],
+        "correct_answer": "canceled",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She managed _ the task on time. with answer: to finish",
+        "expected": "Distractor: finish, finishing, finished",
+        "predicted": "Distractor: at finish, finishing, finishes",
+        "expected_list": [
+            "finish",
+            "finishing",
+            "finished"
+        ],
+        "predicted_list": [
+            "at finish",
+            "finishing",
+            "finishes"
+        ],
+        "correct_answer": "to finish",
+        "bleu_score": 0.0725,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She always speaks _ about her team. with answer: highly",
+        "expected": "Distractor: high, higher, height",
+        "predicted": "Distractor: laud, utterly, like",
+        "expected_list": [
+            "high",
+            "higher",
+            "height"
+        ],
+        "predicted_list": [
+            "laud",
+            "utterly",
+            "like"
+        ],
+        "correct_answer": "highly",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: A: I heard you're moving to a new city. B: Yes, I _ in the city center next week. with answer: am moving",
+        "expected": "Distractor: moved, move, moving",
+        "predicted": "Distractor: was moving, is moving, has moved",
+        "expected_list": [
+            "moved",
+            "move",
+            "moving"
+        ],
+        "predicted_list": [
+            "was moving",
+            "is moving",
+            "has moved"
+        ],
+        "correct_answer": "am moving",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: There was a long period of _ after the meeting. with answer: silence",
+        "expected": "Distractor: silent, silently, silenced",
+        "predicted": "Distractor: silent, silenced, silently",
+        "expected_list": [
+            "silent",
+            "silently",
+            "silenced"
+        ],
+        "predicted_list": [
+            "silent",
+            "silenced",
+            "silently"
+        ],
+        "correct_answer": "silence",
+        "bleu_score": 0.0954,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: A: I haven't seen you around much lately. B: I _ traveling for work, but I'm back now. with answer: was",
+        "expected": "Distractor: am, have been, were",
+        "predicted": "Distractor: were, isn't, been",
+        "expected_list": [
+            "am",
+            "have been",
+            "were"
+        ],
+        "predicted_list": [
+            "were",
+            "isn't",
+            "been"
+        ],
+        "correct_answer": "was",
+        "bleu_score": 0.0725,
+        "rough_score": 0.2
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He could have been more _ with his words, as it hurt her feelings. with answer: considerate",
+        "expected": "Distractor: consider, considering, considered",
+        "predicted": "Distractor: transparent, sensing, perplex",
+        "expected_list": [
+            "consider",
+            "considering",
+            "considered"
+        ],
+        "predicted_list": [
+            "transparent",
+            "sensing",
+            "perplex"
+        ],
+        "correct_answer": "considerate",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher will _ the results next week. with answer: announce",
+        "expected": "Distractor: denounce, pronounce, renounce",
+        "predicted": "Distractor: admit, recite, declare",
+        "expected_list": [
+            "denounce",
+            "pronounce",
+            "renounce"
+        ],
+        "predicted_list": [
+            "admit",
+            "recite",
+            "declare"
+        ],
+        "correct_answer": "announce",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: It is required that each applicant _ the form. with answer: complete",
+        "expected": "Distractor: completes, completed, completing",
+        "predicted": "Distractor: completed, of <fallback>",
+        "expected_list": [
+            "completes",
+            "completed",
+            "completing"
+        ],
+        "predicted_list": [
+            "completed",
+            "of"
+        ],
+        "correct_answer": "complete",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: John was absent _ school yesterday. with answer: from",
+        "expected": "Distractor: at, in, to",
+        "predicted": "Distractor: to, at, for",
+        "expected_list": [
+            "at",
+            "in",
+            "to"
+        ],
+        "predicted_list": [
+            "to",
+            "at",
+            "for"
+        ],
+        "correct_answer": "from",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She showed remarkable _ during the rescue. with answer: courage",
+        "expected": "Distractor: courageous, courageously, encourage",
+        "predicted": "Distractor: courageous, couraged <fallback>",
+        "expected_list": [
+            "courageous",
+            "courageously",
+            "encourage"
+        ],
+        "predicted_list": [
+            "courageous",
+            "couraged"
+        ],
+        "correct_answer": "courage",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I wish he _ more open to feedback. with answer: were",
+        "expected": "Distractor: was, is, has been",
+        "predicted": "Distractor: was, would be, be",
+        "expected_list": [
+            "was",
+            "is",
+            "has been"
+        ],
+        "predicted_list": [
+            "was",
+            "would be",
+            "be"
+        ],
+        "correct_answer": "were",
+        "bleu_score": 0.0725,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Please _ your seat belts before takeoff. with answer: fasten",
+        "expected": "Distractor: hasten, loosen, tighten",
+        "predicted": "Distractor: fix, fixed <fallback>",
+        "expected_list": [
+            "hasten",
+            "loosen",
+            "tighten"
+        ],
+        "predicted_list": [
+            "fix",
+            "fixed"
+        ],
+        "correct_answer": "fasten",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Her writing is always _ and precise. with answer: concise",
+        "expected": "Distractor: concision, concisely, concisiveness",
+        "predicted": "Distractor: condens, conciseness, concisely",
+        "expected_list": [
+            "concision",
+            "concisely",
+            "concisiveness"
+        ],
+        "predicted_list": [
+            "condens",
+            "conciseness",
+            "concisely"
+        ],
+        "correct_answer": "concise",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The company's success is largely _ to innovation. with answer: attributed",
+        "expected": "Distractor: attribute, attributing, attributive",
+        "predicted": "Distractor: inspect, assigning, assigns",
+        "expected_list": [
+            "attribute",
+            "attributing",
+            "attributive"
+        ],
+        "predicted_list": [
+            "inspect",
+            "assigning",
+            "assigns"
+        ],
+        "correct_answer": "attributed",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of the new product launch was carefully planned by the marketing team. with answer: strategy",
+        "expected": "Distractor: strategic, strategist, strategizing",
+        "predicted": "Distractor: strategies, strategyed, strategic",
+        "expected_list": [
+            "strategic",
+            "strategist",
+            "strategizing"
+        ],
+        "predicted_list": [
+            "strategies",
+            "strategyed",
+            "strategic"
+        ],
+        "correct_answer": "strategy",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He _ his homework before dinner. with answer: finished",
+        "expected": "Distractor: finish, finishing, finishes",
+        "predicted": "Distractor: finish, finishing, finishes",
+        "expected_list": [
+            "finish",
+            "finishing",
+            "finishes"
+        ],
+        "predicted_list": [
+            "finish",
+            "finishing",
+            "finishes"
+        ],
+        "correct_answer": "finished",
+        "bleu_score": 0.5757,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The company wants to _ its profits by cutting costs. with answer: increase",
+        "expected": "Distractor: decrease, release, replace",
+        "predicted": "Distractor: regain, augment, steward",
+        "expected_list": [
+            "decrease",
+            "release",
+            "replace"
+        ],
+        "predicted_list": [
+            "regain",
+            "augment",
+            "steward"
+        ],
+        "correct_answer": "increase",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They _ to a new city last year. with answer: moved",
+        "expected": "Distractor: move, moving, mover",
+        "predicted": "Distractor: shifted, moving <fallback>",
+        "expected_list": [
+            "move",
+            "moving",
+            "mover"
+        ],
+        "predicted_list": [
+            "shifted",
+            "moving"
+        ],
+        "correct_answer": "moved",
+        "bleu_score": 0.041,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I'm looking forward to _ from you. with answer: hearing",
+        "expected": "Distractor: hear, heard, hears",
+        "predicted": "Distractor: heard, to hear <fallback>",
+        "expected_list": [
+            "hear",
+            "heard",
+            "hears"
+        ],
+        "predicted_list": [
+            "heard",
+            "to hear"
+        ],
+        "correct_answer": "hearing",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The company will _ a new marketing strategy. with answer: implement",
+        "expected": "Distractor: impress, impede, imply",
+        "predicted": "Distractor: enforce, maintain, suspend",
+        "expected_list": [
+            "impress",
+            "impede",
+            "imply"
+        ],
+        "predicted_list": [
+            "enforce",
+            "maintain",
+            "suspend"
+        ],
+        "correct_answer": "implement",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She is married _ a famous actor. with answer: to",
+        "expected": "Distractor: with, by, at",
+        "predicted": "Distractor: at, for, with",
+        "expected_list": [
+            "with",
+            "by",
+            "at"
+        ],
+        "predicted_list": [
+            "at",
+            "for",
+            "with"
+        ],
+        "correct_answer": "to",
+        "bleu_score": 0.0862,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He didn't _ the answer during the test. with answer: know",
+        "expected": "Distractor: knew, knows, knowing",
+        "predicted": "Distractor: understands, knew <fallback>",
+        "expected_list": [
+            "knew",
+            "knows",
+            "knowing"
+        ],
+        "predicted_list": [
+            "understands",
+            "knew"
+        ],
+        "correct_answer": "know",
+        "bleu_score": 0.041,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The deadline was approaching, _ the team worked overtime to ensure everything was finished. with answer: so",
+        "expected": "Distractor: and, but, because",
+        "predicted": "Distractor: to, of, doing",
+        "expected_list": [
+            "and",
+            "but",
+            "because"
+        ],
+        "predicted_list": [
+            "to",
+            "of",
+            "doing"
+        ],
+        "correct_answer": "so",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She suggested that we _ the train. with answer: take",
+        "expected": "Distractor: took, takes, taking",
+        "predicted": "Distractor: be, must, become",
+        "expected_list": [
+            "took",
+            "takes",
+            "taking"
+        ],
+        "predicted_list": [
+            "be",
+            "must",
+            "become"
+        ],
+        "correct_answer": "take",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She has been living here _ 2010. with answer: since",
+        "expected": "Distractor: for, in, on",
+        "predicted": "Distractor: to, at, with",
+        "expected_list": [
+            "for",
+            "in",
+            "on"
+        ],
+        "predicted_list": [
+            "to",
+            "at",
+            "with"
+        ],
+        "correct_answer": "since",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher asked the students to _ their answers carefully. with answer: review",
+        "expected": "Distractor: revise, relive, relieve",
+        "predicted": "Distractor: reviewed, reviewing, evaluating",
+        "expected_list": [
+            "revise",
+            "relive",
+            "relieve"
+        ],
+        "predicted_list": [
+            "reviewed",
+            "reviewing",
+            "evaluating"
+        ],
+        "correct_answer": "review",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of the meeting was to discuss the project's future. with answer: purpose",
+        "expected": "Distractor: purposes, purposed, purposing",
+        "predicted": "Distractor: finalities, aims, purposed",
+        "expected_list": [
+            "purposes",
+            "purposed",
+            "purposing"
+        ],
+        "predicted_list": [
+            "finalities",
+            "aims",
+            "purposed"
+        ],
+        "correct_answer": "purpose",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The director wanted to _ the entire cast before filming. with answer: assemble",
+        "expected": "Distractor: resemble, tremble, disable",
+        "predicted": "Distractor: combine, assembled, assembly",
+        "expected_list": [
+            "resemble",
+            "tremble",
+            "disable"
+        ],
+        "predicted_list": [
+            "combine",
+            "assembled",
+            "assembly"
+        ],
+        "correct_answer": "assemble",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: No one can deny the _ of her achievements. with answer: significance",
+        "expected": "Distractor: significant, signify, signing",
+        "predicted": "Distractor: understand, understanding, understood",
+        "expected_list": [
+            "significant",
+            "signify",
+            "signing"
+        ],
+        "predicted_list": [
+            "understand",
+            "understanding",
+            "understood"
+        ],
+        "correct_answer": "significance",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I am _ by the way they handled the situation; it could have been dealt with more professionally. with answer: disappointed",
+        "expected": "Distractor: disappoint, disappointing, disappoints",
+        "predicted": "Distractor: disappointedly, is disappointed <fallback>",
+        "expected_list": [
+            "disappoint",
+            "disappointing",
+            "disappoints"
+        ],
+        "predicted_list": [
+            "disappointedly",
+            "is disappointed"
+        ],
+        "correct_answer": "disappointed",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher was pleased with her students' _. with answer: progress",
+        "expected": "Distractor: progressive, progressing, progressed",
+        "predicted": "Distractor: progressing, making <fallback>",
+        "expected_list": [
+            "progressive",
+            "progressing",
+            "progressed"
+        ],
+        "predicted_list": [
+            "progressing",
+            "making"
+        ],
+        "correct_answer": "progress",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She made a _ impression on her boss. with answer: favorable",
+        "expected": "Distractor: favor, favorably, favored",
+        "predicted": "Distractor: positivity, comfort, acceptance",
+        "expected_list": [
+            "favor",
+            "favorably",
+            "favored"
+        ],
+        "predicted_list": [
+            "positivity",
+            "comfort",
+            "acceptance"
+        ],
+        "correct_answer": "favorable",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The coach insisted that he _ harder. with answer: train",
+        "expected": "Distractor: trains, trained, training",
+        "predicted": "Distractor: trains <fallback>",
+        "expected_list": [
+            "trains",
+            "trained",
+            "training"
+        ],
+        "predicted_list": [
+            "trains"
+        ],
+        "correct_answer": "train",
+        "bleu_score": 0.1353,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The plan was rejected because it was _. with answer: unrealistic",
+        "expected": "Distractor: realistic, idealistic, artistic",
+        "predicted": "Distractor: unrealisticly, unrealistically <fallback>",
+        "expected_list": [
+            "realistic",
+            "idealistic",
+            "artistic"
+        ],
+        "predicted_list": [
+            "unrealisticly",
+            "unrealistically"
+        ],
+        "correct_answer": "unrealistic",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We wish the instructions _ clearer. with answer: were",
+        "expected": "Distractor: are, would be, have been",
+        "predicted": "Distractor: is, have been, would be",
+        "expected_list": [
+            "are",
+            "would be",
+            "have been"
+        ],
+        "predicted_list": [
+            "is",
+            "have been",
+            "would be"
+        ],
+        "correct_answer": "were",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She asked that he _ quietly. with answer: speak",
+        "expected": "Distractor: speaks, spoke, speaking",
+        "predicted": "Distractor: talk, talking, chatting",
+        "expected_list": [
+            "speaks",
+            "spoke",
+            "speaking"
+        ],
+        "predicted_list": [
+            "talk",
+            "talking",
+            "chatting"
+        ],
+        "correct_answer": "speak",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She is fluent _ three languages. with answer: in",
+        "expected": "Distractor: at, on, to",
+        "predicted": "Distractor: at, by <fallback>",
+        "expected_list": [
+            "at",
+            "on",
+            "to"
+        ],
+        "predicted_list": [
+            "at",
+            "by"
+        ],
+        "correct_answer": "in",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He was _ when he realized that he had missed the deadline for the final submission. with answer: devastated",
+        "expected": "Distractor: devastate, devastating, devastates",
+        "predicted": "Distractor: destructive, devastating, d\u00e9moralize",
+        "expected_list": [
+            "devastate",
+            "devastating",
+            "devastates"
+        ],
+        "predicted_list": [
+            "destructive",
+            "devastating",
+            "d\u00e9moralize"
+        ],
+        "correct_answer": "devastated",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I _ I had taken that job offer, as the one I accepted doesn't pay as well. with answer: wish",
+        "expected": "Distractor: wished, wishing, wishful",
+        "predicted": "Distractor: wished, wishing, wishful",
+        "expected_list": [
+            "wished",
+            "wishing",
+            "wishful"
+        ],
+        "predicted_list": [
+            "wished",
+            "wishing",
+            "wishful"
+        ],
+        "correct_answer": "wish",
+        "bleu_score": 0.5757,
+        "rough_score": 1.0
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We need to _ more information before deciding. with answer: gather",
+        "expected": "Distractor: bother, feather, lather",
+        "predicted": "Distractor: gathering, collect <fallback>",
+        "expected_list": [
+            "bother",
+            "feather",
+            "lather"
+        ],
+        "predicted_list": [
+            "gathering",
+            "collect"
+        ],
+        "correct_answer": "gather",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of pollution is a major concern. with answer: increase",
+        "expected": "Distractor: increasing, increased, increases",
+        "predicted": "Distractor: eat, swallow, move",
+        "expected_list": [
+            "increasing",
+            "increased",
+            "increases"
+        ],
+        "predicted_list": [
+            "eat",
+            "swallow",
+            "move"
+        ],
+        "correct_answer": "increase",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher told the students _ their homework. with answer: to submit",
+        "expected": "Distractor: submit, submitting, submitted",
+        "predicted": "Distractor: submission, submitting, submits",
+        "expected_list": [
+            "submit",
+            "submitting",
+            "submitted"
+        ],
+        "predicted_list": [
+            "submission",
+            "submitting",
+            "submits"
+        ],
+        "correct_answer": "to submit",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The results were _ than we predicted. with answer: better",
+        "expected": "Distractor: more good, good, best",
+        "predicted": "Distractor: nicer, worse <fallback>",
+        "expected_list": [
+            "more good",
+            "good",
+            "best"
+        ],
+        "predicted_list": [
+            "nicer",
+            "worse"
+        ],
+        "correct_answer": "better",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: If I _ more money, I would buy a bigger house. with answer: had",
+        "expected": "Distractor: have, has, having",
+        "predicted": "Distractor: has, would have, have",
+        "expected_list": [
+            "have",
+            "has",
+            "having"
+        ],
+        "predicted_list": [
+            "has",
+            "would have",
+            "have"
+        ],
+        "correct_answer": "had",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She was afraid _ missing the bus. with answer: of",
+        "expected": "Distractor: for, to, at",
+        "predicted": "Distractor: at, on, from",
+        "expected_list": [
+            "for",
+            "to",
+            "at"
+        ],
+        "predicted_list": [
+            "at",
+            "on",
+            "from"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We congratulated him _ his success. with answer: on",
+        "expected": "Distractor: at, to, for",
+        "predicted": "Distractor: to, at, of",
+        "expected_list": [
+            "at",
+            "to",
+            "for"
+        ],
+        "predicted_list": [
+            "to",
+            "at",
+            "of"
+        ],
+        "correct_answer": "on",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of the event was due to poor planning. with answer: failure",
+        "expected": "Distractor: fail, failing, failed",
+        "predicted": "Distractor: fail, failed, failures",
+        "expected_list": [
+            "fail",
+            "failing",
+            "failed"
+        ],
+        "predicted_list": [
+            "fail",
+            "failed",
+            "failures"
+        ],
+        "correct_answer": "failure",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We admired her _ in facing challenges. with answer: bravery",
+        "expected": "Distractor: brave, bravely, braving",
+        "predicted": "Distractor: brave, braveness <fallback>",
+        "expected_list": [
+            "brave",
+            "bravely",
+            "braving"
+        ],
+        "predicted_list": [
+            "brave",
+            "braveness"
+        ],
+        "correct_answer": "bravery",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: You shouldn't give _ so easily. with answer: up",
+        "expected": "Distractor: in, on, out",
+        "predicted": "Distractor: for, at, to",
+        "expected_list": [
+            "in",
+            "on",
+            "out"
+        ],
+        "predicted_list": [
+            "for",
+            "at",
+            "to"
+        ],
+        "correct_answer": "up",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: It's no use _ over spilled milk. with answer: crying",
+        "expected": "Distractor: cry, cries, to cry",
+        "predicted": "Distractor: cringe, cries, cry",
+        "expected_list": [
+            "cry",
+            "cries",
+            "to cry"
+        ],
+        "predicted_list": [
+            "cringe",
+            "cries",
+            "cry"
+        ],
+        "correct_answer": "crying",
+        "bleu_score": 0.0862,
+        "rough_score": 0.6
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She was _ to see the results of her hard work reflected in the success of the project. with answer: pleased",
+        "expected": "Distractor: pleases, please, pleasing",
+        "predicted": "Distractor: happy, satire, satisfaction",
+        "expected_list": [
+            "pleases",
+            "please",
+            "pleasing"
+        ],
+        "predicted_list": [
+            "happy",
+            "satire",
+            "satisfaction"
+        ],
+        "correct_answer": "pleased",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She was _ after receiving positive feedback from her manager about the project she completed. with answer: pleased",
+        "expected": "Distractor: please, pleasing, pleasedly",
+        "predicted": "Distractor: amaz, pleased with, satisfaction",
+        "expected_list": [
+            "please",
+            "pleasing",
+            "pleasedly"
+        ],
+        "predicted_list": [
+            "amaz",
+            "pleased with",
+            "satisfaction"
+        ],
+        "correct_answer": "pleased",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They moved to the city in _ of better opportunities. with answer: search",
+        "expected": "Distractor: seek, seeking, sought",
+        "predicted": "Distractor: look, looking, searched",
+        "expected_list": [
+            "seek",
+            "seeking",
+            "sought"
+        ],
+        "predicted_list": [
+            "look",
+            "looking",
+            "searched"
+        ],
+        "correct_answer": "search",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The museum _ exhibits ancient artifacts is closed today. with answer: that",
+        "expected": "Distractor: who, whose, where",
+        "predicted": "Distractor: which, how <fallback>",
+        "expected_list": [
+            "who",
+            "whose",
+            "where"
+        ],
+        "predicted_list": [
+            "which",
+            "how"
+        ],
+        "correct_answer": "that",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: _ to offend anyone, she said both cakes were equally good. with answer: Not wanting",
+        "expected": "Distractor: As not wanting, She didn't want, Because not wanting",
+        "predicted": "Distractor: I was not wanting, wishing, going",
+        "expected_list": [
+            "As not wanting",
+            "She didn't want",
+            "Because not wanting"
+        ],
+        "predicted_list": [
+            "I was not wanting",
+            "wishing",
+            "going"
+        ],
+        "correct_answer": "Not wanting",
+        "bleu_score": 0,
+        "rough_score": 0.3333
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: _ we have more time, we could finish everything. with answer: Were",
+        "expected": "Distractor: If, Had, Have",
+        "predicted": "Distractor: Have, has been, are",
+        "expected_list": [
+            "If",
+            "Had",
+            "Have"
+        ],
+        "predicted_list": [
+            "Have",
+            "has been",
+            "are"
+        ],
+        "correct_answer": "Were",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He _ his homework already. with answer: has finished",
+        "expected": "Distractor: have finished, had finished, finishing",
+        "predicted": "Distractor: finishes, has completed, finished",
+        "expected_list": [
+            "have finished",
+            "had finished",
+            "finishing"
+        ],
+        "predicted_list": [
+            "finishes",
+            "has completed",
+            "finished"
+        ],
+        "correct_answer": "has finished",
+        "bleu_score": 0,
+        "rough_score": 0.2
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He is accused _ stealing the wallet. with answer: of",
+        "expected": "Distractor: for, to, at",
+        "predicted": "Distractor: for, by, at",
+        "expected_list": [
+            "for",
+            "to",
+            "at"
+        ],
+        "predicted_list": [
+            "for",
+            "by",
+            "at"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I wish I _ how to fix this computer issue. with answer: knew",
+        "expected": "Distractor: know, had known, was knowing",
+        "predicted": "Distractor: whose, was <fallback>",
+        "expected_list": [
+            "know",
+            "had known",
+            "was knowing"
+        ],
+        "predicted_list": [
+            "whose",
+            "was"
+        ],
+        "correct_answer": "knew",
+        "bleu_score": 0,
+        "rough_score": 0.3333
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: If she _ here, she would explain. with answer: were",
+        "expected": "Distractor: is, was, been",
+        "predicted": "Distractor: was, are, would be",
+        "expected_list": [
+            "is",
+            "was",
+            "been"
+        ],
+        "predicted_list": [
+            "was",
+            "are",
+            "would be"
+        ],
+        "correct_answer": "were",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: His _ behavior caused a lot of tension in the office. with answer: aggressive",
+        "expected": "Distractor: calm, friendly, kind",
+        "predicted": "Distractor: aggressively, aggressiveness <fallback>",
+        "expected_list": [
+            "calm",
+            "friendly",
+            "kind"
+        ],
+        "predicted_list": [
+            "aggressively",
+            "aggressiveness"
+        ],
+        "correct_answer": "aggressive",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He succeeded _ finding the missing file. with answer: in",
+        "expected": "Distractor: at, on, to",
+        "predicted": "Distractor: on, to, at",
+        "expected_list": [
+            "at",
+            "on",
+            "to"
+        ],
+        "predicted_list": [
+            "on",
+            "to",
+            "at"
+        ],
+        "correct_answer": "in",
+        "bleu_score": 0.2344,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The museum displays _ artifacts from ancient times. with answer: valuable",
+        "expected": "Distractor: value, valuation, valuate",
+        "predicted": "Distractor: worth, valuables, cherished",
+        "expected_list": [
+            "value",
+            "valuation",
+            "valuate"
+        ],
+        "predicted_list": [
+            "worth",
+            "valuables",
+            "cherished"
+        ],
+        "correct_answer": "valuable",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: By the end of the day, I was completely _. with answer: exhausted",
+        "expected": "Distractor: exhausting, exhaust, exhausts",
+        "predicted": "Distractor:  <fallback>",
+        "expected_list": [
+            "exhausting",
+            "exhaust",
+            "exhausts"
+        ],
+        "predicted_list": [],
+        "correct_answer": "exhausted",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He bought _ new car yesterday. with answer: a",
+        "expected": "Distractor: an, some, the",
+        "predicted": "Distractor: on, with <fallback>",
+        "expected_list": [
+            "an",
+            "some",
+            "the"
+        ],
+        "predicted_list": [
+            "on",
+            "with"
+        ],
+        "correct_answer": "a",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher requires that each student _ a journal. with answer: keep",
+        "expected": "Distractor: keeps, kept, keeping",
+        "predicted": "Distractor: keeps, preserving, has kept",
+        "expected_list": [
+            "keeps",
+            "kept",
+            "keeping"
+        ],
+        "predicted_list": [
+            "keeps",
+            "preserving",
+            "has kept"
+        ],
+        "correct_answer": "keep",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The application must be filled out _. with answer: accurately",
+        "expected": "Distractor: accuracy, accurate, accurateness",
+        "predicted": "Distractor: correct, accurate, exactness",
+        "expected_list": [
+            "accuracy",
+            "accurate",
+            "accurateness"
+        ],
+        "predicted_list": [
+            "correct",
+            "accurate",
+            "exactness"
+        ],
+        "correct_answer": "accurately",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: His _ to detail impressed the judges. with answer: attention",
+        "expected": "Distractor: attend, attended, attending",
+        "predicted": "Distractor: attentive, attentiveness, attentions",
+        "expected_list": [
+            "attend",
+            "attended",
+            "attending"
+        ],
+        "predicted_list": [
+            "attentive",
+            "attentiveness",
+            "attentions"
+        ],
+        "correct_answer": "attention",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She arrived early so that she could _ a good seat. with answer: get",
+        "expected": "Distractor: got, getting, gets",
+        "predicted": "Distractor: had, being <fallback>",
+        "expected_list": [
+            "got",
+            "getting",
+            "gets"
+        ],
+        "predicted_list": [
+            "had",
+            "being"
+        ],
+        "correct_answer": "get",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: There is no use _ him again. with answer: asking",
+        "expected": "Distractor: ask, to ask, asked",
+        "predicted": "Distractor: ask, i asked, calling",
+        "expected_list": [
+            "ask",
+            "to ask",
+            "asked"
+        ],
+        "predicted_list": [
+            "ask",
+            "i asked",
+            "calling"
+        ],
+        "correct_answer": "asking",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The team worked _ to complete the project. with answer: diligently",
+        "expected": "Distractor: diligent, diligence, diligency",
+        "predicted": "Distractor: diligent, persevered, executing",
+        "expected_list": [
+            "diligent",
+            "diligence",
+            "diligency"
+        ],
+        "predicted_list": [
+            "diligent",
+            "persevered",
+            "executing"
+        ],
+        "correct_answer": "diligently",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The team _ a plan to address the new challenges we're facing. with answer: developed",
+        "expected": "Distractor: develop, developing, develops",
+        "predicted": "Distractor: develop, developed and develop <fallback>",
+        "expected_list": [
+            "develop",
+            "developing",
+            "develops"
+        ],
+        "predicted_list": [
+            "develop",
+            "developed and develop"
+        ],
+        "correct_answer": "developed",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She completed the task _ and efficiently. with answer: accurately",
+        "expected": "Distractor: accuracy, accurate, accuse",
+        "predicted": "Distractor: precise, precisely, executing",
+        "expected_list": [
+            "accuracy",
+            "accurate",
+            "accuse"
+        ],
+        "predicted_list": [
+            "precise",
+            "precisely",
+            "executing"
+        ],
+        "correct_answer": "accurately",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He wishes he _ more confident during the presentation. with answer: had felt",
+        "expected": "Distractor: felt, was feeling, has felt",
+        "predicted": "Distractor: felt, feels, feeling",
+        "expected_list": [
+            "felt",
+            "was feeling",
+            "has felt"
+        ],
+        "predicted_list": [
+            "felt",
+            "feels",
+            "feeling"
+        ],
+        "correct_answer": "had felt",
+        "bleu_score": 0.0725,
+        "rough_score": 0.3333
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The artist _ painting was stolen has not been found. with answer: whose",
+        "expected": "Distractor: who, whom, that",
+        "predicted": "Distractor: who, whom, with",
+        "expected_list": [
+            "who",
+            "whom",
+            "that"
+        ],
+        "predicted_list": [
+            "who",
+            "whom",
+            "with"
+        ],
+        "correct_answer": "whose",
+        "bleu_score": 0.2118,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They have _ here for years. with answer: lived",
+        "expected": "Distractor: live, living, lives",
+        "predicted": "Distractor: live, living <fallback>",
+        "expected_list": [
+            "live",
+            "living",
+            "lives"
+        ],
+        "predicted_list": [
+            "live",
+            "living"
+        ],
+        "correct_answer": "lived",
+        "bleu_score": 0.1343,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of the presentation was well-received by the audience. with answer: content",
+        "expected": "Distractor: containing, contain, contented",
+        "predicted": "Distractor: on, in, at",
+        "expected_list": [
+            "containing",
+            "contain",
+            "contented"
+        ],
+        "predicted_list": [
+            "on",
+            "in",
+            "at"
+        ],
+        "correct_answer": "content",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He has an amazing ability to _ languages quickly. with answer: learn",
+        "expected": "Distractor: learning, learned, learns",
+        "predicted": "Distractor: develop, acquire, operate",
+        "expected_list": [
+            "learning",
+            "learned",
+            "learns"
+        ],
+        "predicted_list": [
+            "develop",
+            "acquire",
+            "operate"
+        ],
+        "correct_answer": "learn",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Neither of them _ coming today. with answer: is",
+        "expected": "Distractor: are, was, were",
+        "predicted": "Distractor: are, was, be",
+        "expected_list": [
+            "are",
+            "was",
+            "were"
+        ],
+        "predicted_list": [
+            "are",
+            "was",
+            "be"
+        ],
+        "correct_answer": "is",
+        "bleu_score": 0.2118,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The manager insisted _ seeing the documents. with answer: on",
+        "expected": "Distractor: in, at, to",
+        "predicted": "Distractor: from, in, to",
+        "expected_list": [
+            "in",
+            "at",
+            "to"
+        ],
+        "predicted_list": [
+            "from",
+            "in",
+            "to"
+        ],
+        "correct_answer": "on",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The company's _ to innovate has led to rapid growth in the market. with answer: commitment",
+        "expected": "Distractor: committed, committing, commits",
+        "predicted": "Distractor: commit, committing, commits",
+        "expected_list": [
+            "committed",
+            "committing",
+            "commits"
+        ],
+        "predicted_list": [
+            "commit",
+            "committing",
+            "commits"
+        ],
+        "correct_answer": "commitment",
+        "bleu_score": 0.2118,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: His _ actions showed that he was fully committed to the project. with answer: dedicated",
+        "expected": "Distractor: dedicating, dedicate, dedicates",
+        "predicted": "Distractor: dedicate, dedicate to, dedicating",
+        "expected_list": [
+            "dedicating",
+            "dedicate",
+            "dedicates"
+        ],
+        "predicted_list": [
+            "dedicate",
+            "dedicate to",
+            "dedicating"
+        ],
+        "correct_answer": "dedicated",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The university will _ a new research center. with answer: establish",
+        "expected": "Distractor: stabilize, abolish, vanish",
+        "predicted": "Distractor: declare, proclaim <fallback>",
+        "expected_list": [
+            "stabilize",
+            "abolish",
+            "vanish"
+        ],
+        "predicted_list": [
+            "declare",
+            "proclaim"
+        ],
+        "correct_answer": "establish",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: By the time we arrived, the movie _ already started. with answer: had",
+        "expected": "Distractor: has, have, having",
+        "predicted": "Distractor: can, has, having",
+        "expected_list": [
+            "has",
+            "have",
+            "having"
+        ],
+        "predicted_list": [
+            "can",
+            "has",
+            "having"
+        ],
+        "correct_answer": "had",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They _ the new product line last month. with answer: launched",
+        "expected": "Distractor: landed, leaned, linked",
+        "predicted": "Distractor: started, starting, launches",
+        "expected_list": [
+            "landed",
+            "leaned",
+            "linked"
+        ],
+        "predicted_list": [
+            "started",
+            "starting",
+            "launches"
+        ],
+        "correct_answer": "launched",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: If I had known, I _ you earlier. with answer: would have called",
+        "expected": "Distractor: will have called, had called, called",
+        "predicted": "Distractor: called, calling, made",
+        "expected_list": [
+            "will have called",
+            "had called",
+            "called"
+        ],
+        "predicted_list": [
+            "called",
+            "calling",
+            "made"
+        ],
+        "correct_answer": "would have called",
+        "bleu_score": 0.0725,
+        "rough_score": 0.3333
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The decision was made after careful _. with answer: consideration",
+        "expected": "Distractor: consider, considered, considering",
+        "predicted": "Distractor: reflect, reacts, viewed",
+        "expected_list": [
+            "consider",
+            "considered",
+            "considering"
+        ],
+        "predicted_list": [
+            "reflect",
+            "reacts",
+            "viewed"
+        ],
+        "correct_answer": "consideration",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She had her house _ last week. with answer: painted",
+        "expected": "Distractor: painting, paint, paints",
+        "predicted": "Distractor: paint, painter <fallback>",
+        "expected_list": [
+            "painting",
+            "paint",
+            "paints"
+        ],
+        "predicted_list": [
+            "paint",
+            "painter"
+        ],
+        "correct_answer": "painted",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They wish they _ the instructions more carefully. with answer: had read",
+        "expected": "Distractor: read, have read, would read",
+        "predicted": "Distractor: reads, would read, reading",
+        "expected_list": [
+            "read",
+            "have read",
+            "would read"
+        ],
+        "predicted_list": [
+            "reads",
+            "would read",
+            "reading"
+        ],
+        "correct_answer": "had read",
+        "bleu_score": 0.0725,
+        "rough_score": 0.6
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The students are interested _ environmental issues. with answer: in",
+        "expected": "Distractor: at, on, to",
+        "predicted": "Distractor: with, on, at",
+        "expected_list": [
+            "at",
+            "on",
+            "to"
+        ],
+        "predicted_list": [
+            "with",
+            "on",
+            "at"
+        ],
+        "correct_answer": "in",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I'm tired _ arguing with you. with answer: of",
+        "expected": "Distractor: with, at, on",
+        "predicted": "Distractor: to, on, for",
+        "expected_list": [
+            "with",
+            "at",
+            "on"
+        ],
+        "predicted_list": [
+            "to",
+            "on",
+            "for"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He acted as if he _ everything. with answer: knew",
+        "expected": "Distractor: knows, had known, know",
+        "predicted": "Distractor: knows, was aware, is unaware",
+        "expected_list": [
+            "knows",
+            "had known",
+            "know"
+        ],
+        "predicted_list": [
+            "knows",
+            "was aware",
+            "is unaware"
+        ],
+        "correct_answer": "knew",
+        "bleu_score": 0.0725,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She won't believe it _ she sees it with her own eyes. with answer: unless",
+        "expected": "Distractor: even if, if not, as long as",
+        "predicted": "Distractor: in case, you cannot get, to have",
+        "expected_list": [
+            "even if",
+            "if not",
+            "as long as"
+        ],
+        "predicted_list": [
+            "in case",
+            "you cannot get",
+            "to have"
+        ],
+        "correct_answer": "unless",
+        "bleu_score": 0,
+        "rough_score": 0.1429
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The presentation was both _ and entertaining. with answer: informative",
+        "expected": "Distractor: information, inform, informatively",
+        "predicted": "Distractor: inform, informing, informed",
+        "expected_list": [
+            "information",
+            "inform",
+            "informatively"
+        ],
+        "predicted_list": [
+            "inform",
+            "informing",
+            "informed"
+        ],
+        "correct_answer": "informative",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They acted as if they _ the house. with answer: owned",
+        "expected": "Distractor: own, have owned, owning",
+        "predicted": "Distractor: has owned, possessing, is owned",
+        "expected_list": [
+            "own",
+            "have owned",
+            "owning"
+        ],
+        "predicted_list": [
+            "has owned",
+            "possessing",
+            "is owned"
+        ],
+        "correct_answer": "owned",
+        "bleu_score": 0,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher _ class I attend is very experienced. with answer: whose",
+        "expected": "Distractor: who, whom, that",
+        "predicted": "Distractor: in whom, that, which",
+        "expected_list": [
+            "who",
+            "whom",
+            "that"
+        ],
+        "predicted_list": [
+            "in whom",
+            "that",
+            "which"
+        ],
+        "correct_answer": "whose",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We were tired _ waiting. with answer: of",
+        "expected": "Distractor: at, to, from",
+        "predicted": "Distractor: to, with, at",
+        "expected_list": [
+            "at",
+            "to",
+            "from"
+        ],
+        "predicted_list": [
+            "to",
+            "with",
+            "at"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The weather is expected to _ tomorrow. with answer: improve",
+        "expected": "Distractor: approve, remove, prove",
+        "predicted": "Distractor: enhance, improving, ameliore",
+        "expected_list": [
+            "approve",
+            "remove",
+            "prove"
+        ],
+        "predicted_list": [
+            "enhance",
+            "improving",
+            "ameliore"
+        ],
+        "correct_answer": "improve",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I wish I _ my keys at home. with answer: hadn't left",
+        "expected": "Distractor: didn't leave, haven't left, wasn't leaving",
+        "predicted": "Distractor: hasn't left, hasn'T left, was going to leave",
+        "expected_list": [
+            "didn't leave",
+            "haven't left",
+            "wasn't leaving"
+        ],
+        "predicted_list": [
+            "hasn't left",
+            "hasn'T left",
+            "was going to leave"
+        ],
+        "correct_answer": "hadn't left",
+        "bleu_score": 0,
+        "rough_score": 0.2857
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher tried to _ the student's interest. with answer: stimulate",
+        "expected": "Distractor: simulate, speculate, populate",
+        "predicted": "Distractor: provoke, force, sway",
+        "expected_list": [
+            "simulate",
+            "speculate",
+            "populate"
+        ],
+        "predicted_list": [
+            "provoke",
+            "force",
+            "sway"
+        ],
+        "correct_answer": "stimulate",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Her _ at solving problems was admired by her peers. with answer: ability",
+        "expected": "Distractor: able, abilities, ablest",
+        "predicted": "Distractor: responsive, effectively, difficult",
+        "expected_list": [
+            "able",
+            "abilities",
+            "ablest"
+        ],
+        "predicted_list": [
+            "responsive",
+            "effectively",
+            "difficult"
+        ],
+        "correct_answer": "ability",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Her presentation was not only _ but also deeply insightful, which impressed the entire audience. with answer: clear",
+        "expected": "Distractor: clearing, clearly, clarifying",
+        "predicted": "Distractor: clarify, clearly, clarity",
+        "expected_list": [
+            "clearing",
+            "clearly",
+            "clarifying"
+        ],
+        "predicted_list": [
+            "clarify",
+            "clearly",
+            "clarity"
+        ],
+        "correct_answer": "clear",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: A: Have you seen the latest report? B: Yes, it _ that we need to improve customer retention. with answer: shows",
+        "expected": "Distractor: show, showing, shown",
+        "predicted": "Distractor: reveals, showing, clearly",
+        "expected_list": [
+            "show",
+            "showing",
+            "shown"
+        ],
+        "predicted_list": [
+            "reveals",
+            "showing",
+            "clearly"
+        ],
+        "correct_answer": "shows",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: He's jealous _ his colleague's promotion. with answer: of",
+        "expected": "Distractor: at, to, in",
+        "predicted": "Distractor: for, and, to",
+        "expected_list": [
+            "at",
+            "to",
+            "in"
+        ],
+        "predicted_list": [
+            "for",
+            "and",
+            "to"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: After the flood, many homes had to be _. with answer: rebuilt",
+        "expected": "Distractor: built, building, builds",
+        "predicted": "Distractor: reproduce, restore, reconstrue",
+        "expected_list": [
+            "built",
+            "building",
+            "builds"
+        ],
+        "predicted_list": [
+            "reproduce",
+            "restore",
+            "reconstrue"
+        ],
+        "correct_answer": "rebuilt",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: There is no _ that she will win. with answer: doubt",
+        "expected": "Distractor: doubting, doubtful, doubted",
+        "predicted": "Distractor: doubts, doubtful <fallback>",
+        "expected_list": [
+            "doubting",
+            "doubtful",
+            "doubted"
+        ],
+        "predicted_list": [
+            "doubts",
+            "doubtful"
+        ],
+        "correct_answer": "doubt",
+        "bleu_score": 0.041,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She apologized to her friend _ her rude behavior. with answer: for",
+        "expected": "Distractor: to, on, of",
+        "predicted": "Distractor: to, of, by",
+        "expected_list": [
+            "to",
+            "on",
+            "of"
+        ],
+        "predicted_list": [
+            "to",
+            "of",
+            "by"
+        ],
+        "correct_answer": "for",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The system will automatically _ your data. with answer: backup",
+        "expected": "Distractor: block up, pick up, pack up",
+        "predicted": "Distractor: record, scan, delete",
+        "expected_list": [
+            "block up",
+            "pick up",
+            "pack up"
+        ],
+        "predicted_list": [
+            "record",
+            "scan",
+            "delete"
+        ],
+        "correct_answer": "backup",
+        "bleu_score": 0,
+        "rough_score": 0.1667
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Please _ your seat before the plane takes off. with answer: fasten",
+        "expected": "Distractor: hasten, loosen, tighten",
+        "predicted": "Distractor: hold, fixed, attache",
+        "expected_list": [
+            "hasten",
+            "loosen",
+            "tighten"
+        ],
+        "predicted_list": [
+            "hold",
+            "fixed",
+            "attache"
+        ],
+        "correct_answer": "fasten",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: By this time next year, we _ in the new house. with answer: will be living",
+        "expected": "Distractor: will live, are living, live",
+        "predicted": "Distractor: live, living, lived",
+        "expected_list": [
+            "will live",
+            "are living",
+            "live"
+        ],
+        "predicted_list": [
+            "live",
+            "living",
+            "lived"
+        ],
+        "correct_answer": "will be living",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of the project exceeded expectations, with the team completing it ahead of schedule and under budget. with answer: outcome",
+        "expected": "Distractor: outcomes, outgoing, outdone",
+        "predicted": "Distractor: results, ending, resulting",
+        "expected_list": [
+            "outcomes",
+            "outgoing",
+            "outdone"
+        ],
+        "predicted_list": [
+            "results",
+            "ending",
+            "resulting"
+        ],
+        "correct_answer": "outcome",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The book _ on the table for two days. with answer: has been",
+        "expected": "Distractor: have been, was, were",
+        "predicted": "Distractor: was, is being, would be",
+        "expected_list": [
+            "have been",
+            "was",
+            "were"
+        ],
+        "predicted_list": [
+            "was",
+            "is being",
+            "would be"
+        ],
+        "correct_answer": "has been",
+        "bleu_score": 0.0725,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: _ you followed the manual, you'd know what to do. with answer: Had",
+        "expected": "Distractor: Should, If, Were",
+        "predicted": "Distractor: Must, Have, Do",
+        "expected_list": [
+            "Should",
+            "If",
+            "Were"
+        ],
+        "predicted_list": [
+            "Must",
+            "Have",
+            "Do"
+        ],
+        "correct_answer": "Had",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The students must _ the library rules. with answer: follow",
+        "expected": "Distractor: flow, fell, fellow",
+        "predicted": "Distractor: to follow, pursuing, through",
+        "expected_list": [
+            "flow",
+            "fell",
+            "fellow"
+        ],
+        "predicted_list": [
+            "to follow",
+            "pursuing",
+            "through"
+        ],
+        "correct_answer": "follow",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: If it rains, we _ stay home. with answer: will",
+        "expected": "Distractor: would, can, shall",
+        "predicted": "Distractor: may, would, should",
+        "expected_list": [
+            "would",
+            "can",
+            "shall"
+        ],
+        "predicted_list": [
+            "may",
+            "would",
+            "should"
+        ],
+        "correct_answer": "will",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: This book is different _ the one you recommended. with answer: from",
+        "expected": "Distractor: to, of, at",
+        "predicted": "Distractor: to, in, with",
+        "expected_list": [
+            "to",
+            "of",
+            "at"
+        ],
+        "predicted_list": [
+            "to",
+            "in",
+            "with"
+        ],
+        "correct_answer": "from",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We would have arrived earlier if we _ a taxi. with answer: had taken",
+        "expected": "Distractor: took, take, taking",
+        "predicted": "Distractor: takes, taken, could take",
+        "expected_list": [
+            "took",
+            "take",
+            "taking"
+        ],
+        "predicted_list": [
+            "takes",
+            "taken",
+            "could take"
+        ],
+        "correct_answer": "had taken",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The new product is expected to _ next month. with answer: launch",
+        "expected": "Distractor: lunch, lean, land",
+        "predicted": "Distractor: begin, launched, starting",
+        "expected_list": [
+            "lunch",
+            "lean",
+            "land"
+        ],
+        "predicted_list": [
+            "begin",
+            "launched",
+            "starting"
+        ],
+        "correct_answer": "launch",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Rather than _ about the problem, he solved it. with answer: complaining",
+        "expected": "Distractor: complain, complained, to complain",
+        "predicted": "Distractor: complain, plainted, disguising",
+        "expected_list": [
+            "complain",
+            "complained",
+            "to complain"
+        ],
+        "predicted_list": [
+            "complain",
+            "plainted",
+            "disguising"
+        ],
+        "correct_answer": "complaining",
+        "bleu_score": 0.0725,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: We traveled _ plane to New York. with answer: by",
+        "expected": "Distractor: on, at, with",
+        "predicted": "Distractor: at, in, of",
+        "expected_list": [
+            "on",
+            "at",
+            "with"
+        ],
+        "predicted_list": [
+            "at",
+            "in",
+            "of"
+        ],
+        "correct_answer": "by",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She was _ by the kindness of the stranger. with answer: moved",
+        "expected": "Distractor: move, moving, moves",
+        "predicted": "Distractor: relocate, relocation, moves",
+        "expected_list": [
+            "move",
+            "moving",
+            "moves"
+        ],
+        "predicted_list": [
+            "relocate",
+            "relocation",
+            "moves"
+        ],
+        "correct_answer": "moved",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They reached an agreement after a long _. with answer: negotiation",
+        "expected": "Distractor: negotiate, negotiated, negotiating",
+        "predicted": "Distractor: negotiate, negociation, negotiations",
+        "expected_list": [
+            "negotiate",
+            "negotiated",
+            "negotiating"
+        ],
+        "predicted_list": [
+            "negotiate",
+            "negociation",
+            "negotiations"
+        ],
+        "correct_answer": "negotiation",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher helped him to _ his writing skills. with answer: improve",
+        "expected": "Distractor: approve, prove, remove",
+        "predicted": "Distractor: read, write, think",
+        "expected_list": [
+            "approve",
+            "prove",
+            "remove"
+        ],
+        "predicted_list": [
+            "read",
+            "write",
+            "think"
+        ],
+        "correct_answer": "improve",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I _ breakfast at 8 AM. with answer: have",
+        "expected": "Distractor: had, having, has",
+        "predicted": "Distractor: had, having <fallback>",
+        "expected_list": [
+            "had",
+            "having",
+            "has"
+        ],
+        "predicted_list": [
+            "had",
+            "having"
+        ],
+        "correct_answer": "have",
+        "bleu_score": 0.1343,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The teacher asked the students to hand _ their assignments. with answer: in",
+        "expected": "Distractor: up, on, over",
+        "predicted": "Distractor: at, with, for",
+        "expected_list": [
+            "up",
+            "on",
+            "over"
+        ],
+        "predicted_list": [
+            "at",
+            "with",
+            "for"
+        ],
+        "correct_answer": "in",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The engineers are working to _ the design. with answer: improve",
+        "expected": "Distractor: approve, remove, involve",
+        "predicted": "Distractor: increase, enhance, expand",
+        "expected_list": [
+            "approve",
+            "remove",
+            "involve"
+        ],
+        "predicted_list": [
+            "increase",
+            "enhance",
+            "expand"
+        ],
+        "correct_answer": "improve",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: They agreed _ meet at noon. with answer: to",
+        "expected": "Distractor: on, at, with",
+        "predicted": "Distractor: at, in <fallback>",
+        "expected_list": [
+            "on",
+            "at",
+            "with"
+        ],
+        "predicted_list": [
+            "at",
+            "in"
+        ],
+        "correct_answer": "to",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She suggested that he _ more carefully. with answer: drive",
+        "expected": "Distractor: drives, drove, driven",
+        "predicted": "Distractor: driving, drives <fallback>",
+        "expected_list": [
+            "drives",
+            "drove",
+            "driven"
+        ],
+        "predicted_list": [
+            "driving",
+            "drives"
+        ],
+        "correct_answer": "drive",
+        "bleu_score": 0.041,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: His latest novel was a _ success. with answer: remarkable",
+        "expected": "Distractor: removable, reliable, replaceable",
+        "predicted": "Distractor: remarkably, superb <fallback>",
+        "expected_list": [
+            "removable",
+            "reliable",
+            "replaceable"
+        ],
+        "predicted_list": [
+            "remarkably",
+            "superb"
+        ],
+        "correct_answer": "remarkable",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I wish I _ more time to spend with my family. with answer: had",
+        "expected": "Distractor: have, will have, would have",
+        "predicted": "Distractor: has, would have, have",
+        "expected_list": [
+            "have",
+            "will have",
+            "would have"
+        ],
+        "predicted_list": [
+            "has",
+            "would have",
+            "have"
+        ],
+        "correct_answer": "had",
+        "bleu_score": 0.0862,
+        "rough_score": 0.8
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I _ we could have finished the project earlier if we had planned better. with answer: wish",
+        "expected": "Distractor: wished, wishing, wishful",
+        "predicted": "Distractor: wished, wishful, wishing",
+        "expected_list": [
+            "wished",
+            "wishing",
+            "wishful"
+        ],
+        "predicted_list": [
+            "wished",
+            "wishful",
+            "wishing"
+        ],
+        "correct_answer": "wish",
+        "bleu_score": 0.0954,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The doctor advised him to _ smoking immediately. with answer: quit",
+        "expected": "Distractor: quiet, quite, quilt",
+        "predicted": "Distractor: abandon, deciding <fallback>",
+        "expected_list": [
+            "quiet",
+            "quite",
+            "quilt"
+        ],
+        "predicted_list": [
+            "abandon",
+            "deciding"
+        ],
+        "correct_answer": "quit",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She's interested _ learning Italian. with answer: in",
+        "expected": "Distractor: on, at, of",
+        "predicted": "Distractor: at, to, on",
+        "expected_list": [
+            "on",
+            "at",
+            "of"
+        ],
+        "predicted_list": [
+            "at",
+            "to",
+            "on"
+        ],
+        "correct_answer": "in",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The bridge _ last year. with answer: was built",
+        "expected": "Distractor: built, has built, was building",
+        "predicted": "Distractor: is built, been constructed, of",
+        "expected_list": [
+            "built",
+            "has built",
+            "was building"
+        ],
+        "predicted_list": [
+            "is built",
+            "been constructed",
+            "of"
+        ],
+        "correct_answer": "was built",
+        "bleu_score": 0,
+        "rough_score": 0.4
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She's always been afraid _ spiders. with answer: of",
+        "expected": "Distractor: with, to, on",
+        "predicted": "Distractor: for, at, to",
+        "expected_list": [
+            "with",
+            "to",
+            "on"
+        ],
+        "predicted_list": [
+            "for",
+            "at",
+            "to"
+        ],
+        "correct_answer": "of",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The book was written _ a famous author, who is known for his detective novels. with answer: by",
+        "expected": "Distractor: from, with, to",
+        "predicted": "Distractor: of, to, at",
+        "expected_list": [
+            "from",
+            "with",
+            "to"
+        ],
+        "predicted_list": [
+            "of",
+            "to",
+            "at"
+        ],
+        "correct_answer": "by",
+        "bleu_score": 0.0725,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: It's important to focus _ your goals. with answer: on",
+        "expected": "Distractor: to, for, in",
+        "predicted": "Distractor: for, of, at",
+        "expected_list": [
+            "to",
+            "for",
+            "in"
+        ],
+        "predicted_list": [
+            "for",
+            "of",
+            "at"
+        ],
+        "correct_answer": "on",
+        "bleu_score": 0.0725,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: I wish I _ about the meeting earlier; I could have prepared better. with answer: had known",
+        "expected": "Distractor: knew, knows, knowing",
+        "predicted": "Distractor: have known, knew, knows",
+        "expected_list": [
+            "knew",
+            "knows",
+            "knowing"
+        ],
+        "predicted_list": [
+            "have known",
+            "knew",
+            "knows"
+        ],
+        "correct_answer": "had known",
+        "bleu_score": 0.2118,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The baby cried _ when the toy was taken away. with answer: loudly",
+        "expected": "Distractor: loud, louder, loudness",
+        "predicted": "Distractor: loud, loudness, too",
+        "expected_list": [
+            "loud",
+            "louder",
+            "loudness"
+        ],
+        "predicted_list": [
+            "loud",
+            "loudness",
+            "too"
+        ],
+        "correct_answer": "loudly",
+        "bleu_score": 0.0862,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She suggested that I _ a lawyer. with answer: consult",
+        "expected": "Distractor: consults, consulted, consulting",
+        "predicted": "Distractor: consults, consultation <fallback>",
+        "expected_list": [
+            "consults",
+            "consulted",
+            "consulting"
+        ],
+        "predicted_list": [
+            "consults",
+            "consultation"
+        ],
+        "correct_answer": "consult",
+        "bleu_score": 0.041,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The lecture was very _ and informative. with answer: interesting",
+        "expected": "Distractor: interest, interested, interests",
+        "predicted": "Distractor: interested, interest, interestedly",
+        "expected_list": [
+            "interest",
+            "interested",
+            "interests"
+        ],
+        "predicted_list": [
+            "interested",
+            "interest",
+            "interestedly"
+        ],
+        "correct_answer": "interesting",
+        "bleu_score": 0.0862,
+        "rough_score": 0.75
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: Water _ at 100 degrees Celsius. with answer: boils",
+        "expected": "Distractor: boil, boiled, boiling",
+        "predicted": "Distractor: boil, boiling, boiled",
+        "expected_list": [
+            "boil",
+            "boiled",
+            "boiling"
+        ],
+        "predicted_list": [
+            "boil",
+            "boiling",
+            "boiled"
+        ],
+        "correct_answer": "boils",
+        "bleu_score": 0.0954,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: A: How did you manage to meet the deadline? B: It wasn't easy, but I _ on a tight schedule and stayed focused. with answer: worked",
+        "expected": "Distractor: work, working, works",
+        "predicted": "Distractor: working, work <fallback>",
+        "expected_list": [
+            "work",
+            "working",
+            "works"
+        ],
+        "predicted_list": [
+            "working",
+            "work"
+        ],
+        "correct_answer": "worked",
+        "bleu_score": 0.0487,
+        "rough_score": 0.5
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The _ of the project was celebrated at the end-of-year gala, with several team members receiving awards for their exceptional work. with answer: completion",
+        "expected": "Distractor: completing, completes, complete",
+        "predicted": "Distractor: complete, completed, completing",
+        "expected_list": [
+            "completing",
+            "completes",
+            "complete"
+        ],
+        "predicted_list": [
+            "complete",
+            "completed",
+            "completing"
+        ],
+        "correct_answer": "completion",
+        "bleu_score": 0.0862,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: The box was _ heavy for me to lift. with answer: too",
+        "expected": "Distractor: so, very, such",
+        "predicted": "Distractor: hardly, barely, about",
+        "expected_list": [
+            "so",
+            "very",
+            "such"
+        ],
+        "predicted_list": [
+            "hardly",
+            "barely",
+            "about"
+        ],
+        "correct_answer": "too",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    },
+    {
+        "input": "Generate 3 distractors no duplicated for question: She has a very _ way of thinking. with answer: logical",
+        "expected": "Distractor: logistic, legendary, legal",
+        "predicted": "Distractor: logic, logician <fallback>",
+        "expected_list": [
+            "logistic",
+            "legendary",
+            "legal"
+        ],
+        "predicted_list": [
+            "logic",
+            "logician"
+        ],
+        "correct_answer": "logical",
+        "bleu_score": 0,
+        "rough_score": 0.25
+    }
+]
