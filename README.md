@@ -1,75 +1,82 @@
-thesis_MQC_Generator
-A Python-based system for generating multiple-choice questions (MCQs) from textual datasets, developed as part of a thesis project.
+# 🧠 MQC Generator – Thesis Project Backend
 
-📘 Overview
-This project focuses on automating the creation of MCQs by extracting answers from source texts and generating plausible distractors. It aims to assist educators and content creators in efficiently producing assessment materials.
+This repository contains the backend system for the MQC (Multiple-choice Question) Generator, developed as part of a thesis project. It focuses on automating the creation of MCQs by extracting answers from source texts and generating plausible distractors.
 
-📂 Project Structure
-extract_answer_models/: Contains models and scripts for extracting potential answers from the dataset.
+## 🚀 Features
 
-distractor_generator/: Includes modules responsible for generating distractor options for each question.
+- **Answer Extraction**: Utilizes pre-trained models to identify key answers within input sentences.
+- **Distractor Generation**: Generates plausible distractors to accompany the correct answer, enhancing the quality of MCQs.
+- **Data Preprocessing**: Includes scripts to clean and prepare datasets for training and evaluation.
+- **Evaluation Tools**: Provides tools to assess the performance of the extraction and generation models.
 
-evaluation_data/: Stores data used for evaluating the quality and effectiveness of the generated MCQs.
+## 🛠️ Tech Stack
 
-original_dataset.json: The primary dataset used as the source for question generation.
+- **Language**: Python
+- **Libraries**: Transformers (Hugging Face), PyTorch, JSON, and others
+- **Models**: Pre-trained models for answer extraction and distractor generation
 
-clean_original_data.py: Script to preprocess and clean the original dataset.
+## 📁 Project Structure
 
-test.py: Script to test the functionalities of the MCQ generation pipeline.
+```
+├── distractor_generator/       # Modules for generating distractors
+├── evaluation_data/            # Data and scripts for model evaluation
+├── extract_answer_models/      # Models and scripts for answer extraction
+├── original_dataset.json       # Original dataset used for training/testing
+├── clean_original_data.py      # Script to clean and preprocess the dataset
+├── test.py                     # Script to test the models
+├── requirements.txt            # Python dependencies
+├── .gitignore                  # Git ignore file
+└── README.md                   # Project documentation
+```
 
-.gitignore: Specifies files and directories to be ignored by Git.
+## 📦 Installation
 
-README.md: Provides an overview and instructions for the project.
+1. **Clone the repository**:
 
-🚀 Getting Started
-Prerequisites
-Python 3.7 or higher
-
-Recommended: Create a virtual environment to manage dependencies.
-
-Installation
-Clone the repository:
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/GiaKhiemVu/thesis_MQC_Generator.git
 cd thesis_MQC_Generator
-Install required dependencies:
+```
 
-bash
-Copy
-Edit
+2. **Create a virtual environment** (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. **Install dependencies**:
+
+```bash
 pip install -r requirements.txt
-Note: Ensure that a requirements.txt file is present. If not, you'll need to manually install the necessary packages.
+```
 
-🛠 Usage
-Preprocess the dataset:
+## 🚴‍♂️ Usage
 
-bash
-Copy
-Edit
+1. **Data Preprocessing**:
+
+```bash
 python clean_original_data.py
-This will clean and prepare the dataset for MCQ generation.
+```
 
-Generate MCQs:
+This script will clean the `original_dataset.json` and prepare it for model training or evaluation.
 
-bash
-Copy
-Edit
-python test.py
-This script will execute the MCQ generation pipeline, producing questions and corresponding distractors.
+2. **Answer Extraction**:
 
-📊 Evaluation
-The evaluation_data/ directory contains tools and datasets to assess the quality of the generated MCQs. This includes metrics for evaluating the relevance and plausibility of distractors, as well as the overall coherence of the questions.
+Navigate to the `extract_answer_models/` directory and follow the instructions provided there to train or test the answer extraction models.
 
-🤝 Contributing
-Contributions are welcome! If you'd like to enhance the functionality, fix bugs, or add new features, please fork the repository and submit a pull request.
+3. **Distractor Generation**:
 
-📄 License
-This project is open-source and available under the MIT License.
+Navigate to the `distractor_generator/` directory and follow the instructions provided there to generate distractors for the extracted answers.
 
-📬 Contact
-For questions, suggestions, or collaborations, please contact Gia Khiem Vu.
+4. **Testing**:
 
-Feel free to customize this README.md further to match the specific details and requirements of your project.
+Use the `test.py` script to run tests on the models and view sample outputs.
+
+## 🧪 Evaluation
+
+The `evaluation_data/` directory contains datasets and scripts to evaluate the performance of the answer extraction and distractor generation models. Follow the instructions within that directory to conduct evaluations and view results.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
