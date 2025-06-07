@@ -2,4 +2,8 @@ distractor_generator/model_final/*
 distractor_generator/model_train/*
 extract_answer_models/model_final/*
 extract_answer_models/model_train/*
+distractor_generator/model_final_base/*
+distractor_generator/model_train_base/*
+__pycache__
+*.pyc
 venv

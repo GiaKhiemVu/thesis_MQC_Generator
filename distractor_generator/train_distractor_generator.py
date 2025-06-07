@@ -15,15 +15,15 @@ for i, d in enumerate(data[:10]):
     print(f"{i+1}. INPUT: {d['input']}")
     print(f"   OUTPUT: {d['output']}")
 
-subset_size = 500
+subset_size = 2000
 data_subset = data[:subset_size]
 
 # Convert to Hugging Face Dataset
 dataset = Dataset.from_list(data_subset)
 split_dataset = dataset.train_test_split(test_size=0.2, seed=42)
 # Load tokenizer and model
-tokenizer = T5TokenizerFast.from_pretrained("t5-small")
-model = T5ForConditionalGeneration.from_pretrained("t5-small")
+tokenizer = T5TokenizerFast.from_pretrained("t5-base")
+model = T5ForConditionalGeneration.from_pretrained("t5-base")
 
 # Tokenization
 def preprocess(example):
@@ -38,7 +38,7 @@ tokenized_dataset = split_dataset.map(preprocess)
 print("Using device:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
 print("Training on subset size:", subset_size)
 training_args = TrainingArguments(
-    output_dir=f"./distractor_generator/model_train/model-extract-{subset_size}",
+    output_dir=f"./distractor_generator/model_train_base/model-extract-{subset_size}",
     per_device_train_batch_size=4,
     num_train_epochs=10,
     learning_rate=3e-4,
@@ -47,7 +47,7 @@ training_args = TrainingArguments(
     logging_dir="./logs",
     logging_steps=50,
     save_strategy="epoch",
-    save_total_limit=3,
+    save_total_limit=10,
     max_grad_norm=1.0,
     seed=42
 )
@@ -68,7 +68,7 @@ trainer = Trainer(
 # Train the model
 trainer.train()
 
-final_model_dir = f"./distractor_generator/model_final/final-model-{subset_size}"
+final_model_dir = f"./distractor_generator/model_final_base/final-model-{subset_size}"
 model.save_pretrained(final_model_dir)
 tokenizer.save_pretrained(final_model_dir)
 print(f"✅ Final model saved to {final_model_dir}")

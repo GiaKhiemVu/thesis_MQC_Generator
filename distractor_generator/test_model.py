@@ -11,7 +11,7 @@ random.seed(42)
 sampled_data = random.sample(dataset, 10)
 
 # Load model and tokenizer
-model_path = "distractor_generator/model_final/final-model-2000"
+model_path = "distractor_generator/model_final_base/final-model-2000"
 tokenizer = T5TokenizerFast.from_pretrained(model_path)
 model = T5ForConditionalGeneration.from_pretrained(model_path)
 
@@ -25,7 +25,7 @@ def clean_distractor_output(output_str):
         return "Distractor: " + ", ".join(unique_items[:3])
     return output_str.strip()
 
-def generate_valid_distractors(input_text, correct_answer, tokenizer, model, max_tries=5):
+def generate_valid_distractors(input_text, correct_answer, tokenizer, model, max_tries=10):
     best_output = None
     best_score = -1
 
