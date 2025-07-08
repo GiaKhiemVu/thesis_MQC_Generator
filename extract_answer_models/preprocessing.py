@@ -24,7 +24,7 @@ for item in data:
     })
 
     # Format 2: cleaned_data.json
-    cleaned_input = f"Convert this sentence into fill in blank: {question_input}"
+    cleaned_input = f"Convert following sentence into fill in blank question. Sentence: {question_input}"
     question_with_underscore = original_question.replace("<BLANK>", "_")
     cleaned_output = f"question: {question_with_underscore} ||| answer: {correct_answer}"
 

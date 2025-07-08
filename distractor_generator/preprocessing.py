@@ -12,9 +12,13 @@ for entry in original_data:
     answer = entry["correct_answer"]
     distractors = entry["distractors"]
     question_input = question.replace("<BLANK>", "_")
+    # new_entry = {
+    #     "input": f"Generate 3 distractors no duplicated for question: {question_input} with answer: {answer}",
+    #     "output": f"Distractor: {', '.join(distractors)}"
+    # }
     new_entry = {
-        "input": f"Generate 3 distractors no duplicated for question: {question_input} with answer: {answer}",
-        "output": f"Distractor: {', '.join(distractors)}"
+        "input": f"Generate 3 distractors for the following sentence. Sentence: {question_input} Correct answer: {answer}",
+        "output": f"Distractors: {', '.join(distractors)}"
     }
     transformed_data.append(new_entry)
 

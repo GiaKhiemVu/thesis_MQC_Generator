@@ -685,11 +685,6 @@
     "answer_output": "on"
   },
   {
-    "question_input": "The children are excited about the trip.",
-    "question_output": "The children are excited <BLANK> the trip.",
-    "answer_output": "about"
-  },
-  {
     "question_input": "I apologize for the inconvenience caused.",
     "question_output": "I apologize <BLANK> the inconvenience caused.",
     "answer_output": "for"
@@ -815,11 +810,6 @@
     "answer_output": "leaves"
   },
   {
-    "question_input": "I would rather stay at home tonight.",
-    "question_output": "I would rather <BLANK> at home tonight.",
-    "answer_output": "stay"
-  },
-  {
     "question_input": "The letter was sent yesterday.",
     "question_output": "The letter <BLANK> sent yesterday.",
     "answer_output": "was"
@@ -853,11 +843,6 @@
     "question_input": "She has difficulty making decisions quickly.",
     "question_output": "She has difficulty <BLANK> decisions quickly.",
     "answer_output": "making"
-  },
-  {
-    "question_input": "He apologized for being late.",
-    "question_output": "He apologized <BLANK> being late.",
-    "answer_output": "for"
   },
   {
     "question_input": "She insisted on paying for dinner.",
@@ -898,11 +883,6 @@
     "question_input": "My parents would never let me stay late.",
     "question_output": "My parents would never let me <BLANK> late.",
     "answer_output": "stay"
-  },
-  {
-    "question_input": "Hardly had he entered the room when the phone rang.",
-    "question_output": "Hardly <BLANK> he entered the room when the phone rang.",
-    "answer_output": "had"
   },
   {
     "question_input": "She talked to me as if she were my boss.",
@@ -1008,11 +988,6 @@
     "question_input": "She is interested in learning Spanish.",
     "question_output": "She is interested <BLANK> learning Spanish.",
     "answer_output": "in"
-  },
-  {
-    "question_input": "He was accused of stealing the money.",
-    "question_output": "He was accused <BLANK> stealing the money.",
-    "answer_output": "of"
   },
   {
     "question_input": "They congratulated her on winning the prize.",
@@ -1363,11 +1338,6 @@
     "question_input": "The team succeeded in winning the championship.",
     "question_output": "The team succeeded <BLANK> winning the championship.",
     "answer_output": "in"
-  },
-  {
-    "question_input": "He was accused of stealing the money.",
-    "question_output": "He was accused <BLANK> stealing the money.",
-    "answer_output": "of"
   },
   {
     "question_input": "She is looking forward to her holiday.",
@@ -1765,11 +1735,6 @@
     "answer_output": "on"
   },
   {
-    "question_input": "He denied breaking the window.",
-    "question_output": "He denied <BLANK> the window.",
-    "answer_output": "breaking"
-  },
-  {
     "question_input": "We are used to getting up early.",
     "question_output": "We are used <BLANK> getting up early.",
     "answer_output": "to"
@@ -1958,11 +1923,6 @@
     "question_input": "The book was more interesting than I expected.",
     "question_output": "The book was <BLANK> interesting than I expected.",
     "answer_output": "more"
-  },
-  {
-    "question_input": "You must apologize for your mistake.",
-    "question_output": "You must apologize <BLANK> your mistake.",
-    "answer_output": "for"
   },
   {
     "question_input": "We are planning to travel to Italy next summer.",
@@ -2255,11 +2215,6 @@
     "answer_output": "from"
   },
   {
-    "question_input": "He apologized for being late.",
-    "question_output": "He apologized <BLANK> being late.",
-    "answer_output": "for"
-  },
-  {
     "question_input": "I'm not familiar with this type of software.",
     "question_output": "I'm not familiar <BLANK> this type of software.",
     "answer_output": "with"
@@ -2275,11 +2230,6 @@
     "answer_output": "preparing"
   },
   {
-    "question_input": "If you heat ice, it melts.",
-    "question_output": "If you heat ice, it <BLANK>.",
-    "answer_output": "melts"
-  },
-  {
     "question_input": "By next month, they will have completed the bridge.",
     "question_output": "By next month, they <BLANK> the bridge.",
     "answer_output": "will have completed"
@@ -2293,11 +2243,6 @@
     "question_input": "The manager insisted on seeing the documents.",
     "question_output": "The manager insisted <BLANK> seeing the documents.",
     "answer_output": "on"
-  },
-  {
-    "question_input": "He is proud of his achievements.",
-    "question_output": "He is proud <BLANK> his achievements.",
-    "answer_output": "of"
   },
   {
     "question_input": "There is no point worrying about the past.",
@@ -2445,11 +2390,6 @@
     "answer_output": "for"
   },
   {
-    "question_input": "They insisted on paying the bill themselves.",
-    "question_output": "They insisted <BLANK> paying the bill themselves.",
-    "answer_output": "on"
-  },
-  {
     "question_input": "The teacher accused him of cheating.",
     "question_output": "The teacher accused him <BLANK> cheating.",
     "answer_output": "of"
@@ -2493,11 +2433,6 @@
     "question_input": "He is capable of speaking five languages.",
     "question_output": "He is capable <BLANK> speaking five languages.",
     "answer_output": "of"
-  },
-  {
-    "question_input": "The movie was so boring that we left early.",
-    "question_output": "The movie was <BLANK> boring that we left early.",
-    "answer_output": "so"
   },
   {
     "question_input": "He prevented me from making a big mistake.",
@@ -2718,11 +2653,6 @@
     "question_input": "I am tired of working late every night.",
     "question_output": "I am tired <BLANK> working late every night.",
     "answer_output": "of"
-  },
-  {
-    "question_input": "He succeeded in solving the problem.",
-    "question_output": "He succeeded <BLANK> solving the problem.",
-    "answer_output": "in"
   },
   {
     "question_input": "You should apologize for your behavior.",
@@ -3160,11 +3090,6 @@
     "answer_output": "success"
   },
   {
-    "question_input": "He answered all the questions accurately.",
-    "question_output": "He answered all the questions <BLANK>.",
-    "answer_output": "accurately"
-  },
-  {
     "question_input": "The teacher appreciated the student's diligence.",
     "question_output": "The teacher appreciated the student's <BLANK>.",
     "answer_output": "diligence"
@@ -3263,11 +3188,6 @@
     "question_input": "He showed great determination during the competition.",
     "question_output": "He showed great <BLANK> during the competition.",
     "answer_output": "determination"
-  },
-  {
-    "question_input": "His arguments lacked logic.",
-    "question_output": "His arguments lacked <BLANK>.",
-    "answer_output": "logic"
   },
   {
     "question_input": "The company has shown remarkable growth over the years.",
@@ -3663,11 +3583,6 @@
     "question_input": "The preparation of the documents took several hours.",
     "question_output": "The <BLANK> of the documents took several hours.",
     "answer_output": "preparation"
-  },
-  {
-    "question_input": "They showed great creativity in solving the issue.",
-    "question_output": "They showed great <BLANK> in solving the issue.",
-    "answer_output": "creativity"
   },
   {
     "question_input": "The company announced a major reduction of employees.",
@@ -4525,11 +4440,6 @@
     "answer_output": "remove"
   },
   {
-    "question_input": "The doctor will examine the patient tomorrow morning.",
-    "question_output": "The doctor will <BLANK> the patient tomorrow morning.",
-    "answer_output": "examine"
-  },
-  {
     "question_input": "The city plans to introduce new parking regulations.",
     "question_output": "The city plans to <BLANK> new parking regulations.",
     "answer_output": "introduce"
@@ -4608,11 +4518,6 @@
     "question_input": "They will announce new policies next month.",
     "question_output": "They will <BLANK> new policies next month.",
     "answer_output": "announce"
-  },
-  {
-    "question_input": "The team worked hard to meet the project deadline.",
-    "question_output": "The team worked hard to <BLANK> the project deadline.",
-    "answer_output": "meet"
   },
   {
     "question_input": "The student must submit his thesis by June.",
@@ -4860,11 +4765,6 @@
     "answer_output": "reduce"
   },
   {
-    "question_input": "She gave a very brief answer to the question.",
-    "question_output": "She gave a very <BLANK> answer to the question.",
-    "answer_output": "brief"
-  },
-  {
     "question_input": "You need to update your password regularly for security.",
     "question_output": "You need to <BLANK> your password regularly for security.",
     "answer_output": "update"
@@ -5008,11 +4908,6 @@
     "question_input": "They plan to construct a new school building.",
     "question_output": "They plan to <BLANK> a new school building.",
     "answer_output": "construct"
-  },
-  {
-    "question_input": "Please fasten your seat belts before takeoff.",
-    "question_output": "Please <BLANK> your seat belts before takeoff.",
-    "answer_output": "fasten"
   },
   {
     "question_input": "The company has to address several key issues.",
@@ -5723,11 +5618,6 @@
     "question_input": "She runs in the park every morning.",
     "question_output": "She <BLANK> in the park every morning.",
     "answer_output": "runs"
-  },
-  {
-    "question_input": "He finished his homework before dinner.",
-    "question_output": "He <BLANK> his homework before dinner.",
-    "answer_output": "finished"
   },
   {
     "question_input": "The book was very interesting, and I couldn't put it down.",
@@ -7495,8 +7385,8 @@
     "answer_output": "should"
   },
   {
-    "question_input": "A: Do you know where she is? B: She was at the caf\u00c3\u00a9. I saw her there this morning.",
-    "question_output": "A: Do you know where she is? B: She <BLANK> at the caf\u00c3\u00a9. I saw her there this morning.",
+    "question_input": "A: Do you know where she is? B: She was at the caf\u00e9. I saw her there this morning.",
+    "question_output": "A: Do you know where she is? B: She <BLANK> at the caf\u00e9. I saw her there this morning.",
     "answer_output": "was"
   },
   {
@@ -9100,11 +8990,6 @@
     "answer_output": "expand"
   },
   {
-    "question_input": "The report must be submitted by Friday.",
-    "question_output": "The report must be submitted <BLANK> Friday.",
-    "answer_output": "by"
-  },
-  {
     "question_input": "He speaks so clearly that everyone understands him.",
     "question_output": "He speaks so <BLANK> that everyone understands him.",
     "answer_output": "clearly"
@@ -9715,16 +9600,6 @@
     "answer_output": "would"
   },
   {
-    "question_input": "He asked me where I came from.",
-    "question_output": "He asked me where I <BLANK> from.",
-    "answer_output": "came"
-  },
-  {
-    "question_input": "The manager demanded that the report be completed immediately.",
-    "question_output": "The manager demanded that the report <BLANK> immediately.",
-    "answer_output": "be completed"
-  },
-  {
     "question_input": "Rarely have I seen such a beautiful painting.",
     "question_output": "Rarely <BLANK> such a beautiful painting.",
     "answer_output": "have I seen"
@@ -10045,11 +9920,6 @@
     "answer_output": "between"
   },
   {
-    "question_input": "I haven't seen him since last summer.",
-    "question_output": "I haven't seen him <BLANK> last summer.",
-    "answer_output": "since"
-  },
-  {
     "question_input": "She couldn't help crying when she heard the news.",
     "question_output": "She couldn't help <BLANK> when she heard the news.",
     "answer_output": "crying"
@@ -10165,11 +10035,6 @@
     "answer_output": "store"
   },
   {
-    "question_input": "She couldn't help laughing when she heard the news.",
-    "question_output": "She couldn't help <BLANK> when she heard the news.",
-    "answer_output": "laughing"
-  },
-  {
     "question_input": "We demand an explanation about delays in delivery.",
     "question_output": "We demand <BLANK> about delays in delivery.",
     "answer_output": "an explanation"
@@ -10258,11 +10123,6 @@
     "question_input": "The museum has a remarkable collection of ancient tools.",
     "question_output": "The museum has a <BLANK> collection of ancient tools.",
     "answer_output": "remarkable"
-  },
-  {
-    "question_input": "She admitted making the mistake.",
-    "question_output": "She admitted <BLANK> the mistake.",
-    "answer_output": "making"
   },
   {
     "question_input": "The students were made to clean their desks before leaving.",
@@ -11095,14 +10955,9 @@
     "answer_output": "were"
   },
   {
-    "question_input": "If water reaches 100\u00c2\u00b0C, it boils.",
-    "question_output": "If water reaches 100\u00c2\u00b0C, it <BLANK>.",
+    "question_input": "If water reaches 100\u00b0C, it boils.",
+    "question_output": "If water reaches 100\u00b0C, it <BLANK>.",
     "answer_output": "boils"
-  },
-  {
-    "question_input": "If you heat ice, it melts.",
-    "question_output": "If you heat ice, it <BLANK>.",
-    "answer_output": "melts"
   },
   {
     "question_input": "If she studies hard, she will pass the exam.",
@@ -11393,5 +11248,3750 @@
     "question_input": "If you had followed the manual, you'd know what to do.",
     "question_output": "If you <BLANK> the manual, you'd know what to do.",
     "answer_output": "had followed"
+  },
+  {
+    "question_input": "What do you do this morning?",
+    "question_output": "<BLANK> do you do this morning?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Where are you going later?",
+    "question_output": "<BLANK> are you going later?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "Who is knocking on the door?",
+    "question_output": "<BLANK> is knocking on the door?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "What do you want for lunch?",
+    "question_output": "<BLANK> do you want for lunch?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Why are you so late?",
+    "question_output": "<BLANK> are you so late?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "When do we need to finish this?",
+    "question_output": "<BLANK> do we need to finish this?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "Why did she react that way?",
+    "question_output": "<BLANK> did she react that way?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "How does this machine work?",
+    "question_output": "<BLANK> does this machine work?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "What is your favorite movie?",
+    "question_output": "<BLANK> is your favorite movie?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "What does your father do?",
+    "question_output": "<BLANK> does your father do?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "How do you spell your name?",
+    "question_output": "<BLANK> do you spell your name?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "What do the kids want to play?",
+    "question_output": "<BLANK> do the kids want to play?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Whose car is parked outside?",
+    "question_output": "<BLANK> car is parked outside?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "Which book are you reading?",
+    "question_output": "<BLANK> book are you reading?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Who do you live with?",
+    "question_output": "<BLANK> do you live with?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "What are you bringing to the picnic?",
+    "question_output": "<BLANK> are you bringing to the picnic?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "When do they arrive every day?",
+    "question_output": "<BLANK> do they arrive every day?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "Who are you planning to visit?",
+    "question_output": "<BLANK> are you planning to visit?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Which one do you prefer?",
+    "question_output": "<BLANK> one do you prefer?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Why did you say that?",
+    "question_output": "<BLANK> did you say that?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "What time does the train leave?",
+    "question_output": "<BLANK> time does the train leave?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Who are you talking to on the phone?",
+    "question_output": "<BLANK> are you talking to on the phone?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Where did you put the keys?",
+    "question_output": "<BLANK> did you put the keys?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "When are we meeting them?",
+    "question_output": "<BLANK> are we meeting them?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "How do you usually get to work?",
+    "question_output": "<BLANK> do you usually get to work?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Why are you wearing that costume?",
+    "question_output": "<BLANK> are you wearing that costume?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "Whose bag is this on the table?",
+    "question_output": "<BLANK> bag is this on the table?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "Which color do you prefer, red or blue?",
+    "question_output": "<BLANK> color do you prefer, red or blue?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "How does she play the piano so well?",
+    "question_output": "<BLANK> does she play the piano so well?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Why did they cancel the show?",
+    "question_output": "<BLANK> did they cancel the show?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "Who is your science teacher this year?",
+    "question_output": "<BLANK> is your science teacher this year?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Where are you going on holiday this year?",
+    "question_output": "<BLANK> are you going on holiday this year?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "Why do birds fly south in winter?",
+    "question_output": "<BLANK> do birds fly south in winter?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "Which of these pens belongs to you?",
+    "question_output": "<BLANK> of these pens belongs to you?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Where does your sister live?",
+    "question_output": "<BLANK> does your sister live?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "When is your birthday?",
+    "question_output": "<BLANK> is your birthday?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "Who made this cake? It's delicious!",
+    "question_output": "<BLANK> made this cake? It's delicious!",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "What do you usually eat for breakfast?",
+    "question_output": "<BLANK> do you usually eat for breakfast?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Whose coat is hanging by the door?",
+    "question_output": "<BLANK> coat is hanging by the door?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "How do you like your coffee, black or with milk?",
+    "question_output": "<BLANK> do you like your coffee, black or with milk?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "What language do they speak in Brazil?",
+    "question_output": "<BLANK> language do they speak in Brazil?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Who taught you to drive?",
+    "question_output": "<BLANK> taught you to drive?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Why do you always sit in the front row?",
+    "question_output": "<BLANK> do you always sit in the front row?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "How many people are coming to the event?",
+    "question_output": "<BLANK> many people are coming to the event?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Whose phone is ringing in the bag?",
+    "question_output": "<BLANK> phone is ringing in the bag?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "Which of the students answered correctly?",
+    "question_output": "<BLANK> of the students answered correctly?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Where did you visit during your trip to Japan?",
+    "question_output": "<BLANK> did you visit during your trip to Japan?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "How did you feel after the exam?",
+    "question_output": "<BLANK> did you feel after the exam?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Where are the documents you mentioned?",
+    "question_output": "<BLANK> are the documents you mentioned?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "Why do you go jogging every morning?",
+    "question_output": "<BLANK> do you go jogging every morning?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "How do you pronounce this word?",
+    "question_output": "<BLANK> do you pronounce this word?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Whose shoes are these under the table?",
+    "question_output": "<BLANK> shoes are these under the table?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "Who did you meet at the conference?",
+    "question_output": "<BLANK> did you meet at the conference?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Where is the nearest bus stop?",
+    "question_output": "<BLANK> is the nearest bus stop?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "What does this word mean in English?",
+    "question_output": "<BLANK> does this word mean in English?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Which team won the championship?",
+    "question_output": "<BLANK> team won the championship?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "How would you handle this situation?",
+    "question_output": "<BLANK> would you handle this situation?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Where does your uncle work?",
+    "question_output": "<BLANK> does your uncle work?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "Why do you think she said that?",
+    "question_output": "<BLANK> do you think she said that?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "Who is making that noise?",
+    "question_output": "<BLANK> is making that noise?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "What kind of music do you listen to?",
+    "question_output": "<BLANK> kind of music do you listen to?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Who helped you carry the groceries?",
+    "question_output": "<BLANK> helped you carry the groceries?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Where did she visit during her stay in France?",
+    "question_output": "<BLANK> did she visit during her stay in France?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "How much does the ticket cost?",
+    "question_output": "<BLANK> much does the ticket cost?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Why do you want to go to the beach?",
+    "question_output": "<BLANK> do you want to go to the beach?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "Which seat would you like to reserve?",
+    "question_output": "<BLANK> seat would you like to reserve?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Whose coat is hanging on the chair?",
+    "question_output": "<BLANK> coat is hanging on the chair?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "When does your mother get up in the morning?",
+    "question_output": "<BLANK> does your mother get up in the morning?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "Which country do you want to visit next?",
+    "question_output": "<BLANK> country do you want to visit next?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Who does she speak to when she's upset?",
+    "question_output": "<BLANK> does she speak to when she's upset?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Why are you standing at the door?",
+    "question_output": "<BLANK> are you standing at the door?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "What instrument does he play in the band?",
+    "question_output": "<BLANK> instrument does he play in the band?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Where do you keep your passport when traveling?",
+    "question_output": "<BLANK> do you keep your passport when traveling?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "Which of them called you last night?",
+    "question_output": "<BLANK> of them called you last night?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "How did you prepare for the interview?",
+    "question_output": "<BLANK> did you prepare for the interview?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Who knows the answer to this question?",
+    "question_output": "<BLANK> knows the answer to this question?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Why do you always carry a notebook?",
+    "question_output": "<BLANK> do you always carry a notebook?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "When did you hear that noise?",
+    "question_output": "<BLANK> did you hear that noise?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "Which shoes fit you better, the red or the black?",
+    "question_output": "<BLANK> shoes fit you better, the red or the black?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Why do you need help with your homework?",
+    "question_output": "<BLANK> do you need help with your homework?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "When do you normally eat dinner?",
+    "question_output": "<BLANK> do you normally eat dinner?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "What did she bring to the meeting?",
+    "question_output": "<BLANK> did she bring to the meeting?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Who was responsible for the error?",
+    "question_output": "<BLANK> was responsible for the error?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Which way is faster, the highway or the back road?",
+    "question_output": "<BLANK> way is faster, the highway or the back road?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Who is hiding behind the curtain?",
+    "question_output": "<BLANK> is hiding behind the curtain?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Where did you stay when you were in Tokyo?",
+    "question_output": "<BLANK> did you stay when you were in Tokyo?",
+    "answer_output": "Where"
+  },
+  {
+    "question_input": "How do you organize your files?",
+    "question_output": "<BLANK> do you organize your files?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Which subject do you like the most?",
+    "question_output": "<BLANK> subject do you like the most?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Whose jacket did you borrow yesterday?",
+    "question_output": "<BLANK> jacket did you borrow yesterday?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "What time of day do you feel most energetic?",
+    "question_output": "<BLANK> time of day do you feel most energetic?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Which book did you recommend?",
+    "question_output": "<BLANK> book did you recommend?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Who came to your birthday party?",
+    "question_output": "<BLANK> came to your birthday party?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Why do you go to the gym every evening?",
+    "question_output": "<BLANK> do you go to the gym every evening?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "What happened at the end of the movie?",
+    "question_output": "<BLANK> happened at the end of the movie?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Whose shoes are those on the shelf?",
+    "question_output": "<BLANK> shoes are those on the shelf?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "When did you respond to the email?",
+    "question_output": "<BLANK> did you respond to the email?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "Which do you prefer, coffee or tea?",
+    "question_output": "<BLANK> do you prefer, coffee or tea?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Who do you call when there's an emergency?",
+    "question_output": "<BLANK> do you call when there's an emergency?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "What tools do you use for your projects?",
+    "question_output": "<BLANK> tools do you use for your projects?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Why is your phone not working?",
+    "question_output": "<BLANK> is your phone not working?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "What are they celebrating today?",
+    "question_output": "<BLANK> are they celebrating today?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Who opened the window last night?",
+    "question_output": "<BLANK> opened the window last night?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Why does the light switch not work?",
+    "question_output": "<BLANK> does the light switch not work?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "Which street do you live on?",
+    "question_output": "<BLANK> street do you live on?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "What is your favorite memory from school?",
+    "question_output": "<BLANK> is your favorite memory from school?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Who is knocking at the back door?",
+    "question_output": "<BLANK> is knocking at the back door?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Whose house is painted blue?",
+    "question_output": "<BLANK> house is painted blue?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "How do you like to relax after work?",
+    "question_output": "<BLANK> do you like to relax after work?",
+    "answer_output": "How"
+  },
+  {
+    "question_input": "Why is she whispering during the meeting?",
+    "question_output": "<BLANK> is she whispering during the meeting?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "Who do you want to invite to dinner?",
+    "question_output": "<BLANK> do you want to invite to dinner?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "Which of those paintings did you buy?",
+    "question_output": "<BLANK> of those paintings did you buy?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Which color matches the curtains better?",
+    "question_output": "<BLANK> color matches the curtains better?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Whose tools are lying on the bench?",
+    "question_output": "<BLANK> tools are lying on the bench?",
+    "answer_output": "Whose"
+  },
+  {
+    "question_input": "What day of the week is it today?",
+    "question_output": "<BLANK> day of the week is it today?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Why do we need to buy milk again?",
+    "question_output": "<BLANK> do we need to buy milk again?",
+    "answer_output": "Why"
+  },
+  {
+    "question_input": "Which direction is north?",
+    "question_output": "<BLANK> direction is north?",
+    "answer_output": "Which"
+  },
+  {
+    "question_input": "Who did you call this afternoon?",
+    "question_output": "<BLANK> did you call this afternoon?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "What languages does she speak fluently?",
+    "question_output": "<BLANK> languages does she speak fluently?",
+    "answer_output": "What"
+  },
+  {
+    "question_input": "Who is parked in my space again?",
+    "question_output": "<BLANK> is parked in my space again?",
+    "answer_output": "Who"
+  },
+  {
+    "question_input": "When are we supposed to meet him?",
+    "question_output": "<BLANK> are we supposed to meet him?",
+    "answer_output": "When"
+  },
+  {
+    "question_input": "Did she submit the report before the deadline?",
+    "question_output": "Did she submit the report before the deadline?",
+    "answer_output": "Yes, she sent it yesterday afternoon."
+  },
+  {
+    "question_input": "Is the library open on Sundays?",
+    "question_output": "Is the library open on Sundays?",
+    "answer_output": "No, it's closed every Sunday."
+  },
+  {
+    "question_input": "Has Mark ever traveled to Asia?",
+    "question_output": "Has Mark ever traveled to Asia?",
+    "answer_output": "Yes, he visited Japan and Thailand last year."
+  },
+  {
+    "question_input": "Can students eat in the classroom?",
+    "question_output": "Can students eat in the classroom?",
+    "answer_output": "No, food is only allowed in the cafeteria."
+  },
+  {
+    "question_input": "Is Sara fluent in French?",
+    "question_output": "Is Sara fluent in French?",
+    "answer_output": "Yes, she studied it for 6 years."
+  },
+  {
+    "question_input": "Did the train leave on time?",
+    "question_output": "Did the train leave on time?",
+    "answer_output": "No, it was delayed by 20 minutes."
+  },
+  {
+    "question_input": "Will there be a meeting tomorrow morning?",
+    "question_output": "Will there be a meeting tomorrow morning?",
+    "answer_output": "Yes, it's scheduled for 9:30 AM."
+  },
+  {
+    "question_input": "Did you enjoy the movie?",
+    "question_output": "Did you enjoy the movie?",
+    "answer_output": "Yes, it was really exciting."
+  },
+  {
+    "question_input": "Is your phone battery full?",
+    "question_output": "Is your phone battery full?",
+    "answer_output": "Yes, I just unplugged it."
+  },
+  {
+    "question_input": "Has the package arrived yet?",
+    "question_output": "Has the package arrived yet?",
+    "answer_output": "No, it's still in transit."
+  },
+  {
+    "question_input": "Can you see the board clearly from there?",
+    "question_output": "Can you see the board clearly from there?",
+    "answer_output": "Yes, the view is perfect."
+  },
+  {
+    "question_input": "Did the teacher explain the assignment clearly?",
+    "question_output": "Did the teacher explain the assignment clearly?",
+    "answer_output": "Yes, everyone understood the instructions."
+  },
+  {
+    "question_input": "Is the Wi-Fi working now?",
+    "question_output": "Is the Wi-Fi working now?",
+    "answer_output": "No, the technician is still fixing it."
+  },
+  {
+    "question_input": "Have you already eaten lunch?",
+    "question_output": "Have you already eaten lunch?",
+    "answer_output": "Yes, I had it around noon."
+  },
+  {
+    "question_input": "Do they sell fruit at that shop?",
+    "question_output": "Do they sell fruit at that shop?",
+    "answer_output": "No, they only sell baked goods."
+  },
+  {
+    "question_input": "Will the test cover all five chapters?",
+    "question_output": "Will the test cover all five chapters?",
+    "answer_output": "Yes, the teacher confirmed it yesterday."
+  },
+  {
+    "question_input": "Was the party fun?",
+    "question_output": "Was the party fun?",
+    "answer_output": "Yes, everyone had a great time dancing."
+  },
+  {
+    "question_input": "Is it going to rain tomorrow?",
+    "question_output": "Is it going to rain tomorrow?",
+    "answer_output": "Yes, the forecast says thunderstorms."
+  },
+  {
+    "question_input": "Can you play the guitar?",
+    "question_output": "Can you play the guitar?",
+    "answer_output": "Yes, I've been taking lessons for a year."
+  },
+  {
+    "question_input": "Did your team win the match?",
+    "question_output": "Did your team win the match?",
+    "answer_output": "No, we lost 3-1."
+  },
+  {
+    "question_input": "Are you free this weekend?",
+    "question_output": "Are you free this weekend?",
+    "answer_output": "Yes, I don't have any plans."
+  },
+  {
+    "question_input": "Has she finished her homework?",
+    "question_output": "Has she finished her homework?",
+    "answer_output": "No, she's still working on it."
+  },
+  {
+    "question_input": "Do you need help with your project?",
+    "question_output": "Do you need help with your project?",
+    "answer_output": "Yes, I'm stuck on the final part."
+  },
+  {
+    "question_input": "Is this your first time in this city?",
+    "question_output": "Is this your first time in this city?",
+    "answer_output": "Yes, I just arrived this morning."
+  },
+  {
+    "question_input": "Did the lights go out during the storm?",
+    "question_output": "Did the lights go out during the storm?",
+    "answer_output": "Yes, the whole block lost power."
+  },
+  {
+    "question_input": "Was the exam difficult?",
+    "question_output": "Was the exam difficult?",
+    "answer_output": "No, it was mostly review questions."
+  },
+  {
+    "question_input": "Can you speak Spanish fluently?",
+    "question_output": "Can you speak Spanish fluently?",
+    "answer_output": "No, I only know the basics."
+  },
+  {
+    "question_input": "Is your computer working properly?",
+    "question_output": "Is your computer working properly?",
+    "answer_output": "Yes, I fixed the issue this morning."
+  },
+  {
+    "question_input": "Did you sleep well last night?",
+    "question_output": "Did you sleep well last night?",
+    "answer_output": "No, I kept waking up."
+  },
+  {
+    "question_input": "Are we allowed to leave early today?",
+    "question_output": "Are we allowed to leave early today?",
+    "answer_output": "Yes, the manager approved it."
+  },
+  {
+    "question_input": "Did the teacher cancel the class today?",
+    "question_output": "Did the teacher cancel the class today?",
+    "answer_output": "Yes, she sent a message this morning."
+  },
+  {
+    "question_input": "Have they painted the walls yet?",
+    "question_output": "Have they painted the walls yet?",
+    "answer_output": "No, they're still preparing the surfaces."
+  },
+  {
+    "question_input": "Is anyone sitting in this seat?",
+    "question_output": "Is anyone sitting in this seat?",
+    "answer_output": "Yes, my friend is using it."
+  },
+  {
+    "question_input": "Did he return the book to the library?",
+    "question_output": "Did he return the book to the library?",
+    "answer_output": "No, he forgot and still has it."
+  },
+  {
+    "question_input": "Is this dish vegetarian?",
+    "question_output": "Is this dish vegetarian?",
+    "answer_output": "Yes, it contains no meat or animal products."
+  },
+  {
+    "question_input": "Has she received the email yet?",
+    "question_output": "Has she received the email yet?",
+    "answer_output": "No, she said nothing arrived."
+  },
+  {
+    "question_input": "Can you hear me clearly?",
+    "question_output": "Can you hear me clearly?",
+    "answer_output": "Yes, your voice is loud and clear."
+  },
+  {
+    "question_input": "Was the restaurant crowded last night?",
+    "question_output": "Was the restaurant crowded last night?",
+    "answer_output": "Yes, there was a long line outside."
+  },
+  {
+    "question_input": "Are pets allowed in this building?",
+    "question_output": "Are pets allowed in this building?",
+    "answer_output": "No, the policy prohibits them."
+  },
+  {
+    "question_input": "Did you lock the door before leaving?",
+    "question_output": "Did you lock the door before leaving?",
+    "answer_output": "Yes, I double-checked it."
+  },
+  {
+    "question_input": "Has the meeting started already?",
+    "question_output": "Has the meeting started already?",
+    "answer_output": "No, they're still setting up."
+  },
+  {
+    "question_input": "Is the elevator working today?",
+    "question_output": "Is the elevator working today?",
+    "answer_output": "Yes, it was repaired yesterday."
+  },
+  {
+    "question_input": "Did he forget his keys again?",
+    "question_output": "Did he forget his keys again?",
+    "answer_output": "Yes, he had to call for help."
+  },
+  {
+    "question_input": "Will the package arrive today?",
+    "question_output": "Will the package arrive today?",
+    "answer_output": "No, the tracking says tomorrow."
+  },
+  {
+    "question_input": "Is the assignment due tomorrow?",
+    "question_output": "Is the assignment due tomorrow?",
+    "answer_output": "Yes, it's listed on the syllabus."
+  },
+  {
+    "question_input": "Can children use the swimming pool?",
+    "question_output": "Can children use the swimming pool?",
+    "answer_output": "Yes, but only with adult supervision."
+  },
+  {
+    "question_input": "Was the concert cancelled due to rain?",
+    "question_output": "Was the concert cancelled due to rain?",
+    "answer_output": "Yes, the stage was too wet to use."
+  },
+  {
+    "question_input": "Did you close all the windows?",
+    "question_output": "Did you close all the windows?",
+    "answer_output": "Yes, I checked every room."
+  },
+  {
+    "question_input": "Are you finished with the project?",
+    "question_output": "Are you finished with the project?",
+    "answer_output": "No, I still need to review the last part."
+  },
+  {
+    "question_input": "Has the new policy been announced yet?",
+    "question_output": "Has the new policy been announced yet?",
+    "answer_output": "Yes, they posted it on the website."
+  },
+  {
+    "question_input": "Did the guests arrive on time?",
+    "question_output": "Did the guests arrive on time?",
+    "answer_output": "Yes, everyone showed up before 7 PM."
+  },
+  {
+    "question_input": "Is there a bathroom on the second floor?",
+    "question_output": "Is there a bathroom on the second floor?",
+    "answer_output": "No, it's only on the first and third floors."
+  },
+  {
+    "question_input": "Has the payment been processed?",
+    "question_output": "Has the payment been processed?",
+    "answer_output": "Yes, it went through this morning."
+  },
+  {
+    "question_input": "Do we need tickets for this event?",
+    "question_output": "Do we need tickets for this event?",
+    "answer_output": "Yes, they must be purchased in advance."
+  },
+  {
+    "question_input": "Was that email meant for me?",
+    "question_output": "Was that email meant for me?",
+    "answer_output": "No, it was sent to everyone by mistake."
+  },
+  {
+    "question_input": "Is that movie based on a true story?",
+    "question_output": "Is that movie based on a true story?",
+    "answer_output": "Yes, it's inspired by real events."
+  },
+  {
+    "question_input": "Have you ever been to Australia?",
+    "question_output": "Have you ever been to Australia?",
+    "answer_output": "No, but I hope to visit next year."
+  },
+  {
+    "question_input": "Is the document saved on the cloud?",
+    "question_output": "Is the document saved on the cloud?",
+    "answer_output": "Yes, it automatically syncs to Drive."
+  },
+  {
+    "question_input": "Can we wear casual clothes tomorrow?",
+    "question_output": "Can we wear casual clothes tomorrow?",
+    "answer_output": "Yes, it's a dress-down Friday."
+  },
+  {
+    "question_input": "Did you receive my text earlier?",
+    "question_output": "Did you receive my text earlier?",
+    "answer_output": "Yes, but I was in a meeting."
+  },
+  {
+    "question_input": "Is she older than her brother?",
+    "question_output": "Is she older than her brother?",
+    "answer_output": "No, she's actually the youngest."
+  },
+  {
+    "question_input": "Was the book difficult to read?",
+    "question_output": "Was the book difficult to read?",
+    "answer_output": "Yes, the language was very technical."
+  },
+  {
+    "question_input": "Have they completed the renovation?",
+    "question_output": "Have they completed the renovation?",
+    "answer_output": "No, it's still under construction."
+  },
+  {
+    "question_input": "Do you need a license to fish here?",
+    "question_output": "Do you need a license to fish here?",
+    "answer_output": "Yes, it's required by state law."
+  },
+  {
+    "question_input": "Is that car electric?",
+    "question_output": "Is that car electric?",
+    "answer_output": "Yes, it runs entirely on batteries."
+  },
+  {
+    "question_input": "Did you water the plants this morning?",
+    "question_output": "Did you water the plants this morning?",
+    "answer_output": "No, I forgot and will do it later."
+  },
+  {
+    "question_input": "Is this road closed for repairs?",
+    "question_output": "Is this road closed for repairs?",
+    "answer_output": "Yes, until next Wednesday."
+  },
+  {
+    "question_input": "Will the cafeteria serve lunch today?",
+    "question_output": "Will the cafeteria serve lunch today?",
+    "answer_output": "No, it's closed for maintenance."
+  },
+  {
+    "question_input": "Did you hear what she said?",
+    "question_output": "Did you hear what she said?",
+    "answer_output": "Yes, she asked us to be quiet."
+  },
+  {
+    "question_input": "Is the meeting room available now?",
+    "question_output": "Is the meeting room available now?",
+    "answer_output": "Yes, it was just vacated."
+  },
+  {
+    "question_input": "Have they launched the new product yet?",
+    "question_output": "Have they launched the new product yet?",
+    "answer_output": "Yes, it went live last night."
+  },
+  {
+    "question_input": "Did the student submit the final paper?",
+    "question_output": "Did the student submit the final paper?",
+    "answer_output": "No, he missed the deadline."
+  },
+  {
+    "question_input": "Can this app run offline?",
+    "question_output": "Can this app run offline?",
+    "answer_output": "Yes, but only in limited mode."
+  },
+  {
+    "question_input": "Was that announcement official?",
+    "question_output": "Was that announcement official?",
+    "answer_output": "Yes, it came from the HR department."
+  },
+  {
+    "question_input": "Is there an exam next week?",
+    "question_output": "Is there an exam next week?",
+    "answer_output": "No, it was postponed."
+  },
+  {
+    "question_input": "Did you see the sunset yesterday?",
+    "question_output": "Did you see the sunset yesterday?",
+    "answer_output": "Yes, it was beautiful and pink."
+  },
+  {
+    "question_input": "Do you agree with the decision?",
+    "question_output": "Do you agree with the decision?",
+    "answer_output": "No, I think it was unfair."
+  },
+  {
+    "question_input": "Is that her actual signature?",
+    "question_output": "Is that her actual signature?",
+    "answer_output": "Yes, she signed it in front of me."
+  },
+  {
+    "question_input": "Have the tickets sold out?",
+    "question_output": "Have the tickets sold out?",
+    "answer_output": "Yes, they were gone in an hour."
+  },
+  {
+    "question_input": "Was the result surprising to you?",
+    "question_output": "Was the result surprising to you?",
+    "answer_output": "Yes, I didn't expect that outcome."
+  },
+  {
+    "question_input": "Is the recipe hard to follow?",
+    "question_output": "Is the recipe hard to follow?",
+    "answer_output": "No, the steps are very clear."
+  },
+  {
+    "question_input": "Will they announce the winner today?",
+    "question_output": "Will they announce the winner today?",
+    "answer_output": "Yes, during the evening ceremony."
+  },
+  {
+    "question_input": "Did you install the update?",
+    "question_output": "Did you install the update?",
+    "answer_output": "No, I postponed it."
+  },
+  {
+    "question_input": "Are headphones allowed during the test?",
+    "question_output": "Are headphones allowed during the test?",
+    "answer_output": "No, electronic devices are prohibited."
+  },
+  {
+    "question_input": "Has your flight been delayed?",
+    "question_output": "Has your flight been delayed?",
+    "answer_output": "Yes, it's now leaving an hour late."
+  },
+  {
+    "question_input": "Do you still have the receipt?",
+    "question_output": "Do you still have the receipt?",
+    "answer_output": "No, I threw it away."
+  },
+  {
+    "question_input": "Is there time to ask one more question?",
+    "question_output": "Is there time to ask one more question?",
+    "answer_output": "Yes, we still have five minutes."
+  },
+  {
+    "question_input": "Did she answer all of the interview questions?",
+    "question_output": "Did she answer all of the interview questions?",
+    "answer_output": "Yes, she handled them confidently."
+  },
+  {
+    "question_input": "Did you back up the files?",
+    "question_output": "Did you back up the files?",
+    "answer_output": "Yes, I saved them to the cloud and a hard drive."
+  },
+  {
+    "question_input": "Is your ID still valid?",
+    "question_output": "Is your ID still valid?",
+    "answer_output": "No, it expired last month."
+  },
+  {
+    "question_input": "Have you spoken to the manager?",
+    "question_output": "Have you spoken to the manager?",
+    "answer_output": "Yes, we had a meeting this morning."
+  },
+  {
+    "question_input": "Can you solve this math problem?",
+    "question_output": "Can you solve this math problem?",
+    "answer_output": "No, I'm stuck on the second step."
+  },
+  {
+    "question_input": "Did he pass the driving test?",
+    "question_output": "Did he pass the driving test?",
+    "answer_output": "Yes, on his second attempt."
+  },
+  {
+    "question_input": "Is there an error in this sentence?",
+    "question_output": "Is there an error in this sentence?",
+    "answer_output": "Yes, the verb tense is incorrect."
+  },
+  {
+    "question_input": "Have they cleaned the kitchen?",
+    "question_output": "Have they cleaned the kitchen?",
+    "answer_output": "No, it's still a mess."
+  },
+  {
+    "question_input": "Was the phone on silent?",
+    "question_output": "Was the phone on silent?",
+    "answer_output": "Yes, that's why I missed the call."
+  },
+  {
+    "question_input": "Do you know how to use this tool?",
+    "question_output": "Do you know how to use this tool?",
+    "answer_output": "Yes, I learned it in training last week."
+  },
+  {
+    "question_input": "Did they accept your proposal?",
+    "question_output": "Did they accept your proposal?",
+    "answer_output": "No, they requested a revision."
+  },
+  {
+    "question_input": "Is this coffee decaffeinated?",
+    "question_output": "Is this coffee decaffeinated?",
+    "answer_output": "Yes, it's labeled as caffeine-free."
+  },
+  {
+    "question_input": "Did the dog bark all night?",
+    "question_output": "Did the dog bark all night?",
+    "answer_output": "No, he slept quietly after dinner."
+  },
+  {
+    "question_input": "Have you updated your resume?",
+    "question_output": "Have you updated your resume?",
+    "answer_output": "Yes, I revised it last weekend."
+  },
+  {
+    "question_input": "Can we enter through the side gate?",
+    "question_output": "Can we enter through the side gate?",
+    "answer_output": "No, it's locked during school hours."
+  },
+  {
+    "question_input": "Was this product made locally?",
+    "question_output": "Was this product made locally?",
+    "answer_output": "Yes, it's manufactured just outside the city."
+  },
+  {
+    "question_input": "Did the lights flicker during the storm?",
+    "question_output": "Did the lights flicker during the storm?",
+    "answer_output": "Yes, several times before the power went out."
+  },
+  {
+    "question_input": "Is your phone connected to Wi-Fi?",
+    "question_output": "Is your phone connected to Wi-Fi?",
+    "answer_output": "No, I'm using mobile data."
+  },
+  {
+    "question_input": "Has anyone checked the mail?",
+    "question_output": "Has anyone checked the mail?",
+    "answer_output": "Yes, I picked it up an hour ago."
+  },
+  {
+    "question_input": "Do you recognize that logo?",
+    "question_output": "Do you recognize that logo?",
+    "answer_output": "Yes, it's from a tech company I follow."
+  },
+  {
+    "question_input": "Did the students complete the project?",
+    "question_output": "Did the students complete the project?",
+    "answer_output": "No, they missed the deadline."
+  },
+  {
+    "question_input": "Is that the entrance to the museum?",
+    "question_output": "Is that the entrance to the museum?",
+    "answer_output": "Yes, just past the ticket booth."
+  },
+  {
+    "question_input": "Can you meet me at 3 PM?",
+    "question_output": "Can you meet me at 3 PM?",
+    "answer_output": "No, I'm busy with a client then."
+  },
+  {
+    "question_input": "Did she bake that cake herself?",
+    "question_output": "Did she bake that cake herself?",
+    "answer_output": "Yes, from scratch without a mix."
+  },
+  {
+    "question_input": "Is there a bus that goes to the airport?",
+    "question_output": "Is there a bus that goes to the airport?",
+    "answer_output": "Yes, Route 5 goes directly there."
+  },
+  {
+    "question_input": "Was the package damaged on arrival?",
+    "question_output": "Was the package damaged on arrival?",
+    "answer_output": "No, it arrived in perfect condition."
+  },
+  {
+    "question_input": "Have you ever gone camping?",
+    "question_output": "Have you ever gone camping?",
+    "answer_output": "Yes, several times in the mountains."
+  },
+  {
+    "question_input": "Can that machine print in color?",
+    "question_output": "Can that machine print in color?",
+    "answer_output": "No, it only prints black and white."
+  },
+  {
+    "question_input": "Did the alarm wake you up?",
+    "question_output": "Did the alarm wake you up?",
+    "answer_output": "Yes, it was very loud."
+  },
+  {
+    "question_input": "Is she wearing glasses today?",
+    "question_output": "Is she wearing glasses today?",
+    "answer_output": "No, she's wearing contact lenses."
+  },
+  {
+    "question_input": "Has he paid the electricity bill?",
+    "question_output": "Has he paid the electricity bill?",
+    "answer_output": "Yes, he paid it online yesterday."
+  },
+  {
+    "question_input": "Did you see the message on the board?",
+    "question_output": "Did you see the message on the board?",
+    "answer_output": "No, I walked right past it."
+  },
+  {
+    "question_input": "Was this photo taken recently?",
+    "question_output": "Was this photo taken recently?",
+    "answer_output": "Yes, just last week during the trip."
+  },
+  {
+    "question_input": "Is the password case-sensitive?",
+    "question_output": "Is the password case-sensitive?",
+    "answer_output": "Yes, you must match the uppercase and lowercase letters exactly."
+  },
+  {
+    "question_input": "Do you feel confident about the test?",
+    "question_output": "Do you feel confident about the test?",
+    "answer_output": "No, I didn't study much."
+  },
+  {
+    "question_input": "Did the volcano erupt last night?",
+    "question_output": "Did the volcano erupt last night?",
+    "answer_output": "Yes, there was a small eruption at midnight."
+  },
+  {
+    "question_input": "Are the lights automatic?",
+    "question_output": "Are the lights automatic?",
+    "answer_output": "Yes, they turn on at sunset."
+  },
+  {
+    "question_input": "Has she accepted the job offer?",
+    "question_output": "Has she accepted the job offer?",
+    "answer_output": "No, she's still deciding."
+  },
+  {
+    "question_input": "Did your phone run out of battery?",
+    "question_output": "Did your phone run out of battery?",
+    "answer_output": "Yes, it shut off on the train."
+  },
+  {
+    "question_input": "Can you bring guests to the party?",
+    "question_output": "Can you bring guests to the party?",
+    "answer_output": "Yes, but they need to RSVP first."
+  },
+  {
+    "question_input": "Did you lose your wallet?",
+    "question_output": "Did you lose your wallet?",
+    "answer_output": "No, I found it in my backpack."
+  },
+  {
+    "question_input": "Is this your handwriting?",
+    "question_output": "Is this your handwriting?",
+    "answer_output": "Yes, I wrote it during the lecture."
+  },
+  {
+    "question_input": "Have they painted the office yet?",
+    "question_output": "Have they painted the office yet?",
+    "answer_output": "Yes, it's now a light gray color."
+  },
+  {
+    "question_input": "Is this lesson being recorded?",
+    "question_output": "Is this lesson being recorded?",
+    "answer_output": "Yes, it'll be posted later."
+  },
+  {
+    "question_input": "She's coming with us, isn't she?",
+    "question_output": "She's coming with us, <BLANK>?",
+    "answer_output": "isn't she"
+  },
+  {
+    "question_input": "You don't like spicy food, do you?",
+    "question_output": "You don't like spicy food, <BLANK>?",
+    "answer_output": "do you"
+  },
+  {
+    "question_input": "It was a great movie, wasn't it?",
+    "question_output": "It was a great movie, <BLANK>?",
+    "answer_output": "wasn't it"
+  },
+  {
+    "question_input": "They've already left, haven't they?",
+    "question_output": "They've already left, <BLANK>?",
+    "answer_output": "haven't they"
+  },
+  {
+    "question_input": "You're not coming to the party, are you?",
+    "question_output": "You're not coming to the party, <BLANK>?",
+    "answer_output": "are you"
+  },
+  {
+    "question_input": "She can speak Japanese, can't she?",
+    "question_output": "She can speak Japanese, <BLANK>?",
+    "answer_output": "can't she"
+  },
+  {
+    "question_input": "We should leave now, shouldn't we?",
+    "question_output": "We should leave now, <BLANK>?",
+    "answer_output": "shouldn't we"
+  },
+  {
+    "question_input": "He didn't call you, did he?",
+    "question_output": "He didn't call you, <BLANK>?",
+    "answer_output": "did he"
+  },
+  {
+    "question_input": "They won't be late, will they?",
+    "question_output": "They won't be late, <BLANK>?",
+    "answer_output": "will they"
+  },
+  {
+    "question_input": "She has been here before, hasn't she?",
+    "question_output": "She has been here before, <BLANK>?",
+    "answer_output": "hasn't she"
+  },
+  {
+    "question_input": "Let's meet at 6 PM, shall we?",
+    "question_output": "Let's meet at 6 PM, <BLANK>?",
+    "answer_output": "shall we"
+  },
+  {
+    "question_input": "I'm not interrupting, am I?",
+    "question_output": "I'm not interrupting, <BLANK>?",
+    "answer_output": "am I"
+  },
+  {
+    "question_input": "He was very upset, wasn't he?",
+    "question_output": "He was very upset, <BLANK>?",
+    "answer_output": "wasn't he"
+  },
+  {
+    "question_input": "You've never been to Spain, have you?",
+    "question_output": "You've never been to Spain, <BLANK>?",
+    "answer_output": "have you"
+  },
+  {
+    "question_input": "We could try again later, couldn't we?",
+    "question_output": "We could try again later, <BLANK>?",
+    "answer_output": "couldn't we"
+  },
+  {
+    "question_input": "The weather's nice today, isn't it?",
+    "question_output": "The weather's nice today, <BLANK>?",
+    "answer_output": "isn't it"
+  },
+  {
+    "question_input": "You weren't at the meeting, were you?",
+    "question_output": "You weren't at the meeting, <BLANK>?",
+    "answer_output": "were you"
+  },
+  {
+    "question_input": "They didn't enjoy the trip, did they?",
+    "question_output": "They didn't enjoy the trip, <BLANK>?",
+    "answer_output": "did they"
+  },
+  {
+    "question_input": "You'll help me with this, won't you?",
+    "question_output": "You'll help me with this, <BLANK>?",
+    "answer_output": "won't you"
+  },
+  {
+    "question_input": "Nothing ever works in this place, does it?",
+    "question_output": "Nothing ever works in this place, <BLANK>?",
+    "answer_output": "does it"
+  },
+  {
+    "question_input": "We weren't supposed to touch that, were we?",
+    "question_output": "We weren't supposed to touch that, <BLANK>?",
+    "answer_output": "were we"
+  },
+  {
+    "question_input": "He rarely goes out, does he?",
+    "question_output": "He rarely goes out, <BLANK>?",
+    "answer_output": "does he"
+  },
+  {
+    "question_input": "It's going to be fine, isn't it?",
+    "question_output": "It's going to be fine, <BLANK>?",
+    "answer_output": "isn't it"
+  },
+  {
+    "question_input": "She used to live here, didn't she?",
+    "question_output": "She used to live here, <BLANK>?",
+    "answer_output": "didn't she"
+  },
+  {
+    "question_input": "We're almost done, aren't we?",
+    "question_output": "We're almost done, <BLANK>?",
+    "answer_output": "aren't we"
+  },
+  {
+    "question_input": "He won the prize, didn't he?",
+    "question_output": "He won the prize, <BLANK>?",
+    "answer_output": "didn't he"
+  },
+  {
+    "question_input": "You can't drive yet, can you?",
+    "question_output": "You can't drive yet, <BLANK>?",
+    "answer_output": "can you"
+  },
+  {
+    "question_input": "She looks familiar, doesn't she?",
+    "question_output": "She looks familiar, <BLANK>?",
+    "answer_output": "doesn't she"
+  },
+  {
+    "question_input": "It's too late to go now, isn't it?",
+    "question_output": "It's too late to go now, <BLANK>?",
+    "answer_output": "isn't it"
+  },
+  {
+    "question_input": "You'd rather stay home, wouldn't you?",
+    "question_output": "You'd rather stay home, <BLANK>?",
+    "answer_output": "wouldn't you"
+  },
+  {
+    "question_input": "They aren't arriving today, are they?",
+    "question_output": "They aren't arriving today, <BLANK>?",
+    "answer_output": "are they"
+  },
+  {
+    "question_input": "You had a great time, didn't you?",
+    "question_output": "You had a great time, <BLANK>?",
+    "answer_output": "didn't you"
+  },
+  {
+    "question_input": "He's been very quiet, hasn't he?",
+    "question_output": "He's been very quiet, <BLANK>?",
+    "answer_output": "hasn't he"
+  },
+  {
+    "question_input": "I'm late again, aren't I?",
+    "question_output": "I'm late again, <BLANK>?",
+    "answer_output": "aren't I"
+  },
+  {
+    "question_input": "We've met before, haven't we?",
+    "question_output": "We've met before, <BLANK>?",
+    "answer_output": "haven't we"
+  },
+  {
+    "question_input": "There's a problem here, isn't there?",
+    "question_output": "There's a problem here, <BLANK>?",
+    "answer_output": "isn't there"
+  },
+  {
+    "question_input": "You weren't serious, were you?",
+    "question_output": "You weren't serious, <BLANK>?",
+    "answer_output": "were you"
+  },
+  {
+    "question_input": "He must be tired, mustn't he?",
+    "question_output": "He must be tired, <BLANK>?",
+    "answer_output": "mustn't he"
+  },
+  {
+    "question_input": "We don't need to hurry, do we?",
+    "question_output": "We don't need to hurry, <BLANK>?",
+    "answer_output": "do we"
+  },
+  {
+    "question_input": "They weren't informed, were they?",
+    "question_output": "They weren't informed, <BLANK>?",
+    "answer_output": "were they"
+  },
+  {
+    "question_input": "He won't mind if we leave early, will he?",
+    "question_output": "He won't mind if we leave early, <BLANK>?",
+    "answer_output": "will he"
+  },
+  {
+    "question_input": "Your parents live nearby, don't they?",
+    "question_output": "Your parents live nearby, <BLANK>?",
+    "answer_output": "don't they"
+  },
+  {
+    "question_input": "She didn't forget the tickets, did she?",
+    "question_output": "She didn't forget the tickets, <BLANK>?",
+    "answer_output": "did she"
+  },
+  {
+    "question_input": "You won't tell anyone, will you?",
+    "question_output": "You won't tell anyone, <BLANK>?",
+    "answer_output": "will you"
+  },
+  {
+    "question_input": "There weren't any issues, were there?",
+    "question_output": "There weren't any issues, <BLANK>?",
+    "answer_output": "were there"
+  },
+  {
+    "question_input": "She's never tried sushi, has she?",
+    "question_output": "She's never tried sushi, <BLANK>?",
+    "answer_output": "has she"
+  },
+  {
+    "question_input": "We won't be late, will we?",
+    "question_output": "We won't be late, <BLANK>?",
+    "answer_output": "will we"
+  },
+  {
+    "question_input": "Nobody saw what happened, did they?",
+    "question_output": "Nobody saw what happened, <BLANK>?",
+    "answer_output": "did they"
+  },
+  {
+    "question_input": "You had never been to Paris, had you?",
+    "question_output": "You had never been to Paris, <BLANK>?",
+    "answer_output": "had you"
+  },
+  {
+    "question_input": "Let's not argue, shall we?",
+    "question_output": "Let's not argue, <BLANK>?",
+    "answer_output": "shall we"
+  },
+  {
+    "question_input": "He hardly ever visits, does he?",
+    "question_output": "He hardly ever visits, <BLANK>?",
+    "answer_output": "does he"
+  },
+  {
+    "question_input": "We ought to help her, oughtn't we?",
+    "question_output": "We ought to help her, <BLANK>?",
+    "answer_output": "oughtn't we"
+  },
+  {
+    "question_input": "Your brother speaks German, doesn't he?",
+    "question_output": "Your brother speaks German, <BLANK>?",
+    "answer_output": "doesn't he"
+  },
+  {
+    "question_input": "We're not allowed to park here, are we?",
+    "question_output": "We're not allowed to park here, <BLANK>?",
+    "answer_output": "are we"
+  },
+  {
+    "question_input": "She hasn't answered the email, has she?",
+    "question_output": "She hasn't answered the email, <BLANK>?",
+    "answer_output": "has she"
+  },
+  {
+    "question_input": "The children were playing outside, weren't they?",
+    "question_output": "The children were playing outside, <BLANK>?",
+    "answer_output": "weren't they"
+  },
+  {
+    "question_input": "You hadn't seen that film before, had you?",
+    "question_output": "You hadn't seen that film before, <BLANK>?",
+    "answer_output": "had you"
+  },
+  {
+    "question_input": "He'd been working all night, hadn't he?",
+    "question_output": "He'd been working all night, <BLANK>?",
+    "answer_output": "hadn't he"
+  },
+  {
+    "question_input": "We won't need to bring anything, will we?",
+    "question_output": "We won't need to bring anything, <BLANK>?",
+    "answer_output": "will we"
+  },
+  {
+    "question_input": "That wasn't your phone ringing, was it?",
+    "question_output": "That wasn't your phone ringing, <BLANK>?",
+    "answer_output": "was it"
+  },
+  {
+    "question_input": "Your friends are visiting next week, aren't they?",
+    "question_output": "Your friends are visiting next week, <BLANK>?",
+    "answer_output": "aren't they"
+  },
+  {
+    "question_input": "She doesn't live here anymore, does she?",
+    "question_output": "She doesn't live here anymore, <BLANK>?",
+    "answer_output": "does she"
+  },
+  {
+    "question_input": "We could use some help, couldn't we?",
+    "question_output": "We could use some help, <BLANK>?",
+    "answer_output": "couldn't we"
+  },
+  {
+    "question_input": "It didn't take long to finish, did it?",
+    "question_output": "It didn't take long to finish, <BLANK>?",
+    "answer_output": "did it"
+  },
+  {
+    "question_input": "There won't be a quiz today, will there?",
+    "question_output": "There won't be a quiz today, <BLANK>?",
+    "answer_output": "will there"
+  },
+  {
+    "question_input": "She rarely speaks in meetings, does she?",
+    "question_output": "She rarely speaks in meetings, <BLANK>?",
+    "answer_output": "does she"
+  },
+  {
+    "question_input": "Everyone had fun at the picnic, didn't they?",
+    "question_output": "Everyone had fun at the picnic, <BLANK>?",
+    "answer_output": "didn't they"
+  },
+  {
+    "question_input": "You'll be staying for dinner, won't you?",
+    "question_output": "You'll be staying for dinner, <BLANK>?",
+    "answer_output": "won't you"
+  },
+  {
+    "question_input": "I shouldn't worry so much, should I?",
+    "question_output": "I shouldn't worry so much, <BLANK>?",
+    "answer_output": "should I"
+  },
+  {
+    "question_input": "We've never tried this before, have we?",
+    "question_output": "We've never tried this before, <BLANK>?",
+    "answer_output": "have we"
+  },
+  {
+    "question_input": "Let's take a break, shall we?",
+    "question_output": "Let's take a break, <BLANK>?",
+    "answer_output": "shall we"
+  },
+  {
+    "question_input": "This soup tastes great, doesn't it?",
+    "question_output": "This soup tastes great, <BLANK>?",
+    "answer_output": "doesn't it"
+  },
+  {
+    "question_input": "The team played well, didn't they?",
+    "question_output": "The team played well, <BLANK>?",
+    "answer_output": "didn't they"
+  },
+  {
+    "question_input": "You haven't met my cousin yet, have you?",
+    "question_output": "You haven't met my cousin yet, <BLANK>?",
+    "answer_output": "have you"
+  },
+  {
+    "question_input": "He ought to apologize, oughtn't he?",
+    "question_output": "He ought to apologize, <BLANK>?",
+    "answer_output": "oughtn't he"
+  },
+  {
+    "question_input": "That's your car, isn't it?",
+    "question_output": "That's your car, <BLANK>?",
+    "answer_output": "isn't it"
+  },
+  {
+    "question_input": "They couldn't solve the puzzle, could they?",
+    "question_output": "They couldn't solve the puzzle, <BLANK>?",
+    "answer_output": "could they"
+  },
+  {
+    "question_input": "It hasn't started yet, has it?",
+    "question_output": "It hasn't started yet, <BLANK>?",
+    "answer_output": "has it"
+  },
+  {
+    "question_input": "Nobody called you, did they?",
+    "question_output": "Nobody called you, <BLANK>?",
+    "answer_output": "did they"
+  },
+  {
+    "question_input": "They'd already eaten, hadn't they?",
+    "question_output": "They'd already eaten, <BLANK>?",
+    "answer_output": "hadn't they"
+  },
+  {
+    "question_input": "You would like some tea, wouldn't you?",
+    "question_output": "You would like some tea, <BLANK>?",
+    "answer_output": "wouldn't you"
+  },
+  {
+    "question_input": "He's not angry, is he?",
+    "question_output": "He's not angry, <BLANK>?",
+    "answer_output": "is he"
+  },
+  {
+    "question_input": "There used to be a shop here, didn't there?",
+    "question_output": "There used to be a shop here, <BLANK>?",
+    "answer_output": "didn't there"
+  },
+  {
+    "question_input": "We've got everything we need, haven't we?",
+    "question_output": "We've got everything we need, <BLANK>?",
+    "answer_output": "haven't we"
+  },
+  {
+    "question_input": "She'd better study tonight, hadn't she?",
+    "question_output": "She'd better study tonight, <BLANK>?",
+    "answer_output": "hadn't she"
+  },
+  {
+    "question_input": "You remember how to get there, don't you?",
+    "question_output": "You remember how to get there, <BLANK>?",
+    "answer_output": "don't you"
+  },
+  {
+    "question_input": "We haven't seen him lately, have we?",
+    "question_output": "We haven't seen him lately, <BLANK>?",
+    "answer_output": "have we"
+  },
+  {
+    "question_input": "They aren't ready yet, are they?",
+    "question_output": "They aren't ready yet, <BLANK>?",
+    "answer_output": "are they"
+  },
+  {
+    "question_input": "It didn't rain yesterday, did it?",
+    "question_output": "It didn't rain yesterday, <BLANK>?",
+    "answer_output": "did it"
+  },
+  {
+    "question_input": "You'll call me when you arrive, won't you?",
+    "question_output": "You'll call me when you arrive, <BLANK>?",
+    "answer_output": "won't you"
+  },
+  {
+    "question_input": "She never wears pink, does she?",
+    "question_output": "She never wears pink, <BLANK>?",
+    "answer_output": "does she"
+  },
+  {
+    "question_input": "I'm not bothering you, am I?",
+    "question_output": "I'm not bothering you, <BLANK>?",
+    "answer_output": "am I"
+  },
+  {
+    "question_input": "You didn't forget the tickets, did you?",
+    "question_output": "You didn't forget the tickets, <BLANK>?",
+    "answer_output": "did you"
+  },
+  {
+    "question_input": "He won't mind if we're late, will he?",
+    "question_output": "He won't mind if we're late, <BLANK>?",
+    "answer_output": "will he"
+  },
+  {
+    "question_input": "They aren't coming to the picnic, are they?",
+    "question_output": "They aren't coming to the picnic, <BLANK>?",
+    "answer_output": "are they"
+  },
+  {
+    "question_input": "You had lunch already, didn't you?",
+    "question_output": "You had lunch already, <BLANK>?",
+    "answer_output": "didn't you"
+  },
+  {
+    "question_input": "This won't take long, will it?",
+    "question_output": "This won't take long, <BLANK>?",
+    "answer_output": "will it"
+  },
+  {
+    "question_input": "We didn't break the rules, did we?",
+    "question_output": "We didn't break the rules, <BLANK>?",
+    "answer_output": "did we"
+  },
+  {
+    "question_input": "She's coming later, isn't she?",
+    "question_output": "She's coming later, <BLANK>?",
+    "answer_output": "isn't she"
+  },
+  {
+    "question_input": "He wasn't at work yesterday, was he?",
+    "question_output": "He wasn't at work yesterday, <BLANK>?",
+    "answer_output": "was he"
+  },
+  {
+    "question_input": "The cat doesn't like water, does it?",
+    "question_output": "The cat doesn't like water, <BLANK>?",
+    "answer_output": "does it"
+  },
+  {
+    "question_input": "Your sister plays the violin, doesn't she?",
+    "question_output": "Your sister plays the violin, <BLANK>?",
+    "answer_output": "doesn't she"
+  },
+  {
+    "question_input": "We should start now, shouldn't we?",
+    "question_output": "We should start now, <BLANK>?",
+    "answer_output": "shouldn't we"
+  },
+  {
+    "question_input": "He won't be happy about this, will he?",
+    "question_output": "He won't be happy about this, <BLANK>?",
+    "answer_output": "will he"
+  },
+  {
+    "question_input": "They had a great time at the beach, didn't they?",
+    "question_output": "They had a great time at the beach, <BLANK>?",
+    "answer_output": "didn't they"
+  },
+  {
+    "question_input": "She never forgets a birthday, does she?",
+    "question_output": "She never forgets a birthday, <BLANK>?",
+    "answer_output": "does she"
+  },
+  {
+    "question_input": "You aren't planning to quit, are you?",
+    "question_output": "You aren't planning to quit, <BLANK>?",
+    "answer_output": "are you"
+  },
+  {
+    "question_input": "He's always on time, isn't he?",
+    "question_output": "He's always on time, <BLANK>?",
+    "answer_output": "isn't he"
+  },
+  {
+    "question_input": "They used to live in Canada, didn't they?",
+    "question_output": "They used to live in Canada, <BLANK>?",
+    "answer_output": "didn't they"
+  },
+  {
+    "question_input": "We're supposed to submit it today, aren't we?",
+    "question_output": "We're supposed to submit it today, <BLANK>?",
+    "answer_output": "aren't we"
+  },
+  {
+    "question_input": "You've been here before, haven't you?",
+    "question_output": "You've been here before, <BLANK>?",
+    "answer_output": "haven't you"
+  },
+  {
+    "question_input": "He doesn't know the answer, does he?",
+    "question_output": "He doesn't know the answer, <BLANK>?",
+    "answer_output": "does he"
+  },
+  {
+    "question_input": "I'm doing this correctly, aren't I?",
+    "question_output": "I'm doing this correctly, <BLANK>?",
+    "answer_output": "aren't I"
+  },
+  {
+    "question_input": "We've seen this movie before, haven't we?",
+    "question_output": "We've seen this movie before, <BLANK>?",
+    "answer_output": "haven't we"
+  },
+  {
+    "question_input": "You weren't listening, were you?",
+    "question_output": "You weren't listening, <BLANK>?",
+    "answer_output": "were you"
+  },
+  {
+    "question_input": "He rarely complains, does he?",
+    "question_output": "He rarely complains, <BLANK>?",
+    "answer_output": "does he"
+  },
+  {
+    "question_input": "You would like to join us, wouldn't you?",
+    "question_output": "You would like to join us, <BLANK>?",
+    "answer_output": "wouldn't you"
+  },
+  {
+    "question_input": "They haven't finished the project, have they?",
+    "question_output": "They haven't finished the project, <BLANK>?",
+    "answer_output": "have they"
+  },
+  {
+    "question_input": "This won't be a problem, will it?",
+    "question_output": "This won't be a problem, <BLANK>?",
+    "answer_output": "will it"
+  },
+  {
+    "question_input": "It wasn't very expensive, was it?",
+    "question_output": "It wasn't very expensive, <BLANK>?",
+    "answer_output": "was it"
+  },
+  {
+    "question_input": "Nobody called the office, did they?",
+    "question_output": "Nobody called the office, <BLANK>?",
+    "answer_output": "did they"
+  },
+  {
+    "question_input": "She didn't forget your birthday, did she?",
+    "question_output": "She didn't forget your birthday, <BLANK>?",
+    "answer_output": "did she"
+  },
+  {
+    "question_input": "We'll have to wait, won't we?",
+    "question_output": "We'll have to wait, <BLANK>?",
+    "answer_output": "won't we"
+  },
+  {
+    "question_input": "There's a lot of noise outside, isn't there?",
+    "question_output": "There's a lot of noise outside, <BLANK>?",
+    "answer_output": "isn't there"
+  },
+  {
+    "question_input": "The flight was delayed, wasn't it?",
+    "question_output": "The flight was delayed, <BLANK>?",
+    "answer_output": "wasn't it"
+  },
+  {
+    "question_input": "You hadn't eaten anything, had you?",
+    "question_output": "You hadn't eaten anything, <BLANK>?",
+    "answer_output": "had you"
+  },
+  {
+    "question_input": "The teacher has marked the papers, hasn't she?",
+    "question_output": "The teacher has marked the papers, <BLANK>?",
+    "answer_output": "hasn't she"
+  },
+  {
+    "question_input": "They weren't expecting us, were they?",
+    "question_output": "They weren't expecting us, <BLANK>?",
+    "answer_output": "were they"
+  },
+  {
+    "question_input": "You won the competition, didn't you?",
+    "question_output": "You won the competition, <BLANK>?",
+    "answer_output": "didn't you"
+  },
+  {
+    "question_input": "It won't take long, will it?",
+    "question_output": "It won't take long, <BLANK>?",
+    "answer_output": "will it"
+  },
+  {
+    "question_input": "We're going to the park, aren't we?",
+    "question_output": "We're going to the park, <BLANK>?",
+    "answer_output": "aren't we"
+  },
+  {
+    "question_input": "He had already left, hadn't he?",
+    "question_output": "He had already left, <BLANK>?",
+    "answer_output": "hadn't he"
+  },
+  {
+    "question_input": "You couldn't hear the speaker, could you?",
+    "question_output": "You couldn't hear the speaker, <BLANK>?",
+    "answer_output": "could you"
+  },
+  {
+    "question_input": "There was nothing in the bag, was there?",
+    "question_output": "There was nothing in the bag, <BLANK>?",
+    "answer_output": "was there"
+  },
+  {
+    "question_input": "Someone should report this, shouldn't they?",
+    "question_output": "Someone should report this, <BLANK>?",
+    "answer_output": "shouldn't they"
+  },
+  {
+    "question_input": "You can come to the meeting, can't you?",
+    "question_output": "You can come to the meeting, <BLANK>?",
+    "answer_output": "can't you"
+  },
+  {
+    "question_input": "He wouldn't lie to us, would he?",
+    "question_output": "He wouldn't lie to us, <BLANK>?",
+    "answer_output": "would he"
+  },
+  {
+    "question_input": "You don't like coffee, do you?",
+    "question_output": "You don't like coffee, <BLANK>?",
+    "answer_output": "do you"
+  },
+  {
+    "question_input": "She had never heard of it, had she?",
+    "question_output": "She had never heard of it, <BLANK>?",
+    "answer_output": "had she"
+  },
+  {
+    "question_input": "He'd better not be late again, had he?",
+    "question_output": "He'd better not be late again, <BLANK>?",
+    "answer_output": "had he"
+  },
+  {
+    "question_input": "We'd already met, hadn't we?",
+    "question_output": "We'd already met, <BLANK>?",
+    "answer_output": "hadn't we"
+  },
+  {
+    "question_input": "Nobody has told you yet, have they?",
+    "question_output": "Nobody has told you yet, <BLANK>?",
+    "answer_output": "have they"
+  },
+  {
+    "question_input": "The shop opens at nine, doesn't it?",
+    "question_output": "The shop opens at nine, <BLANK>?",
+    "answer_output": "doesn't it"
+  },
+  {
+    "question_input": "It isn't your fault, is it?",
+    "question_output": "It isn't your fault, <BLANK>?",
+    "answer_output": "is it"
+  },
+  {
+    "question_input": "We've never done this before, have we?",
+    "question_output": "We've never done this before, <BLANK>?",
+    "answer_output": "have we"
+  },
+  {
+    "question_input": "She didn't mean to offend you, did she?",
+    "question_output": "She didn't mean to offend you, <BLANK>?",
+    "answer_output": "did she"
+  },
+  {
+    "question_input": "I shouldn't have said that, should I?",
+    "question_output": "I shouldn't have said that, <BLANK>?",
+    "answer_output": "should I"
+  },
+  {
+    "question_input": "He usually walks to school, doesn't he?",
+    "question_output": "He usually walks to school, <BLANK>?",
+    "answer_output": "doesn't he"
+  },
+  {
+    "question_input": "You aren't forgetting something, are you?",
+    "question_output": "You aren't forgetting something, <BLANK>?",
+    "answer_output": "are you"
+  },
+  {
+    "question_input": "That dog won't bite, will it?",
+    "question_output": "That dog won't bite, <BLANK>?",
+    "answer_output": "will it"
+  },
+  {
+    "question_input": "She'll be joining us later, won't she?",
+    "question_output": "She'll be joining us later, <BLANK>?",
+    "answer_output": "won't she"
+  },
+  {
+    "question_input": "Do you know where Sarah went after lunch, since she wasn't at the office?",
+    "question_output": "Do you know where Sarah <BLANK> after lunch, since she wasn't at the office?",
+    "answer_output": "went"
+  },
+  {
+    "question_input": "Can you remember what time the train left, since we missed it by just a minute?",
+    "question_output": "Can you remember what time the train <BLANK>, since we missed it by just a minute?",
+    "answer_output": "left"
+  },
+  {
+    "question_input": "Do you know why Marcus left so early, when the meeting was still going on?",
+    "question_output": "Do you know why Marcus <BLANK> so early, when the meeting was still going on?",
+    "answer_output": "left"
+  },
+  {
+    "question_input": "Could you tell me how she cooked that recipe? It was absolutely delicious.",
+    "question_output": "Could you tell me how she <BLANK> that recipe? It was absolutely delicious.",
+    "answer_output": "cooked"
+  },
+  {
+    "question_input": "Do you have any idea where they found the lost documents?",
+    "question_output": "Do you have any idea where they <BLANK> the lost documents?",
+    "answer_output": "found"
+  },
+  {
+    "question_input": "Can you explain why he submitted the project without informing us first?",
+    "question_output": "Can you explain why he <BLANK> the project without informing us first?",
+    "answer_output": "submitted"
+  },
+  {
+    "question_input": "Do you remember what she said during the presentation? It was really moving.",
+    "question_output": "Do you remember what she <BLANK> during the presentation? It was really moving.",
+    "answer_output": "said"
+  },
+  {
+    "question_input": "Could you tell me where the keys are? I can't find them anywhere.",
+    "question_output": "Could you tell me where the keys <BLANK>? I can't find them anywhere.",
+    "answer_output": "are"
+  },
+  {
+    "question_input": "Can you tell me how many students attended the lecture yesterday?",
+    "question_output": "Can you tell me how many students <BLANK> the lecture yesterday?",
+    "answer_output": "attended"
+  },
+  {
+    "question_input": "Do you know why the printer is jammed again? It's the third time today.",
+    "question_output": "Do you know why the printer <BLANK> again? It's the third time today.",
+    "answer_output": "is jammed"
+  },
+  {
+    "question_input": "Can you explain what she was talking about before she got upset?",
+    "question_output": "Can you explain what she <BLANK> about before she got upset?",
+    "answer_output": "was talking"
+  },
+  {
+    "question_input": "Do you recall where David found that old photo?",
+    "question_output": "Do you recall where David <BLANK> that old photo?",
+    "answer_output": "found"
+  },
+  {
+    "question_input": "Could you tell me how long they lived in Singapore before moving to Tokyo?",
+    "question_output": "Could you tell me how long they <BLANK> in Singapore before moving to Tokyo?",
+    "answer_output": "lived"
+  },
+  {
+    "question_input": "Do you remember what time the movie started? We were almost late.",
+    "question_output": "Do you remember what time the movie <BLANK>? We were almost late.",
+    "answer_output": "started"
+  },
+  {
+    "question_input": "Can you explain why the report was sent yesterday instead of today?",
+    "question_output": "Can you explain why the report <BLANK> yesterday instead of today?",
+    "answer_output": "was sent"
+  },
+  {
+    "question_input": "Do you know where she went for the weekend? She mentioned travel plans.",
+    "question_output": "Do you know where she <BLANK> for the weekend? She mentioned travel plans.",
+    "answer_output": "went"
+  },
+  {
+    "question_input": "Could you tell me who broke the window? It was already broken this morning.",
+    "question_output": "Could you tell me who <BLANK> the window? It was already broken this morning.",
+    "answer_output": "broke"
+  },
+  {
+    "question_input": "Do you remember which team won the tournament last year?",
+    "question_output": "Do you remember which team <BLANK> the tournament last year?",
+    "answer_output": "won"
+  },
+  {
+    "question_input": "Can you tell me what she wrote in her application letter?",
+    "question_output": "Can you tell me what she <BLANK> in her application letter?",
+    "answer_output": "wrote"
+  },
+  {
+    "question_input": "Do you have any idea when the guests will arrive? We've been waiting ages.",
+    "question_output": "Do you have any idea when the guests <BLANK>? We've been waiting ages.",
+    "answer_output": "will arrive"
+  },
+  {
+    "question_input": "Could you explain why the lights went off during the exam?",
+    "question_output": "Could you explain why the lights <BLANK> off during the exam?",
+    "answer_output": "went"
+  },
+  {
+    "question_input": "Can you tell me how often she visits her grandparents?",
+    "question_output": "Can you tell me how often she <BLANK> her grandparents?",
+    "answer_output": "visits"
+  },
+  {
+    "question_input": "Do you know when the meeting starts? I don't want to be late.",
+    "question_output": "Do you know when the meeting <BLANK>? I don't want to be late.",
+    "answer_output": "starts"
+  },
+  {
+    "question_input": "Could you tell me who left the package at the door?",
+    "question_output": "Could you tell me who <BLANK> the package at the door?",
+    "answer_output": "left"
+  },
+  {
+    "question_input": "Do you know why she was so nervous during the interview?",
+    "question_output": "Do you know why she <BLANK> so nervous during the interview?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Can you tell me where he bought that antique watch?",
+    "question_output": "Can you tell me where he <BLANK> that antique watch?",
+    "answer_output": "bought"
+  },
+  {
+    "question_input": "Do you know when we will receive our final grades?",
+    "question_output": "Do you know when we <BLANK> our final grades?",
+    "answer_output": "will receive"
+  },
+  {
+    "question_input": "Could you tell me how the magician did that trick?",
+    "question_output": "Could you tell me how the magician <BLANK> that trick?",
+    "answer_output": "did"
+  },
+  {
+    "question_input": "Do you know whether he replied to the invitation or not?",
+    "question_output": "Do you know whether he <BLANK> to the invitation or not?",
+    "answer_output": "replied"
+  },
+  {
+    "question_input": "Can you tell me what she said in her speech at the ceremony?",
+    "question_output": "Can you tell me what she <BLANK> in her speech at the ceremony?",
+    "answer_output": "said"
+  },
+  {
+    "question_input": "Could you explain where the event took place last year?",
+    "question_output": "Could you explain where the event <BLANK> place last year?",
+    "answer_output": "took"
+  },
+  {
+    "question_input": "Do you remember how long the journey took when you went last time?",
+    "question_output": "Do you remember how long the journey <BLANK> when you went last time?",
+    "answer_output": "took"
+  },
+  {
+    "question_input": "Can you tell me what the instructions were for the assignment?",
+    "question_output": "Can you tell me what the instructions <BLANK> for the assignment?",
+    "answer_output": "were"
+  },
+  {
+    "question_input": "Do you know how he managed to fix the broken chair?",
+    "question_output": "Do you know how he <BLANK> to fix the broken chair?",
+    "answer_output": "managed"
+  },
+  {
+    "question_input": "Could you tell me where that noise came from last night?",
+    "question_output": "Could you tell me where that noise <BLANK> from last night?",
+    "answer_output": "came"
+  },
+  {
+    "question_input": "Do you know how often she practices yoga each week?",
+    "question_output": "Do you know how often she <BLANK> yoga each week?",
+    "answer_output": "practices"
+  },
+  {
+    "question_input": "Can you tell me why their team lost the final match?",
+    "question_output": "Can you tell me why their team <BLANK> the final match?",
+    "answer_output": "lost"
+  },
+  {
+    "question_input": "Do you know who is the main speaker for tomorrow's event?",
+    "question_output": "Do you know who <BLANK> the main speaker for tomorrow's event?",
+    "answer_output": "is"
+  },
+  {
+    "question_input": "Could you explain what this word means? I've never seen it before.",
+    "question_output": "Could you explain what this word <BLANK>? I've never seen it before.",
+    "answer_output": "means"
+  },
+  {
+    "question_input": "Do you know how much that jacket costs? I might buy one.",
+    "question_output": "Do you know how much that jacket <BLANK>? I might buy one.",
+    "answer_output": "costs"
+  },
+  {
+    "question_input": "Can you tell me how she won that scholarship?",
+    "question_output": "Can you tell me how she <BLANK> that scholarship?",
+    "answer_output": "won"
+  },
+  {
+    "question_input": "Do you know whether he saved the files before leaving?",
+    "question_output": "Do you know whether he <BLANK> the files before leaving?",
+    "answer_output": "saved"
+  },
+  {
+    "question_input": "Could you tell me why the library closed early last Friday?",
+    "question_output": "Could you tell me why the library <BLANK> early last Friday?",
+    "answer_output": "closed"
+  },
+  {
+    "question_input": "Do you know who put this book on my desk?",
+    "question_output": "Do you know who <BLANK> this book on my desk?",
+    "answer_output": "put"
+  },
+  {
+    "question_input": "Can you explain what time the class starts on Thursdays?",
+    "question_output": "Can you explain what time the class <BLANK> on Thursdays?",
+    "answer_output": "starts"
+  },
+  {
+    "question_input": "Do you know where the professor holds his office hours?",
+    "question_output": "Do you know where the professor <BLANK> his office hours?",
+    "answer_output": "holds"
+  },
+  {
+    "question_input": "Can you tell me what she brought to the meeting yesterday?",
+    "question_output": "Can you tell me what she <BLANK> to the meeting yesterday?",
+    "answer_output": "brought"
+  },
+  {
+    "question_input": "Do you remember who made that decision in the first place?",
+    "question_output": "Do you remember who <BLANK> that decision in the first place?",
+    "answer_output": "made"
+  },
+  {
+    "question_input": "Could you tell me when we will have our next exam?",
+    "question_output": "Could you tell me when we <BLANK> our next exam?",
+    "answer_output": "will have"
+  },
+  {
+    "question_input": "Do you know what time the cafeteria serves breakfast on weekends?",
+    "question_output": "Do you know what time the cafeteria <BLANK> breakfast on weekends?",
+    "answer_output": "serves"
+  },
+  {
+    "question_input": "Could you tell me why Emma left early yesterday, even though the meeting wasn't over?",
+    "question_output": "Could you tell me why Emma <BLANK> early yesterday, even though the meeting wasn't over?",
+    "answer_output": "left"
+  },
+  {
+    "question_input": "Can you remember where they held the wedding ceremony last year?",
+    "question_output": "Can you remember where they <BLANK> the wedding ceremony last year?",
+    "answer_output": "held"
+  },
+  {
+    "question_input": "Do you have any idea how long the package took to arrive from Japan?",
+    "question_output": "Do you have any idea how long the package <BLANK> to arrive from Japan?",
+    "answer_output": "took"
+  },
+  {
+    "question_input": "Could you tell me what the teacher talked about in the last part of the lecture?",
+    "question_output": "Could you tell me what the teacher <BLANK> about in the last part of the lecture?",
+    "answer_output": "talked"
+  },
+  {
+    "question_input": "Do you know why the lights went out during the test yesterday?",
+    "question_output": "Do you know why the lights <BLANK> out during the test yesterday?",
+    "answer_output": "went"
+  },
+  {
+    "question_input": "Can you explain how we solved this equation in class last week?",
+    "question_output": "Can you explain how we <BLANK> this equation in class last week?",
+    "answer_output": "solved"
+  },
+  {
+    "question_input": "Could you tell me what kind of coffee she usually orders?",
+    "question_output": "Could you tell me what kind of coffee she usually <BLANK>?",
+    "answer_output": "orders"
+  },
+  {
+    "question_input": "Do you know who played the piano during the event?",
+    "question_output": "Do you know who <BLANK> the piano during the event?",
+    "answer_output": "played"
+  },
+  {
+    "question_input": "Can you tell me where the technician replaced the broken monitor?",
+    "question_output": "Can you tell me where the technician <BLANK> the broken monitor?",
+    "answer_output": "replaced"
+  },
+  {
+    "question_input": "Do you remember what the professor said about the assignment deadline?",
+    "question_output": "Do you remember what the professor <BLANK> about the assignment deadline?",
+    "answer_output": "said"
+  },
+  {
+    "question_input": "Could you explain why the train was delayed for over two hours?",
+    "question_output": "Could you explain why the train <BLANK> for over two hours?",
+    "answer_output": "was delayed"
+  },
+  {
+    "question_input": "Can you tell me how far the school is from your house?",
+    "question_output": "Can you tell me how far the school <BLANK> from your house?",
+    "answer_output": "is"
+  },
+  {
+    "question_input": "Do you know what she was doing when I called her last night?",
+    "question_output": "Do you know what she <BLANK> when I called her last night?",
+    "answer_output": "was doing"
+  },
+  {
+    "question_input": "Could you tell me where this photo was taken?",
+    "question_output": "Could you tell me where this photo <BLANK> taken?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Can you explain who designed the new marketing plan?",
+    "question_output": "Can you explain who <BLANK> the new marketing plan?",
+    "answer_output": "designed"
+  },
+  {
+    "question_input": "Do you remember when he returned from his last vacation?",
+    "question_output": "Do you remember when he <BLANK> from his last vacation?",
+    "answer_output": "returned"
+  },
+  {
+    "question_input": "Could you tell me how she reacted the news about her promotion?",
+    "question_output": "Could you tell me how she <BLANK> the news about her promotion?",
+    "answer_output": "reacted"
+  },
+  {
+    "question_input": "Do you know why he left the meeting without saying anything?",
+    "question_output": "Do you know why he <BLANK> the meeting without saying anything?",
+    "answer_output": "left"
+  },
+  {
+    "question_input": "Can you tell me where the guests are staying during their visit?",
+    "question_output": "Can you tell me where the guests <BLANK> staying during their visit?",
+    "answer_output": "are"
+  },
+  {
+    "question_input": "Could you explain what she did to fix the broken shelf?",
+    "question_output": "Could you explain what she <BLANK> to fix the broken shelf?",
+    "answer_output": "did"
+  },
+  {
+    "question_input": "Do you remember where the manager filed the budget report?",
+    "question_output": "Do you remember where the manager <BLANK> the budget report?",
+    "answer_output": "filed"
+  },
+  {
+    "question_input": "Can you tell me when this museum usually opens?",
+    "question_output": "Can you tell me when this museum usually <BLANK>?",
+    "answer_output": "opens"
+  },
+  {
+    "question_input": "Do you know how she became so fluent in Spanish?",
+    "question_output": "Do you know how she <BLANK> so fluent in Spanish?",
+    "answer_output": "became"
+  },
+  {
+    "question_input": "Could you tell me what ingredients he used for the pasta sauce?",
+    "question_output": "Could you tell me what ingredients he <BLANK> for the pasta sauce?",
+    "answer_output": "used"
+  },
+  {
+    "question_input": "Do you know when the results will be posted online?",
+    "question_output": "Do you know when the results <BLANK> posted online?",
+    "answer_output": "will be"
+  },
+  {
+    "question_input": "Can you remember how he felt before the surgery?",
+    "question_output": "Can you remember how he <BLANK> before the surgery?",
+    "answer_output": "felt"
+  },
+  {
+    "question_input": "Could you explain how that sculpture was made?",
+    "question_output": "Could you explain how that sculpture <BLANK> made?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Do you know whether she has signed the contract yet?",
+    "question_output": "Do you know whether she <BLANK> the contract yet?",
+    "answer_output": "has signed"
+  },
+  {
+    "question_input": "Can you tell me why the internet went down during the exam?",
+    "question_output": "Can you tell me why the internet <BLANK> down during the exam?",
+    "answer_output": "went"
+  },
+  {
+    "question_input": "Could you tell me where the conference took place last year?",
+    "question_output": "Could you tell me where the conference <BLANK> place last year?",
+    "answer_output": "took"
+  },
+  {
+    "question_input": "Do you know what kind of music she listens to when she studies?",
+    "question_output": "Do you know what kind of music she <BLANK> to when she studies?",
+    "answer_output": "listens"
+  },
+  {
+    "question_input": "Can you remember what color shirt he wore yesterday?",
+    "question_output": "Can you remember what color shirt he <BLANK> yesterday?",
+    "answer_output": "wore"
+  },
+  {
+    "question_input": "Could you explain who turned the lights off before leaving?",
+    "question_output": "Could you explain who <BLANK> the lights off before leaving?",
+    "answer_output": "turned"
+  },
+  {
+    "question_input": "Do you know why the cake was so dry this time?",
+    "question_output": "Do you know why the cake <BLANK> so dry this time?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Can you tell me how many students graduated from the program last year?",
+    "question_output": "Can you tell me how many students <BLANK> from the program last year?",
+    "answer_output": "graduated"
+  },
+  {
+    "question_input": "Do you remember what she argued during the final debate?",
+    "question_output": "Do you remember what she <BLANK> during the final debate?",
+    "answer_output": "argued"
+  },
+  {
+    "question_input": "Could you tell me when they released the last update to the software?",
+    "question_output": "Could you tell me when they <BLANK> the last update to the software?",
+    "answer_output": "released"
+  },
+  {
+    "question_input": "Do you know how the error occurred in the report?",
+    "question_output": "Do you know how the error <BLANK> in the report?",
+    "answer_output": "occurred"
+  },
+  {
+    "question_input": "Can you explain who led the team during the project presentation?",
+    "question_output": "Can you explain who <BLANK> the team during the project presentation?",
+    "answer_output": "led"
+  },
+  {
+    "question_input": "Could you tell me how far the park is from here?",
+    "question_output": "Could you tell me how far the park <BLANK> from here?",
+    "answer_output": "is"
+  },
+  {
+    "question_input": "Do you know what grade she got on the science test?",
+    "question_output": "Do you know what grade she <BLANK> on the science test?",
+    "answer_output": "got"
+  },
+  {
+    "question_input": "Can you remember where we saw that strange sculpture?",
+    "question_output": "Can you remember where we <BLANK> that strange sculpture?",
+    "answer_output": "saw"
+  },
+  {
+    "question_input": "Could you tell me when your sister came back from her trip?",
+    "question_output": "Could you tell me when your sister <BLANK> back from her trip?",
+    "answer_output": "came"
+  },
+  {
+    "question_input": "Do you know why this door was left open all night?",
+    "question_output": "Do you know why this door <BLANK> open all night?",
+    "answer_output": "was left"
+  },
+  {
+    "question_input": "Can you explain how the manager handled the problem with the client?",
+    "question_output": "Can you explain how the manager <BLANK> the problem with the client?",
+    "answer_output": "handled"
+  },
+  {
+    "question_input": "Could you tell me what she learned during her summer job?",
+    "question_output": "Could you tell me what she <BLANK> during her summer job?",
+    "answer_output": "learned"
+  },
+  {
+    "question_input": "Do you remember how much that antique sold for at auction?",
+    "question_output": "Do you remember how much that antique <BLANK> at auction?",
+    "answer_output": "sold for"
+  },
+  {
+    "question_input": "Can you tell me when the last guest left last night?",
+    "question_output": "Can you tell me when the last guest <BLANK> last night?",
+    "answer_output": "left"
+  },
+  {
+    "question_input": "Do you know when the guests are arriving, since the table is already set?",
+    "question_output": "Do you know when the guests <BLANK> arriving, since the table is already set?",
+    "answer_output": "are"
+  },
+  {
+    "question_input": "Could you explain why nobody answered the door when I rang the bell?",
+    "question_output": "Could you explain why nobody <BLANK> the door when I rang the bell?",
+    "answer_output": "answered"
+  },
+  {
+    "question_input": "Can you tell me where she took her driving lessons last month?",
+    "question_output": "Can you tell me where she <BLANK> her driving lessons last month?",
+    "answer_output": "took"
+  },
+  {
+    "question_input": "Do you remember how the magician did that trick at the show?",
+    "question_output": "Do you remember how the magician <BLANK> that trick at the show?",
+    "answer_output": "did"
+  },
+  {
+    "question_input": "Could you tell me what she was talking about during her phone call?",
+    "question_output": "Could you tell me what she <BLANK> about during her phone call?",
+    "answer_output": "was talking"
+  },
+  {
+    "question_input": "Do you know when the teacher will post the homework results?",
+    "question_output": "Do you know when the teacher <BLANK> the homework results?",
+    "answer_output": "will post"
+  },
+  {
+    "question_input": "Can you remember why the lights went off in the middle of dinner?",
+    "question_output": "Can you remember why the lights <BLANK> off in the middle of dinner?",
+    "answer_output": "went"
+  },
+  {
+    "question_input": "Could you explain how long the repair took last time?",
+    "question_output": "Could you explain how long the repair <BLANK> last time?",
+    "answer_output": "took"
+  },
+  {
+    "question_input": "Do you know whether Emma read the email I forwarded her?",
+    "question_output": "Do you know whether Emma <BLANK> the email I forwarded her?",
+    "answer_output": "read"
+  },
+  {
+    "question_input": "Can you tell me why this restaurant is so popular among students?",
+    "question_output": "Can you tell me why this restaurant <BLANK> so popular among students?",
+    "answer_output": "is"
+  },
+  {
+    "question_input": "Could you tell me where the ceremony was held last year?",
+    "question_output": "Could you tell me where the ceremony <BLANK> held last year?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Do you remember how much her new phone cost?",
+    "question_output": "Do you remember how much her new phone <BLANK>?",
+    "answer_output": "cost"
+  },
+  {
+    "question_input": "Can you tell me who left the front door open overnight?",
+    "question_output": "Can you tell me who <BLANK> the front door open overnight?",
+    "answer_output": "left"
+  },
+  {
+    "question_input": "Do you know where she found that interesting book about design?",
+    "question_output": "Do you know where she <BLANK> that interesting book about design?",
+    "answer_output": "found"
+  },
+  {
+    "question_input": "Could you explain why no one took the meeting notes?",
+    "question_output": "Could you explain why no one <BLANK> the meeting notes?",
+    "answer_output": "took"
+  },
+  {
+    "question_input": "Do you know what time the last bus leaves tonight?",
+    "question_output": "Do you know what time the last bus <BLANK> tonight?",
+    "answer_output": "leaves"
+  },
+  {
+    "question_input": "Can you tell me where the manager filed all the complaints?",
+    "question_output": "Can you tell me where the manager <BLANK> all the complaints?",
+    "answer_output": "filed"
+  },
+  {
+    "question_input": "Do you remember how she injured her wrist last winter?",
+    "question_output": "Do you remember how she <BLANK> her wrist last winter?",
+    "answer_output": "injured"
+  },
+  {
+    "question_input": "Could you tell me how many hours she worked last week?",
+    "question_output": "Could you tell me how many hours she <BLANK> last week?",
+    "answer_output": "worked"
+  },
+  {
+    "question_input": "Do you know who painted this mural on the school wall?",
+    "question_output": "Do you know who <BLANK> this mural on the school wall?",
+    "answer_output": "painted"
+  },
+  {
+    "question_input": "Can you tell me what the speaker discussed during the last session?",
+    "question_output": "Can you tell me what the speaker <BLANK> during the last session?",
+    "answer_output": "discussed"
+  },
+  {
+    "question_input": "Do you know how much time we have left before the test starts?",
+    "question_output": "Do you know how much time we <BLANK> left before the test starts?",
+    "answer_output": "have"
+  },
+  {
+    "question_input": "Could you tell me whether the parcel arrived this morning?",
+    "question_output": "Could you tell me whether the parcel <BLANK> this morning?",
+    "answer_output": "arrived"
+  },
+  {
+    "question_input": "Do you remember what she was doing when she got the phone call?",
+    "question_output": "Do you remember what she <BLANK> when she got the phone call?",
+    "answer_output": "was doing"
+  },
+  {
+    "question_input": "Can you explain why your team missed the project deadline?",
+    "question_output": "Can you explain why your team <BLANK> the project deadline?",
+    "answer_output": "missed"
+  },
+  {
+    "question_input": "Could you tell me what the weather was like yesterday?",
+    "question_output": "Could you tell me what the weather <BLANK> like yesterday?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Do you know how she got that job offer in New York?",
+    "question_output": "Do you know how she <BLANK> that job offer in New York?",
+    "answer_output": "got"
+  },
+  {
+    "question_input": "Can you tell me when the construction was completed?",
+    "question_output": "Can you tell me when the construction <BLANK> completed?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Do you know how often he gets his car serviced?",
+    "question_output": "Do you know how often he <BLANK> his car serviced?",
+    "answer_output": "gets"
+  },
+  {
+    "question_input": "Could you explain what time your shift starts tomorrow?",
+    "question_output": "Could you explain what time your shift <BLANK> tomorrow?",
+    "answer_output": "starts"
+  },
+  {
+    "question_input": "Can you tell me how the problem was resolved last week?",
+    "question_output": "Can you tell me how the problem <BLANK> resolved last week?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Do you remember when they demolished the old library building?",
+    "question_output": "Do you remember when they <BLANK> the old library building?",
+    "answer_output": "demolished"
+  },
+  {
+    "question_input": "Could you tell me what they saw during the tour yesterday?",
+    "question_output": "Could you tell me what they <BLANK> during the tour yesterday?",
+    "answer_output": "saw"
+  },
+  {
+    "question_input": "Do you know how long he lived in Berlin before moving here?",
+    "question_output": "Do you know how long he <BLANK> in Berlin before moving here?",
+    "answer_output": "lived"
+  },
+  {
+    "question_input": "Can you explain who won the prize at the ceremony?",
+    "question_output": "Can you explain who <BLANK> the prize at the ceremony?",
+    "answer_output": "won"
+  },
+  {
+    "question_input": "Do you know why the dog barked all night last night?",
+    "question_output": "Do you know why the dog <BLANK> all night last night?",
+    "answer_output": "barked"
+  },
+  {
+    "question_input": "Could you tell me what he was doing when the lights went out?",
+    "question_output": "Could you tell me what he <BLANK> when the lights went out?",
+    "answer_output": "was doing"
+  },
+  {
+    "question_input": "Do you remember where you left your phone?",
+    "question_output": "Do you remember where you <BLANK> your phone?",
+    "answer_output": "left"
+  },
+  {
+    "question_input": "Can you tell me who submitted the report this morning?",
+    "question_output": "Can you tell me who <BLANK> the report this morning?",
+    "answer_output": "submitted"
+  },
+  {
+    "question_input": "Do you know what she talked about in her interview?",
+    "question_output": "Do you know what she <BLANK> about in her interview?",
+    "answer_output": "talked"
+  },
+  {
+    "question_input": "Could you tell me how they got to the airport in the end?",
+    "question_output": "Could you tell me how they <BLANK> to the airport in the end?",
+    "answer_output": "got"
+  },
+  {
+    "question_input": "Do you know when he published his last book?",
+    "question_output": "Do you know when he <BLANK> his last book?",
+    "answer_output": "published"
+  },
+  {
+    "question_input": "Can you explain what she did to prepare for the interview?",
+    "question_output": "Can you explain what she <BLANK> to prepare for the interview?",
+    "answer_output": "did"
+  },
+  {
+    "question_input": "Could you tell me how many people participated in the competition?",
+    "question_output": "Could you tell me how many people <BLANK> in the competition?",
+    "answer_output": "participated"
+  },
+  {
+    "question_input": "Do you know where the last group stored their equipment?",
+    "question_output": "Do you know where the last group <BLANK> their equipment?",
+    "answer_output": "stored"
+  },
+  {
+    "question_input": "Can you remember how he reacted when he got the news?",
+    "question_output": "Can you remember how he <BLANK> when he got the news?",
+    "answer_output": "reacted"
+  },
+  {
+    "question_input": "Could you tell me when the new app was released?",
+    "question_output": "Could you tell me when the new app <BLANK> released?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Do you know whether she forgot her passport at home?",
+    "question_output": "Do you know whether she <BLANK> her passport at home?",
+    "answer_output": "forgot"
+  },
+  {
+    "question_input": "Can you explain why the package hasn't arrived yet?",
+    "question_output": "Can you explain why the package <BLANK> yet?",
+    "answer_output": "hasn't arrived"
+  },
+  {
+    "question_input": "Could you tell me where this device was manufactured?",
+    "question_output": "Could you tell me where this device <BLANK> manufactured?",
+    "answer_output": "was"
+  },
+  {
+    "question_input": "Could you open the window? It's getting a bit warm in here.",
+    "question_output": "Could you <BLANK> the window? It's getting a bit warm in here.",
+    "answer_output": "open"
+  },
+  {
+    "question_input": "Would you show me how to use this machine?",
+    "question_output": "Would you <BLANK> me how to use this machine?",
+    "answer_output": "show"
+  },
+  {
+    "question_input": "Can I use your phone charger for a while?",
+    "question_output": "Can I <BLANK> your phone charger for a while?",
+    "answer_output": "use"
+  },
+  {
+    "question_input": "May I leave early today? I have a dentist appointment.",
+    "question_output": "May I <BLANK> early today? I have a dentist appointment.",
+    "answer_output": "leave"
+  },
+  {
+    "question_input": "Would you mind taking a picture of us?",
+    "question_output": "Would you <BLANK> taking a picture of us?",
+    "answer_output": "mind"
+  },
+  {
+    "question_input": "Could you please turn off the lights when you leave?",
+    "question_output": "Could you please <BLANK> the lights when you leave?",
+    "answer_output": "turn off"
+  },
+  {
+    "question_input": "Can you carry this box to the storage room?",
+    "question_output": "Can you <BLANK> this box to the storage room?",
+    "answer_output": "carry"
+  },
+  {
+    "question_input": "Would you send me a message when you arrive?",
+    "question_output": "Would you <BLANK> me a message when you arrive?",
+    "answer_output": "send"
+  },
+  {
+    "question_input": "Could you bring me a glass of water?",
+    "question_output": "Could you <BLANK> me a glass of water?",
+    "answer_output": "bring"
+  },
+  {
+    "question_input": "May I see your notebook for a moment?",
+    "question_output": "May I <BLANK> your notebook for a moment?",
+    "answer_output": "see"
+  },
+  {
+    "question_input": "Can I use your restroom, please?",
+    "question_output": "Can I <BLANK> your restroom, please?",
+    "answer_output": "use"
+  },
+  {
+    "question_input": "Would you come with me to the airport?",
+    "question_output": "Would you <BLANK> with me to the airport?",
+    "answer_output": "come"
+  },
+  {
+    "question_input": "Could you remind me when the meeting starts?",
+    "question_output": "Could you <BLANK> me when the meeting starts?",
+    "answer_output": "remind"
+  },
+  {
+    "question_input": "Can you check the document before printing it?",
+    "question_output": "Can you <BLANK> the document before printing it?",
+    "answer_output": "check"
+  },
+  {
+    "question_input": "Would you like some help carrying that?",
+    "question_output": "Would you <BLANK> some help carrying that?",
+    "answer_output": "like"
+  },
+  {
+    "question_input": "Could I make a quick call before the meeting starts?",
+    "question_output": "Could I <BLANK> a quick call before the meeting starts?",
+    "answer_output": "make"
+  },
+  {
+    "question_input": "Can you give me your opinion on this design?",
+    "question_output": "Can you <BLANK> me your opinion on this design?",
+    "answer_output": "give"
+  },
+  {
+    "question_input": "Would you mind if I asked a few more questions?",
+    "question_output": "Would you <BLANK> if I asked a few more questions?",
+    "answer_output": "mind"
+  },
+  {
+    "question_input": "Could you wake me up at 7 a.m.?",
+    "question_output": "Could you <BLANK> me up at 7 a.m.?",
+    "answer_output": "wake"
+  },
+  {
+    "question_input": "Can I borrow your pencil for the quiz?",
+    "question_output": "Can I <BLANK> your pencil for the quiz?",
+    "answer_output": "borrow"
+  },
+  {
+    "question_input": "Would you start the presentation for us?",
+    "question_output": "Would you <BLANK> the presentation for us?",
+    "answer_output": "start"
+  },
+  {
+    "question_input": "Could you repeat your email address again?",
+    "question_output": "Could you <BLANK> your email address again?",
+    "answer_output": "repeat"
+  },
+  {
+    "question_input": "May I offer you some coffee?",
+    "question_output": "May I <BLANK> you some coffee?",
+    "answer_output": "offer"
+  },
+  {
+    "question_input": "Would you have some time to look over this draft?",
+    "question_output": "Would you <BLANK> some time to look over this draft?",
+    "answer_output": "have"
+  },
+  {
+    "question_input": "Can you fasten your seatbelt, please?",
+    "question_output": "Can you <BLANK> your seatbelt, please?",
+    "answer_output": "fasten"
+  },
+  {
+    "question_input": "Could you advance the projector for the next slide?",
+    "question_output": "Could you <BLANK> the projector for the next slide?",
+    "answer_output": "advance"
+  },
+  {
+    "question_input": "May I ask you a few questions?",
+    "question_output": "May I <BLANK> you a few questions?",
+    "answer_output": "ask"
+  },
+  {
+    "question_input": "Would you send the file to my inbox?",
+    "question_output": "Would you <BLANK> the file to my inbox?",
+    "answer_output": "send"
+  },
+  {
+    "question_input": "Can I take a seat here?",
+    "question_output": "Can I <BLANK> a seat here?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Could you say that a bit louder, please?",
+    "question_output": "Could you <BLANK> that a bit louder, please?",
+    "answer_output": "say"
+  },
+  {
+    "question_input": "Would you lend me your umbrella if it rains?",
+    "question_output": "Would you <BLANK> me your umbrella if it rains?",
+    "answer_output": "lend"
+  },
+  {
+    "question_input": "Can you call me a taxi?",
+    "question_output": "Can you <BLANK> me a taxi?",
+    "answer_output": "call"
+  },
+  {
+    "question_input": "May I take your name for the guest list?",
+    "question_output": "May I <BLANK> your name for the guest list?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Could you look over the report before submitting it?",
+    "question_output": "Could you <BLANK> over the report before submitting it?",
+    "answer_output": "look"
+  },
+  {
+    "question_input": "Would you like some sugar in your tea?",
+    "question_output": "Would you <BLANK> some sugar in your tea?",
+    "answer_output": "like"
+  },
+  {
+    "question_input": "Can I talk with you for a moment?",
+    "question_output": "Can I <BLANK> with you for a moment?",
+    "answer_output": "talk"
+  },
+  {
+    "question_input": "Could you watch the kids while I run to the store?",
+    "question_output": "Could you <BLANK> the kids while I run to the store?",
+    "answer_output": "watch"
+  },
+  {
+    "question_input": "May I have your attention, please?",
+    "question_output": "May I <BLANK> your attention, please?",
+    "answer_output": "have"
+  },
+  {
+    "question_input": "Would you help me with the setup?",
+    "question_output": "Would you <BLANK> me with the setup?",
+    "answer_output": "help"
+  },
+  {
+    "question_input": "Can you slow down a bit? You're speaking too fast.",
+    "question_output": "Can you <BLANK> down a bit? You're speaking too fast.",
+    "answer_output": "slow"
+  },
+  {
+    "question_input": "Could I use your computer for a moment?",
+    "question_output": "Could I <BLANK> your computer for a moment?",
+    "answer_output": "use"
+  },
+  {
+    "question_input": "Would you show us the way to the station?",
+    "question_output": "Would you <BLANK> us the way to the station?",
+    "answer_output": "show"
+  },
+  {
+    "question_input": "Can you tell me when the seminar begins?",
+    "question_output": "Can you <BLANK> me when the seminar begins?",
+    "answer_output": "tell"
+  },
+  {
+    "question_input": "Could you clean the board for me?",
+    "question_output": "Could you <BLANK> the board for me?",
+    "answer_output": "clean"
+  },
+  {
+    "question_input": "May I sit in this seat, or is it taken?",
+    "question_output": "May I <BLANK> in this seat, or is it taken?",
+    "answer_output": "sit"
+  },
+  {
+    "question_input": "Would you write your name on this form?",
+    "question_output": "Would you <BLANK> your name on this form?",
+    "answer_output": "write"
+  },
+  {
+    "question_input": "Can I take a break now?",
+    "question_output": "Can I <BLANK> a break now?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Could you help me understand this instruction?",
+    "question_output": "Could you <BLANK> me understand this instruction?",
+    "answer_output": "help"
+  },
+  {
+    "question_input": "Would you turn the radio down a bit?",
+    "question_output": "Would you <BLANK> the radio down a bit?",
+    "answer_output": "turn"
+  },
+  {
+    "question_input": "May I sit here, or is this seat reserved?",
+    "question_output": "May I <BLANK> here, or is this seat reserved?",
+    "answer_output": "sit"
+  },
+  {
+    "question_input": "Could you give me the number for customer service?",
+    "question_output": "Could you <BLANK> me the number for customer service?",
+    "answer_output": "give"
+  },
+  {
+    "question_input": "Would you like to join us for dinner tonight?",
+    "question_output": "Would you <BLANK> to join us for dinner tonight?",
+    "answer_output": "like"
+  },
+  {
+    "question_input": "Can you take the kids to the park this afternoon?",
+    "question_output": "Can you <BLANK> the kids to the park this afternoon?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "May I see your passport, please?",
+    "question_output": "May I <BLANK> your passport, please?",
+    "answer_output": "see"
+  },
+  {
+    "question_input": "Would you like something to drink?",
+    "question_output": "Would you <BLANK> something to drink?",
+    "answer_output": "like"
+  },
+  {
+    "question_input": "Could you cover my shift on Friday?",
+    "question_output": "Could you <BLANK> my shift on Friday?",
+    "answer_output": "cover"
+  },
+  {
+    "question_input": "Can I call you later about the project?",
+    "question_output": "Can I <BLANK> you later about the project?",
+    "answer_output": "call"
+  },
+  {
+    "question_input": "Would you mind if I opened the window?",
+    "question_output": "Would you <BLANK> if I opened the window?",
+    "answer_output": "mind"
+  },
+  {
+    "question_input": "Could you remove your shoes before entering the room?",
+    "question_output": "Could you <BLANK> your shoes before entering the room?",
+    "answer_output": "remove"
+  },
+  {
+    "question_input": "Can you help me understand this math problem?",
+    "question_output": "Can you <BLANK> me understand this math problem?",
+    "answer_output": "help"
+  },
+  {
+    "question_input": "May I use your restroom?",
+    "question_output": "May I <BLANK> your restroom?",
+    "answer_output": "use"
+  },
+  {
+    "question_input": "Would you turn the TV off? It's getting late.",
+    "question_output": "Would you <BLANK> the TV off? It's getting late.",
+    "answer_output": "turn"
+  },
+  {
+    "question_input": "Could you put your phone on silent during the film?",
+    "question_output": "Could you <BLANK> your phone on silent during the film?",
+    "answer_output": "put"
+  },
+  {
+    "question_input": "Can you close that door? It keeps swinging open.",
+    "question_output": "Can you <BLANK> that door? It keeps swinging open.",
+    "answer_output": "close"
+  },
+  {
+    "question_input": "May I hang my coat here?",
+    "question_output": "May I <BLANK> my coat here?",
+    "answer_output": "hang"
+  },
+  {
+    "question_input": "Would you do a favor for me?",
+    "question_output": "Would you <BLANK> a favor for me?",
+    "answer_output": "do"
+  },
+  {
+    "question_input": "Could you turn the volume down a little?",
+    "question_output": "Could you <BLANK> the volume down a little?",
+    "answer_output": "turn"
+  },
+  {
+    "question_input": "Can I bring a chair from the other room?",
+    "question_output": "Can I <BLANK> a chair from the other room?",
+    "answer_output": "bring"
+  },
+  {
+    "question_input": "Would you wait in line, please?",
+    "question_output": "Would you <BLANK> in line, please?",
+    "answer_output": "wait"
+  },
+  {
+    "question_input": "Could you get me a blanket? I'm cold.",
+    "question_output": "Could you <BLANK> me a blanket? I'm cold.",
+    "answer_output": "get"
+  },
+  {
+    "question_input": "May I borrow your phone to make a call?",
+    "question_output": "May I <BLANK> your phone to make a call?",
+    "answer_output": "borrow"
+  },
+  {
+    "question_input": "Can you say that again slowly?",
+    "question_output": "Can you <BLANK> that again slowly?",
+    "answer_output": "say"
+  },
+  {
+    "question_input": "Would you come early tomorrow to help set up?",
+    "question_output": "Would you <BLANK> early tomorrow to help set up?",
+    "answer_output": "come"
+  },
+  {
+    "question_input": "Could I use this chair while I wait?",
+    "question_output": "Could I <BLANK> this chair while I wait?",
+    "answer_output": "use"
+  },
+  {
+    "question_input": "Can you place that bag on the shelf for me?",
+    "question_output": "Can you <BLANK> that bag on the shelf for me?",
+    "answer_output": "place"
+  },
+  {
+    "question_input": "Would you organize these files for me?",
+    "question_output": "Would you <BLANK> these files for me?",
+    "answer_output": "organize"
+  },
+  {
+    "question_input": "May I put my lunch in the fridge?",
+    "question_output": "May I <BLANK> my lunch in the fridge?",
+    "answer_output": "put"
+  },
+  {
+    "question_input": "Could you lend me your hand for a second?",
+    "question_output": "Could you <BLANK> me your hand for a second?",
+    "answer_output": "lend"
+  },
+  {
+    "question_input": "Can I take this seat beside you?",
+    "question_output": "Can I <BLANK> this seat beside you?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Would you show me how to operate this device?",
+    "question_output": "Would you <BLANK> me how to operate this device?",
+    "answer_output": "show"
+  },
+  {
+    "question_input": "Could you write your name on the form?",
+    "question_output": "Could you <BLANK> your name on the form?",
+    "answer_output": "write"
+  },
+  {
+    "question_input": "May I ask my questions now?",
+    "question_output": "May I <BLANK> my questions now?",
+    "answer_output": "ask"
+  },
+  {
+    "question_input": "Can you adjust the air conditioner? It's too cold.",
+    "question_output": "Can you <BLANK> the air conditioner? It's too cold.",
+    "answer_output": "adjust"
+  },
+  {
+    "question_input": "Would you join for a short walk after lunch?",
+    "question_output": "Would you <BLANK> for a short walk after lunch?",
+    "answer_output": "join"
+  },
+  {
+    "question_input": "Could you deliver this package for me?",
+    "question_output": "Could you <BLANK> this package for me?",
+    "answer_output": "deliver"
+  },
+  {
+    "question_input": "Can I use your stapler for a second?",
+    "question_output": "Can I <BLANK> your stapler for a second?",
+    "answer_output": "use"
+  },
+  {
+    "question_input": "Would you prefer a cup of tea or coffee?",
+    "question_output": "Would you <BLANK> a cup of tea or coffee?",
+    "answer_output": "prefer"
+  },
+  {
+    "question_input": "Could you fix the printer for me?",
+    "question_output": "Could you <BLANK> the printer for me?",
+    "answer_output": "fix"
+  },
+  {
+    "question_input": "Can you assist me in finding this place on the map?",
+    "question_output": "Can you <BLANK> me in finding this place on the map?",
+    "answer_output": "assist"
+  },
+  {
+    "question_input": "Would you close that door behind you?",
+    "question_output": "Would you <BLANK> that door behind you?",
+    "answer_output": "close"
+  },
+  {
+    "question_input": "Could you silence your phone while we talk?",
+    "question_output": "Could you <BLANK> your phone while we talk?",
+    "answer_output": "silence"
+  },
+  {
+    "question_input": "Can I have a few minutes of your time?",
+    "question_output": "Can I <BLANK> a few minutes of your time?",
+    "answer_output": "have"
+  },
+  {
+    "question_input": "Would you guide me to the meeting room?",
+    "question_output": "Would you <BLANK> me to the meeting room?",
+    "answer_output": "guide"
+  },
+  {
+    "question_input": "Could you take a moment to answer this email?",
+    "question_output": "Could you <BLANK> a moment to answer this email?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Can you leave that file on my desk?",
+    "question_output": "Can you <BLANK> that file on my desk?",
+    "answer_output": "leave"
+  },
+  {
+    "question_input": "Would you mind if we paused the video?",
+    "question_output": "Would you <BLANK> if we paused the video?",
+    "answer_output": "mind"
+  },
+  {
+    "question_input": "Could you bring that box down for me?",
+    "question_output": "Could you <BLANK> that box down for me?",
+    "answer_output": "bring"
+  },
+  {
+    "question_input": "Can I move the chair closer to the window?",
+    "question_output": "Can I <BLANK> the chair closer to the window?",
+    "answer_output": "move"
+  },
+  {
+    "question_input": "Would you stay for a short interview later?",
+    "question_output": "Would you <BLANK> for a short interview later?",
+    "answer_output": "stay"
+  },
+  {
+    "question_input": "Could you review the schedule with me one more time?",
+    "question_output": "Could you <BLANK> the schedule with me one more time?",
+    "answer_output": "review"
+  },
+  {
+    "question_input": "Would you like tea or coffee with your breakfast?",
+    "question_output": "Would you like tea or <BLANK> with your breakfast?",
+    "answer_output": "coffee"
+  },
+  {
+    "question_input": "Should we take a taxi or bus to the airport?",
+    "question_output": "Should we take a taxi or <BLANK> to the airport?",
+    "answer_output": "bus"
+  },
+  {
+    "question_input": "Do you want to watch a movie or read tonight?",
+    "question_output": "Do you want to watch a movie or <BLANK> tonight?",
+    "answer_output": "read"
+  },
+  {
+    "question_input": "Would she prefer staying in or going out tonight?",
+    "question_output": "Would she prefer staying in or <BLANK> out tonight?",
+    "answer_output": "going"
+  },
+  {
+    "question_input": "Are you planning to study math or biology next semester?",
+    "question_output": "Are you planning to study math or <BLANK> next semester?",
+    "answer_output": "biology"
+  },
+  {
+    "question_input": "Will you have soup or salad as a starter?",
+    "question_output": "Will you have soup or <BLANK> as a starter?",
+    "answer_output": "salad"
+  },
+  {
+    "question_input": "Should we leave now or later?",
+    "question_output": "Should we leave now or <BLANK>?",
+    "answer_output": "later"
+  },
+  {
+    "question_input": "Do you want to sit by the window or aisle?",
+    "question_output": "Do you want to sit by the window or <BLANK>?",
+    "answer_output": "aisle"
+  },
+  {
+    "question_input": "Would you like to go hiking or camping this weekend?",
+    "question_output": "Would you like to go hiking or <BLANK> this weekend?",
+    "answer_output": "camping"
+  },
+  {
+    "question_input": "Is he going to call or send you a message?",
+    "question_output": "Is he going to call or <BLANK> you a message?",
+    "answer_output": "send"
+  },
+  {
+    "question_input": "Do you prefer dogs or cats as pets?",
+    "question_output": "Do you prefer dogs or <BLANK> as pets?",
+    "answer_output": "cats"
+  },
+  {
+    "question_input": "Should I email her or call her instead?",
+    "question_output": "Should I email her or <BLANK> her instead?",
+    "answer_output": "call"
+  },
+  {
+    "question_input": "Are you going to write a letter or send an email?",
+    "question_output": "Are you going to write a letter or <BLANK> an email?",
+    "answer_output": "send"
+  },
+  {
+    "question_input": "Do you want to eat here or take it to go?",
+    "question_output": "Do you want to eat here or <BLANK> it to go?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Would you rather travel by train or plane?",
+    "question_output": "Would you rather travel by train or <BLANK>?",
+    "answer_output": "plane"
+  },
+  {
+    "question_input": "Do you want to read a book or listen to music?",
+    "question_output": "Do you want to read a book or <BLANK> music?",
+    "answer_output": "listen to"
+  },
+  {
+    "question_input": "Will you bring sandwiches or drinks for the picnic?",
+    "question_output": "Will you bring sandwiches or <BLANK> for the picnic?",
+    "answer_output": "drinks"
+  },
+  {
+    "question_input": "Would you rather work from home or at the office?",
+    "question_output": "Would you rather work from home or <BLANK> the office?",
+    "answer_output": "at"
+  },
+  {
+    "question_input": "Is your appointment on Monday or Tuesday?",
+    "question_output": "Is your appointment on Monday or <BLANK>?",
+    "answer_output": "Tuesday"
+  },
+  {
+    "question_input": "Do you want apples or bananas in your smoothie?",
+    "question_output": "Do you want apples or <BLANK> in your smoothie?",
+    "answer_output": "bananas"
+  },
+  {
+    "question_input": "Will you be paying by card or cash?",
+    "question_output": "Will you be paying by card or <BLANK>?",
+    "answer_output": "cash"
+  },
+  {
+    "question_input": "Would you prefer to go shopping or stay home?",
+    "question_output": "Would you prefer to go shopping or <BLANK>?",
+    "answer_output": "stay home"
+  },
+  {
+    "question_input": "Are we meeting at 2 p.m. or 3 p.m.?",
+    "question_output": "Are we meeting at 2 p.m. or <BLANK>?",
+    "answer_output": "3 p.m."
+  },
+  {
+    "question_input": "Do you want me to drive or you?",
+    "question_output": "Do you want me to drive or <BLANK>?",
+    "answer_output": "you"
+  },
+  {
+    "question_input": "Will you study engineering or business in university?",
+    "question_output": "Will you study engineering or <BLANK> in university?",
+    "answer_output": "business"
+  },
+  {
+    "question_input": "Should we stay at a hotel or rent a house?",
+    "question_output": "Should we stay at a hotel or <BLANK> a house?",
+    "answer_output": "rent"
+  },
+  {
+    "question_input": "Would you like juice or milk with your breakfast?",
+    "question_output": "Would you like juice or <BLANK> with your breakfast?",
+    "answer_output": "milk"
+  },
+  {
+    "question_input": "Are you going to walk or drive there?",
+    "question_output": "Are you going to walk or <BLANK> there?",
+    "answer_output": "drive"
+  },
+  {
+    "question_input": "Would she prefer reading a novel or watching a movie?",
+    "question_output": "Would she prefer reading a novel or <BLANK> a movie?",
+    "answer_output": "watching"
+  },
+  {
+    "question_input": "Will you be staying for lunch or leaving?",
+    "question_output": "Will you be staying for lunch or <BLANK>?",
+    "answer_output": "leaving"
+  },
+  {
+    "question_input": "Do you want toast or pancakes with your eggs?",
+    "question_output": "Do you want toast or <BLANK> with your eggs?",
+    "answer_output": "pancakes"
+  },
+  {
+    "question_input": "Should we meet at the library or cafeteria?",
+    "question_output": "Should we meet at the library or <BLANK>?",
+    "answer_output": "cafeteria"
+  },
+  {
+    "question_input": "Will you take the exam in the morning or afternoon?",
+    "question_output": "Will you take the exam in the morning or <BLANK>?",
+    "answer_output": "afternoon"
+  },
+  {
+    "question_input": "Are you ordering pizza or burgers for dinner?",
+    "question_output": "Are you ordering pizza or <BLANK> for dinner?",
+    "answer_output": "burgers"
+  },
+  {
+    "question_input": "Would you rather paint or wallpaper the bedroom walls?",
+    "question_output": "Would you rather paint or <BLANK> the bedroom walls?",
+    "answer_output": "wallpaper"
+  },
+  {
+    "question_input": "Do you want to drive or sit in the passenger seat?",
+    "question_output": "Do you want to drive or <BLANK> in the passenger seat?",
+    "answer_output": "sit"
+  },
+  {
+    "question_input": "Will we go hiking in the hills or relax at the beach?",
+    "question_output": "Will we go hiking in the hills or <BLANK> at the beach?",
+    "answer_output": "relax"
+  },
+  {
+    "question_input": "Should I email the report today or tomorrow?",
+    "question_output": "Should I email the report today or <BLANK>?",
+    "answer_output": "tomorrow"
+  },
+  {
+    "question_input": "Do you want the red one or the blue one?",
+    "question_output": "Do you want the red one or the <BLANK> one?",
+    "answer_output": "blue"
+  },
+  {
+    "question_input": "Would you rather walk through the park or along the main road?",
+    "question_output": "Would you rather walk through the park or <BLANK> the main road?",
+    "answer_output": "along"
+  },
+  {
+    "question_input": "Are you going to cook tonight or order food?",
+    "question_output": "Are you going to cook tonight or <BLANK> food?",
+    "answer_output": "order"
+  },
+  {
+    "question_input": "Should we bring jackets or sweaters in case it gets cold?",
+    "question_output": "Should we bring jackets or <BLANK> in case it gets cold?",
+    "answer_output": "sweaters"
+  },
+  {
+    "question_input": "Do you prefer fiction or non-fiction books?",
+    "question_output": "Do you prefer fiction or <BLANK> books?",
+    "answer_output": "non-fiction"
+  },
+  {
+    "question_input": "Would you like sparkling water or still?",
+    "question_output": "Would you like sparkling water or <BLANK>?",
+    "answer_output": "still"
+  },
+  {
+    "question_input": "Do you want to go by car or bike?",
+    "question_output": "Do you want to go by car or <BLANK>?",
+    "answer_output": "bike"
+  },
+  {
+    "question_input": "Should we go now or wait for Mark?",
+    "question_output": "Should we go now or <BLANK> for Mark?",
+    "answer_output": "wait"
+  },
+  {
+    "question_input": "Would you like to eat outside or inside?",
+    "question_output": "Would you like to eat outside or <BLANK>?",
+    "answer_output": "inside"
+  },
+  {
+    "question_input": "Are you going to cook rice or pasta for dinner?",
+    "question_output": "Are you going to cook rice or <BLANK> for dinner?",
+    "answer_output": "pasta"
+  },
+  {
+    "question_input": "Do you want to stay in town or travel for the weekend?",
+    "question_output": "Do you want to stay in town or <BLANK> for the weekend?",
+    "answer_output": "travel"
+  },
+  {
+    "question_input": "Would you rather eat something sweet or salty?",
+    "question_output": "Would you rather eat something sweet or <BLANK>?",
+    "answer_output": "salty"
+  },
+  {
+    "question_input": "Are you taking Spanish or French this semester?",
+    "question_output": "Are you taking Spanish or <BLANK> this semester?",
+    "answer_output": "French"
+  },
+  {
+    "question_input": "Do you want to walk the dog now or later?",
+    "question_output": "Do you want to walk the dog now or <BLANK>?",
+    "answer_output": "later"
+  },
+  {
+    "question_input": "Would you like a hot drink or a cold one?",
+    "question_output": "Would you like a hot drink or a <BLANK> one?",
+    "answer_output": "cold"
+  },
+  {
+    "question_input": "Are we going to the cinema or staying home tonight?",
+    "question_output": "Are we going to the cinema or <BLANK> tonight?",
+    "answer_output": "staying home"
+  },
+  {
+    "question_input": "Do you prefer working in silence or with music?",
+    "question_output": "Do you prefer working in silence or <BLANK> music?",
+    "answer_output": "with"
+  },
+  {
+    "question_input": "Should we buy the small sofa or the large one?",
+    "question_output": "Should we buy the small sofa or the <BLANK> one?",
+    "answer_output": "large"
+  },
+  {
+    "question_input": "Would you rather eat sushi or pizza tonight?",
+    "question_output": "Would you rather eat sushi or <BLANK> tonight?",
+    "answer_output": "pizza"
+  },
+  {
+    "question_input": "Do you want to ride the elevator or take the stairs?",
+    "question_output": "Do you want to ride the elevator or <BLANK> the stairs?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Are you going to play tennis or swim this afternoon?",
+    "question_output": "Are you going to play tennis or <BLANK> this afternoon?",
+    "answer_output": "swim"
+  },
+  {
+    "question_input": "Would you like to go out or stay in this evening?",
+    "question_output": "Would you like to go out or <BLANK> in this evening?",
+    "answer_output": "stay"
+  },
+  {
+    "question_input": "Do you prefer reading novels or magazines?",
+    "question_output": "Do you prefer reading novels or <BLANK>?",
+    "answer_output": "magazines"
+  },
+  {
+    "question_input": "Are you having cereal or eggs for breakfast?",
+    "question_output": "Are you having cereal or <BLANK> for breakfast?",
+    "answer_output": "eggs"
+  },
+  {
+    "question_input": "Would you like to take a walk or ride a bike?",
+    "question_output": "Would you like to take a walk or <BLANK> a bike?",
+    "answer_output": "ride"
+  },
+  {
+    "question_input": "Do you want to stay at home or go to the party?",
+    "question_output": "Do you want to stay at home or <BLANK> to the party?",
+    "answer_output": "go"
+  },
+  {
+    "question_input": "Should we visit the museum or the zoo?",
+    "question_output": "Should we visit the museum or <BLANK>?",
+    "answer_output": "the zoo"
+  },
+  {
+    "question_input": "Would you like to study alone or with someone else?",
+    "question_output": "Would you like to study alone or <BLANK> someone else?",
+    "answer_output": "with"
+  },
+  {
+    "question_input": "Do you want to eat something sweet or spicy?",
+    "question_output": "Do you want to eat something sweet or <BLANK>?",
+    "answer_output": "spicy"
+  },
+  {
+    "question_input": "Are we going to the beach or the mountains today?",
+    "question_output": "Are we going to the beach or <BLANK> today?",
+    "answer_output": "the mountains"
+  },
+  {
+    "question_input": "Would you prefer coffee or tea in the morning?",
+    "question_output": "Would you prefer coffee or <BLANK> in the morning?",
+    "answer_output": "tea"
+  },
+  {
+    "question_input": "Do you want to stay longer or leave now?",
+    "question_output": "Do you want to stay longer or <BLANK> now?",
+    "answer_output": "leave"
+  },
+  {
+    "question_input": "Are you booking a window seat or an aisle seat?",
+    "question_output": "Are you booking a window seat or an <BLANK> seat?",
+    "answer_output": "aisle"
+  },
+  {
+    "question_input": "Would you rather go to bed early or stay up late?",
+    "question_output": "Would you rather go to bed early or <BLANK> up late?",
+    "answer_output": "stay"
+  },
+  {
+    "question_input": "Do you want to write with a pen or a pencil?",
+    "question_output": "Do you want to write with a pen or a <BLANK>?",
+    "answer_output": "pencil"
+  },
+  {
+    "question_input": "Should we take the subway or get a taxi?",
+    "question_output": "Should we take the subway or <BLANK> a taxi?",
+    "answer_output": "get"
+  },
+  {
+    "question_input": "Would you like the chicken dish or the vegetarian dish?",
+    "question_output": "Would you like the chicken dish or the <BLANK> dish?",
+    "answer_output": "vegetarian"
+  },
+  {
+    "question_input": "Are you planning to travel this weekend or next?",
+    "question_output": "Are you planning to travel this weekend or <BLANK>?",
+    "answer_output": "next"
+  },
+  {
+    "question_input": "Do you want to meet in the morning or evening?",
+    "question_output": "Do you want to meet in the morning or <BLANK>?",
+    "answer_output": "evening"
+  },
+  {
+    "question_input": "Would you rather take a break now or later?",
+    "question_output": "Would you rather take a break now or <BLANK>?",
+    "answer_output": "later"
+  },
+  {
+    "question_input": "Should we start the meeting or wait for others to arrive?",
+    "question_output": "Should we start the meeting or <BLANK> for others to arrive?",
+    "answer_output": "wait"
+  },
+  {
+    "question_input": "Are you drinking tea or juice right now?",
+    "question_output": "Are you drinking tea or <BLANK> right now?",
+    "answer_output": "juice"
+  },
+  {
+    "question_input": "Do you prefer to travel by boat or train?",
+    "question_output": "Do you prefer to travel by boat or <BLANK>?",
+    "answer_output": "train"
+  },
+  {
+    "question_input": "Would you like to paint the room blue or green?",
+    "question_output": "Would you like to paint the room blue or <BLANK>?",
+    "answer_output": "green"
+  },
+  {
+    "question_input": "Are you going to buy the red shirt or the black one?",
+    "question_output": "Are you going to buy the red shirt or the <BLANK> one?",
+    "answer_output": "black"
+  },
+  {
+    "question_input": "Do you want to have dinner at home or eat out?",
+    "question_output": "Do you want to have dinner at home or <BLANK> out?",
+    "answer_output": "eat"
+  },
+  {
+    "question_input": "Should I email the document or deliver it in person?",
+    "question_output": "Should I email the document or <BLANK> it in person?",
+    "answer_output": "deliver"
+  },
+  {
+    "question_input": "Would you rather jog in the morning or walk at night?",
+    "question_output": "Would you rather jog in the morning or <BLANK> at night?",
+    "answer_output": "walk"
+  },
+  {
+    "question_input": "Are you going to take photos or record a video?",
+    "question_output": "Are you going to take photos or <BLANK> a video?",
+    "answer_output": "record"
+  },
+  {
+    "question_input": "Would you prefer a window room or one facing the garden?",
+    "question_output": "Would you prefer a window room or one <BLANK> the garden?",
+    "answer_output": "facing"
+  },
+  {
+    "question_input": "Do you want to ride your bike or take the bus?",
+    "question_output": "Do you want to ride your bike or <BLANK> the bus?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Should we ask for help or do it ourselves?",
+    "question_output": "Should we ask for help or <BLANK> it ourselves?",
+    "answer_output": "do"
+  },
+  {
+    "question_input": "Would you like to write a report or prepare a slideshow?",
+    "question_output": "Would you like to write a report or <BLANK> a slideshow?",
+    "answer_output": "prepare"
+  },
+  {
+    "question_input": "Do you want to talk to the manager or speak to HR?",
+    "question_output": "Do you want to talk to the manager or <BLANK> to HR?",
+    "answer_output": "speak"
+  },
+  {
+    "question_input": "Are you going to pay by card or cash?",
+    "question_output": "Are you going to pay by card or <BLANK>?",
+    "answer_output": "cash"
+  },
+  {
+    "question_input": "Would you rather wear jeans or shorts today?",
+    "question_output": "Would you rather wear jeans or <BLANK> today?",
+    "answer_output": "shorts"
+  },
+  {
+    "question_input": "Do you want to answer now or take some time?",
+    "question_output": "Do you want to answer now or <BLANK> some time?",
+    "answer_output": "take"
+  },
+  {
+    "question_input": "Are we watching a comedy or a drama tonight?",
+    "question_output": "Are we watching a comedy or a <BLANK> tonight?",
+    "answer_output": "drama"
+  },
+  {
+    "question_input": "Would you like to travel in summer or winter?",
+    "question_output": "Would you like to travel in summer or <BLANK>?",
+    "answer_output": "winter"
+  },
+  {
+    "question_input": "Do you prefer texting or talking on the phone?",
+    "question_output": "Do you prefer texting or <BLANK> on the phone?",
+    "answer_output": "talking"
+  },
+  {
+    "question_input": "Would you like to leave early or stay until the end?",
+    "question_output": "Would you like to leave early or <BLANK> until the end?",
+    "answer_output": "stay"
   }
 ]
