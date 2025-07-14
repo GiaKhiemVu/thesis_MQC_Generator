@@ -11,7 +11,7 @@ random.seed(42)
 sampled_data = random.sample(dataset, 10)
 
 # Load model and tokenizer
-model_path = "distractor_generator/model_final_base/final-model-2000"
+model_path = "distractor_generator\model_train_base\model-extract-2999\checkpoint-6000"
 tokenizer = T5TokenizerFast.from_pretrained(model_path)
 model = T5ForConditionalGeneration.from_pretrained(model_path)
 
@@ -45,8 +45,8 @@ def generate_valid_distractors(input_text, correct_answer, tokenizer, model, max
 
         raw_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-        if "Distractor:" in raw_output:
-            distractors = raw_output.replace("Distractor:", "").split(",")
+        if "Distractors:" in raw_output:
+            distractors = raw_output.replace("Distractors:", "").split(",")
             distractors = [d.strip() for d in distractors]
             unique = list(dict.fromkeys(distractors))
             filtered = [d for d in unique if d.lower() != correct_answer.lower()]
@@ -54,12 +54,12 @@ def generate_valid_distractors(input_text, correct_answer, tokenizer, model, max
             score = len(filtered)
             if score > best_score:
                 best_score = score
-                best_output = "Distractor: " + ", ".join(filtered[:3]) + (" <fallback>" if score < 3 else "")
+                best_output = "Distractors: " + ", ".join(filtered[:3]) + (" <fallback>" if score < 3 else "")
 
             if score >= 3:
                 return best_output, True  # Fully valid set found
 
-    return best_output or "Distractor: <placeholder>, <placeholder>, <placeholder>", False
+    return best_output or "Distractors: <placeholder>, <placeholder>, <placeholder>", False
 
 
 # Run predictions

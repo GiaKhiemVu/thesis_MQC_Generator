@@ -38,7 +38,7 @@ def create_multiple_choices_details():
         "input_text": input_text,
         "input_to_model1": input_to_model1,
         "extracted_result": extract_result,
-        "converted_input_step_2": step1_convert_to_step2,
+        "converted_input_step_2": f"Question: {step1_convert_to_step2['question']}, Answer: {step1_convert_to_step2['answer']}",
         "input_to_model2": input_to_model2,
         "distractor_result": distractor_result
     }

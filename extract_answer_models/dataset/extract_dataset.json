@@ -1645,8 +1645,8 @@
     "answer_output": "working"
   },
   {
-    "question_input": "The windows need cleaning.",
-    "question_output": "The windows need <BLANK>.",
+    "question_input": "Every day, The windows need cleaning.",
+    "question_output": "Every day, The windows need <BLANK>.",
     "answer_output": "cleaning"
   },
   {
@@ -3005,8 +3005,8 @@
     "answer_output": "generosity"
   },
   {
-    "question_input": "His arguments lacked clarity.",
-    "question_output": "His arguments lacked <BLANK>.",
+    "question_input": "Every day, His arguments lacked clarity.",
+    "question_output": "Every day, His arguments lacked <BLANK>.",
     "answer_output": "clarity"
   },
   {
@@ -7385,8 +7385,8 @@
     "answer_output": "should"
   },
   {
-    "question_input": "A: Do you know where she is? B: She was at the caf\u00e9. I saw her there this morning.",
-    "question_output": "A: Do you know where she is? B: She <BLANK> at the caf\u00e9. I saw her there this morning.",
+    "question_input": "A: Do you know where she is? B: She was at the caf\u00c3\u00a9. I saw her there this morning.",
+    "question_output": "A: Do you know where she is? B: She <BLANK> at the caf\u00c3\u00a9. I saw her there this morning.",
     "answer_output": "was"
   },
   {
@@ -8580,8 +8580,8 @@
     "answer_output": "about"
   },
   {
-    "question_input": "She's afraid of flying.",
-    "question_output": "She's afraid <BLANK> flying.",
+    "question_input": "Every day, She's afraid of flying.",
+    "question_output": "Every day, She's afraid <BLANK> flying.",
     "answer_output": "of"
   },
   {
@@ -8610,8 +8610,8 @@
     "answer_output": "for"
   },
   {
-    "question_input": "I'm interested in photography.",
-    "question_output": "I'm interested <BLANK> photography.",
+    "question_input": "Every day, I'm interested in photography.",
+    "question_output": "Every day, I'm interested <BLANK> photography.",
     "answer_output": "in"
   },
   {
@@ -10955,8 +10955,8 @@
     "answer_output": "were"
   },
   {
-    "question_input": "If water reaches 100\u00b0C, it boils.",
-    "question_output": "If water reaches 100\u00b0C, it <BLANK>.",
+    "question_input": "If water reaches 100\u00c2\u00b0C, it boils.",
+    "question_output": "If water reaches 100\u00c2\u00b0C, it <BLANK>.",
     "answer_output": "boils"
   },
   {
@@ -11425,8 +11425,8 @@
     "answer_output": "Where"
   },
   {
-    "question_input": "When is your birthday?",
-    "question_output": "<BLANK> is your birthday?",
+    "question_input": "Every day, When is your birthday?",
+    "question_output": "Every day, <BLANK> is your birthday?",
     "answer_output": "When"
   },
   {
@@ -11825,8 +11825,8 @@
     "answer_output": "Why"
   },
   {
-    "question_input": "Which direction is north?",
-    "question_output": "<BLANK> direction is north?",
+    "question_input": "Every day, Which direction is north?",
+    "question_output": "Every day, <BLANK> direction is north?",
     "answer_output": "Which"
   },
   {
@@ -11930,8 +11930,8 @@
     "answer_output": "Yes, the teacher confirmed it yesterday."
   },
   {
-    "question_input": "Was the party fun?",
-    "question_output": "Was the party fun?",
+    "question_input": "Every day, Was the party fun?",
+    "question_output": "Every day, Was the party fun?",
     "answer_output": "Yes, everyone had a great time dancing."
   },
   {
@@ -11975,8 +11975,8 @@
     "answer_output": "Yes, the whole block lost power."
   },
   {
-    "question_input": "Was the exam difficult?",
-    "question_output": "Was the exam difficult?",
+    "question_input": "Every day, Was the exam difficult?",
+    "question_output": "Every day, Was the exam difficult?",
     "answer_output": "No, it was mostly review questions."
   },
   {
@@ -12020,8 +12020,8 @@
     "answer_output": "No, he forgot and still has it."
   },
   {
-    "question_input": "Is this dish vegetarian?",
-    "question_output": "Is this dish vegetarian?",
+    "question_input": "Every day, Is this dish vegetarian?",
+    "question_output": "Every day, Is this dish vegetarian?",
     "answer_output": "Yes, it contains no meat or animal products."
   },
   {
@@ -12170,8 +12170,8 @@
     "answer_output": "Yes, it's required by state law."
   },
   {
-    "question_input": "Is that car electric?",
-    "question_output": "Is that car electric?",
+    "question_input": "Every day, Is that car electric?",
+    "question_output": "Every day, Is that car electric?",
     "answer_output": "Yes, it runs entirely on batteries."
   },
   {
@@ -12215,8 +12215,8 @@
     "answer_output": "Yes, but only in limited mode."
   },
   {
-    "question_input": "Was that announcement official?",
-    "question_output": "Was that announcement official?",
+    "question_input": "Every day, Was that announcement official?",
+    "question_output": "Every day, Was that announcement official?",
     "answer_output": "Yes, it came from the HR department."
   },
   {
@@ -12340,8 +12340,8 @@
     "answer_output": "No, they requested a revision."
   },
   {
-    "question_input": "Is this coffee decaffeinated?",
-    "question_output": "Is this coffee decaffeinated?",
+    "question_input": "Every day, Is this coffee decaffeinated?",
+    "question_output": "Every day, Is this coffee decaffeinated?",
     "answer_output": "Yes, it's labeled as caffeine-free."
   },
   {
@@ -12450,8 +12450,8 @@
     "answer_output": "Yes, just last week during the trip."
   },
   {
-    "question_input": "Is the password case-sensitive?",
-    "question_output": "Is the password case-sensitive?",
+    "question_input": "Every day, Is the password case-sensitive?",
+    "question_output": "Every day, Is the password case-sensitive?",
     "answer_output": "Yes, you must match the uppercase and lowercase letters exactly."
   },
   {
@@ -12465,8 +12465,8 @@
     "answer_output": "Yes, there was a small eruption at midnight."
   },
   {
-    "question_input": "Are the lights automatic?",
-    "question_output": "Are the lights automatic?",
+    "question_input": "Every day, Are the lights automatic?",
+    "question_output": "Every day, Are the lights automatic?",
     "answer_output": "Yes, they turn on at sunset."
   },
   {
@@ -12490,8 +12490,8 @@
     "answer_output": "No, I found it in my backpack."
   },
   {
-    "question_input": "Is this your handwriting?",
-    "question_output": "Is this your handwriting?",
+    "question_input": "Every day, Is this your handwriting?",
+    "question_output": "Every day, Is this your handwriting?",
     "answer_output": "Yes, I wrote it during the lecture."
   },
   {
@@ -12520,8 +12520,8 @@
     "answer_output": "wasn't it"
   },
   {
-    "question_input": "They've already left, haven't they?",
-    "question_output": "They've already left, <BLANK>?",
+    "question_input": "Every day, They've already left, haven't they?",
+    "question_output": "Every day, They've already left, <BLANK>?",
     "answer_output": "haven't they"
   },
   {
@@ -12560,8 +12560,8 @@
     "answer_output": "shall we"
   },
   {
-    "question_input": "I'm not interrupting, am I?",
-    "question_output": "I'm not interrupting, <BLANK>?",
+    "question_input": "Every day, I'm not interrupting, am I?",
+    "question_output": "Every day, I'm not interrupting, <BLANK>?",
     "answer_output": "am I"
   },
   {
@@ -12625,8 +12625,8 @@
     "answer_output": "didn't she"
   },
   {
-    "question_input": "We're almost done, aren't we?",
-    "question_output": "We're almost done, <BLANK>?",
+    "question_input": "Every day, We're almost done, aren't we?",
+    "question_output": "Every day, We're almost done, <BLANK>?",
     "answer_output": "aren't we"
   },
   {
@@ -12640,8 +12640,8 @@
     "answer_output": "can you"
   },
   {
-    "question_input": "She looks familiar, doesn't she?",
-    "question_output": "She looks familiar, <BLANK>?",
+    "question_input": "Every day, She looks familiar, doesn't she?",
+    "question_output": "Every day, She looks familiar, <BLANK>?",
     "answer_output": "doesn't she"
   },
   {
@@ -12670,13 +12670,13 @@
     "answer_output": "hasn't he"
   },
   {
-    "question_input": "I'm late again, aren't I?",
-    "question_output": "I'm late again, <BLANK>?",
+    "question_input": "Every day, I'm late again, aren't I?",
+    "question_output": "Every day, I'm late again, <BLANK>?",
     "answer_output": "aren't I"
   },
   {
-    "question_input": "We've met before, haven't we?",
-    "question_output": "We've met before, <BLANK>?",
+    "question_input": "Every day, We've met before, haven't we?",
+    "question_output": "Every day, We've met before, <BLANK>?",
     "answer_output": "haven't we"
   },
   {
@@ -12685,8 +12685,8 @@
     "answer_output": "isn't there"
   },
   {
-    "question_input": "You weren't serious, were you?",
-    "question_output": "You weren't serious, <BLANK>?",
+    "question_input": "Every day, You weren't serious, were you?",
+    "question_output": "Every day, You weren't serious, <BLANK>?",
     "answer_output": "were you"
   },
   {
@@ -12700,8 +12700,8 @@
     "answer_output": "do we"
   },
   {
-    "question_input": "They weren't informed, were they?",
-    "question_output": "They weren't informed, <BLANK>?",
+    "question_input": "Every day, They weren't informed, were they?",
+    "question_output": "Every day, They weren't informed, <BLANK>?",
     "answer_output": "were they"
   },
   {
@@ -12750,8 +12750,8 @@
     "answer_output": "had you"
   },
   {
-    "question_input": "Let's not argue, shall we?",
-    "question_output": "Let's not argue, <BLANK>?",
+    "question_input": "Every day, Let's not argue, shall we?",
+    "question_output": "Every day, Let's not argue, <BLANK>?",
     "answer_output": "shall we"
   },
   {
@@ -12880,8 +12880,8 @@
     "answer_output": "oughtn't he"
   },
   {
-    "question_input": "That's your car, isn't it?",
-    "question_output": "That's your car, <BLANK>?",
+    "question_input": "Every day, That's your car, isn't it?",
+    "question_output": "Every day, That's your car, <BLANK>?",
     "answer_output": "isn't it"
   },
   {
@@ -12895,13 +12895,13 @@
     "answer_output": "has it"
   },
   {
-    "question_input": "Nobody called you, did they?",
-    "question_output": "Nobody called you, <BLANK>?",
+    "question_input": "Every day, Nobody called you, did they?",
+    "question_output": "Every day, Nobody called you, <BLANK>?",
     "answer_output": "did they"
   },
   {
-    "question_input": "They'd already eaten, hadn't they?",
-    "question_output": "They'd already eaten, <BLANK>?",
+    "question_input": "Every day, They'd already eaten, hadn't they?",
+    "question_output": "Every day, They'd already eaten, <BLANK>?",
     "answer_output": "hadn't they"
   },
   {
@@ -12910,8 +12910,8 @@
     "answer_output": "wouldn't you"
   },
   {
-    "question_input": "He's not angry, is he?",
-    "question_output": "He's not angry, <BLANK>?",
+    "question_input": "Every day, He's not angry, is he?",
+    "question_output": "Every day, He's not angry, <BLANK>?",
     "answer_output": "is he"
   },
   {
@@ -12995,8 +12995,8 @@
     "answer_output": "did we"
   },
   {
-    "question_input": "She's coming later, isn't she?",
-    "question_output": "She's coming later, <BLANK>?",
+    "question_input": "Every day, She's coming later, isn't she?",
+    "question_output": "Every day, She's coming later, <BLANK>?",
     "answer_output": "isn't she"
   },
   {
@@ -13075,13 +13075,13 @@
     "answer_output": "haven't we"
   },
   {
-    "question_input": "You weren't listening, were you?",
-    "question_output": "You weren't listening, <BLANK>?",
+    "question_input": "Every day, You weren't listening, were you?",
+    "question_output": "Every day, You weren't listening, <BLANK>?",
     "answer_output": "were you"
   },
   {
-    "question_input": "He rarely complains, does he?",
-    "question_output": "He rarely complains, <BLANK>?",
+    "question_input": "Every day, He rarely complains, does he?",
+    "question_output": "Every day, He rarely complains, <BLANK>?",
     "answer_output": "does he"
   },
   {
@@ -13205,8 +13205,8 @@
     "answer_output": "had he"
   },
   {
-    "question_input": "We'd already met, hadn't we?",
-    "question_output": "We'd already met, <BLANK>?",
+    "question_input": "Every day, We'd already met, hadn't we?",
+    "question_output": "Every day, We'd already met, <BLANK>?",
     "answer_output": "hadn't we"
   },
   {

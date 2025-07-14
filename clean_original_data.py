@@ -1,7 +1,7 @@
 import json
 
 # Load raw dataset
-with open("original_dataset.json", "r", encoding="utf-8") as f:
+with open("improved_dataset.json", "r", encoding="utf-8") as f:
     raw_data = json.load(f)
 
 cleaned_data = []
@@ -34,7 +34,7 @@ for entry in raw_data:
     })
 
 # Save cleaned dataset
-with open("original_dataset.json", "w", encoding="utf-8") as f:
+with open("improved_dataset.json", "w", encoding="utf-8") as f:
     json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
 
 print(f"✅ Cleaned dataset saved. Total entries: {len(cleaned_data)}")

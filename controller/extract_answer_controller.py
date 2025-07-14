@@ -6,7 +6,7 @@ from helper import Helper
 print("----- Initializing Extract Answer Controller -----")
 print("-- Loading Model and Tokenizer --")
 
-model_path = os.path.join("extract_answer_models", "model_final", "final-model-2000")
+model_path = os.path.join("extract_answer_models", "model_final", "final-model-2999")
 tokenizer = T5TokenizerFast.from_pretrained(model_path)
 model = T5ForConditionalGeneration.from_pretrained(model_path)
 
@@ -16,7 +16,7 @@ def preprocess_input(input_text):
     """
     Preprocess the input text for the T5 model.
     """
-    return f"Convert this sentence into fill in blank: {input_text}"
+    return f"Convert following sentence into fill in blank question. Sentence: {input_text}"
 
 def generate_answer_with_model(input_text, model_name):
     model_path = Helper.get_extract_model_path(model_name)

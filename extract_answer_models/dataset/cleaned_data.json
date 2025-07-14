@@ -1316,8 +1316,8 @@
     "output": "question: He prefers _ alone to avoid distractions. ||| answer: working"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: The windows need cleaning.",
-    "output": "question: The windows need _. ||| answer: cleaning"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, The windows need cleaning.",
+    "output": "question: Every day, The windows need _. ||| answer: cleaning"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: If you had left earlier, you would have caught the train.",
@@ -2404,8 +2404,8 @@
     "output": "question: Her _ is what I admire most. ||| answer: generosity"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: His arguments lacked clarity.",
-    "output": "question: His arguments lacked _. ||| answer: clarity"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, His arguments lacked clarity.",
+    "output": "question: Every day, His arguments lacked _. ||| answer: clarity"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: They reacted calmly to the bad news.",
@@ -5908,8 +5908,8 @@
     "output": "question: A: I'm really tired. B: You _ take a break and rest for a while. ||| answer: should"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: A: Do you know where she is? B: She was at the caf\u00e9. I saw her there this morning.",
-    "output": "question: A: Do you know where she is? B: She _ at the caf\u00e9. I saw her there this morning. ||| answer: was"
+    "input": "Convert following sentence into fill in blank question. Sentence: A: Do you know where she is? B: She was at the caf\u00c3\u00a9. I saw her there this morning.",
+    "output": "question: A: Do you know where she is? B: She _ at the caf\u00c3\u00a9. I saw her there this morning. ||| answer: was"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: A: I can't find my keys. B: Maybe you have left them in the car.",
@@ -6864,8 +6864,8 @@
     "output": "question: They were talking _ the weather. ||| answer: about"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: She's afraid of flying.",
-    "output": "question: She's afraid _ flying. ||| answer: of"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, She's afraid of flying.",
+    "output": "question: Every day, She's afraid _ flying. ||| answer: of"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: The baby was named after his grandfather.",
@@ -6888,8 +6888,8 @@
     "output": "question: We're all responsible _ our actions. ||| answer: for"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: I'm interested in photography.",
-    "output": "question: I'm interested _ photography. ||| answer: in"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, I'm interested in photography.",
+    "output": "question: Every day, I'm interested _ photography. ||| answer: in"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: The package was delivered by mistake.",
@@ -8764,8 +8764,8 @@
     "output": "question: She wishes her children _ more helpful at home. ||| answer: were"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: If water reaches 100\u00b0C, it boils.",
-    "output": "question: If water reaches 100\u00b0C, it _. ||| answer: boils"
+    "input": "Convert following sentence into fill in blank question. Sentence: If water reaches 100\u00c2\u00b0C, it boils.",
+    "output": "question: If water reaches 100\u00c2\u00b0C, it _. ||| answer: boils"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: If she studies hard, she will pass the exam.",
@@ -9140,8 +9140,8 @@
     "output": "question: _ does your sister live? ||| answer: Where"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: When is your birthday?",
-    "output": "question: _ is your birthday? ||| answer: When"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, When is your birthday?",
+    "output": "question: Every day, _ is your birthday? ||| answer: When"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Who made this cake? It's delicious!",
@@ -9460,8 +9460,8 @@
     "output": "question: _ do we need to buy milk again? ||| answer: Why"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Which direction is north?",
-    "output": "question: _ direction is north? ||| answer: Which"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Which direction is north?",
+    "output": "question: Every day, _ direction is north? ||| answer: Which"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Who did you call this afternoon?",
@@ -9544,8 +9544,8 @@
     "output": "question: Will the test cover all five chapters? ||| answer: Yes, the teacher confirmed it yesterday."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Was the party fun?",
-    "output": "question: Was the party fun? ||| answer: Yes, everyone had a great time dancing."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Was the party fun?",
+    "output": "question: Every day, Was the party fun? ||| answer: Yes, everyone had a great time dancing."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Is it going to rain tomorrow?",
@@ -9580,8 +9580,8 @@
     "output": "question: Did the lights go out during the storm? ||| answer: Yes, the whole block lost power."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Was the exam difficult?",
-    "output": "question: Was the exam difficult? ||| answer: No, it was mostly review questions."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Was the exam difficult?",
+    "output": "question: Every day, Was the exam difficult? ||| answer: No, it was mostly review questions."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Can you speak Spanish fluently?",
@@ -9616,8 +9616,8 @@
     "output": "question: Did he return the book to the library? ||| answer: No, he forgot and still has it."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Is this dish vegetarian?",
-    "output": "question: Is this dish vegetarian? ||| answer: Yes, it contains no meat or animal products."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Is this dish vegetarian?",
+    "output": "question: Every day, Is this dish vegetarian? ||| answer: Yes, it contains no meat or animal products."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Has she received the email yet?",
@@ -9736,8 +9736,8 @@
     "output": "question: Do you need a license to fish here? ||| answer: Yes, it's required by state law."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Is that car electric?",
-    "output": "question: Is that car electric? ||| answer: Yes, it runs entirely on batteries."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Is that car electric?",
+    "output": "question: Every day, Is that car electric? ||| answer: Yes, it runs entirely on batteries."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Did you water the plants this morning?",
@@ -9772,8 +9772,8 @@
     "output": "question: Can this app run offline? ||| answer: Yes, but only in limited mode."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Was that announcement official?",
-    "output": "question: Was that announcement official? ||| answer: Yes, it came from the HR department."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Was that announcement official?",
+    "output": "question: Every day, Was that announcement official? ||| answer: Yes, it came from the HR department."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Is there an exam next week?",
@@ -9872,8 +9872,8 @@
     "output": "question: Did they accept your proposal? ||| answer: No, they requested a revision."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Is this coffee decaffeinated?",
-    "output": "question: Is this coffee decaffeinated? ||| answer: Yes, it's labeled as caffeine-free."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Is this coffee decaffeinated?",
+    "output": "question: Every day, Is this coffee decaffeinated? ||| answer: Yes, it's labeled as caffeine-free."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Did the dog bark all night?",
@@ -9960,8 +9960,8 @@
     "output": "question: Was this photo taken recently? ||| answer: Yes, just last week during the trip."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Is the password case-sensitive?",
-    "output": "question: Is the password case-sensitive? ||| answer: Yes, you must match the uppercase and lowercase letters exactly."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Is the password case-sensitive?",
+    "output": "question: Every day, Is the password case-sensitive? ||| answer: Yes, you must match the uppercase and lowercase letters exactly."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Do you feel confident about the test?",
@@ -9972,8 +9972,8 @@
     "output": "question: Did the volcano erupt last night? ||| answer: Yes, there was a small eruption at midnight."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Are the lights automatic?",
-    "output": "question: Are the lights automatic? ||| answer: Yes, they turn on at sunset."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Are the lights automatic?",
+    "output": "question: Every day, Are the lights automatic? ||| answer: Yes, they turn on at sunset."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Has she accepted the job offer?",
@@ -9992,8 +9992,8 @@
     "output": "question: Did you lose your wallet? ||| answer: No, I found it in my backpack."
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Is this your handwriting?",
-    "output": "question: Is this your handwriting? ||| answer: Yes, I wrote it during the lecture."
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Is this your handwriting?",
+    "output": "question: Every day, Is this your handwriting? ||| answer: Yes, I wrote it during the lecture."
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Have they painted the office yet?",
@@ -10016,8 +10016,8 @@
     "output": "question: It was a great movie, _? ||| answer: wasn't it"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: They've already left, haven't they?",
-    "output": "question: They've already left, _? ||| answer: haven't they"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, They've already left, haven't they?",
+    "output": "question: Every day, They've already left, _? ||| answer: haven't they"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: You're not coming to the party, are you?",
@@ -10048,8 +10048,8 @@
     "output": "question: Let's meet at 6 PM, _? ||| answer: shall we"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: I'm not interrupting, am I?",
-    "output": "question: I'm not interrupting, _? ||| answer: am I"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, I'm not interrupting, am I?",
+    "output": "question: Every day, I'm not interrupting, _? ||| answer: am I"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: He was very upset, wasn't he?",
@@ -10100,8 +10100,8 @@
     "output": "question: She used to live here, _? ||| answer: didn't she"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: We're almost done, aren't we?",
-    "output": "question: We're almost done, _? ||| answer: aren't we"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, We're almost done, aren't we?",
+    "output": "question: Every day, We're almost done, _? ||| answer: aren't we"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: He won the prize, didn't he?",
@@ -10112,8 +10112,8 @@
     "output": "question: You can't drive yet, _? ||| answer: can you"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: She looks familiar, doesn't she?",
-    "output": "question: She looks familiar, _? ||| answer: doesn't she"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, She looks familiar, doesn't she?",
+    "output": "question: Every day, She looks familiar, _? ||| answer: doesn't she"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: It's too late to go now, isn't it?",
@@ -10136,20 +10136,20 @@
     "output": "question: He's been very quiet, _? ||| answer: hasn't he"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: I'm late again, aren't I?",
-    "output": "question: I'm late again, _? ||| answer: aren't I"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, I'm late again, aren't I?",
+    "output": "question: Every day, I'm late again, _? ||| answer: aren't I"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: We've met before, haven't we?",
-    "output": "question: We've met before, _? ||| answer: haven't we"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, We've met before, haven't we?",
+    "output": "question: Every day, We've met before, _? ||| answer: haven't we"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: There's a problem here, isn't there?",
     "output": "question: There's a problem here, _? ||| answer: isn't there"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: You weren't serious, were you?",
-    "output": "question: You weren't serious, _? ||| answer: were you"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, You weren't serious, were you?",
+    "output": "question: Every day, You weren't serious, _? ||| answer: were you"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: He must be tired, mustn't he?",
@@ -10160,8 +10160,8 @@
     "output": "question: We don't need to hurry, _? ||| answer: do we"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: They weren't informed, were they?",
-    "output": "question: They weren't informed, _? ||| answer: were they"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, They weren't informed, were they?",
+    "output": "question: Every day, They weren't informed, _? ||| answer: were they"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: He won't mind if we leave early, will he?",
@@ -10200,8 +10200,8 @@
     "output": "question: You had never been to Paris, _? ||| answer: had you"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Let's not argue, shall we?",
-    "output": "question: Let's not argue, _? ||| answer: shall we"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Let's not argue, shall we?",
+    "output": "question: Every day, Let's not argue, _? ||| answer: shall we"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: He hardly ever visits, does he?",
@@ -10304,8 +10304,8 @@
     "output": "question: He ought to apologize, _? ||| answer: oughtn't he"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: That's your car, isn't it?",
-    "output": "question: That's your car, _? ||| answer: isn't it"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, That's your car, isn't it?",
+    "output": "question: Every day, That's your car, _? ||| answer: isn't it"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: They couldn't solve the puzzle, could they?",
@@ -10316,20 +10316,20 @@
     "output": "question: It hasn't started yet, _? ||| answer: has it"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: Nobody called you, did they?",
-    "output": "question: Nobody called you, _? ||| answer: did they"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, Nobody called you, did they?",
+    "output": "question: Every day, Nobody called you, _? ||| answer: did they"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: They'd already eaten, hadn't they?",
-    "output": "question: They'd already eaten, _? ||| answer: hadn't they"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, They'd already eaten, hadn't they?",
+    "output": "question: Every day, They'd already eaten, _? ||| answer: hadn't they"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: You would like some tea, wouldn't you?",
     "output": "question: You would like some tea, _? ||| answer: wouldn't you"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: He's not angry, is he?",
-    "output": "question: He's not angry, _? ||| answer: is he"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, He's not angry, is he?",
+    "output": "question: Every day, He's not angry, _? ||| answer: is he"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: There used to be a shop here, didn't there?",
@@ -10396,8 +10396,8 @@
     "output": "question: We didn't break the rules, _? ||| answer: did we"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: She's coming later, isn't she?",
-    "output": "question: She's coming later, _? ||| answer: isn't she"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, She's coming later, isn't she?",
+    "output": "question: Every day, She's coming later, _? ||| answer: isn't she"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: He wasn't at work yesterday, was he?",
@@ -10460,12 +10460,12 @@
     "output": "question: We've seen this movie before, _? ||| answer: haven't we"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: You weren't listening, were you?",
-    "output": "question: You weren't listening, _? ||| answer: were you"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, You weren't listening, were you?",
+    "output": "question: Every day, You weren't listening, _? ||| answer: were you"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: He rarely complains, does he?",
-    "output": "question: He rarely complains, _? ||| answer: does he"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, He rarely complains, does he?",
+    "output": "question: Every day, He rarely complains, _? ||| answer: does he"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: You would like to join us, wouldn't you?",
@@ -10564,8 +10564,8 @@
     "output": "question: He'd better not be late again, _? ||| answer: had he"
   },
   {
-    "input": "Convert following sentence into fill in blank question. Sentence: We'd already met, hadn't we?",
-    "output": "question: We'd already met, _? ||| answer: hadn't we"
+    "input": "Convert following sentence into fill in blank question. Sentence: Every day, We'd already met, hadn't we?",
+    "output": "question: Every day, We'd already met, _? ||| answer: hadn't we"
   },
   {
     "input": "Convert following sentence into fill in blank question. Sentence: Nobody has told you yet, have they?",

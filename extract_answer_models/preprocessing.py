@@ -2,7 +2,7 @@ import json
 
 print("Preprocessing for extract_answer_models...")
 # Load your original dataset
-with open('original_dataset.json', 'r') as f:
+with open('improved_dataset.json', 'r') as f:
     data = json.load(f)
 
 # Convert each record for both formats

@@ -13293,7 +13293,7 @@
     ]
   },
   {
-    "question": "A: Do you know where she is? B: She <BLANK> at the caf\u00e9. I saw her there this morning.",
+    "question": "A: Do you know where she is? B: She <BLANK> at the café. I saw her there this morning.",
     "correct_answer": "was",
     "distractors": [
       "am",
@@ -19719,7 +19719,7 @@
     ]
   },
   {
-    "question": "If water reaches 100\u00b0C, it <BLANK>.",
+    "question": "If water reaches 100°C, it <BLANK>.",
     "correct_answer": "boils",
     "distractors": [
       "did",
