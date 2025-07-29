@@ -2,45 +2,41 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: This won't be a problem, _? Correct answer: will it",
         "expected": "Distractors: won't it, is it, was it",
-        "predicted": "Distractors: is, was, to be",
+        "predicted": "Distractors: won't it, is it, was it",
         "expected_list": [
             "Distractors: won't it",
             "is it",
             "was it"
         ],
         "predicted_list": [
-            "is",
-            "was",
-            "to be"
+            "won't it",
+            "is it",
+            "was it"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: This won't be a problem, _? Correct answer: will it",
-        "bleu_score": 0,
-        "rough_score": 0.1667,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The company specializes _ software development. Correct answer: in",
         "expected": "Distractors: on, at, to",
-        "predicted": "Distractors: for, in, to",
+        "predicted": "Distractors: on",
         "expected_list": [
             "Distractors: on",
             "at",
             "to"
         ],
-        "predicted_list": [
-            "for",
-            "in",
-            "to"
-        ],
+        "predicted_list": "['on']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The company specializes _ software development. Correct answer: in",
-        "bleu_score": 0.0725,
-        "rough_score": 0.5,
-        "valid": true
+        "bleu_score": 0.1,
+        "rough_score": 0.25,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He's looking forward to _ his vacation. Correct answer: taking",
         "expected": "Distractors: take, took, taken",
-        "predicted": "Distractors: take, assuming, takes",
+        "predicted": "Distractors: take, taken, took",
         "expected_list": [
             "Distractors: take",
             "took",
@@ -48,45 +44,45 @@
         ],
         "predicted_list": [
             "take",
-            "assuming",
-            "takes"
+            "taken",
+            "took"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He's looking forward to _ his vacation. Correct answer: taking",
-        "bleu_score": 0,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She felt _ when she heard the good news about her promotion. Correct answer: happy",
         "expected": "Distractors: sad, angry, disappointed",
-        "predicted": "Distractors: happy, happiness, gluing",
+        "predicted": "Distractors: happily, happier, happiest",
         "expected_list": [
             "Distractors: sad",
             "angry",
             "disappointed"
         ],
         "predicted_list": [
-            "happy",
-            "happiness",
-            "gluing"
+            "happily",
+            "happier",
+            "happiest"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She felt _ when she heard the good news about her promotion. Correct answer: happy",
-        "bleu_score": 0,
+        "bleu_score": 0.1,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: I don't know how _ to do it. Correct answer: to begin",
         "expected": "Distractors: beginning, to beginning, began",
-        "predicted": "Distractors: to start, at that time, began",
+        "predicted": "Distractors: beginnings, beginning, began",
         "expected_list": [
             "Distractors: beginning",
             "to beginning",
             "began"
         ],
         "predicted_list": [
-            "to start",
-            "at that time",
+            "beginnings",
+            "beginning",
             "began"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: I don't know how _ to do it. Correct answer: to begin",
@@ -97,121 +93,121 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He tried to _ the broken machine. Correct answer: repair",
         "expected": "Distractors: replay, repaint, rebuild",
-        "predicted": "Distractors: to repair, repair, rebuild",
+        "predicted": "Distractors: rebuild, replay, repaint",
         "expected_list": [
             "Distractors: replay",
             "repaint",
             "rebuild"
         ],
         "predicted_list": [
-            "to repair",
-            "repair",
-            "rebuild"
+            "rebuild",
+            "replay",
+            "repaint"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He tried to _ the broken machine. Correct answer: repair",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She made a _ impression on her boss. Correct answer: favorable",
         "expected": "Distractors: favor, favorably, favored",
-        "predicted": "Distractors: positivity, favorablely, favorises",
+        "predicted": "Distractors: favorably and favored, favorably, favored",
         "expected_list": [
             "Distractors: favor",
             "favorably",
             "favored"
         ],
         "predicted_list": [
-            "positivity",
-            "favorablely",
-            "favorises"
+            "favorably and favored",
+            "favorably",
+            "favored"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She made a _ impression on her boss. Correct answer: favorable",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He apologized _ his mistake. Correct answer: for",
         "expected": "Distractors: at, to, of",
-        "predicted": "Distractors: for, at, of",
+        "predicted": "Distractors: with, of, on",
         "expected_list": [
             "Distractors: at",
             "to",
             "of"
         ],
         "predicted_list": [
-            "for",
-            "at",
-            "of"
+            "with",
+            "of",
+            "on"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He apologized _ his mistake. Correct answer: for",
         "bleu_score": 0.0725,
-        "rough_score": 0.75,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Do you know how much time we _ left before the test starts? Correct answer: have",
         "expected": "Distractors: has, had, do",
-        "predicted": "Distractors: has, had, having",
+        "predicted": "Distractors: had (do) having, had, have having",
         "expected_list": [
             "Distractors: has",
             "had",
             "do"
         ],
         "predicted_list": [
-            "has",
+            "had (do) having",
             "had",
-            "having"
+            "have having"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Do you know how much time we _ left before the test starts? Correct answer: have",
         "bleu_score": 0.0725,
-        "rough_score": 0.75,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ you need any assistance, please let us know. Correct answer: Should",
         "expected": "Distractors: If, Would, Were",
-        "predicted": "Distractors: Doesn't, Should, If",
+        "predicted": "Distractors: were, would, if",
         "expected_list": [
             "Distractors: If",
             "Would",
             "Were"
         ],
         "predicted_list": [
-            "Doesn't",
-            "Should",
-            "If"
+            "were",
+            "would",
+            "if"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ you need any assistance, please let us know. Correct answer: Should",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The final decision is _ by the board of directors. Correct answer: made",
         "expected": "Distractors: making, makes, make",
-        "predicted": "Distractors: make, made, makes",
+        "predicted": "Distractors: makes, makes (make, making",
         "expected_list": [
             "Distractors: making",
             "makes",
             "make"
         ],
         "predicted_list": [
-            "make",
-            "made",
-            "makes"
+            "makes",
+            "makes (make",
+            "making"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The final decision is _ by the board of directors. Correct answer: made",
-        "bleu_score": 0.0862,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Are you finished with the project? Correct answer: No, I still need to review the last part.",
         "expected": "Distractors: Yes, I submitted it yesterday., It's being reviewed now., Only the group section is left.",
-        "predicted": "Distractors: in my mind, if, that",
+        "predicted": "Distractors: i finished it already., it's coming next week., yes",
         "expected_list": [
             "Distractors: Yes",
             "I submitted it yesterday.",
@@ -219,152 +215,152 @@
             "Only the group section is left."
         ],
         "predicted_list": [
-            "in my mind",
-            "if",
-            "that"
+            "i finished it already.",
+            "it's coming next week.",
+            "yes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Are you finished with the project? Correct answer: No, I still need to review the last part.",
-        "bleu_score": 0,
-        "rough_score": 0.0625,
+        "bleu_score": 0.1,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The teacher is famous _ her discipline. Correct answer: for",
         "expected": "Distractors: in, of, at",
-        "predicted": "Distractors: for, to, of",
+        "predicted": "Distractors: by, of, on",
         "expected_list": [
             "Distractors: in",
             "of",
             "at"
         ],
         "predicted_list": [
-            "for",
-            "to",
-            "of"
+            "by",
+            "of",
+            "on"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The teacher is famous _ her discipline. Correct answer: for",
         "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He succeeded _ solving the problem. Correct answer: in",
         "expected": "Distractors: on, at, to",
-        "predicted": "Distractors: on, in, to",
+        "predicted": "Distractors: with, of, on",
         "expected_list": [
             "Distractors: on",
             "at",
             "to"
         ],
         "predicted_list": [
-            "on",
-            "in",
-            "to"
+            "with",
+            "of",
+            "on"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He succeeded _ solving the problem. Correct answer: in",
-        "bleu_score": 0.0725,
-        "rough_score": 0.75,
+        "bleu_score": 0.2,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: It is important _ the documents carefully. Correct answer: to check",
         "expected": "Distractors: checking, check, checks",
-        "predicted": "Distractors: examine, testing, compare",
+        "predicted": "Distractors: checked, checks, checking",
         "expected_list": [
             "Distractors: checking",
             "check",
             "checks"
         ],
         "predicted_list": [
-            "examine",
-            "testing",
-            "compare"
+            "checked",
+            "checks",
+            "checking"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: It is important _ the documents carefully. Correct answer: to check",
-        "bleu_score": 0,
+        "bleu_score": 0.0725,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They agreed _ the project together. Correct answer: to complete",
         "expected": "Distractors: complete, completing, completed",
-        "predicted": "Distractors: complete, completed, to complete",
+        "predicted": "Distractors: completion, completed, completing",
         "expected_list": [
             "Distractors: complete",
             "completing",
             "completed"
         ],
         "predicted_list": [
-            "complete",
+            "completion",
             "completed",
-            "to complete"
+            "completing"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They agreed _ the project together. Correct answer: to complete",
-        "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They have decided to _ their investment. Correct answer: increase",
         "expected": "Distractors: decrease, release, replace",
-        "predicted": "Distractors: gain, increase, expanding",
+        "predicted": "Distractors: maintain or disable, release, decrease",
         "expected_list": [
             "Distractors: decrease",
             "release",
             "replace"
         ],
         "predicted_list": [
-            "gain",
-            "increase",
-            "expanding"
+            "maintain or disable",
+            "release",
+            "decrease"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They have decided to _ their investment. Correct answer: increase",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The new system will _ the processing time. Correct answer: reduce",
         "expected": "Distractors: produce, deduce, introduce",
-        "predicted": "Distractors: reduced, cut, reduce",
+        "predicted": "Distractors: deduct, prove, transfer",
         "expected_list": [
             "Distractors: produce",
             "deduce",
             "introduce"
         ],
         "predicted_list": [
-            "reduced",
-            "cut",
-            "reduce"
+            "deduct",
+            "prove",
+            "transfer"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The new system will _ the processing time. Correct answer: reduce",
-        "bleu_score": 0,
+        "bleu_score": 0.02,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The flight was delayed due to _ weather. Correct answer: bad",
         "expected": "Distractors: worse, badly, worsened",
-        "predicted": "Distractors: bad, badness, badly",
+        "predicted": "Distractors: worse, badly, worsened",
         "expected_list": [
             "Distractors: worse",
             "badly",
             "worsened"
         ],
         "predicted_list": [
-            "bad",
-            "badness",
-            "badly"
+            "worse",
+            "badly",
+            "worsened"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The flight was delayed due to _ weather. Correct answer: bad",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Was the phone on silent? Correct answer: Yes, that's why I missed the call.",
         "expected": "Distractors: No, it was on loud., I turned it off completely., The ringer is broken.",
-        "predicted": "Distractors: was, were, have been",
+        "predicted": "Distractors: no, it was on loud., it kept coming at night.",
         "expected_list": [
             "Distractors: No",
             "it was on loud.",
@@ -372,57 +368,57 @@
             "The ringer is broken."
         ],
         "predicted_list": [
-            "was",
-            "were",
-            "have been"
+            "no",
+            "it was on loud.",
+            "it kept coming at night."
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Was the phone on silent? Correct answer: Yes, that's why I missed the call.",
-        "bleu_score": 0,
-        "rough_score": 0.0714,
+        "bleu_score": 0.0519,
+        "rough_score": 0.4286,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She can't help _ when she hears a good joke. Correct answer: laughing",
         "expected": "Distractors: laugh, to laugh, laughed",
-        "predicted": "Distractors: laugh, laughing, chucking",
+        "predicted": "Distractors: laughed, to laugh, to laugh or laughed",
         "expected_list": [
             "Distractors: laugh",
             "to laugh",
             "laughed"
         ],
         "predicted_list": [
-            "laugh",
-            "laughing",
-            "chucking"
+            "laughed",
+            "to laugh",
+            "to laugh or laughed"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She can't help _ when she hears a good joke. Correct answer: laughing",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ are the documents you mentioned? Correct answer: Where",
         "expected": "Distractors: What, Which, Who",
-        "predicted": "Distractors: Who, who, whom",
+        "predicted": "Distractors: which, what, who",
         "expected_list": [
             "Distractors: What",
             "Which",
             "Who"
         ],
         "predicted_list": [
-            "Who",
-            "who",
-            "whom"
+            "which",
+            "what",
+            "who"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ are the documents you mentioned? Correct answer: Where",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "bleu_score": 0.5,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The company wants to _ its customer base. Correct answer: expand",
         "expected": "Distractors: expend, explain, expose",
-        "predicted": "Distractors: expend, deploy, exit",
+        "predicted": "Distractors: expend, explain, expose",
         "expected_list": [
             "Distractors: expend",
             "explain",
@@ -430,141 +426,137 @@
         ],
         "predicted_list": [
             "expend",
-            "deploy",
-            "exit"
+            "explain",
+            "expose"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The company wants to _ its customer base. Correct answer: expand",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Will you take the exam in the morning or _? Correct answer: afternoon",
         "expected": "Distractors: an afternoon, the afternoon, after noon",
-        "predicted": "Distractors: evening, darkened, sunk",
+        "predicted": "Distractors: an afternoon, the afternoon, after noon",
         "expected_list": [
             "Distractors: an afternoon",
             "the afternoon",
             "after noon"
         ],
         "predicted_list": [
-            "evening",
-            "darkened",
-            "sunk"
+            "an afternoon",
+            "the afternoon",
+            "after noon"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Will you take the exam in the morning or _? Correct answer: afternoon",
-        "bleu_score": 0,
-        "rough_score": 0.1667,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Do you know why the printer _ again? It's the third time today. Correct answer: is jammed",
         "expected": "Distractors: jammed, does jam, is jam",
-        "predicted": "Distractors: was jammed, remains immobile, is jamming",
+        "predicted": "Distractors: does jam, was jam, did jam",
         "expected_list": [
             "Distractors: jammed",
             "does jam",
             "is jam"
         ],
         "predicted_list": [
-            "was jammed",
-            "remains immobile",
-            "is jamming"
+            "does jam",
+            "was jam",
+            "did jam"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Do you know why the printer _ again? It's the third time today. Correct answer: is jammed",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.0725,
+        "rough_score": 0.6667,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Would you _ early tomorrow to help set up? Correct answer: come",
         "expected": "Distractors: came, comes, coming",
-        "predicted": "Distractors: come, returning, comes",
+        "predicted": "Distractors: comes to join in, comes, came",
         "expected_list": [
             "Distractors: came",
             "comes",
             "coming"
         ],
         "predicted_list": [
-            "come",
-            "returning",
-            "comes"
+            "comes to join in",
+            "comes",
+            "came"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Would you _ early tomorrow to help set up? Correct answer: come",
         "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ he arrive late again, he'll be dismissed. Correct answer: Should",
         "expected": "Distractors: Had, If, Was",
-        "predicted": "Distractors: When, Should, At.",
+        "predicted": "Distractors: was, had, if",
         "expected_list": [
             "Distractors: Had",
             "If",
             "Was"
         ],
         "predicted_list": [
-            "When",
-            "Should",
-            "At."
+            "was",
+            "had",
+            "if"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ he arrive late again, he'll be dismissed. Correct answer: Should",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He congratulated her _ her promotion. Correct answer: on",
         "expected": "Distractors: at, to, in",
-        "predicted": "Distractors: for, in, to",
+        "predicted": "Distractors: with, of",
         "expected_list": [
             "Distractors: at",
             "to",
             "in"
         ],
-        "predicted_list": [
-            "for",
-            "in",
-            "to"
-        ],
+        "predicted_list": "['with', 'of']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He congratulated her _ her promotion. Correct answer: on",
-        "bleu_score": 0.0862,
+        "bleu_score": 0,
         "rough_score": 0.25,
-        "valid": true
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Please _ your seat before the plane takes off. Correct answer: fasten",
         "expected": "Distractors: hasten, loosen, tighten",
-        "predicted": "Distractors: fast, fasten, attache",
+        "predicted": "Distractors: tighten, hasten, loosen",
         "expected_list": [
             "Distractors: hasten",
             "loosen",
             "tighten"
         ],
         "predicted_list": [
-            "fast",
-            "fasten",
-            "attache"
+            "tighten",
+            "hasten",
+            "loosen"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Please _ your seat before the plane takes off. Correct answer: fasten",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He's confident that the plan will _. Correct answer: succeed",
         "expected": "Distractors: success, successful, succeeded",
-        "predicted": "Distractors: succeed, succeeding, succeeded",
+        "predicted": "Distractors: succeeded, success, successfully",
         "expected_list": [
             "Distractors: success",
             "successful",
             "succeeded"
         ],
         "predicted_list": [
-            "succeed",
-            "succeeding",
-            "succeeded"
+            "succeeded",
+            "success",
+            "successfully"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He's confident that the plan will _. Correct answer: succeed",
         "bleu_score": 0.0725,
@@ -574,7 +566,7 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Will the package arrive today? Correct answer: No, the tracking says tomorrow.",
         "expected": "Distractors: Yes, it's out for delivery., It's delayed until next week., Only part of it is coming.",
-        "predicted": "Distractors: To, hasn't, ",
+        "predicted": "Distractors: it's delayed until next week., it's out for delivery., yes",
         "expected_list": [
             "Distractors: Yes",
             "it's out for delivery.",
@@ -582,28 +574,28 @@
             "Only part of it is coming."
         ],
         "predicted_list": [
-            "To",
-            "hasn't",
-            ""
+            "it's delayed until next week.",
+            "it's out for delivery.",
+            "yes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Will the package arrive today? Correct answer: No, the tracking says tomorrow.",
-        "bleu_score": 0,
-        "rough_score": 0.0625,
+        "bleu_score": 0.0519,
+        "rough_score": 0.5625,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She is very _ when it comes to decision making. Correct answer: decisive",
         "expected": "Distractors: indecisive, weak, hesitant",
-        "predicted": "Distractors: decisive, determining, deciding",
+        "predicted": "Distractors: decisiving (decide), decisivement, decisiving",
         "expected_list": [
             "Distractors: indecisive",
             "weak",
             "hesitant"
         ],
         "predicted_list": [
-            "decisive",
-            "determining",
-            "deciding"
+            "decisiving (decide)",
+            "decisivement",
+            "decisiving"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She is very _ when it comes to decision making. Correct answer: decisive",
         "bleu_score": 0,
@@ -613,111 +605,107 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She _ speak three languages. Correct answer: can",
         "expected": "Distractors: may, should, will",
-        "predicted": "Distractors: is, has been, could be",
+        "predicted": "Distractors: will, may be, must",
         "expected_list": [
             "Distractors: may",
             "should",
             "will"
         ],
         "predicted_list": [
-            "is",
-            "has been",
-            "could be"
+            "will",
+            "may be",
+            "must"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She _ speak three languages. Correct answer: can",
-        "bleu_score": 0,
+        "bleu_score": 0.0725,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Her writing is always _ and precise. Correct answer: concise",
         "expected": "Distractors: concision, concisely, concisiveness",
-        "predicted": "Distractors: concise, conciseness, contrive",
+        "predicted": "Distractors: concision, concisely, concisiveness",
         "expected_list": [
             "Distractors: concision",
             "concisely",
             "concisiveness"
         ],
         "predicted_list": [
-            "concise",
-            "conciseness",
-            "contrive"
+            "concision",
+            "concisely",
+            "concisiveness"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Her writing is always _ and precise. Correct answer: concise",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Can you _ me understand this math problem? Correct answer: help",
         "expected": "Distractors: helped, helps, helping",
-        "predicted": "Distractors: try, do, to try",
+        "predicted": "Distractors: helps, helping, helped",
         "expected_list": [
             "Distractors: helped",
             "helps",
             "helping"
         ],
         "predicted_list": [
-            "try",
-            "do",
-            "to try"
+            "helps",
+            "helping",
+            "helped"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Can you _ me understand this math problem? Correct answer: help",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: This article is based _ recent research. Correct answer: on",
         "expected": "Distractors: in, at, of",
-        "predicted": "Distractors: in, for, at",
+        "predicted": "Distractors: with, of",
         "expected_list": [
             "Distractors: in",
             "at",
             "of"
         ],
-        "predicted_list": [
-            "in",
-            "for",
-            "at"
-        ],
+        "predicted_list": "['with', 'of']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: This article is based _ recent research. Correct answer: on",
-        "bleu_score": 0.0725,
+        "bleu_score": 0,
         "rough_score": 0.5,
-        "valid": true
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: I _ I had studied harder for the exam, as I didn't perform as well as I expected. Correct answer: wish",
         "expected": "Distractors: wished, wishful, wishing",
-        "predicted": "Distractors: wish, wishesful, wishing",
+        "predicted": "Distractors: wished, wishing, wishful",
         "expected_list": [
             "Distractors: wished",
             "wishful",
             "wishing"
         ],
         "predicted_list": [
-            "wish",
-            "wishesful",
-            "wishing"
+            "wished",
+            "wishing",
+            "wishful"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: I _ I had studied harder for the exam, as I didn't perform as well as I expected. Correct answer: wish",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The _ of the book made it a bestseller. Correct answer: popularity",
         "expected": "Distractors: neglect, disinterest, failure",
-        "predicted": "Distractors: popularity, popularizes, popularization",
+        "predicted": "Distractors: decline, unpopularity, boredom",
         "expected_list": [
             "Distractors: neglect",
             "disinterest",
             "failure"
         ],
         "predicted_list": [
-            "popularity",
-            "popularizes",
-            "popularization"
+            "decline",
+            "unpopularity",
+            "boredom"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The _ of the book made it a bestseller. Correct answer: popularity",
         "bleu_score": 0,
@@ -727,178 +715,174 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The instructions were given _. Correct answer: clearly",
         "expected": "Distractors: clear, clarity, clearness",
-        "predicted": "Distractors: clarified, clearness, ambiguity",
+        "predicted": "Distractors: clarity, clearing, clearness",
         "expected_list": [
             "Distractors: clear",
             "clarity",
             "clearness"
         ],
         "predicted_list": [
-            "clarified",
-            "clearness",
-            "ambiguity"
+            "clarity",
+            "clearing",
+            "clearness"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The instructions were given _. Correct answer: clearly",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: We need to _ more information before deciding. Correct answer: gather",
         "expected": "Distractors: bother, feather, lather",
-        "predicted": "Distractors: share, collate, collect",
+        "predicted": "Distractors: bother, lather, feather",
         "expected_list": [
             "Distractors: bother",
             "feather",
             "lather"
         ],
         "predicted_list": [
-            "share",
-            "collate",
-            "collect"
+            "bother",
+            "lather",
+            "feather"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: We need to _ more information before deciding. Correct answer: gather",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The _ of the task required a collaborative approach from all team members to succeed. Correct answer: difficulty",
         "expected": "Distractors: difficult, difficulties, difficultly",
-        "predicted": "Distractors: difficult, a problem, difficulty",
+        "predicted": "Distractors: difficultyful, difficulties, difficultly",
         "expected_list": [
             "Distractors: difficult",
             "difficulties",
             "difficultly"
         ],
         "predicted_list": [
-            "difficult",
-            "a problem",
-            "difficulty"
+            "difficultyful",
+            "difficulties",
+            "difficultly"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The _ of the task required a collaborative approach from all team members to succeed. Correct answer: difficulty",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.2118,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The manager ordered that everyone _ at 8 a.m. Correct answer: arrive",
         "expected": "Distractors: arrived, arrives, arriving",
-        "predicted": "Distractors: arrive, arrived, venir",
+        "predicted": "Distractors: arrived, arrives, arriving",
         "expected_list": [
             "Distractors: arrived",
             "arrives",
             "arriving"
         ],
         "predicted_list": [
-            "arrive",
             "arrived",
-            "venir"
+            "arrives",
+            "arriving"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The manager ordered that everyone _ at 8 a.m. Correct answer: arrive",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She's interested _ learning Italian. Correct answer: in",
         "expected": "Distractors: on, at, of",
-        "predicted": "Distractors: on, at, from",
+        "predicted": "Distractors: with, of, on",
         "expected_list": [
             "Distractors: on",
             "at",
             "of"
         ],
         "predicted_list": [
-            "on",
-            "at",
-            "from"
+            "with",
+            "of",
+            "on"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She's interested _ learning Italian. Correct answer: in",
         "bleu_score": 0.0725,
-        "rough_score": 0.75,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: I _ I had more time to complete this task. It's much more difficult than I expected. Correct answer: wish",
         "expected": "Distractors: wishing, wished, wishful",
-        "predicted": "Distractors: wish, wishful, wishes",
+        "predicted": "Distractors: wished, wishing, wishful",
         "expected_list": [
             "Distractors: wishing",
             "wished",
             "wishful"
         ],
         "predicted_list": [
-            "wish",
-            "wishful",
-            "wishes"
+            "wished",
+            "wishing",
+            "wishful"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: I _ I had more time to complete this task. It's much more difficult than I expected. Correct answer: wish",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He works _ than his colleagues. Correct answer: harder",
         "expected": "Distractors: more hard, hard, hardest",
-        "predicted": "Distractors: tough, harder, hardest",
+        "predicted": "Distractors: most hard, hardest, more hard",
         "expected_list": [
             "Distractors: more hard",
             "hard",
             "hardest"
         ],
         "predicted_list": [
-            "tough",
-            "harder",
-            "hardest"
+            "most hard",
+            "hardest",
+            "more hard"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He works _ than his colleagues. Correct answer: harder",
         "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If the team _ more resources, they would have been able to finish the project faster. Correct answer: had received",
         "expected": "Distractors: receive, receiving, receives",
-        "predicted": "Distractors: receives, received, receive",
+        "predicted": "Distractors: receives, receiving",
         "expected_list": [
             "Distractors: receive",
             "receiving",
             "receives"
         ],
-        "predicted_list": [
-            "receives",
-            "received",
-            "receive"
-        ],
+        "predicted_list": "['receives', 'receiving']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If the team _ more resources, they would have been able to finish the project faster. Correct answer: had received",
-        "bleu_score": 0.0725,
+        "bleu_score": 0,
         "rough_score": 0.25,
-        "valid": true
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If I _ about the concert, I would have bought tickets earlier. Correct answer: had known",
         "expected": "Distractors: knew, knows, knowing",
-        "predicted": "Distractors: known, would know, know",
+        "predicted": "Distractors: knows, knowing, knew",
         "expected_list": [
             "Distractors: knew",
             "knows",
             "knowing"
         ],
         "predicted_list": [
-            "known",
-            "would know",
-            "know"
+            "knows",
+            "knowing",
+            "knew"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If I _ about the concert, I would have bought tickets earlier. Correct answer: had known",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Was this product made locally? Correct answer: Yes, it's manufactured just outside the city.",
         "expected": "Distractors: No, it's imported from overseas., It's assembled locally but shipped abroad., It was made in another state.",
-        "predicted": "Distractors: Is it manufacturing, to make, makes",
+        "predicted": "Distractors: it's made at home., no, it's manufactured locally.",
         "expected_list": [
             "Distractors: No",
             "it's imported from overseas.",
@@ -906,133 +890,133 @@
             "It was made in another state."
         ],
         "predicted_list": [
-            "Is it manufacturing",
-            "to make",
-            "makes"
+            "it's made at home.",
+            "no",
+            "it's manufactured locally."
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Was this product made locally? Correct answer: Yes, it's manufactured just outside the city.",
         "bleu_score": 0,
-        "rough_score": 0.1176,
+        "rough_score": 0.2353,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The cat _ on the sofa. Correct answer: sits",
         "expected": "Distractors: sit, sitting, sat",
-        "predicted": "Distractors: sits, in, sitting",
+        "predicted": "Distractors: sitting and sat, sat, sitting",
         "expected_list": [
             "Distractors: sit",
             "sitting",
             "sat"
         ],
         "predicted_list": [
-            "sits",
-            "in",
+            "sitting and sat",
+            "sat",
             "sitting"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The cat _ on the sofa. Correct answer: sits",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.0862,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She talked to me as if she _ my boss. Correct answer: were",
         "expected": "Distractors: was, is, being",
-        "predicted": "Distractors: has, are, have",
+        "predicted": "Distractors: was, been, has been",
         "expected_list": [
             "Distractors: was",
             "is",
             "being"
         ],
         "predicted_list": [
-            "has",
-            "are",
-            "have"
+            "was",
+            "been",
+            "has been"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She talked to me as if she _ my boss. Correct answer: were",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Do you want to ride your bike or _ the bus? Correct answer: take",
         "expected": "Distractors: takes, taking, took",
-        "predicted": "Distractors: take, taking, takes",
+        "predicted": "Distractors: took, taking, takes",
         "expected_list": [
             "Distractors: takes",
             "taking",
             "took"
         ],
         "predicted_list": [
-            "take",
+            "took",
             "taking",
             "takes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Do you want to ride your bike or _ the bus? Correct answer: take",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The instructions were not very _ and confused many people. Correct answer: clear",
         "expected": "Distractors: clearly, clarity, clarify",
-        "predicted": "Distractors: clear, obvious, clearness",
+        "predicted": "Distractors: clarity, clarifying, clearly",
         "expected_list": [
             "Distractors: clearly",
             "clarity",
             "clarify"
         ],
         "predicted_list": [
-            "clear",
-            "obvious",
-            "clearness"
+            "clarity",
+            "clarifying",
+            "clearly"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The instructions were not very _ and confused many people. Correct answer: clear",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If he _ faster, he wouldn't have missed the train. Correct answer: had walked",
         "expected": "Distractors: walked, walks, would walk",
-        "predicted": "Distractors: walk, walked, would walk",
+        "predicted": "Distractors: would walk, was walking, walks",
         "expected_list": [
             "Distractors: walked",
             "walks",
             "would walk"
         ],
         "predicted_list": [
-            "walk",
-            "walked",
-            "would walk"
+            "would walk",
+            "was walking",
+            "walks"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If he _ faster, he wouldn't have missed the train. Correct answer: had walked",
-        "bleu_score": 0.0725,
-        "rough_score": 0.8,
+        "bleu_score": 0.0862,
+        "rough_score": 0.4,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They succeeded _ reaching the summit. Correct answer: in",
         "expected": "Distractors: on, at, to",
-        "predicted": "Distractors: in, to, at",
+        "predicted": "Distractors: with, of, on",
         "expected_list": [
             "Distractors: on",
             "at",
             "to"
         ],
         "predicted_list": [
-            "in",
-            "to",
-            "at"
+            "with",
+            "of",
+            "on"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They succeeded _ reaching the summit. Correct answer: in",
-        "bleu_score": 0.0862,
+        "bleu_score": 0,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: A: I think the project is running behind schedule. B: Yes, I _ we should have started earlier. Correct answer: wish",
         "expected": "Distractors: wished, wishful, wishing",
-        "predicted": "Distractors: wished, wishful, wishing",
+        "predicted": "Distractors: wished, wishing, wishful",
         "expected_list": [
             "Distractors: wished",
             "wishful",
@@ -1040,255 +1024,251 @@
         ],
         "predicted_list": [
             "wished",
-            "wishful",
-            "wishing"
+            "wishing",
+            "wishful"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: A: I think the project is running behind schedule. B: Yes, I _ we should have started earlier. Correct answer: wish",
-        "bleu_score": 0.2118,
-        "rough_score": 1.0,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: This article is easy _. Correct answer: to read",
         "expected": "Distractors: read, reading, reads",
-        "predicted": "Distractors: reading, readed, reads",
+        "predicted": "Distractors: reads, lecturers, reading",
         "expected_list": [
             "Distractors: read",
             "reading",
             "reads"
         ],
         "predicted_list": [
-            "reading",
-            "readed",
-            "reads"
+            "reads",
+            "lecturers",
+            "reading"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: This article is easy _. Correct answer: to read",
         "bleu_score": 0.0862,
-        "rough_score": 0.75,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ do the kids want to play? Correct answer: What",
         "expected": "Distractors: Why, How, When",
-        "predicted": "Distractors: What, which, who",
+        "predicted": "Distractors: why, how, when",
         "expected_list": [
             "Distractors: Why",
             "How",
             "When"
         ],
         "predicted_list": [
-            "What",
-            "which",
-            "who"
+            "why",
+            "how",
+            "when"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ do the kids want to play? Correct answer: What",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The team worked _ to complete the project. Correct answer: diligently",
         "expected": "Distractors: diligent, diligence, diligency",
-        "predicted": "Distractors: diligent, with every task, diligently",
+        "predicted": "Distractors: diligence, diligents, diligentness",
         "expected_list": [
             "Distractors: diligent",
             "diligence",
             "diligency"
         ],
         "predicted_list": [
-            "diligent",
-            "with every task",
-            "diligently"
+            "diligence",
+            "diligents",
+            "diligentness"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The team worked _ to complete the project. Correct answer: diligently",
-        "bleu_score": 0,
+        "bleu_score": 0.0725,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: You haven't met my cousin yet, _? Correct answer: have you",
         "expected": "Distractors: did you, haven't you, are you",
-        "predicted": "Distractors: was, hasn't encountered, have been",
+        "predicted": "Distractors: are you, haven't you, did you",
         "expected_list": [
             "Distractors: did you",
             "haven't you",
             "are you"
         ],
         "predicted_list": [
-            "was",
-            "hasn't encountered",
-            "have been"
+            "are you",
+            "haven't you",
+            "did you"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: You haven't met my cousin yet, _? Correct answer: have you",
-        "bleu_score": 0,
-        "rough_score": 0.1667,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He's been very quiet, _? Correct answer: hasn't he",
         "expected": "Distractors: isn't he, wasn't he, doesn't he",
-        "predicted": "Distractors: hasn't, hadn'T been, hasn\u2019ten",
+        "predicted": "Distractors: wasn't he, isn't he, didn't he",
         "expected_list": [
             "Distractors: isn't he",
             "wasn't he",
             "doesn't he"
         ],
         "predicted_list": [
-            "hasn't",
-            "hadn'T been",
-            "hasn\u2019ten"
+            "wasn't he",
+            "isn't he",
+            "didn't he"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He's been very quiet, _? Correct answer: hasn't he",
-        "bleu_score": 0,
-        "rough_score": 0.1667,
+        "bleu_score": 0.0725,
+        "rough_score": 0.8333,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: A: I didn't hear from you yesterday. B: Sorry, I _ busy with work all day. Correct answer: was",
         "expected": "Distractors: were, am, will be",
-        "predicted": "Distractors: am, was, be",
+        "predicted": "Distractors: will be, had been, are",
         "expected_list": [
             "Distractors: were",
             "am",
             "will be"
         ],
         "predicted_list": [
-            "am",
-            "was",
-            "be"
+            "will be",
+            "had been",
+            "are"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: A: I didn't hear from you yesterday. B: Sorry, I _ busy with work all day. Correct answer: was",
         "bleu_score": 0.0725,
-        "rough_score": 0.6,
+        "rough_score": 0.4,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ do we need to buy milk again? Correct answer: Why",
         "expected": "Distractors: How, When, What",
-        "predicted": "Distractors: Why, For, If",
+        "predicted": "Distractors: whose, how, what",
         "expected_list": [
             "Distractors: How",
             "When",
             "What"
         ],
         "predicted_list": [
-            "Why",
-            "For",
-            "If"
+            "whose",
+            "how",
+            "what"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ do we need to buy milk again? Correct answer: Why",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The article failed to _ the main problem. Correct answer: highlight",
         "expected": "Distractors: highland, heighten, hijack",
-        "predicted": "Distractors: spotlight, highlight, highlights",
+        "predicted": "Distractors: highland, enlighten, heighten",
         "expected_list": [
             "Distractors: highland",
             "heighten",
             "hijack"
         ],
         "predicted_list": [
-            "spotlight",
-            "highlight",
-            "highlights"
+            "highland",
+            "enlighten",
+            "heighten"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The article failed to _ the main problem. Correct answer: highlight",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Can I _ your stapler for a second? Correct answer: use",
         "expected": "Distractors: used, using, uses",
-        "predicted": "Distractors: utilis, generating, exploit",
+        "predicted": "Distractors: using, uses, used",
         "expected_list": [
             "Distractors: used",
             "using",
             "uses"
         ],
         "predicted_list": [
-            "utilis",
-            "generating",
-            "exploit"
+            "using",
+            "uses",
+            "used"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Can I _ your stapler for a second? Correct answer: use",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: This book is different _ the one you recommended. Correct answer: from",
         "expected": "Distractors: to, of, at",
-        "predicted": "Distractors: in, of, at",
+        "predicted": "Distractors: of and on, of, with",
         "expected_list": [
             "Distractors: to",
             "of",
             "at"
         ],
         "predicted_list": [
-            "in",
+            "of and on",
             "of",
-            "at"
+            "with"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: This book is different _ the one you recommended. Correct answer: from",
-        "bleu_score": 0.2118,
-        "rough_score": 0.75,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They succeeded in _ the mountain. Correct answer: climbing",
         "expected": "Distractors: climb, to climb, climbs",
-        "predicted": "Distractors: climb, climbing, climbs",
+        "predicted": "Distractors: climbed, to climb, climbs",
         "expected_list": [
             "Distractors: climb",
             "to climb",
             "climbs"
         ],
         "predicted_list": [
-            "climb",
-            "climbing",
+            "climbed",
+            "to climb",
             "climbs"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They succeeded in _ the mountain. Correct answer: climbing",
-        "bleu_score": 0.0725,
-        "rough_score": 0.75,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Could you tell me what kind of coffee she usually _? Correct answer: orders",
         "expected": "Distractors: order, did order, has order",
-        "predicted": "Distractors: order, ordering, orders",
+        "predicted": "Distractors: did order, has order",
         "expected_list": [
             "Distractors: order",
             "did order",
             "has order"
         ],
-        "predicted_list": [
-            "order",
-            "ordering",
-            "orders"
-        ],
+        "predicted_list": "['did order', 'has order']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Could you tell me what kind of coffee she usually _? Correct answer: orders",
         "bleu_score": 0,
-        "rough_score": 0.4,
-        "valid": true
+        "rough_score": 1.0,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The shop decided to _ prices for the summer sale. Correct answer: lower",
         "expected": "Distractors: flower, tower, power",
-        "predicted": "Distractors: lower, lowly, lowest",
+        "predicted": "Distractors: maim, hottest day of the year., flatten",
         "expected_list": [
             "Distractors: flower",
             "tower",
             "power"
         ],
         "predicted_list": [
-            "lower",
-            "lowly",
-            "lowest"
+            "maim",
+            "hottest day of the year.",
+            "flatten"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The shop decided to _ prices for the summer sale. Correct answer: lower",
         "bleu_score": 0,
@@ -1298,16 +1278,16 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The _ from the first act set the tone for the rest of the play. Correct answer: dialogue",
         "expected": "Distractors: action, monologue, audience",
-        "predicted": "Distractors: engage, dialoging, dialogue",
+        "predicted": "Distractors: spoke, dialoguing with, dialogs",
         "expected_list": [
             "Distractors: action",
             "monologue",
             "audience"
         ],
         "predicted_list": [
-            "engage",
-            "dialoging",
-            "dialogue"
+            "spoke",
+            "dialoguing with",
+            "dialogs"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The _ from the first act set the tone for the rest of the play. Correct answer: dialogue",
         "bleu_score": 0,
@@ -1317,187 +1297,187 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: There's no sense in _ him now. Correct answer: calling",
         "expected": "Distractors: call, called, to call",
-        "predicted": "Distractors: call, calls, calling",
+        "predicted": "Distractors: called on, to call, called",
         "expected_list": [
             "Distractors: call",
             "called",
             "to call"
         ],
         "predicted_list": [
-            "call",
-            "calls",
-            "calling"
+            "called on",
+            "to call",
+            "called"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: There's no sense in _ him now. Correct answer: calling",
-        "bleu_score": 0,
-        "rough_score": 0.4,
+        "bleu_score": 0.0862,
+        "rough_score": 0.6,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: You need to _ your password regularly for security. Correct answer: update",
         "expected": "Distractors: upgrade, uphold, uplift",
-        "predicted": "Distractors: updated, update, updating",
+        "predicted": "Distractors: uphold, uplift, upgrade",
         "expected_list": [
             "Distractors: upgrade",
             "uphold",
             "uplift"
         ],
         "predicted_list": [
-            "updated",
-            "update",
-            "updating"
+            "uphold",
+            "uplift",
+            "upgrade"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: You need to _ your password regularly for security. Correct answer: update",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The _ of the meeting was unexpected. Correct answer: cancellation",
         "expected": "Distractors: cancel, cancelled, cancelling",
-        "predicted": "Distractors: been cancelled, cancelling, cancels",
+        "predicted": "Distractors: counseled, channelled, cancelled",
         "expected_list": [
             "Distractors: cancel",
             "cancelled",
             "cancelling"
         ],
         "predicted_list": [
-            "been cancelled",
-            "cancelling",
-            "cancels"
+            "counseled",
+            "channelled",
+            "cancelled"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The _ of the meeting was unexpected. Correct answer: cancellation",
         "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They walked _ the bridge to reach the village. Correct answer: across",
         "expected": "Distractors: above, over, through",
-        "predicted": "Distractors: between, after, to",
+        "predicted": "Distractors: above, over, towards",
         "expected_list": [
             "Distractors: above",
             "over",
             "through"
         ],
         "predicted_list": [
-            "between",
-            "after",
-            "to"
+            "above",
+            "over",
+            "towards"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They walked _ the bridge to reach the village. Correct answer: across",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: We should start now, _? Correct answer: shouldn't we",
         "expected": "Distractors: don't we, shall we, can we",
-        "predicted": "Distractors: do, did, didn't",
+        "predicted": "Distractors: don't we, can we, shall we",
         "expected_list": [
             "Distractors: don't we",
             "shall we",
             "can we"
         ],
         "predicted_list": [
-            "do",
-            "did",
-            "didn't"
+            "don't we",
+            "can we",
+            "shall we"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: We should start now, _? Correct answer: shouldn't we",
-        "bleu_score": 0,
-        "rough_score": 0.1667,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: A: I haven't seen you around much lately. B: I _ traveling for work, but I'm back now. Correct answer: was",
         "expected": "Distractors: am, have been, were",
-        "predicted": "Distractors: are, have been, was",
+        "predicted": "Distractors: been, were, am",
         "expected_list": [
             "Distractors: am",
             "have been",
             "were"
         ],
         "predicted_list": [
-            "are",
-            "have been",
-            "was"
+            "been",
+            "were",
+            "am"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: A: I haven't seen you around much lately. B: I _ traveling for work, but I'm back now. Correct answer: was",
         "bleu_score": 0.0725,
-        "rough_score": 0.6,
+        "rough_score": 0.4,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The view from the top was absolutely _. Correct answer: breathtaking",
         "expected": "Distractors: breathtake, breathed, breathing",
-        "predicted": "Distractors: stunning, amazed, breathtakingly",
+        "predicted": "Distractors: breathing, breathed, breathtake",
         "expected_list": [
             "Distractors: breathtake",
             "breathed",
             "breathing"
         ],
         "predicted_list": [
-            "stunning",
-            "amazed",
-            "breathtakingly"
+            "breathing",
+            "breathed",
+            "breathtake"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The view from the top was absolutely _. Correct answer: breathtaking",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: A: Do you think we'll be able to finish on time? B: We _ if we stay focused. Correct answer: will",
         "expected": "Distractors: would, might, can",
-        "predicted": "Distractors: should, could not, will be",
+        "predicted": "Distractors: can, would, might",
         "expected_list": [
             "Distractors: would",
             "might",
             "can"
         ],
         "predicted_list": [
-            "should",
-            "could not",
-            "will be"
+            "can",
+            "would",
+            "might"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: A: Do you think we'll be able to finish on time? B: We _ if we stay focused. Correct answer: will",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If only I _ more time to prepare, I would have done better on the exam. Correct answer: had",
         "expected": "Distractors: have, having, had had",
-        "predicted": "Distractors: have, having, had",
+        "predicted": "Distractors: will have had, has, having",
         "expected_list": [
             "Distractors: have",
             "having",
             "had had"
         ],
         "predicted_list": [
-            "have",
-            "having",
-            "had"
+            "will have had",
+            "has",
+            "having"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If only I _ more time to prepare, I would have done better on the exam. Correct answer: had",
         "bleu_score": 0.0725,
-        "rough_score": 1.0,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Please _ the terms carefully before signing. Correct answer: read",
         "expected": "Distractors: ready, ride, reap",
-        "predicted": "Distractors: read, readed, readings",
+        "predicted": "Distractors: reads, readed, reading",
         "expected_list": [
             "Distractors: ready",
             "ride",
             "reap"
         ],
         "predicted_list": [
-            "read",
+            "reads",
             "readed",
-            "readings"
+            "reading"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Please _ the terms carefully before signing. Correct answer: read",
         "bleu_score": 0,
@@ -1507,121 +1487,121 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Do you know why this door _ open all night? Correct answer: was left",
         "expected": "Distractors: left, did leave, has leave",
-        "predicted": "Distractors: left, leaving, was leaving",
+        "predicted": "Distractors: is left, does leave, did leave",
         "expected_list": [
             "Distractors: left",
             "did leave",
             "has leave"
         ],
         "predicted_list": [
-            "left",
-            "leaving",
-            "was leaving"
+            "is left",
+            "does leave",
+            "did leave"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Do you know why this door _ open all night? Correct answer: was left",
-        "bleu_score": 0,
-        "rough_score": 0.3333,
+        "bleu_score": 0.0725,
+        "rough_score": 0.8333,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: We _ to the restaurant for dinner last night. Correct answer: went",
         "expected": "Distractors: go, going, gone",
-        "predicted": "Distractors: went, gone, go",
+        "predicted": "Distractors: go, going, gone",
         "expected_list": [
             "Distractors: go",
             "going",
             "gone"
         ],
         "predicted_list": [
-            "went",
-            "gone",
-            "go"
+            "go",
+            "going",
+            "gone"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: We _ to the restaurant for dinner last night. Correct answer: went",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Can you _ that bag on the shelf for me? Correct answer: place",
         "expected": "Distractors: placed, places, placing",
-        "predicted": "Distractors: place, placed, placing",
+        "predicted": "Distractors: places, placing, placed",
         "expected_list": [
             "Distractors: placed",
             "places",
             "placing"
         ],
         "predicted_list": [
-            "place",
-            "placed",
-            "placing"
+            "places",
+            "placing",
+            "placed"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Can you _ that bag on the shelf for me? Correct answer: place",
-        "bleu_score": 0.0725,
-        "rough_score": 0.75,
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Could you tell me where this device _ manufactured? Correct answer: was",
         "expected": "Distractors: is, did, were",
-        "predicted": "Distractors: am, has been, was",
+        "predicted": "Distractors: did be, were, did",
         "expected_list": [
             "Distractors: is",
             "did",
             "were"
         ],
         "predicted_list": [
-            "am",
-            "has been",
-            "was"
+            "did be",
+            "were",
+            "did"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Could you tell me where this device _ manufactured? Correct answer: was",
-        "bleu_score": 0,
+        "bleu_score": 0.0862,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Do you know why Marcus _ so early, when the meeting was still going on? Correct answer: left",
         "expected": "Distractors: did leave, leaves, was leave",
-        "predicted": "Distractors: leave, leaving, left",
+        "predicted": "Distractors: was leave, leaves, did leave",
         "expected_list": [
             "Distractors: did leave",
             "leaves",
             "was leave"
         ],
         "predicted_list": [
-            "leave",
-            "leaving",
-            "left"
+            "was leave",
+            "leaves",
+            "did leave"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Do you know why Marcus _ so early, when the meeting was still going on? Correct answer: left",
-        "bleu_score": 0,
-        "rough_score": 0.3333,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He admitted _ the mistake. Correct answer: making",
         "expected": "Distractors: make, made, to make",
-        "predicted": "Distractors: try, kill, threaten",
+        "predicted": "Distractors: make, to make, made",
         "expected_list": [
             "Distractors: make",
             "made",
             "to make"
         ],
         "predicted_list": [
-            "try",
-            "kill",
-            "threaten"
+            "make",
+            "to make",
+            "made"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He admitted _ the mistake. Correct answer: making",
-        "bleu_score": 0,
-        "rough_score": 0.2,
+        "bleu_score": 0.0862,
+        "rough_score": 0.6,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Did your phone run out of battery? Correct answer: Yes, it shut off on the train.",
         "expected": "Distractors: No, it's still at 20%., Only the screen froze., I turned it off.",
-        "predicted": "Distractors: Stop, shutting, stayed",
+        "predicted": "Distractors: no, it ran out of power., it charged itself late.",
         "expected_list": [
             "Distractors: No",
             "it's still at 20%.",
@@ -1629,171 +1609,171 @@
             "I turned it off."
         ],
         "predicted_list": [
-            "Stop",
-            "shutting",
-            "stayed"
+            "no",
+            "it ran out of power.",
+            "it charged itself late."
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Did your phone run out of battery? Correct answer: Yes, it shut off on the train.",
         "bleu_score": 0,
-        "rough_score": 0.0714,
+        "rough_score": 0.2143,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He wasn't at work yesterday, _? Correct answer: was he",
         "expected": "Distractors: wasn't he, is he, has he",
-        "predicted": "Distractors: is, was, be",
+        "predicted": "Distractors: wasn't he, isn't was, did his",
         "expected_list": [
             "Distractors: wasn't he",
             "is he",
             "has he"
         ],
         "predicted_list": [
-            "is",
-            "was",
-            "be"
+            "wasn't he",
+            "isn't was",
+            "did his"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He wasn't at work yesterday, _? Correct answer: was he",
         "bleu_score": 0,
-        "rough_score": 0.1667,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: We admire her _ to the cause. Correct answer: dedication",
         "expected": "Distractors: dedicate, dedicated, dedicating",
-        "predicted": "Distractors: dedication, committed, dedicate",
+        "predicted": "Distractors: dedicated, dedicating, dedicate",
         "expected_list": [
             "Distractors: dedicate",
             "dedicated",
             "dedicating"
         ],
         "predicted_list": [
-            "dedication",
-            "committed",
+            "dedicated",
+            "dedicating",
             "dedicate"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: We admire her _ to the cause. Correct answer: dedication",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She wishes the weather _ warmer during the trip. Correct answer: had been",
         "expected": "Distractors: was, is, would be",
-        "predicted": "Distractors: was, has been, would be",
+        "predicted": "Distractors: would be, was, has been",
         "expected_list": [
             "Distractors: was",
             "is",
             "would be"
         ],
         "predicted_list": [
+            "would be",
             "was",
-            "has been",
-            "would be"
+            "has been"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She wishes the weather _ warmer during the trip. Correct answer: had been",
         "bleu_score": 0.0725,
-        "rough_score": 0.8,
+        "rough_score": 0.6,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Are you going to take photos or _ a video? Correct answer: record",
         "expected": "Distractors: recorded, records, recording",
-        "predicted": "Distractors: enthuse, enlarge, consume",
+        "predicted": "Distractors: records, recording, recorded",
         "expected_list": [
             "Distractors: recorded",
             "records",
             "recording"
         ],
         "predicted_list": [
-            "enthuse",
-            "enlarge",
-            "consume"
+            "records",
+            "recording",
+            "recorded"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Are you going to take photos or _ a video? Correct answer: record",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She was working on her computer with her baby next to _. Correct answer: her",
         "expected": "Distractors: herself, her own, hers",
-        "predicted": "Distractors: for, to, on",
+        "predicted": "Distractors: their, hers, herself",
         "expected_list": [
             "Distractors: herself",
             "her own",
             "hers"
         ],
         "predicted_list": [
-            "for",
-            "to",
-            "on"
+            "their",
+            "hers",
+            "herself"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She was working on her computer with her baby next to _. Correct answer: her",
-        "bleu_score": 0,
+        "bleu_score": 0.0725,
         "rough_score": 0.2,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The product was removed due to a _ defect. Correct answer: manufacturing",
         "expected": "Distractors: manufacture, manufacturer, manufactured",
-        "predicted": "Distractors: produce, fabricate, manufacturing",
+        "predicted": "Distractors: manufacturer, manufacture, manufactured",
         "expected_list": [
             "Distractors: manufacture",
             "manufacturer",
             "manufactured"
         ],
         "predicted_list": [
-            "produce",
-            "fabricate",
-            "manufacturing"
+            "manufacturer",
+            "manufacture",
+            "manufactured"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The product was removed due to a _ defect. Correct answer: manufacturing",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The manager was _ with the team's performance. Correct answer: satisfied",
         "expected": "Distractors: satisfy, satisfying, satisfaction",
-        "predicted": "Distractors: satisfied, pleased, satisfaction",
+        "predicted": "Distractors: satisfy, satisfying, satisfaction and satisfying",
         "expected_list": [
             "Distractors: satisfy",
             "satisfying",
             "satisfaction"
         ],
         "predicted_list": [
-            "satisfied",
-            "pleased",
-            "satisfaction"
+            "satisfy",
+            "satisfying",
+            "satisfaction and satisfying"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The manager was _ with the team's performance. Correct answer: satisfied",
         "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She was _ to see the results of her hard work reflected in the success of the project. Correct answer: pleased",
         "expected": "Distractors: pleases, please, pleasing",
-        "predicted": "Distractors: pleased, happyness, satisfactorily",
+        "predicted": "Distractors: pleasingly, pleasing, pleases",
         "expected_list": [
             "Distractors: pleases",
             "please",
             "pleasing"
         ],
         "predicted_list": [
-            "pleased",
-            "happyness",
-            "satisfactorily"
+            "pleasingly",
+            "pleasing",
+            "pleases"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She was _ to see the results of her hard work reflected in the success of the project. Correct answer: pleased",
-        "bleu_score": 0,
+        "bleu_score": 0.0725,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They _ the project last week. Correct answer: completed",
         "expected": "Distractors: complete, completing, completes",
-        "predicted": "Distractors: compile, finish, completes",
+        "predicted": "Distractors: compile, completing, completes",
         "expected_list": [
             "Distractors: complete",
             "completing",
@@ -1801,121 +1781,122 @@
         ],
         "predicted_list": [
             "compile",
-            "finish",
+            "completing",
             "completes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They _ the project last week. Correct answer: completed",
-        "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "bleu_score": 0.2118,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Nobody called the office, _? Correct answer: did they",
         "expected": "Distractors: didn't they, was it, were they",
-        "predicted": "Distractors: must, have, had",
+        "predicted": "Distractors: didn't they, were they, was it",
         "expected_list": [
             "Distractors: didn't they",
             "was it",
             "were they"
         ],
         "predicted_list": [
-            "must",
-            "have",
-            "had"
+            "didn't they",
+            "were they",
+            "was it"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Nobody called the office, _? Correct answer: did they",
-        "bleu_score": 0,
-        "rough_score": 0.1429,
+        "bleu_score": 0.0862,
+        "rough_score": 0.7143,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Could you _ me up at 7 a.m.? Correct answer: wake",
         "expected": "Distractors: woke, wakes, waking",
-        "predicted": "Distractors: wake, wakes <fallback>",
+        "predicted": "Distractors: wakes, waking, woke",
         "expected_list": [
             "Distractors: woke",
             "wakes",
             "waking"
         ],
         "predicted_list": [
-            "wake",
-            "wakes"
+            "wakes",
+            "waking",
+            "woke"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Could you _ me up at 7 a.m.? Correct answer: wake",
-        "bleu_score": 0.041,
-        "rough_score": 0.25,
-        "valid": false
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
+        "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ are you going on holiday this year? Correct answer: Where",
         "expected": "Distractors: When, Who, What",
-        "predicted": "Distractors: whose, which, that",
+        "predicted": "Distractors: which, who, when",
         "expected_list": [
             "Distractors: When",
             "Who",
             "What"
         ],
         "predicted_list": [
-            "whose",
             "which",
-            "that"
+            "who",
+            "when"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ are you going on holiday this year? Correct answer: Where",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The team must _ a way to overcome the difficulties. Correct answer: find",
         "expected": "Distractors: fund, fine, fix",
-        "predicted": "Distractors: find, found, finding",
+        "predicted": "Distractors: fund, organize, form",
         "expected_list": [
             "Distractors: fund",
             "fine",
             "fix"
         ],
         "predicted_list": [
-            "find",
-            "found",
-            "finding"
+            "fund",
+            "organize",
+            "form"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The team must _ a way to overcome the difficulties. Correct answer: find",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Would you _ taking a picture of us? Correct answer: mind",
         "expected": "Distractors: minds, minding, minded",
-        "predicted": "Distractors: conscious, thought, thinking",
+        "predicted": "Distractors: minding, minds, minded",
         "expected_list": [
             "Distractors: minds",
             "minding",
             "minded"
         ],
         "predicted_list": [
-            "conscious",
-            "thought",
-            "thinking"
+            "minding",
+            "minds",
+            "minded"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Would you _ taking a picture of us? Correct answer: mind",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He has shown remarkable _ in his career development. Correct answer: growth",
         "expected": "Distractors: grow, growing, grown",
-        "predicted": "Distractors: grown, growing, grew",
+        "predicted": "Distractors: grown up, grown, growing",
         "expected_list": [
             "Distractors: grow",
             "growing",
             "grown"
         ],
         "predicted_list": [
+            "grown up",
             "grown",
-            "growing",
-            "grew"
+            "growing"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He has shown remarkable _ in his career development. Correct answer: growth",
         "bleu_score": 0.0862,
@@ -1925,15 +1906,15 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They insisted _ paying for the meal. Correct answer: on",
         "expected": "Distractors: to, at, of",
-        "predicted": "Distractors: on, in, of",
+        "predicted": "Distractors: with, at or in, of",
         "expected_list": [
             "Distractors: to",
             "at",
             "of"
         ],
         "predicted_list": [
-            "on",
-            "in",
+            "with",
+            "at or in",
             "of"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They insisted _ paying for the meal. Correct answer: on",
@@ -1944,16 +1925,16 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The author plans to _ a second novel. Correct answer: publish",
         "expected": "Distractors: punish, polish, perish",
-        "predicted": "Distractors: publish, publishing, publication",
+        "predicted": "Distractors: publicize, published, publishes",
         "expected_list": [
             "Distractors: punish",
             "polish",
             "perish"
         ],
         "predicted_list": [
-            "publish",
-            "publishing",
-            "publication"
+            "publicize",
+            "published",
+            "publishes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The author plans to _ a second novel. Correct answer: publish",
         "bleu_score": 0,
@@ -1963,64 +1944,60 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She is married _ a famous actor. Correct answer: to",
         "expected": "Distractors: with, by, at",
-        "predicted": "Distractors: at, in, to",
+        "predicted": "Distractors: from, with, by",
         "expected_list": [
             "Distractors: with",
             "by",
             "at"
         ],
         "predicted_list": [
-            "at",
-            "in",
-            "to"
+            "from",
+            "with",
+            "by"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She is married _ a famous actor. Correct answer: to",
         "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They _ a lot of money for the charity event. Correct answer: raised",
         "expected": "Distractors: raise, raising, raises",
-        "predicted": "Distractors: raises, raisingd, raised",
+        "predicted": "Distractors: raising, raises",
         "expected_list": [
             "Distractors: raise",
             "raising",
             "raises"
         ],
-        "predicted_list": [
-            "raises",
-            "raisingd",
-            "raised"
-        ],
+        "predicted_list": "['raising', 'raises']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They _ a lot of money for the charity event. Correct answer: raised",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
-        "valid": true
+        "bleu_score": 0,
+        "rough_score": 0.75,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She _ her decision to leave the company after receiving a more attractive offer elsewhere. Correct answer: regretted",
         "expected": "Distractors: regret, regretful, regretting",
-        "predicted": "Distractors: regret, regretted, regrets",
+        "predicted": "Distractors: regretful; regretting, regretting, regretful",
         "expected_list": [
             "Distractors: regret",
             "regretful",
             "regretting"
         ],
         "predicted_list": [
-            "regret",
-            "regretted",
-            "regrets"
+            "regretful; regretting",
+            "regretting",
+            "regretful"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She _ her decision to leave the company after receiving a more attractive offer elsewhere. Correct answer: regretted",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: We _ our homework before the class. Correct answer: did",
         "expected": "Distractors: do, doing, does",
-        "predicted": "Distractors: does, do, did",
+        "predicted": "Distractors: does, do, doing",
         "expected_list": [
             "Distractors: do",
             "doing",
@@ -2029,64 +2006,64 @@
         "predicted_list": [
             "does",
             "do",
-            "did"
+            "doing"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: We _ our homework before the class. Correct answer: did",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He managed _ the task on time. Correct answer: to complete",
         "expected": "Distractors: completing, complete, completed",
-        "predicted": "Distractors: completed, complete, finalizing",
+        "predicted": "Distractors: completion, completed, completing",
         "expected_list": [
             "Distractors: completing",
             "complete",
             "completed"
         ],
         "predicted_list": [
+            "completion",
             "completed",
-            "complete",
-            "finalizing"
+            "completing"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He managed _ the task on time. Correct answer: to complete",
-        "bleu_score": 0.0862,
-        "rough_score": 0.5,
+        "bleu_score": 0.0725,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The scientist tried to _ the results of the experiment. Correct answer: explain",
         "expected": "Distractors: expand, explore, expose",
-        "predicted": "Distractors: present, forecast, cite",
+        "predicted": "Distractors: expend, expose, disclose",
         "expected_list": [
             "Distractors: expand",
             "explore",
             "expose"
         ],
         "predicted_list": [
-            "present",
-            "forecast",
-            "cite"
+            "expend",
+            "expose",
+            "disclose"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The scientist tried to _ the results of the experiment. Correct answer: explain",
-        "bleu_score": 0,
+        "bleu_score": 0.0725,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ of them called you last night? Correct answer: Which",
         "expected": "Distractors: Who, What, Whose",
-        "predicted": "Distractors: what, whose, which",
+        "predicted": "Distractors: whose, what, who",
         "expected_list": [
             "Distractors: Who",
             "What",
             "Whose"
         ],
         "predicted_list": [
-            "what",
             "whose",
-            "which"
+            "what",
+            "who"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ of them called you last night? Correct answer: Which",
         "bleu_score": 0,
@@ -2096,273 +2073,269 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Are you going to cook tonight or _ food? Correct answer: order",
         "expected": "Distractors: orders, ordering, ordered",
-        "predicted": "Distractors: organize, order, arranging",
+        "predicted": "Distractors: ordered, ordering, orders",
         "expected_list": [
             "Distractors: orders",
             "ordering",
             "ordered"
         ],
         "predicted_list": [
-            "organize",
-            "order",
-            "arranging"
+            "ordered",
+            "ordering",
+            "orders"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Are you going to cook tonight or _ food? Correct answer: order",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He was very _ about his promotion at work. Correct answer: excited",
         "expected": "Distractors: exciting, excite, excites",
-        "predicted": "Distractors: excited, emotionally, excites",
+        "predicted": "Distractors: excitement, excites, exciting",
         "expected_list": [
             "Distractors: exciting",
             "excite",
             "excites"
         ],
         "predicted_list": [
-            "excited",
-            "emotionally",
-            "excites"
+            "excitement",
+            "excites",
+            "exciting"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He was very _ about his promotion at work. Correct answer: excited",
         "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She decided to _ a different career path. Correct answer: pursue",
         "expected": "Distractors: perceive, presume, persist",
-        "predicted": "Distractors: continue, pursue, pursues",
+        "predicted": "Distractors: presume, propose, perceive",
         "expected_list": [
             "Distractors: perceive",
             "presume",
             "persist"
         ],
         "predicted_list": [
-            "continue",
-            "pursue",
-            "pursues"
+            "presume",
+            "propose",
+            "perceive"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She decided to _ a different career path. Correct answer: pursue",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Can you tell me what the instructions _ for the assignment? Correct answer: were",
         "expected": "Distractors: was, are, did be",
-        "predicted": "Distractors: are, were, be",
+        "predicted": "Distractors: does, did be, did",
         "expected_list": [
             "Distractors: was",
             "are",
             "did be"
         ],
         "predicted_list": [
-            "are",
-            "were",
-            "be"
+            "does",
+            "did be",
+            "did"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Can you tell me what the instructions _ for the assignment? Correct answer: were",
         "bleu_score": 0.0725,
-        "rough_score": 0.6,
+        "rough_score": 0.4,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: This system allows users to _ their preferences. Correct answer: customize",
         "expected": "Distractors: custom, customer, customization",
-        "predicted": "Distractors: customize, customization, modifications",
+        "predicted": "Distractors: customer, customer-made, customization",
         "expected_list": [
             "Distractors: custom",
             "customer",
             "customization"
         ],
         "predicted_list": [
-            "customize",
-            "customization",
-            "modifications"
+            "customer",
+            "customer-made",
+            "customization"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: This system allows users to _ their preferences. Correct answer: customize",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The _ of the new policy on employee productivity is still being evaluated. Correct answer: impact",
         "expected": "Distractors: impacted, impacting, impacts",
-        "predicted": "Distractors: impact, impacts, effects",
+        "predicted": "Distractors: impacts, impacted, impacting",
         "expected_list": [
             "Distractors: impacted",
             "impacting",
             "impacts"
         ],
         "predicted_list": [
-            "impact",
             "impacts",
-            "effects"
+            "impacted",
+            "impacting"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The _ of the new policy on employee productivity is still being evaluated. Correct answer: impact",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: You couldn't hear the speaker, _? Correct answer: could you",
         "expected": "Distractors: couldn't you, can you, did you",
-        "predicted": "Distractors: can, was, had",
+        "predicted": "Distractors: couldn't you, did you, can you",
         "expected_list": [
             "Distractors: couldn't you",
             "can you",
             "did you"
         ],
         "predicted_list": [
-            "can",
-            "was",
-            "had"
+            "couldn't you",
+            "did you",
+            "can you"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: You couldn't hear the speaker, _? Correct answer: could you",
-        "bleu_score": 0,
-        "rough_score": 0.1667,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: This phone is more _ than the older model. Correct answer: expensive",
         "expected": "Distractors: expense, expensively, expenses",
-        "predicted": "Distractors: expensive, costly, with",
+        "predicted": "Distractors: expensively, tends, cheap",
         "expected_list": [
             "Distractors: expense",
             "expensively",
             "expenses"
         ],
         "predicted_list": [
-            "expensive",
-            "costly",
-            "with"
+            "expensively",
+            "tends",
+            "cheap"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: This phone is more _ than the older model. Correct answer: expensive",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He has an _ talent for painting. Correct answer: extraordinary",
         "expected": "Distractors: extraordinarily, extraordinariness, extra",
-        "predicted": "Distractors: concern, exhilaries, extraordinary",
+        "predicted": "Distractors: extraordinarily, extraordinary (extra), extraordinariness",
         "expected_list": [
             "Distractors: extraordinarily",
             "extraordinariness",
             "extra"
         ],
         "predicted_list": [
-            "concern",
-            "exhilaries",
-            "extraordinary"
+            "extraordinarily",
+            "extraordinary (extra)",
+            "extraordinariness"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He has an _ talent for painting. Correct answer: extraordinary",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He _ his homework before dinner. Correct answer: finished",
         "expected": "Distractors: finish, finishing, finishes",
-        "predicted": "Distractors: finish, finishing, ends",
+        "predicted": "Distractors: finishes, finishing",
         "expected_list": [
             "Distractors: finish",
             "finishing",
             "finishes"
         ],
-        "predicted_list": [
-            "finish",
-            "finishing",
-            "ends"
-        ],
+        "predicted_list": "['finishes', 'finishing']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He _ his homework before dinner. Correct answer: finished",
-        "bleu_score": 0.0725,
-        "rough_score": 0.75,
-        "valid": true
+        "bleu_score": 0,
+        "rough_score": 0.25,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Last year, when I last met her, she told me she _ a letter every day for the last two months. Correct answer: had been writing",
         "expected": "Distractors: had written, has written, wrote",
-        "predicted": "Distractors: were writing, has been writing, is writing",
+        "predicted": "Distractors: had written, has written, wrote",
         "expected_list": [
             "Distractors: had written",
             "has written",
             "wrote"
         ],
         "predicted_list": [
-            "were writing",
-            "has been writing",
-            "is writing"
+            "had written",
+            "has written",
+            "wrote"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Last year, when I last met her, she told me she _ a letter every day for the last two months. Correct answer: had been writing",
-        "bleu_score": 0,
-        "rough_score": 0.4,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ do you go jogging every morning? Correct answer: Why",
         "expected": "Distractors: How, Where, When",
-        "predicted": "Distractors: Why, Warum, If",
+        "predicted": "Distractors: where, how, who",
         "expected_list": [
             "Distractors: How",
             "Where",
             "When"
         ],
         "predicted_list": [
-            "Why",
-            "Warum",
-            "If"
+            "where",
+            "how",
+            "who"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ do you go jogging every morning? Correct answer: Why",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If you had told me, I _ helped you. Correct answer: would have",
         "expected": "Distractors: would, had, was",
-        "predicted": "Distractors: am, was, be",
+        "predicted": "Distractors: was having, has, was",
         "expected_list": [
             "Distractors: would",
             "had",
             "was"
         ],
         "predicted_list": [
-            "am",
-            "was",
-            "be"
+            "was having",
+            "has",
+            "was"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If you had told me, I _ helped you. Correct answer: would have",
         "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If only he _ earlier! Correct answer: had arrived",
         "expected": "Distractors: arrived, has arrived, arrive",
-        "predicted": "Distractors: arrives, will arrive, was arriving",
+        "predicted": "Distractors: has arrived, arrives, arriving",
         "expected_list": [
             "Distractors: arrived",
             "has arrived",
             "arrive"
         ],
         "predicted_list": [
+            "has arrived",
             "arrives",
-            "will arrive",
-            "was arriving"
+            "arriving"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If only he _ earlier! Correct answer: had arrived",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Did the lights go out during the storm? Correct answer: Yes, the whole block lost power.",
         "expected": "Distractors: No, they stayed on., Only flickered once., Just in the kitchen.",
-        "predicted": "Distractors: Can, may, has",
+        "predicted": "Distractors: only flickered once., no, they stayed on.",
         "expected_list": [
             "Distractors: No",
             "they stayed on.",
@@ -2370,38 +2343,38 @@
             "Just in the kitchen."
         ],
         "predicted_list": [
-            "Can",
-            "may",
-            "has"
+            "only flickered once.",
+            "no",
+            "they stayed on."
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Did the lights go out during the storm? Correct answer: Yes, the whole block lost power.",
-        "bleu_score": 0,
-        "rough_score": 0.0833,
+        "bleu_score": 0.0519,
+        "rough_score": 0.5833,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The teacher is strict _ deadlines. Correct answer: about",
         "expected": "Distractors: at, for, on",
-        "predicted": "Distractors: which, of, at",
+        "predicted": "Distractors: with, of, on",
         "expected_list": [
             "Distractors: at",
             "for",
             "on"
         ],
         "predicted_list": [
-            "which",
+            "with",
             "of",
-            "at"
+            "on"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The teacher is strict _ deadlines. Correct answer: about",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Are you free this weekend? Correct answer: Yes, I don't have any plans.",
         "expected": "Distractors: No, I'm visiting family., Only on Sunday., I'm working both days.",
-        "predicted": "Distractors: Will, does not, Do",
+        "predicted": "Distractors: i'm visiting family. only on sunday., no, i'm working both days.",
         "expected_list": [
             "Distractors: No",
             "I'm visiting family.",
@@ -2409,66 +2382,66 @@
             "I'm working both days."
         ],
         "predicted_list": [
-            "Will",
-            "does not",
-            "Do"
+            "i'm visiting family. only on sunday.",
+            "no",
+            "i'm working both days."
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Are you free this weekend? Correct answer: Yes, I don't have any plans.",
         "bleu_score": 0,
-        "rough_score": 0.0909,
+        "rough_score": 0.9091,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: A: Are you confident about the project? B: I am, but I still _ we could refine the timeline a bit more. Correct answer: think",
         "expected": "Distractors: thought, thinking, thinks",
-        "predicted": "Distractors: thinks, thought, think.",
+        "predicted": "Distractors: thinking, thought, thinks",
         "expected_list": [
             "Distractors: thought",
             "thinking",
             "thinks"
         ],
         "predicted_list": [
-            "thinks",
+            "thinking",
             "thought",
-            "think."
+            "thinks"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: A: Are you confident about the project? B: I am, but I still _ we could refine the timeline a bit more. Correct answer: think",
-        "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: A: Can you send me the report by tomorrow? B: Sure, I _ send it by the end of the day. Correct answer: will",
         "expected": "Distractors: can, might, should",
-        "predicted": "Distractors: will, should, could",
+        "predicted": "Distractors: should, might, may",
         "expected_list": [
             "Distractors: can",
             "might",
             "should"
         ],
         "predicted_list": [
-            "will",
             "should",
-            "could"
+            "might",
+            "may"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: A: Can you send me the report by tomorrow? B: Sure, I _ send it by the end of the day. Correct answer: will",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He wanted to _ the truth from his parents. Correct answer: hide",
         "expected": "Distractors: hold, hope, hire",
-        "predicted": "Distractors: try, bind, make",
+        "predicted": "Distractors: shield, drape, shelter",
         "expected_list": [
             "Distractors: hold",
             "hope",
             "hire"
         ],
         "predicted_list": [
-            "try",
-            "bind",
-            "make"
+            "shield",
+            "drape",
+            "shelter"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He wanted to _ the truth from his parents. Correct answer: hide",
         "bleu_score": 0,
@@ -2478,121 +2451,113 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They discussed the matter in great _. Correct answer: detail",
         "expected": "Distractors: detailed, detailing, details",
-        "predicted": "Distractors: detailed, detailedly, details",
+        "predicted": "Distractors: details, detailing, detailed",
         "expected_list": [
             "Distractors: detailed",
             "detailing",
             "details"
         ],
         "predicted_list": [
-            "detailed",
-            "detailedly",
-            "details"
+            "details",
+            "detailing",
+            "detailed"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They discussed the matter in great _. Correct answer: detail",
-        "bleu_score": 0.0725,
-        "rough_score": 0.75,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If I had known earlier, I _ have called you. Correct answer: would",
         "expected": "Distractors: will, should, can",
-        "predicted": "Distractors: has, should, have",
+        "predicted": "Distractors: shall, can, will",
         "expected_list": [
             "Distractors: will",
             "should",
             "can"
         ],
         "predicted_list": [
-            "has",
-            "should",
-            "have"
+            "shall",
+            "can",
+            "will"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If I had known earlier, I _ have called you. Correct answer: would",
         "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Not only did she win the race, _ she also broke a record. Correct answer: but",
         "expected": "Distractors: and, while, as",
-        "predicted": "Distractors: but, because, then",
+        "predicted": "Distractors: and, because",
         "expected_list": [
             "Distractors: and",
             "while",
             "as"
         ],
-        "predicted_list": [
-            "but",
-            "because",
-            "then"
-        ],
+        "predicted_list": "['and', 'because']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Not only did she win the race, _ she also broke a record. Correct answer: but",
         "bleu_score": 0,
-        "rough_score": 0.25,
-        "valid": true
+        "rough_score": 0.5,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He is capable _ making quick decisions. Correct answer: of",
         "expected": "Distractors: to, for, with",
-        "predicted": "Distractors: in, with, at",
+        "predicted": "Distractors: with",
         "expected_list": [
             "Distractors: to",
             "for",
             "with"
         ],
-        "predicted_list": [
-            "in",
-            "with",
-            "at"
-        ],
+        "predicted_list": "['with']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He is capable _ making quick decisions. Correct answer: of",
-        "bleu_score": 0.0725,
-        "rough_score": 0.25,
-        "valid": true
+        "bleu_score": 0,
+        "rough_score": 0.5,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: There is a small cafe _ the street. Correct answer: across",
         "expected": "Distractors: along, in, at",
-        "predicted": "Distractors: as far, on, with",
+        "predicted": "Distractors: along, from, over",
         "expected_list": [
             "Distractors: along",
             "in",
             "at"
         ],
         "predicted_list": [
-            "as far",
-            "on",
-            "with"
+            "along",
+            "from",
+            "over"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: There is a small cafe _ the street. Correct answer: across",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: There is no point _ about the past. Correct answer: worrying",
         "expected": "Distractors: worry, worried, to worry",
-        "predicted": "Distractors: worry, disturbed, agitating",
+        "predicted": "Distractors: worried, to worry about, to worry",
         "expected_list": [
             "Distractors: worry",
             "worried",
             "to worry"
         ],
         "predicted_list": [
-            "worry",
-            "disturbed",
-            "agitating"
+            "worried",
+            "to worry about",
+            "to worry"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: There is no point _ about the past. Correct answer: worrying",
-        "bleu_score": 0,
-        "rough_score": 0.4,
+        "bleu_score": 0.0862,
+        "rough_score": 0.8,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He handled the problem with great _. Correct answer: maturity",
         "expected": "Distractors: mature, matureness, maturing",
-        "predicted": "Distractors: mature, maturing, maturity",
+        "predicted": "Distractors: mature, matureness, maturing",
         "expected_list": [
             "Distractors: mature",
             "matureness",
@@ -2600,94 +2565,94 @@
         ],
         "predicted_list": [
             "mature",
-            "maturing",
-            "maturity"
+            "matureness",
+            "maturing"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He handled the problem with great _. Correct answer: maturity",
-        "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: We've never tried this before, _? Correct answer: have we",
         "expected": "Distractors: haven't we, did we, are we",
-        "predicted": "Distractors: is, haven't tried, have had",
+        "predicted": "Distractors: did we, arewe, haven't we",
         "expected_list": [
             "Distractors: haven't we",
             "did we",
             "are we"
         ],
         "predicted_list": [
-            "is",
-            "haven't tried",
-            "have had"
+            "did we",
+            "arewe",
+            "haven't we"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: We've never tried this before, _? Correct answer: have we",
-        "bleu_score": 0,
-        "rough_score": 0.3333,
+        "bleu_score": 0.0725,
+        "rough_score": 0.8333,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They celebrated the _ of their project. Correct answer: completion",
         "expected": "Distractors: completing, complete, completed",
-        "predicted": "Distractors: successfully, in completion, is finalising",
+        "predicted": "Distractors: completed, completing, completes",
         "expected_list": [
             "Distractors: completing",
             "complete",
             "completed"
         ],
         "predicted_list": [
-            "successfully",
-            "in completion",
-            "is finalising"
+            "completed",
+            "completing",
+            "completes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They celebrated the _ of their project. Correct answer: completion",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Do you remember where you _ your phone? Correct answer: left",
         "expected": "Distractors: leave, did leave, has leave",
-        "predicted": "Distractors: left, is leaving, was leaving",
+        "predicted": "Distractors: has leave, leave, did leave",
         "expected_list": [
             "Distractors: leave",
             "did leave",
             "has leave"
         ],
         "predicted_list": [
-            "left",
-            "is leaving",
-            "was leaving"
+            "has leave",
+            "leave",
+            "did leave"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Do you remember where you _ your phone? Correct answer: left",
-        "bleu_score": 0,
-        "rough_score": 0.2,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The success depends _ your effort. Correct answer: on",
         "expected": "Distractors: in, at, of",
-        "predicted": "Distractors: for, in, to",
+        "predicted": "Distractors: by, of, with",
         "expected_list": [
             "Distractors: in",
             "at",
             "of"
         ],
         "predicted_list": [
-            "for",
-            "in",
-            "to"
+            "by",
+            "of",
+            "with"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The success depends _ your effort. Correct answer: on",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.0725,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Can this app run offline? Correct answer: Yes, but only in limited mode.",
         "expected": "Distractors: No, it needs constant internet., Only for premium users., Only if downloaded manually.",
-        "predicted": "Distractors: for, at, on",
+        "predicted": "Distractors: no, it needs constant internet., only for premium users.",
         "expected_list": [
             "Distractors: No",
             "it needs constant internet.",
@@ -2695,19 +2660,19 @@
             "Only if downloaded manually."
         ],
         "predicted_list": [
-            "for",
-            "at",
-            "on"
+            "no",
+            "it needs constant internet.",
+            "only for premium users."
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Can this app run offline? Correct answer: Yes, but only in limited mode.",
-        "bleu_score": 0,
-        "rough_score": 0.0769,
+        "bleu_score": 0.0519,
+        "rough_score": 0.6923,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: There's no point _ him now. Correct answer: in calling",
         "expected": "Distractors: to call, call, calling",
-        "predicted": "Distractors: to call, calling, calls",
+        "predicted": "Distractors: to call, called, calls",
         "expected_list": [
             "Distractors: to call",
             "call",
@@ -2715,56 +2680,56 @@
         ],
         "predicted_list": [
             "to call",
-            "calling",
+            "called",
             "calls"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: There's no point _ him now. Correct answer: in calling",
-        "bleu_score": 0.0725,
+        "bleu_score": 0,
         "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The _ of the product was highly praised by customers for its durability. Correct answer: quality",
         "expected": "Distractors: qualitative, qualitying, qualify",
-        "predicted": "Distractors: quality, qualitatively, standard",
+        "predicted": "Distractors: qualify, qualitative, qualifying",
         "expected_list": [
             "Distractors: qualitative",
             "qualitying",
             "qualify"
         ],
         "predicted_list": [
-            "quality",
-            "qualitatively",
-            "standard"
+            "qualify",
+            "qualitative",
+            "qualifying"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The _ of the product was highly praised by customers for its durability. Correct answer: quality",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If you _ a bit more effort, you would have passed the exam with flying colors. Correct answer: had put",
         "expected": "Distractors: put, putting, puts",
-        "predicted": "Distractors: put, putting, puts",
+        "predicted": "Distractors: putting, puts and putting, puts",
         "expected_list": [
             "Distractors: put",
             "putting",
             "puts"
         ],
         "predicted_list": [
-            "put",
             "putting",
+            "puts and putting",
             "puts"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If you _ a bit more effort, you would have passed the exam with flying colors. Correct answer: had put",
-        "bleu_score": 0.2118,
-        "rough_score": 1.0,
+        "bleu_score": 0.0862,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Have they launched the new product yet? Correct answer: Yes, it went live last night.",
         "expected": "Distractors: No, they're still testing., It launches next week., Only for early access users.",
-        "predicted": "Distractors: Ja, was, go live",
+        "predicted": "Distractors: no, only some departments know., it's coming next week.",
         "expected_list": [
             "Distractors: No",
             "they're still testing.",
@@ -2772,57 +2737,57 @@
             "Only for early access users."
         ],
         "predicted_list": [
-            "Ja",
-            "was",
-            "go live"
+            "no",
+            "only some departments know.",
+            "it's coming next week."
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Have they launched the new product yet? Correct answer: Yes, it went live last night.",
         "bleu_score": 0,
-        "rough_score": 0.0714,
+        "rough_score": 0.2857,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The house _ in 1920. Correct answer: was built",
         "expected": "Distractors: built, has built, was being built",
-        "predicted": "Distractors: was built, was constructed, must be constructing",
+        "predicted": "Distractors: was being built, has been constructed, being built",
         "expected_list": [
             "Distractors: built",
             "has built",
             "was being built"
         ],
         "predicted_list": [
-            "was built",
-            "was constructed",
-            "must be constructing"
+            "was being built",
+            "has been constructed",
+            "being built"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The house _ in 1920. Correct answer: was built",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.0725,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They wish the flight _ delayed. Correct answer: hadn't been",
         "expected": "Distractors: wasn't, hasn't been, wouldn't be",
-        "predicted": "Distractors: not, has been, would never be",
+        "predicted": "Distractors: wouldn't be, wasn't, hasn't been",
         "expected_list": [
             "Distractors: wasn't",
             "hasn't been",
             "wouldn't be"
         ],
         "predicted_list": [
-            "not",
-            "has been",
-            "would never be"
+            "wouldn't be",
+            "wasn't",
+            "hasn't been"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They wish the flight _ delayed. Correct answer: hadn't been",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 0.6667,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He behaves as though he _ the boss. Correct answer: were",
         "expected": "Distractors: was, is, has been",
-        "predicted": "Distractors: was, has been, being",
+        "predicted": "Distractors: was, been, has been",
         "expected_list": [
             "Distractors: was",
             "is",
@@ -2830,37 +2795,37 @@
         ],
         "predicted_list": [
             "was",
-            "has been",
-            "being"
+            "been",
+            "has been"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He behaves as though he _ the boss. Correct answer: were",
         "bleu_score": 0.0725,
-        "rough_score": 0.6,
+        "rough_score": 0.8,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ do they arrive every day? Correct answer: When",
         "expected": "Distractors: Where, What, How",
-        "predicted": "Distractors: where, when, to",
+        "predicted": "Distractors: why, how, what",
         "expected_list": [
             "Distractors: Where",
             "What",
             "How"
         ],
         "predicted_list": [
-            "where",
-            "when",
-            "to"
+            "why",
+            "how",
+            "what"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ do they arrive every day? Correct answer: When",
         "bleu_score": 0,
-        "rough_score": 0.5,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He _ his homework already. Correct answer: has finished",
         "expected": "Distractors: have finished, had finished, finishing",
-        "predicted": "Distractors: finishes, finishing, is finishing",
+        "predicted": "Distractors: finishes, finishing, finishing his",
         "expected_list": [
             "Distractors: have finished",
             "had finished",
@@ -2869,7 +2834,7 @@
         "predicted_list": [
             "finishes",
             "finishing",
-            "is finishing"
+            "finishing his"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He _ his homework already. Correct answer: has finished",
         "bleu_score": 0.0725,
@@ -2879,54 +2844,54 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Could you tell me what he _ when the lights went out? Correct answer: was doing",
         "expected": "Distractors: did, does, is doing",
-        "predicted": "Distractors: is doing, would be doing, was acting",
+        "predicted": "Distractors: does do, has do, did",
         "expected_list": [
             "Distractors: did",
             "does",
             "is doing"
         ],
         "predicted_list": [
-            "is doing",
-            "would be doing",
-            "was acting"
+            "does do",
+            "has do",
+            "did"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Could you tell me what he _ when the lights went out? Correct answer: was doing",
-        "bleu_score": 0.0725,
-        "rough_score": 0.4,
+        "bleu_score": 0,
+        "rough_score": 0.2,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Would you like a hot drink or a _ one? Correct answer: cold",
         "expected": "Distractors: colder, cool, cooler",
-        "predicted": "Distractors: cold, coldness, freezing",
+        "predicted": "Distractors: colder, cool, cooler",
         "expected_list": [
             "Distractors: colder",
             "cool",
             "cooler"
         ],
         "predicted_list": [
-            "cold",
-            "coldness",
-            "freezing"
+            "colder",
+            "cool",
+            "cooler"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Would you like a hot drink or a _ one? Correct answer: cold",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: We are looking forward _ hearing from you. Correct answer: to",
         "expected": "Distractors: for, on, at",
-        "predicted": "Distractors: to, at, with",
+        "predicted": "Distractors: with, by, on",
         "expected_list": [
             "Distractors: for",
             "on",
             "at"
         ],
         "predicted_list": [
-            "to",
-            "at",
-            "with"
+            "with",
+            "by",
+            "on"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: We are looking forward _ hearing from you. Correct answer: to",
         "bleu_score": 0.0725,
@@ -2936,7 +2901,7 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Can you explain what she _ to prepare for the interview? Correct answer: did",
         "expected": "Distractors: does, was doing, do",
-        "predicted": "Distractors: does, did not, is",
+        "predicted": "Distractors: does, do, was doing",
         "expected_list": [
             "Distractors: does",
             "was doing",
@@ -2944,37 +2909,37 @@
         ],
         "predicted_list": [
             "does",
-            "did not",
-            "is"
+            "do",
+            "was doing"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Can you explain what she _ to prepare for the interview? Correct answer: did",
-        "bleu_score": 0,
-        "rough_score": 0.4,
+        "bleu_score": 0.0862,
+        "rough_score": 0.6,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If you mix red and blue, you _ purple. Correct answer: get",
         "expected": "Distractors: got, will get, would get",
-        "predicted": "Distractors: receive, gets, of",
+        "predicted": "Distractors: got, getting, gets",
         "expected_list": [
             "Distractors: got",
             "will get",
             "would get"
         ],
         "predicted_list": [
-            "receive",
-            "gets",
-            "of"
+            "got",
+            "getting",
+            "gets"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If you mix red and blue, you _ purple. Correct answer: get",
         "bleu_score": 0,
-        "rough_score": 0.1667,
+        "rough_score": 0.3333,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She _ her homework at 8 PM. Correct answer: finished",
         "expected": "Distractors: finish, finishing, finishes",
-        "predicted": "Distractors: finishes, finished, finishing",
+        "predicted": "Distractors: finishes, finishing, finishes and finishing",
         "expected_list": [
             "Distractors: finish",
             "finishing",
@@ -2982,208 +2947,196 @@
         ],
         "predicted_list": [
             "finishes",
-            "finished",
-            "finishing"
+            "finishing",
+            "finishes and finishing"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She _ her homework at 8 PM. Correct answer: finished",
         "bleu_score": 0.0862,
-        "rough_score": 0.25,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The flight was delayed, _? Correct answer: wasn't it",
         "expected": "Distractors: didn't it, isn't it, hasn't it",
-        "predicted": "Distractors: is, was, been",
+        "predicted": "Distractors: did they, did you, was it",
         "expected_list": [
             "Distractors: didn't it",
             "isn't it",
             "hasn't it"
         ],
         "predicted_list": [
-            "is",
-            "was",
-            "been"
+            "did they",
+            "did you",
+            "was it"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The flight was delayed, _? Correct answer: wasn't it",
         "bleu_score": 0,
-        "rough_score": 0.1667,
+        "rough_score": 0.3333,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She gave a _ performance in the competition. Correct answer: stellar",
         "expected": "Distractors: stella, stellarity, stellarized",
-        "predicted": "Distractors: stellar, shining, starve",
+        "predicted": "Distractors: stellarity, strogan, stellarized",
         "expected_list": [
             "Distractors: stella",
             "stellarity",
             "stellarized"
         ],
         "predicted_list": [
-            "stellar",
-            "shining",
-            "starve"
+            "stellarity",
+            "strogan",
+            "stellarized"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She gave a _ performance in the competition. Correct answer: stellar",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They're busy _ preparations for the event. Correct answer: with",
         "expected": "Distractors: in, at, to",
-        "predicted": "Distractors: with, in, if",
+        "predicted": "Distractors: of",
         "expected_list": [
             "Distractors: in",
             "at",
             "to"
         ],
-        "predicted_list": [
-            "with",
-            "in",
-            "if"
-        ],
+        "predicted_list": "['of']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They're busy _ preparations for the event. Correct answer: with",
         "bleu_score": 0,
-        "rough_score": 0.5,
-        "valid": true
+        "rough_score": 0.25,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The story was _ by many people. Correct answer: criticized",
         "expected": "Distractors: critic, critical, criticism",
-        "predicted": "Distractors: criticize, skewered, criticism",
+        "predicted": "Distractors: critical, attacked, criticism",
         "expected_list": [
             "Distractors: critic",
             "critical",
             "criticism"
         ],
         "predicted_list": [
-            "criticize",
-            "skewered",
+            "critical",
+            "attacked",
             "criticism"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The story was _ by many people. Correct answer: criticized",
-        "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The movie was more _ than I expected. Correct answer: entertaining",
         "expected": "Distractors: entertain, entertainment, entertained",
-        "predicted": "Distractors: entertain, entertaining, entertains",
+        "predicted": "Distractors: entertains, bored, interested",
         "expected_list": [
             "Distractors: entertain",
             "entertainment",
             "entertained"
         ],
         "predicted_list": [
-            "entertain",
-            "entertaining",
-            "entertains"
+            "entertains",
+            "bored",
+            "interested"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The movie was more _ than I expected. Correct answer: entertaining",
         "bleu_score": 0,
-        "rough_score": 0.5,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He bought _ new car yesterday. Correct answer: a",
         "expected": "Distractors: an, some, the",
-        "predicted": "Distractors: a, the, some",
+        "predicted": "Distractors: some",
         "expected_list": [
             "Distractors: an",
             "some",
             "the"
         ],
-        "predicted_list": [
-            "a",
-            "the",
-            "some"
-        ],
+        "predicted_list": "['some']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He bought _ new car yesterday. Correct answer: a",
-        "bleu_score": 0.0862,
+        "bleu_score": 0,
         "rough_score": 0.25,
-        "valid": true
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Do you want to ride the elevator or _ the stairs? Correct answer: take",
         "expected": "Distractors: took, takes, taking",
-        "predicted": "Distractors: go, took, gone",
+        "predicted": "Distractors: took, taking, takes",
         "expected_list": [
             "Distractors: took",
             "takes",
             "taking"
         ],
         "predicted_list": [
-            "go",
             "took",
-            "gone"
+            "taking",
+            "takes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Do you want to ride the elevator or _ the stairs? Correct answer: take",
-        "bleu_score": 0,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Are you going to cook rice or _ for dinner? Correct answer: pasta",
         "expected": "Distractors: pastas, a pasta, the pasta",
-        "predicted": "Distractors: pasta, baked, pasted",
+        "predicted": "Distractors: a pasta, pastas, the pasta",
         "expected_list": [
             "Distractors: pastas",
             "a pasta",
             "the pasta"
         ],
         "predicted_list": [
-            "pasta",
-            "baked",
-            "pasted"
+            "a pasta",
+            "pastas",
+            "the pasta"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Are you going to cook rice or _ for dinner? Correct answer: pasta",
-        "bleu_score": 0,
-        "rough_score": 0.3333,
+        "bleu_score": 0.0862,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He _ to the store every day. Correct answer: goes",
         "expected": "Distractors: go, gone, going",
-        "predicted": "Distractors: go, gone, going",
+        "predicted": "Distractors: going, gone",
         "expected_list": [
             "Distractors: go",
             "gone",
             "going"
         ],
-        "predicted_list": [
-            "go",
-            "gone",
-            "going"
-        ],
+        "predicted_list": "['going', 'gone']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He _ to the store every day. Correct answer: goes",
-        "bleu_score": 0.2118,
-        "rough_score": 1.0,
-        "valid": true
+        "bleu_score": 0,
+        "rough_score": 0.25,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Nobody expected the situation to escalate so _. Correct answer: quickly",
         "expected": "Distractors: quick, quicker, quicken",
-        "predicted": "Distractors: quickly, rapided, rapidian",
+        "predicted": "Distractors: quicken, quickness, quicker",
         "expected_list": [
             "Distractors: quick",
             "quicker",
             "quicken"
         ],
         "predicted_list": [
-            "quickly",
-            "rapided",
-            "rapidian"
+            "quicken",
+            "quickness",
+            "quicker"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Nobody expected the situation to escalate so _. Correct answer: quickly",
-        "bleu_score": 0,
+        "bleu_score": 0.0862,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The teacher provided a _ explanation. Correct answer: thorough",
         "expected": "Distractors: thoroughness, thoroughly, through",
-        "predicted": "Distractors: thoroughness, thoroughly, examining",
+        "predicted": "Distractors: thoroughness, well, through",
         "expected_list": [
             "Distractors: thoroughness",
             "thoroughly",
@@ -3191,8 +3144,8 @@
         ],
         "predicted_list": [
             "thoroughness",
-            "thoroughly",
-            "examining"
+            "well",
+            "through"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The teacher provided a _ explanation. Correct answer: thorough",
         "bleu_score": 0.0725,
@@ -3202,16 +3155,16 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He arrived late, _ he had left early. Correct answer: even though",
         "expected": "Distractors: in case, unless, in spite",
-        "predicted": "Distractors: although, which, that",
+        "predicted": "Distractors: with, despite, because",
         "expected_list": [
             "Distractors: in case",
             "unless",
             "in spite"
         ],
         "predicted_list": [
-            "although",
-            "which",
-            "that"
+            "with",
+            "despite",
+            "because"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He arrived late, _ he had left early. Correct answer: even though",
         "bleu_score": 0,
@@ -3221,83 +3174,83 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Despite _ tired, she finished her work. Correct answer: being",
         "expected": "Distractors: been, be, to be",
-        "predicted": "Distractors: is, been, being",
+        "predicted": "Distractors: been, to have, been (to become)",
         "expected_list": [
             "Distractors: been",
             "be",
             "to be"
         ],
         "predicted_list": [
-            "is",
             "been",
-            "being"
+            "to have",
+            "been (to become)"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Despite _ tired, she finished her work. Correct answer: being",
         "bleu_score": 0,
-        "rough_score": 0.4,
+        "rough_score": 0.6,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Your friends are visiting next week, _? Correct answer: aren't they",
         "expected": "Distractors: are they, don't they, won't they",
-        "predicted": "Distractors: are, must be, be",
+        "predicted": "Distractors: won't they, don't they, will they",
         "expected_list": [
             "Distractors: are they",
             "don't they",
             "won't they"
         ],
         "predicted_list": [
-            "are",
-            "must be",
-            "be"
+            "won't they",
+            "don't they",
+            "will they"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Your friends are visiting next week, _? Correct answer: aren't they",
-        "bleu_score": 0,
-        "rough_score": 0.1667,
+        "bleu_score": 0.0862,
+        "rough_score": 0.8333,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He _ his skills by practicing every day. Correct answer: improved",
         "expected": "Distractors: improve, improving, improves",
-        "predicted": "Distractors: improve, increase, improved",
+        "predicted": "Distractors: improving himself, improves, improving",
         "expected_list": [
             "Distractors: improve",
             "improving",
             "improves"
         ],
         "predicted_list": [
-            "improve",
-            "increase",
-            "improved"
+            "improving himself",
+            "improves",
+            "improving"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He _ his skills by practicing every day. Correct answer: improved",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: You would like to join us, _? Correct answer: wouldn't you",
         "expected": "Distractors: didn't you, don't you, will you",
-        "predicted": "Distractors: should you, shall not, be",
+        "predicted": "Distractors: can't you, don't you, didn't you",
         "expected_list": [
             "Distractors: didn't you",
             "don't you",
             "will you"
         ],
         "predicted_list": [
-            "should you",
-            "shall not",
-            "be"
+            "can't you",
+            "don't you",
+            "didn't you"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: You would like to join us, _? Correct answer: wouldn't you",
-        "bleu_score": 0,
-        "rough_score": 0.3333,
+        "bleu_score": 0.0725,
+        "rough_score": 0.8333,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Has she accepted the job offer? Correct answer: No, she's still deciding.",
         "expected": "Distractors: Yes, she starts next week., She turned it down., Only if the salary increases.",
-        "predicted": "Distractors: Is, Does, Would",
+        "predicted": "Distractors: she starts next week., she turned it down., yes",
         "expected_list": [
             "Distractors: Yes",
             "she starts next week.",
@@ -3305,114 +3258,110 @@
             "Only if the salary increases."
         ],
         "predicted_list": [
-            "Is",
-            "Does",
-            "Would"
+            "she starts next week.",
+            "she turned it down.",
+            "yes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Has she accepted the job offer? Correct answer: No, she's still deciding.",
-        "bleu_score": 0,
-        "rough_score": 0.0714,
+        "bleu_score": 0.0519,
+        "rough_score": 0.5714,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: His _ response to the question made everyone in the room think deeply about the topic. Correct answer: thoughtful",
         "expected": "Distractors: thought, thoughts, thinking",
-        "predicted": "Distractors: thoughtfully, thought, thoughtful",
+        "predicted": "Distractors: thinking, thoughts, thinks",
         "expected_list": [
             "Distractors: thought",
             "thoughts",
             "thinking"
         ],
         "predicted_list": [
-            "thoughtfully",
-            "thought",
-            "thoughtful"
+            "thinking",
+            "thoughts",
+            "thinks"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: His _ response to the question made everyone in the room think deeply about the topic. Correct answer: thoughtful",
-        "bleu_score": 0,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The _ of the new system took several weeks. Correct answer: installation",
         "expected": "Distractors: install, installed, installing",
-        "predicted": "Distractors: install, installing, installation",
+        "predicted": "Distractors: installing, installer, installers",
         "expected_list": [
             "Distractors: install",
             "installed",
             "installing"
         ],
         "predicted_list": [
-            "install",
             "installing",
-            "installation"
+            "installer",
+            "installers"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The _ of the new system took several weeks. Correct answer: installation",
         "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: If you don't water plants, they _. Correct answer: die",
         "expected": "Distractors: dies, will die, would die",
-        "predicted": "Distractors: die, dies, dying",
+        "predicted": "Distractors: dies, dying, would die",
         "expected_list": [
             "Distractors: dies",
             "will die",
             "would die"
         ],
         "predicted_list": [
-            "die",
             "dies",
-            "dying"
+            "dying",
+            "would die"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: If you don't water plants, they _. Correct answer: die",
-        "bleu_score": 0,
-        "rough_score": 0.5,
+        "bleu_score": 0.0725,
+        "rough_score": 0.6667,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She wishes she _ the opportunity when it was offered. Correct answer: had taken",
         "expected": "Distractors: took, has taken, takes",
-        "predicted": "Distractors: takes, took, could take",
+        "predicted": "Distractors: took, has taken, takes",
         "expected_list": [
             "Distractors: took",
             "has taken",
             "takes"
         ],
         "predicted_list": [
-            "takes",
             "took",
-            "could take"
+            "has taken",
+            "takes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She wishes she _ the opportunity when it was offered. Correct answer: had taken",
-        "bleu_score": 0.0725,
-        "rough_score": 0.4,
+        "bleu_score": 0.2118,
+        "rough_score": 1.0,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They have _ here for years. Correct answer: lived",
         "expected": "Distractors: live, living, lives",
-        "predicted": "Distractors: lived, grew, has lived",
+        "predicted": "Distractors: living, lives",
         "expected_list": [
             "Distractors: live",
             "living",
             "lives"
         ],
-        "predicted_list": [
-            "lived",
-            "grew",
-            "has lived"
-        ],
+        "predicted_list": "['living', 'lives']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They have _ here for years. Correct answer: lived",
         "bleu_score": 0,
-        "rough_score": 0.25,
-        "valid": true
+        "rough_score": 0.75,
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Are headphones allowed during the test? Correct answer: No, electronic devices are prohibited.",
         "expected": "Distractors: Yes, but only wired ones., Only for listening sections., If approved by the teacher.",
-        "predicted": "Distractors: Is, having, was",
+        "predicted": "Distractors: only for listening sections., but only wired ones., yes",
         "expected_list": [
             "Distractors: Yes",
             "but only wired ones.",
@@ -3420,142 +3369,142 @@
             "If approved by the teacher."
         ],
         "predicted_list": [
-            "Is",
-            "having",
-            "was"
+            "only for listening sections.",
+            "but only wired ones.",
+            "yes"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Are headphones allowed during the test? Correct answer: No, electronic devices are prohibited.",
-        "bleu_score": 0,
-        "rough_score": 0.0714,
+        "bleu_score": 0.0519,
+        "rough_score": 0.5714,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She made a _ choice by choosing to attend the event. Correct answer: wise",
         "expected": "Distractors: wisely, wisdom, wiser",
-        "predicted": "Distractors: sailor, keenness, wise",
+        "predicted": "Distractors: wisdom-wiseness, wiser, wisely",
         "expected_list": [
             "Distractors: wisely",
             "wisdom",
             "wiser"
         ],
         "predicted_list": [
-            "sailor",
-            "keenness",
-            "wise"
+            "wisdom-wiseness",
+            "wiser",
+            "wisely"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She made a _ choice by choosing to attend the event. Correct answer: wise",
-        "bleu_score": 0,
+        "bleu_score": 0.0725,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The policy is designed to protect consumers from _ practices. Correct answer: unfair",
         "expected": "Distractors: unfairly, unfairness, fair",
-        "predicted": "Distractors: fairness, unfairly, fair",
+        "predicted": "Distractors: disproportionate, unfairly, unjustified",
         "expected_list": [
             "Distractors: unfairly",
             "unfairness",
             "fair"
         ],
         "predicted_list": [
-            "fairness",
+            "disproportionate",
             "unfairly",
-            "fair"
+            "unjustified"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The policy is designed to protect consumers from _ practices. Correct answer: unfair",
-        "bleu_score": 0.0725,
-        "rough_score": 0.75,
+        "bleu_score": 0,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Neither of them _ coming today. Correct answer: is",
         "expected": "Distractors: are, was, were",
-        "predicted": "Distractors: is, am, be",
+        "predicted": "Distractors: was, were, are",
         "expected_list": [
             "Distractors: are",
             "was",
             "were"
         ],
         "predicted_list": [
-            "is",
-            "am",
-            "be"
+            "was",
+            "were",
+            "are"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Neither of them _ coming today. Correct answer: is",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.2118,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He is accused _ stealing the wallet. Correct answer: of",
         "expected": "Distractors: for, to, at",
-        "predicted": "Distractors: for, at, to",
+        "predicted": "Distractors: by, on, with",
         "expected_list": [
             "Distractors: for",
             "to",
             "at"
         ],
         "predicted_list": [
-            "for",
-            "at",
-            "to"
+            "by",
+            "on",
+            "with"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He is accused _ stealing the wallet. Correct answer: of",
-        "bleu_score": 0.0862,
-        "rough_score": 0.5,
+        "bleu_score": 0,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: A: How did you manage to complete the project so quickly? B: It was _, but I just focused and worked non-stop. Correct answer: challenging",
         "expected": "Distractors: challenged, challenge, challenges",
-        "predicted": "Distractors: challenges, challenge, challenging",
+        "predicted": "Distractors: challenge, challenges, challenged",
         "expected_list": [
             "Distractors: challenged",
             "challenge",
             "challenges"
         ],
         "predicted_list": [
-            "challenges",
             "challenge",
-            "challenging"
+            "challenges",
+            "challenged"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: A: How did you manage to complete the project so quickly? B: It was _, but I just focused and worked non-stop. Correct answer: challenging",
-        "bleu_score": 0.0862,
+        "bleu_score": 0.2118,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Her _ in the contest was very close to winning. Correct answer: performance",
         "expected": "Distractors: perform, performs, performing",
-        "predicted": "Distractors: perform, performed, performing",
+        "predicted": "Distractors: performed, performs, performing",
         "expected_list": [
             "Distractors: perform",
             "performs",
             "performing"
         ],
         "predicted_list": [
-            "perform",
             "performed",
+            "performs",
             "performing"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Her _ in the contest was very close to winning. Correct answer: performance",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.2118,
         "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She made a very _ impression at the interview. Correct answer: positive",
         "expected": "Distractors: possible, passive, progressive",
-        "predicted": "Distractors: positive, positively, negative",
+        "predicted": "Distractors: prediction, possibility, prospect",
         "expected_list": [
             "Distractors: possible",
             "passive",
             "progressive"
         ],
         "predicted_list": [
-            "positive",
-            "positively",
-            "negative"
+            "prediction",
+            "possibility",
+            "prospect"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She made a very _ impression at the interview. Correct answer: positive",
         "bleu_score": 0,
@@ -3565,52 +3514,52 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She said she _ busy when I called. Correct answer: was",
         "expected": "Distractors: were, is, been",
-        "predicted": "Distractors: are, was, were",
+        "predicted": "Distractors: be, were, has been",
         "expected_list": [
             "Distractors: were",
             "is",
             "been"
         ],
         "predicted_list": [
-            "are",
-            "was",
-            "were"
+            "be",
+            "were",
+            "has been"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She said she _ busy when I called. Correct answer: was",
         "bleu_score": 0,
-        "rough_score": 0.25,
+        "rough_score": 0.75,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: The city plans to _ the old bridge. Correct answer: replace",
         "expected": "Distractors: replay, repress, refuse",
-        "predicted": "Distractors: give, gives, eat",
+        "predicted": "Distractors: refuse, repress, replay",
         "expected_list": [
             "Distractors: replay",
             "repress",
             "refuse"
         ],
         "predicted_list": [
-            "give",
-            "gives",
-            "eat"
+            "refuse",
+            "repress",
+            "replay"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: The city plans to _ the old bridge. Correct answer: replace",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0862,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: His sudden _ surprised everyone at the meeting. Correct answer: arrival",
         "expected": "Distractors: arrive, arrived, arriving",
-        "predicted": "Distractors: arrival, arrive, arriving",
+        "predicted": "Distractors: arrives, arrive, arriving",
         "expected_list": [
             "Distractors: arrive",
             "arrived",
             "arriving"
         ],
         "predicted_list": [
-            "arrival",
+            "arrives",
             "arrive",
             "arriving"
         ],
@@ -3622,190 +3571,186 @@
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Do you prefer texting or _ on the phone? Correct answer: talking",
         "expected": "Distractors: talks, talk, talked",
-        "predicted": "Distractors: hear, speak, sailor",
+        "predicted": "Distractors: talk (talks) or talk, talked, talks",
         "expected_list": [
             "Distractors: talks",
             "talk",
             "talked"
         ],
         "predicted_list": [
-            "hear",
-            "speak",
-            "sailor"
+            "talk (talks) or talk",
+            "talked",
+            "talks"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Do you prefer texting or _ on the phone? Correct answer: talking",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Let me know if you change your _. Correct answer: mind",
         "expected": "Distractors: opinion, thought, intention",
-        "predicted": "Distractors: thought, mind, opinion",
+        "predicted": "Distractors: intention, thought, opinion",
         "expected_list": [
             "Distractors: opinion",
             "thought",
             "intention"
         ],
         "predicted_list": [
+            "intention",
             "thought",
-            "mind",
             "opinion"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Let me know if you change your _. Correct answer: mind",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He apologized to her _ forgetting her birthday. Correct answer: for",
         "expected": "Distractors: about, at, of",
-        "predicted": "Distractors: for, to, in",
+        "predicted": "Distractors: about, of, at least",
         "expected_list": [
             "Distractors: about",
             "at",
             "of"
         ],
         "predicted_list": [
-            "for",
-            "to",
-            "in"
+            "about",
+            "of",
+            "at least"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He apologized to her _ forgetting her birthday. Correct answer: for",
-        "bleu_score": 0,
-        "rough_score": 0.25,
+        "bleu_score": 0.0725,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He wishes he _ more confident during the presentation. Correct answer: had felt",
         "expected": "Distractors: felt, was feeling, has felt",
-        "predicted": "Distractors: felt, was feeling, feels",
+        "predicted": "Distractors: has felt, feels, was feeling",
         "expected_list": [
             "Distractors: felt",
             "was feeling",
             "has felt"
         ],
         "predicted_list": [
-            "felt",
-            "was feeling",
-            "feels"
+            "has felt",
+            "feels",
+            "was feeling"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He wishes he _ more confident during the presentation. Correct answer: had felt",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.0862,
         "rough_score": 0.6667,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: We insisted _ paying the bill ourselves. Correct answer: on",
         "expected": "Distractors: to, at, for",
-        "predicted": "Distractors: in, with, by",
+        "predicted": "Distractors: of, to and at",
         "expected_list": [
             "Distractors: to",
             "at",
             "for"
         ],
-        "predicted_list": [
-            "in",
-            "with",
-            "by"
-        ],
+        "predicted_list": "['of', 'to and at']",
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: We insisted _ paying the bill ourselves. Correct answer: on",
         "bleu_score": 0,
         "rough_score": 0.25,
-        "valid": true
+        "valid": false
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: He apologized _ interrupting the meeting. Correct answer: for",
         "expected": "Distractors: to, on, of",
-        "predicted": "Distractors: for, in, of",
+        "predicted": "Distractors: about, of, on",
         "expected_list": [
             "Distractors: to",
             "on",
             "of"
         ],
         "predicted_list": [
-            "for",
-            "in",
-            "of"
+            "about",
+            "of",
+            "on"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: He apologized _ interrupting the meeting. Correct answer: for",
-        "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: Could you tell me why Emma _ early yesterday, even though the meeting wasn't over? Correct answer: left",
         "expected": "Distractors: did leave, leaves, has left",
-        "predicted": "Distractors: leaves, leaving, left",
+        "predicted": "Distractors: has left, leaves, did leave",
         "expected_list": [
             "Distractors: did leave",
             "leaves",
             "has left"
         ],
         "predicted_list": [
+            "has left",
             "leaves",
-            "leaving",
-            "left"
+            "did leave"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: Could you tell me why Emma _ early yesterday, even though the meeting wasn't over? Correct answer: left",
-        "bleu_score": 0.0725,
-        "rough_score": 0.5,
+        "bleu_score": 0.0862,
+        "rough_score": 0.6667,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: They apologized _ arriving late. Correct answer: for",
         "expected": "Distractors: to, of, about",
-        "predicted": "Distractors: from, for, at",
+        "predicted": "Distractors: about, with, of",
         "expected_list": [
             "Distractors: to",
             "of",
             "about"
         ],
         "predicted_list": [
-            "from",
-            "for",
-            "at"
+            "about",
+            "with",
+            "of"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: They apologized _ arriving late. Correct answer: for",
-        "bleu_score": 0,
+        "bleu_score": 0.0862,
         "rough_score": 0.25,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: _ are you going later? Correct answer: Where",
         "expected": "Distractors: What, When, Why",
-        "predicted": "Distractors: what, who, why",
+        "predicted": "Distractors: why, what, when",
         "expected_list": [
             "Distractors: What",
             "When",
             "Why"
         ],
         "predicted_list": [
+            "why",
             "what",
-            "who",
-            "why"
+            "when"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: _ are you going later? Correct answer: Where",
         "bleu_score": 0,
-        "rough_score": 0.75,
+        "rough_score": 0.5,
         "valid": true
     },
     {
         "input": "Generate 3 distractors for the following sentence. Sentence: She handled the problem with great _. Correct answer: efficiency",
         "expected": "Distractors: efficient, efficiently, efficacy",
-        "predicted": "Distractors: efficient, efficacy, efficiency",
+        "predicted": "Distractors: efficacy, efficiently, efficient",
         "expected_list": [
             "Distractors: efficient",
             "efficiently",
             "efficacy"
         ],
         "predicted_list": [
-            "efficient",
             "efficacy",
-            "efficiency"
+            "efficiently",
+            "efficient"
         ],
         "correct_answer": "Generate 3 distractors for the following sentence. Sentence: She handled the problem with great _. Correct answer: efficiency",
-        "bleu_score": 0.0725,
+        "bleu_score": 0.0862,
         "rough_score": 0.5,
         "valid": true
     }

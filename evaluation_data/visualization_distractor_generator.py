@@ -8,7 +8,8 @@ file_paths = {
     "Model-500": "distractor_generator/eval_report_final-model-500.json",
     "Model-1000": "distractor_generator/eval_report_final-model-1000.json",
     "Model-1500": "distractor_generator/eval_report_final-model-1500.json",
-    "Model-2000": "distractor_generator/eval_report_final-model-2000.json"
+    "Model-2000": "distractor_generator/eval_report_final-model-2000.json",
+    "Model-2999": "distractor_generator/eval_report_final-model-2999.json",
 }
 
 # Data containers
